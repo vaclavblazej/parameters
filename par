@@ -1,0 +1,114 @@
+{
+    "nodes": {
+        "!WZ2VdO": {
+            "plugin": {
+                "provider": "pypi",
+                "namespace": "vaclavblazej/noosphere",
+                "name": "core",
+                "version": "0.1"
+            },
+            "description": "Provides rudimentary functionality for the Noosphere database",
+            "commands": [
+                "get",
+                "insert",
+                "update",
+                "remove",
+                "batch",
+                "clear"
+            ],
+            "properties": {},
+            "lifecycle": [],
+            "emits": [
+                "before_batch",
+                "before_get",
+                "before_insert",
+                "before_update",
+                "before_remove",
+                "after_batch",
+                "after_get",
+                "after_insert",
+                "after_update",
+                "after_remove"
+            ],
+            "hooks": [],
+            "dependencies": [],
+            "!id": "!WZ2VdO"
+        },
+        "!0": {
+            "!id": "!0",
+            "plugins": [
+                {
+                    "!id": "!WZ2VdO"
+                },
+                {
+                    "!id": "!5LP0fu"
+                },
+                {
+                    "!id": "!2NDn64"
+                }
+            ]
+        },
+        "!5LP0fu": {
+            "plugin": {
+                "provider": "pypi",
+                "namespace": "vaclavblazej/noosphere",
+                "name": "find",
+                "version": "0.1"
+            },
+            "description": "Allows a slow search through every entry",
+            "commands": [
+                "find"
+            ],
+            "properties": {},
+            "lifecycle": [],
+            "emits": [],
+            "hooks": [],
+            "dependencies": [],
+            "!id": "!5LP0fu"
+        },
+        "!2NDn64": {
+            "plugin": {
+                "provider": "pypi",
+                "namespace": "vaclavblazej/noosphere",
+                "name": "link",
+                "version": "0.1"
+            },
+            "description": "Link parameters to automatically set one when the other one is changed.",
+            "commands": [],
+            "properties": {
+                "link_property": {
+                    "default": null,
+                    "value": {
+                        "!id": "!EWcVTr"
+                    }
+                }
+            },
+            "lifecycle": [
+                "activation"
+            ],
+            "emits": [],
+            "hooks": [
+                {
+                    "plugin": {
+                        "provider": "pypi",
+                        "namespace": "vaclavblazej/noosphere",
+                        "name": "core",
+                        "version": "0.1"
+                    },
+                    "name": "before_batch"
+                }
+            ],
+            "dependencies": [],
+            "!id": "!2NDn64"
+        },
+        "!EWcVTr": {
+            "!id": "!EWcVTr",
+            "!EWcVTr": {
+                "!id": "!EWcVTr"
+            }
+        }
+    },
+    "ids": {
+        "length": 6
+    }
+}
