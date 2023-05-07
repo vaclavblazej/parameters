@@ -106,6 +106,87 @@
             "!EWcVTr": {
                 "!id": "!EWcVTr"
             }
+        },
+        "!IcKqSn": {
+            "name": "treewidth",
+            "abbreviation": "TW",
+            "!id": "!IcKqSn",
+            "upper_bounds": [
+                {
+                    "!id": "!nQhAoF"
+                }
+            ]
+        },
+        "!nQhAoF": {
+            "name": "pathwidth",
+            "abbreviation": "PW",
+            "!id": "!nQhAoF",
+            "lower_bounds": [
+                {
+                    "!id": "!IcKqSn"
+                }
+            ],
+            "upper_bounds": [
+                {
+                    "!id": "!KEP2qM"
+                }
+            ]
+        },
+        "!KEP2qM": {
+            "name": "treedepth",
+            "abbreviation": "TD",
+            "!id": "!KEP2qM",
+            "lower_bounds": [
+                {
+                    "!id": "!nQhAoF"
+                }
+            ],
+            "upper_bounds": [
+                {
+                    "!id": "!4lp9Yj"
+                }
+            ]
+        },
+        "!GNOiyB": {
+            "name": "feedback vertex set",
+            "abbreviation": "FVS",
+            "!id": "!GNOiyB",
+            "lower_bounds": [
+                {
+                    "!id": "!IcKqSn"
+                }
+            ],
+            "upper_bounds": [
+                {
+                    "!id": "!4lp9Yj"
+                },
+                {
+                    "!id": "!HTk9PZ"
+                }
+            ]
+        },
+        "!HTk9PZ": {
+            "name": "feedback edge set",
+            "abbreviation": "FES",
+            "!id": "!HTk9PZ",
+            "lower_bounds": [
+                {
+                    "!id": "!GNOiyB"
+                }
+            ]
+        },
+        "!4lp9Yj": {
+            "name": "vertex cover",
+            "abbreviation": "VC",
+            "!id": "!4lp9Yj",
+            "lower_bounds": [
+                {
+                    "!id": "!KEP2qM"
+                },
+                {
+                    "!id": "!HTk9PZ"
+                }
+            ]
         }
     },
     "ids": {
