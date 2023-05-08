@@ -109,84 +109,573 @@
         },
         "!IcKqSn": {
             "name": "treewidth",
+            "type": {
+                "!id": "!TrvG50"
+            },
             "abbreviation": "TW",
+            "importance": 1,
             "!id": "!IcKqSn",
             "upper_bounds": [
                 {
-                    "!id": "!nQhAoF"
+                    "!id": "!U3jPaT"
+                },
+                {
+                    "!id": "!QoA8jA"
                 }
             ]
         },
         "!nQhAoF": {
             "name": "pathwidth",
+            "type": {
+                "!id": "!TrvG50"
+            },
             "abbreviation": "PW",
+            "importance": 0.8,
             "!id": "!nQhAoF",
-            "lower_bounds": [
-                {
-                    "!id": "!IcKqSn"
-                }
-            ],
             "upper_bounds": [
                 {
-                    "!id": "!KEP2qM"
+                    "!id": "!IcKqSn"
                 }
             ]
         },
         "!KEP2qM": {
             "name": "treedepth",
+            "type": {
+                "!id": "!TrvG50"
+            },
             "abbreviation": "TD",
+            "importance": 0.6,
             "!id": "!KEP2qM",
-            "lower_bounds": [
-                {
-                    "!id": "!nQhAoF"
-                }
-            ],
             "upper_bounds": [
                 {
-                    "!id": "!4lp9Yj"
+                    "!id": "!nQhAoF"
                 }
             ]
         },
         "!GNOiyB": {
             "name": "feedback vertex set",
+            "type": {
+                "!id": "!TrvG50"
+            },
             "abbreviation": "FVS",
+            "importance": 0.9,
             "!id": "!GNOiyB",
-            "lower_bounds": [
-                {
-                    "!id": "!IcKqSn"
-                }
-            ],
             "upper_bounds": [
                 {
-                    "!id": "!4lp9Yj"
+                    "!id": "!oi8KhK"
                 },
                 {
-                    "!id": "!HTk9PZ"
+                    "!id": "!T9s5sR"
+                },
+                {
+                    "!id": "!ThJdP1"
+                },
+                {
+                    "!id": "!599Nkv"
+                },
+                {
+                    "!id": "!nQhAoF"
                 }
             ]
         },
         "!HTk9PZ": {
             "name": "feedback edge set",
+            "type": {
+                "!id": "!TrvG50"
+            },
             "abbreviation": "FES",
+            "importance": 0.7,
             "!id": "!HTk9PZ",
-            "lower_bounds": [
+            "upper_bounds": [
                 {
                     "!id": "!GNOiyB"
+                },
+                {
+                    "!id": "!gbaHdw"
                 }
             ]
         },
         "!4lp9Yj": {
             "name": "vertex cover",
+            "type": {
+                "!id": "!TrvG50"
+            },
             "abbreviation": "VC",
+            "importance": 1,
             "!id": "!4lp9Yj",
-            "lower_bounds": [
+            "upper_bounds": [
                 {
-                    "!id": "!KEP2qM"
+                    "!id": "!TzspYl"
+                },
+                {
+                    "!id": "!PwPrlq"
+                },
+                {
+                    "!id": "!9XDQCE"
+                },
+                {
+                    "!id": "!bRBb5K"
+                }
+            ]
+        },
+        "!U3jPaT": {
+            "name": "cliquewidth",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.7,
+            "!id": "!U3jPaT"
+        },
+        "!MB1Sr1": {
+            "name": "chromatic number",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 1,
+            "!id": "!MB1Sr1",
+            "upper_bounds": [
+                {
+                    "!id": "!zYkYWx"
+                }
+            ]
+        },
+        "!m2q96O": {
+            "name": "degeneracy",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!m2q96O",
+            "upper_bounds": [
+                {
+                    "!id": "!MB1Sr1"
+                },
+                {
+                    "!id": "!X7CxTe"
+                }
+            ]
+        },
+        "!gbaHdw": {
+            "name": "genus",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.4,
+            "!id": "!gbaHdw",
+            "upper_bounds": [
+                {
+                    "!id": "!QoA8jA"
+                }
+            ]
+        },
+        "!j1rrOV": {
+            "name": "boxicity",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.2,
+            "!id": "!j1rrOV",
+            "upper_bounds": [
+                {
+                    "!id": "!fTqo40"
+                }
+            ]
+        },
+        "!UyQ5yM": {
+            "name": "maximum degree",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 1,
+            "!id": "!UyQ5yM",
+            "upper_bounds": [
+                {
+                    "!id": "!gKbGUa"
+                }
+            ]
+        },
+        "!NCg08F": {
+            "name": "minimum degree",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 1,
+            "!id": "!NCg08F",
+            "upper_bounds": [
+                {
+                    "!id": "!CIEnCh"
+                },
+                {
+                    "!id": "!KRV6tI"
+                }
+            ]
+        },
+        "!QoA8jA": {
+            "name": "acyclic chromatic number",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.6,
+            "!id": "!QoA8jA",
+            "upper_bounds": [
+                {
+                    "!id": "!j1rrOV"
+                },
+                {
+                    "!id": "!m2q96O"
+                }
+            ]
+        },
+        "!gKbGUa": {
+            "name": "h-index",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.2,
+            "!id": "!gKbGUa",
+            "upper_bounds": [
+                {
+                    "!id": "!QoA8jA"
+                }
+            ]
+        },
+        "!aP5a38": {
+            "name": "bandwidth",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!aP5a38",
+            "upper_bounds": [
+                {
+                    "!id": "!nQhAoF"
+                },
+                {
+                    "!id": "!UyQ5yM"
+                },
+                {
+                    "!id": "!wUdmUb"
+                }
+            ]
+        },
+        "!wUdmUb": {
+            "name": "bisection width",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.3,
+            "!id": "!wUdmUb",
+            "upper_bounds": [
+                {
+                    "!id": "!CIEnCh"
+                }
+            ]
+        },
+        "!BN92vX": {
+            "name": "max leaf number",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.3,
+            "!id": "!BN92vX",
+            "upper_bounds": [
+                {
+                    "!id": "!aP5a38"
                 },
                 {
                     "!id": "!HTk9PZ"
+                },
+                {
+                    "!id": "!9XDQCE"
                 }
             ]
+        },
+        "!TrvG50": {
+            "name": "parameter",
+            "!id": "!TrvG50"
+        },
+        "!9XDQCE": {
+            "name": "distance to paths",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.3,
+            "!id": "!9XDQCE",
+            "upper_bounds": [
+                {
+                    "!id": "!GNOiyB"
+                },
+                {
+                    "!id": "!rr2exi"
+                }
+            ]
+        },
+        "!599Nkv": {
+            "name": "distance to trees and disjoint cycles",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.1,
+            "!id": "!599Nkv",
+            "upper_bounds": [
+                {
+                    "!id": "!IcKqSn"
+                }
+            ]
+        },
+        "!TzspYl": {
+            "name": "distance to cluster",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.7,
+            "!id": "!TzspYl",
+            "upper_bounds": [
+                {
+                    "!id": "!rr2exi"
+                },
+                {
+                    "!id": "!QiDXEo"
+                }
+            ]
+        },
+        "!rr2exi": {
+            "name": "distance to interval",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!rr2exi",
+            "upper_bounds": [
+                {
+                    "!id": "!oi8KhK"
+                },
+                {
+                    "!id": "!j1rrOV"
+                }
+            ]
+        },
+        "!oi8KhK": {
+            "name": "distance to chordal",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!oi8KhK",
+            "upper_bounds": [
+                {
+                    "!id": "!TLdoEo"
+                },
+                {
+                    "!id": "!fTqo40"
+                }
+            ]
+        },
+        "!ThJdP1": {
+            "name": "distance to outerplanar",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.3,
+            "!id": "!ThJdP1",
+            "upper_bounds": [
+                {
+                    "!id": "!IcKqSn"
+                }
+            ]
+        },
+        "!QiDXEo": {
+            "name": "distance to cograph",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.2,
+            "!id": "!QiDXEo",
+            "upper_bounds": [
+                {
+                    "!id": "!TLdoEo"
+                },
+                {
+                    "!id": "!U3jPaT"
+                },
+                {
+                    "!id": "!fTqo40"
+                },
+                {
+                    "!id": "!AxyLAU"
+                }
+            ]
+        },
+        "!bRBb5K": {
+            "name": "distance to constant components",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.2,
+            "!id": "!bRBb5K",
+            "upper_bounds": [
+                {
+                    "!id": "!KVhJFB"
+                }
+            ]
+        },
+        "!KVhJFB": {
+            "name": "vertex integrity / fractioning number",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.4,
+            "!id": "!KVhJFB",
+            "upper_bounds": [
+                {
+                    "!id": "!KEP2qM"
+                }
+            ]
+        },
+        "!PwPrlq": {
+            "name": "distance to stars",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.2,
+            "!id": "!PwPrlq",
+            "upper_bounds": [
+                {
+                    "!id": "!KEP2qM"
+                }
+            ]
+        },
+        "!fTqo40": {
+            "name": "chordality",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.8,
+            "!id": "!fTqo40"
+        },
+        "!7ugOaW": {
+            "name": "distance to clique",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.2,
+            "!id": "!7ugOaW",
+            "upper_bounds": [
+                {
+                    "!id": "!TzspYl"
+                },
+                {
+                    "!id": "!VomShB"
+                }
+            ]
+        },
+        "!VomShB": {
+            "name": "minimum clique cover",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!VomShB",
+            "upper_bounds": [
+                {
+                    "!id": "!mHtXUU"
+                }
+            ]
+        },
+        "!mHtXUU": {
+            "name": "maximum independent set",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.9,
+            "!id": "!mHtXUU",
+            "upper_bounds": [
+                {
+                    "!id": "!Gq0onN"
+                }
+            ]
+        },
+        "!Gq0onN": {
+            "name": "minimum dominating set",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 1,
+            "!id": "!Gq0onN",
+            "upper_bounds": [
+                {
+                    "!id": "!AxyLAU"
+                }
+            ]
+        },
+        "!AxyLAU": {
+            "name": "girth",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 1,
+            "!id": "!AxyLAU"
+        },
+        "!T9s5sR": {
+            "name": "distance to bipartite",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!T9s5sR",
+            "upper_bounds": [
+                {
+                    "!id": "!TLdoEo"
+                },
+                {
+                    "!id": "!MB1Sr1"
+                }
+            ]
+        },
+        "!TLdoEo": {
+            "name": "distance to perfect",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.3,
+            "!id": "!TLdoEo"
+        },
+        "!zYkYWx": {
+            "name": "maximum clique",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.7,
+            "!id": "!zYkYWx"
+        },
+        "!X7CxTe": {
+            "name": "average degree",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.8,
+            "!id": "!X7CxTe",
+            "upper_bounds": [
+                {
+                    "!id": "!NCg08F"
+                }
+            ]
+        },
+        "!KRV6tI": {
+            "name": "domatic number",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!KRV6tI"
+        },
+        "!CIEnCh": {
+            "name": "distance to disconnected",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.6,
+            "!id": "!CIEnCh"
         }
     },
     "ids": {
