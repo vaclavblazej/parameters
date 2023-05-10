@@ -224,7 +224,12 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.7,
-            "!id": "!U3jPaT"
+            "!id": "!U3jPaT",
+            "upper_bounds": [
+                {
+                    "!id": "!VipBQc"
+                }
+            ]
         },
         "!MB1Sr1": {
             "name": "chromatic number",
@@ -676,6 +681,15 @@
             },
             "importance": 0.6,
             "!id": "!CIEnCh"
+        },
+        "!VipBQc": {
+            "name": "twinwidth",
+            "abbreviation": "tww",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!VipBQc"
         }
     },
     "ids": {
