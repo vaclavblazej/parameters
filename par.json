@@ -122,7 +122,7 @@
                 "!id": "!TrvG50"
             },
             "abbreviation": "PW",
-            "importance": 0.8,
+            "importance": 0.9,
             "!id": "!nQhAoF"
         },
         "!KEP2qM": {
@@ -131,7 +131,7 @@
                 "!id": "!TrvG50"
             },
             "abbreviation": "TD",
-            "importance": 0.6,
+            "importance": 0.9,
             "!id": "!KEP2qM"
         },
         "!GNOiyB": {
@@ -166,7 +166,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.7,
+            "importance": 0.8,
             "!id": "!U3jPaT"
         },
         "!MB1Sr1": {
@@ -174,7 +174,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 1,
+            "importance": 0.2,
             "!id": "!MB1Sr1"
         },
         "!m2q96O": {
@@ -182,7 +182,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.5,
+            "importance": 0.2,
             "!id": "!m2q96O"
         },
         "!gbaHdw": {
@@ -190,7 +190,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.4,
+            "importance": 0.3,
             "!id": "!gbaHdw"
         },
         "!j1rrOV": {
@@ -206,7 +206,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 1,
+            "importance": 0.4,
             "!id": "!UyQ5yM"
         },
         "!NCg08F": {
@@ -214,7 +214,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 1,
+            "importance": 0.1,
             "!id": "!NCg08F"
         },
         "!QoA8jA": {
@@ -222,7 +222,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.6,
+            "importance": 0.3,
             "!id": "!QoA8jA"
         },
         "!gKbGUa": {
@@ -230,7 +230,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.2,
+            "importance": 0.1,
             "!id": "!gKbGUa"
         },
         "!aP5a38": {
@@ -238,7 +238,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.5,
+            "importance": 0.4,
             "!id": "!aP5a38"
         },
         "!wUdmUb": {
@@ -263,11 +263,11 @@
             "!id": "!TrvG50"
         },
         "!9XDQCE": {
-            "name": "distance to paths",
+            "name": "distance to linear forest",
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.3,
+            "importance": 0.6,
             "!id": "!9XDQCE"
         },
         "!599Nkv": {
@@ -291,7 +291,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.5,
+            "importance": 0.3,
             "!id": "!rr2exi"
         },
         "!oi8KhK": {
@@ -299,7 +299,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.5,
+            "importance": 0.3,
             "!id": "!oi8KhK"
         },
         "!ThJdP1": {
@@ -307,7 +307,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.3,
+            "importance": 0.5,
             "!id": "!ThJdP1"
         },
         "!QiDXEo": {
@@ -323,7 +323,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.2,
+            "importance": 0.3,
             "!id": "!bRBb5K"
         },
         "!KVhJFB": {
@@ -331,7 +331,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.4,
+            "importance": 0.5,
             "!id": "!KVhJFB"
         },
         "!PwPrlq": {
@@ -355,7 +355,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.2,
+            "importance": 0.3,
             "!id": "!7ugOaW"
         },
         "!VomShB": {
@@ -395,7 +395,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.5,
+            "importance": 0.4,
             "!id": "!T9s5sR"
         },
         "!TLdoEo": {
@@ -403,7 +403,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.3,
+            "importance": 0.2,
             "!id": "!TLdoEo"
         },
         "!zYkYWx": {
@@ -419,7 +419,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.8,
+            "importance": 0.4,
             "!id": "!X7CxTe"
         },
         "!KRV6tI": {
@@ -427,11 +427,11 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.5,
+            "importance": 0.3,
             "!id": "!KRV6tI"
         },
         "!CIEnCh": {
-            "name": "distance to disconnected",
+            "name": "vertex connectivity",
             "type": {
                 "!id": "!TrvG50"
             },
@@ -444,7 +444,7 @@
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.5,
+            "importance": 0.6,
             "!id": "!VipBQc"
         },
         "!pKMM6O": {
@@ -464,7 +464,7 @@
             "!id": "!3Xj5rP"
         },
         "!QF9fW9": {
-            "name": "max diameter of components",
+            "name": "diameter",
             "type": {
                 "!id": "!TrvG50"
             },
@@ -483,18 +483,6 @@
             "name": "upper bounds",
             "description": "Connection between two parameters that describes that if the first one is K then the second one is at most f(K) where f is a computable function. Alternatively, one can think about this relation as that the second one is potentially smaller for a wider class of graphs",
             "!id": "!jgWdIT"
-        },
-        "!7dwbKU": {
-            "type": {
-                "!id": "!jgWdIT"
-            },
-            "from": {
-                "!id": "!IcKqSn"
-            },
-            "to": {
-                "!id": "!U3jPaT"
-            },
-            "!id": "!7dwbKU"
         },
         "!9V7MFq": {
             "type": {
@@ -1287,6 +1275,118 @@
                 "!id": "!AxyLAU"
             },
             "!id": "!x9pao2"
+        },
+        "!v4djMN": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!BN92vX"
+            },
+            "to": {
+                "!id": "!HTk9PZ"
+            },
+            "!id": "!v4djMN"
+        },
+        "!wpeKEI": {
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "name": "maximum induced matching",
+            "importance": 0.3,
+            "!id": "!wpeKEI"
+        },
+        "!gQqUuq": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!wpeKEI"
+            },
+            "to": {
+                "!id": "!QF9fW9"
+            },
+            "!id": "!gQqUuq"
+        },
+        "!uzK8uZ": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!mHtXUU"
+            },
+            "to": {
+                "!id": "!wpeKEI"
+            },
+            "!id": "!uzK8uZ"
+        },
+        "!6OLBhN": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!4lp9Yj"
+            },
+            "to": {
+                "!id": "!wpeKEI"
+            },
+            "!id": "!6OLBhN"
+        },
+        "!veU7Jf": {
+            "name": "maximum matching",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.6,
+            "!id": "!veU7Jf"
+        },
+        "!LJ6kMQ": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!veU7Jf"
+            },
+            "to": {
+                "!id": "!TzspYl"
+            },
+            "!id": "!LJ6kMQ"
+        },
+        "!2pPdVZ": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!veU7Jf"
+            },
+            "to": {
+                "!id": "!9XDQCE"
+            },
+            "!id": "!2pPdVZ"
+        },
+        "!ySKjme": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!veU7Jf"
+            },
+            "to": {
+                "!id": "!wpeKEI"
+            },
+            "!id": "!ySKjme"
+        },
+        "!s9UacU": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!veU7Jf"
+            },
+            "to": {
+                "!id": "!KEP2qM"
+            },
+            "!id": "!s9UacU"
         }
     },
     "ids": {
