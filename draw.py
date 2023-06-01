@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 import graphviz
 
@@ -32,30 +33,35 @@ u = graphviz.Digraph('unix',
 
 u.attr(size='6,6')
 
-sys.path.insert(1, '/home/blazeva1/Dropbox/Projects/noosphere')
-import noosphere
-import noosphere.data
+nos_path = os.path.expanduser('~') + '/Dropbox/Projects/noosphere'
+sys.path.insert(1, nos_path)
+from noosphere import Noosphere
+from noosphere.data import FileDB
 
-database = noosphere.data.FileDB("par.json")
-nos = noosphere.Noosphere(database)
+nos = Noosphere(FileDB("par.json"))
+
+
+def check_type(x, tp):
+    if 'type' not in x:
+        return False
+    return x['type']['!id'] == tp
 
 
 def check_is_par(x):
-    if 'type' not in x:
-        return False
-    return x['type']['!id'] == '!TrvG50'
+    return check_type(x, '!TrvG50')
+
+
+def check_is_connection(x):
+    return check_type(x, '!jgWdIT')
 
 
 nodes = {}
 entries = list(filter(check_is_par, nos.data.all()))
+connections = list(filter(check_is_connection, nos.data.all()))
 for entry in entries:
     col = avg_color('e0e0e0', '90c0f0', entry['importance'])
     u.node(entry['!id'], label=entry['name'], shape='box', color='#'+col)
-for entry in entries:
-    if 'upper_bounds' not in entry:
-        continue
-    uppers = entry['upper_bounds']
-    for upper in uppers:
-        u.edge(entry['!id'], upper['!id'])
+for connection in connections:
+    u.edge(connection['from']['!id'], connection['to']['!id'])
 
 u.view()
