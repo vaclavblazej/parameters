@@ -94,7 +94,7 @@ def format_note(note):
     res = ''
     res += '* '
     if 'url' in note:
-        res += f'[link]({note["url"]}) '
+        res += f'[source]({note["url"]}) '
     res += note["text"]
     res += '\n'
     return res
@@ -107,10 +107,15 @@ content += 'title = "Parameterized complexity hierarchy"\n'
 content += 'date = "2023-06-01"\n'
 content += '+++\n'
 content += '\n\n'
+content += 'It will take me a while to complete this picture. Mail the suggestions and fixes to vaclav.blazej@warwick.ac.uk .'
+content += '\n\n'
 content += 'Zoom with Ctrl+wheel and move with wheel & Shift+wheel\n'
 content += '<object data="parameters.pdf" type="application/pdf" width="100%" height="480px"><embed src="parameters.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="main.pdf">Download PDF</a>.</p></embed></object>'
 content += '\n\n'
-content += 'Inspired by [parameterized hierarchy](https://manyu.pro/assets/parameter-hierarchy.pdf) by M. Sorge.\n'
+content += 'Inspired by:\n'
+content += '* 2013-2019 [Parameterized Hierarchy](https://manyu.pro/assets/parameter-hierarchy.pdf) by M. Sorge.\n'
+content += '* [Comparing Graph Parameters](https://fpt.akt.tu-berlin.de/publications/theses/BA-Schr%C3%B6der.pdf) by J. Ch. B. Schröder\n'
+content += '* 2010 [Comparing 17 graph parameters](https://core.ac.uk/download/pdf/30926677.pdf) by Róbert Sasák'
 content += '\n'
 content += '# Parameters\n\n'
 for entry in entries:

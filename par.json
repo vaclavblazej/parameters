@@ -140,6 +140,11 @@
             },
             "abbreviation": "TD",
             "importance": 0.9,
+            "notes": [
+                {
+                    "!id": "!QHJ1Kl"
+                }
+            ],
             "!id": "!KEP2qM"
         },
         "!GNOiyB": {
@@ -149,6 +154,14 @@
             },
             "abbreviation": "FVS",
             "importance": 0.9,
+            "notes": [
+                {
+                    "!id": "!BJhqpe"
+                },
+                {
+                    "!id": "!81zlqB"
+                }
+            ],
             "!id": "!GNOiyB"
         },
         "!HTk9PZ": {
@@ -167,6 +180,14 @@
             },
             "abbreviation": "VC",
             "importance": 1,
+            "notes": [
+                {
+                    "!id": "!ez07Er"
+                },
+                {
+                    "!id": "!DFiBbf"
+                }
+            ],
             "!id": "!4lp9Yj"
         },
         "!U3jPaT": {
@@ -175,6 +196,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.8,
+            "notes": [
+                {
+                    "!id": "!9Ckusi"
+                }
+            ],
             "!id": "!U3jPaT"
         },
         "!MB1Sr1": {
@@ -183,6 +209,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.2,
+            "notes": [
+                {
+                    "!id": "!VqwUmp"
+                }
+            ],
             "!id": "!MB1Sr1"
         },
         "!m2q96O": {
@@ -190,6 +221,11 @@
             "type": {
                 "!id": "!TrvG50"
             },
+            "notes": [
+                {
+                    "!id": "!6LCwBu"
+                }
+            ],
             "importance": 0.2,
             "!id": "!m2q96O"
         },
@@ -198,6 +234,11 @@
             "type": {
                 "!id": "!TrvG50"
             },
+            "notes": [
+                {
+                    "!id": "!8ryhNq"
+                }
+            ],
             "importance": 0.3,
             "!id": "!gbaHdw"
         },
@@ -207,6 +248,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.2,
+            "notes": [
+                {
+                    "!id": "!XWbXPm"
+                }
+            ],
             "!id": "!j1rrOV"
         },
         "!UyQ5yM": {
@@ -215,6 +261,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.4,
+            "notes": [
+                {
+                    "!id": "!8tk4SI"
+                }
+            ],
             "!id": "!UyQ5yM"
         },
         "!NCg08F": {
@@ -223,6 +274,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.1,
+            "notes": [
+                {
+                    "!id": "!CKNuj2"
+                }
+            ],
             "!id": "!NCg08F"
         },
         "!QoA8jA": {
@@ -244,6 +300,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.1,
+            "notes": [
+                {
+                    "!id": "!WY6oNX"
+                }
+            ],
             "!id": "!gKbGUa"
         },
         "!aP5a38": {
@@ -252,22 +313,40 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.4,
+            "notes": [
+                {
+                    "!id": "!s7OvjQ"
+                }
+            ],
             "!id": "!aP5a38"
         },
         "!wUdmUb": {
-            "name": "bisection width",
+            "name": "bisection bandwidth",
             "type": {
                 "!id": "!TrvG50"
             },
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!iWUynL"
+                },
+                {
+                    "!id": "!AeRM2B"
+                }
+            ],
             "!id": "!wUdmUb"
         },
         "!BN92vX": {
-            "name": "max leaf number",
+            "name": "maximum leaf number",
             "type": {
                 "!id": "!TrvG50"
             },
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!Q3HJs5"
+                }
+            ],
             "!id": "!BN92vX"
         },
         "!TrvG50": {
@@ -385,6 +464,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.5,
+            "notes": [
+                {
+                    "!id": "!aQQnbF"
+                }
+            ],
             "!id": "!KVhJFB"
         },
         "!PwPrlq": {
@@ -422,11 +506,16 @@
             "!id": "!7ugOaW"
         },
         "!VomShB": {
-            "name": "minimum clique cover",
+            "name": "clique cover number",
             "type": {
                 "!id": "!TrvG50"
             },
             "importance": 0.5,
+            "notes": [
+                {
+                    "!id": "!jh0OIZ"
+                }
+            ],
             "!id": "!VomShB"
         },
         "!mHtXUU": {
@@ -438,7 +527,7 @@
             "!id": "!mHtXUU"
         },
         "!Gq0onN": {
-            "name": "minimum dominating set",
+            "name": "domination number",
             "type": {
                 "!id": "!TrvG50"
             },
@@ -451,6 +540,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 1,
+            "notes": [
+                {
+                    "!id": "!u13WN1"
+                }
+            ],
             "!id": "!AxyLAU"
         },
         "!T9s5sR": {
@@ -536,6 +630,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!YGmwCG"
+                }
+            ],
             "!id": "!pKMM6O"
         },
         "!3Xj5rP": {
@@ -557,6 +656,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.2,
+            "notes": [
+                {
+                    "!id": "!055mG5"
+                }
+            ],
             "!id": "!QF9fW9"
         },
         "!GPmPOT": {
@@ -647,6 +751,11 @@
             "to": {
                 "!id": "!oi8KhK"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!XqzgTC"
         },
         "!AbAK8n": {
@@ -710,6 +819,11 @@
             "to": {
                 "!id": "!GNOiyB"
             },
+            "notes": [
+                {
+                    "!id": "!aQyAEM"
+                }
+            ],
             "!id": "!9Pdp4G"
         },
         "!12cxS9": {
@@ -1012,8 +1126,13 @@
                 "!id": "!wUdmUb"
             },
             "to": {
-                "!id": "!CIEnCh"
+                "!id": "!W3n2Jv"
             },
+            "notes": [
+                {
+                    "!id": "!DQzjIV"
+                }
+            ],
             "!id": "!sMfXRo"
         },
         "!mgFizL": {
@@ -1171,6 +1290,11 @@
             "to": {
                 "!id": "!j1rrOV"
             },
+            "notes": [
+                {
+                    "!id": "!DQzjIV"
+                }
+            ],
             "!id": "!hKjhJE"
         },
         "!piRTZw": {
@@ -1183,6 +1307,11 @@
             "to": {
                 "!id": "!TLdoEo"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!piRTZw"
         },
         "!HqAvbm": {
@@ -1352,6 +1481,11 @@
             "to": {
                 "!id": "!VomShB"
             },
+            "notes": [
+                {
+                    "!id": "!bYybsT"
+                }
+            ],
             "!id": "!0mwDzZ"
         },
         "!JtMcJB": {
@@ -1364,6 +1498,11 @@
             "to": {
                 "!id": "!mHtXUU"
             },
+            "notes": [
+                {
+                    "!id": "!h8nG9p"
+                }
+            ],
             "!id": "!JtMcJB"
         },
         "!Fxp100": {
@@ -1376,6 +1515,11 @@
             "to": {
                 "!id": "!Gq0onN"
             },
+            "notes": [
+                {
+                    "!id": "!gGtTUf"
+                }
+            ],
             "!id": "!Fxp100"
         },
         "!UcXeli": {
@@ -1644,6 +1788,11 @@
             "to": {
                 "!id": "!4lp9Yj"
             },
+            "notes": [
+                {
+                    "!id": "!gBA7dc"
+                }
+            ],
             "!id": "!eg3i0f"
         },
         "!ZXIraS": {
@@ -1656,6 +1805,11 @@
             "to": {
                 "!id": "!veU7Jf"
             },
+            "notes": [
+                {
+                    "!id": "!gBA7dc"
+                }
+            ],
             "!id": "!ZXIraS"
         },
         "!f3q99d": {
@@ -1721,6 +1875,133 @@
             "text": "Very roughly, treewidth captures how similar a graph is to a tree. There are many ways to define ``tree-likeness'' of a graph; ... it appears that the approach most useful from algorithmic and graph theoretical perspectives, is to view tree-likeness of a graph $G$ as the existence of a structural decomposition of $G$ into pieces of bounded size that are connected in a tree-like fashion. This intuitive concept is formalized via the notions of a *tree decomposition* and the *treewidth* of a graph; the latter is a quantitative measure of how good a tree decomposition we can possibly obtain.",
             "url": "https://www.mimuw.edu.pl/~malcin/book/parameterized-algorithms.pdf",
             "!id": "!xnhT1P"
+        },
+        "!u13WN1": {
+            "text": "In graph theory, the girth of an undirected graph is the length of a shortest cycle contained in the graph.",
+            "url": "https://en.wikipedia.org/wiki/Girth_(graph_theory)",
+            "!id": "!u13WN1"
+        },
+        "!t04jvb": {
+            "text": "In graph theory, a dominating set for a graph $G$ is a subset $D$ of its vertices, such that any vertex of $G$ is either in $D$, or has a neighbor in $D$. The domination number $\\gamma(G)$ is the number of vertices in a smallest dominating set for $G$.",
+            "url": "https://en.wikipedia.org/wiki/Dominating_set",
+            "!id": "!t04jvb"
+        },
+        "!gBA7dc": {
+            "text": "K\u0151nig's theorem",
+            "url": "https://en.wikipedia.org/wiki/K%C5%91nig%27s_theorem_(graph_theory)",
+            "!id": "!gBA7dc"
+        },
+        "!jh0OIZ": {
+            "text": "A minimum clique cover is a clique cover that uses as few cliques as possible. The minimum $k$ for which a clique cover exists is called the clique cover number of the given graph.",
+            "url": "https://en.wikipedia.org/wiki/Clique_cover",
+            "!id": "!jh0OIZ"
+        },
+        "!h8nG9p": {
+            "text": "Every clique of the clique cover partition may contain at most one vertex of the independent set.",
+            "!id": "!h8nG9p"
+        },
+        "!bYybsT": {
+            "text": "We cover the $k$ vertices of the modulator by cliques of size $1$ and cover the remaining clique by another one.",
+            "!id": "!bYybsT"
+        },
+        "!gGtTUf": {
+            "text": "Every maximal independent set is also a dominating set because any undominated vertex could be added to the independent set.",
+            "!id": "!gGtTUf"
+        },
+        "!055mG5": {
+            "text": "... [diameter] is the greatest distance between any pair of vertices ...",
+            "url": "https://en.wikipedia.org/wiki/Distance_(graph_theory)#Related_concepts",
+            "!id": "!055mG5"
+        },
+        "!QHJ1Kl": {
+            "text": "The tree-depth of a graph $G$ may be defined as the minimum height of a forest $F$ with the property that every edge of $G$ connects a pair of nodes that have an ancestor-descendant relationship to each other in $F$.",
+            "url": "https://en.wikipedia.org/wiki/Tree-depth",
+            "!id": "!QHJ1Kl"
+        },
+        "!BJhqpe": {
+            "text": "... a feedback vertex set (FVS) of a graph is a set of vertices whose removal leaves a graph without cycles... . The feedback vertex set number of a graph is the size of a smallest feedback vertex set.",
+            "url": "https://en.wikipedia.org/wiki/Feedback_vertex_set",
+            "!id": "!BJhqpe"
+        },
+        "!ez07Er": {
+            "text": "... set of vertices that includes at least one endpoint of every edge of the graph.",
+            "url": "https://en.wikipedia.org/wiki/Vertex_cover",
+            "!id": "!ez07Er"
+        },
+        "!9Ckusi": {
+            "text": "... the minimum number of labels needed to construct G by means of the following 4 operations: 1. Creation of a new vertex... 2. Disjoint union of two labeled graphs... 3. Joining by an edge every vertex labeled $i$ to every vertex labeled $j$, where $i \\ne j$ 4. Renaming label $i$ to label $j$",
+            "url": "https://en.wikipedia.org/wiki/Clique-width",
+            "!id": "!9Ckusi"
+        },
+        "!VqwUmp": {
+            "text": "The chromatic number of a graph G is the smallest number of colors needed to color the vertices of G so that no two adjacent vertices share the same color (Skiena 1990, p. 210), ...",
+            "url": "https://mathworld.wolfram.com/ChromaticNumber.html",
+            "!id": "!VqwUmp"
+        },
+        "!6LCwBu": {
+            "text": "... the least $k$ for which there exists an ordering of the vertices of $G$ in which each vertex has fewer than $k$ neighbors that are earlier in the ordering.",
+            "url": "https://en.wikipedia.org/wiki/Degeneracy_(graph_theory)",
+            "!id": "!6LCwBu"
+        },
+        "!8ryhNq": {
+            "text": "The genus of a graph is the minimal integer $n$ such that the graph can be drawn without crossing itself on a sphere with $n$ handles.",
+            "url": "https://en.wikipedia.org/wiki/Genus_(mathematics)#Graph_theory",
+            "!id": "!8ryhNq"
+        },
+        "!XWbXPm": {
+            "text": "The boxicity of a graph is the minimum dimension in which a given graph can be represented as an intersection graph of axis-parallel boxes.",
+            "url": "https://en.wikipedia.org/wiki/Boxicity",
+            "!id": "!XWbXPm"
+        },
+        "!8tk4SI": {
+            "text": "maximum degree of graph's vertices",
+            "!id": "!8tk4SI"
+        },
+        "!CKNuj2": {
+            "text": "minimum degree of graph's vertices",
+            "!id": "!CKNuj2"
+        },
+        "!WY6oNX": {
+            "text": "... $h$ is the $h$-index of the graph, the maximum number such that the graph contains $h$ vertices of degree at least $h$.",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-642-03367-4_25",
+            "!id": "!WY6oNX"
+        },
+        "!s7OvjQ": {
+            "text": "(paraphrased) Label graph vertices with distinct integers. Bandwidth of this labelling is the maximum over label differences over all edges. Bandwidth of a graph is the minimum over all labellings.",
+            "url": "https://en.wikipedia.org/wiki/Graph_bandwidth",
+            "!id": "!s7OvjQ"
+        },
+        "!iWUynL": {
+            "text": "... bisected into two equal-sized partitions, the bisection bandwidth of a network topology is the bandwidth available between the two partitions.",
+            "url": "https://en.wikipedia.org/wiki/Bisection_bandwidth",
+            "!id": "!iWUynL"
+        },
+        "!Q3HJs5": {
+            "text": "... the largest number of tree leaves in any of its spanning trees.",
+            "url": "https://mathworld.wolfram.com/MaximumLeafNumber.html",
+            "!id": "!Q3HJs5"
+        },
+        "!AeRM2B": {
+            "text": "[number of] links across smallest cut that divides nodes in two (nearly) equal parts",
+            "url": "http://parallelcomp.github.io/Lecture3.pdf",
+            "!id": "!AeRM2B"
+        },
+        "!aQQnbF": {
+            "text": "Minimum $k$ such that there exists $k$ vertices whose removal results in connected components of sizes at most $k$.",
+            "!id": "!aQQnbF"
+        },
+        "!DFiBbf": {
+            "text": "can be thought of as a *distance to independent set*",
+            "!id": "!DFiBbf"
+        },
+        "!81zlqB": {
+            "text": "can be thought of as a *distance to forest*",
+            "!id": "!81zlqB"
+        },
+        "!YGmwCG": {
+            "text": "... a book embedding is a generalization of planar embedding of a graph to embeddings into a book, a collection of half-planes all having the same line as their boundary. Usually, the vertices of the graph are required to lie on this boundary line, called the spine, and the edges are required to stay within a single half-plane. The book thickness of a graph is the smallest possible number of half-planes for any book embedding of the graph.",
+            "url": "https://en.wikipedia.org/wiki/Book_embedding",
+            "!id": "!YGmwCG"
         }
     },
     "ids": {
