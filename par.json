@@ -108,12 +108,20 @@
             }
         },
         "!IcKqSn": {
-            "name": "treewidth / branch width",
+            "name": "treewidth",
             "type": {
                 "!id": "!TrvG50"
             },
             "abbreviation": "TW",
             "importance": 1,
+            "notes": [
+                {
+                    "!id": "!W4j934"
+                },
+                {
+                    "!id": "!xnhT1P"
+                }
+            ],
             "!id": "!IcKqSn"
         },
         "!nQhAoF": {
@@ -162,7 +170,7 @@
             "!id": "!4lp9Yj"
         },
         "!U3jPaT": {
-            "name": "cliquewidth / rankwidth",
+            "name": "cliquewidth",
             "type": {
                 "!id": "!TrvG50"
             },
@@ -222,6 +230,11 @@
             "type": {
                 "!id": "!TrvG50"
             },
+            "notes": [
+                {
+                    "!id": "!cNSdgE"
+                }
+            ],
             "importance": 0.3,
             "!id": "!QoA8jA"
         },
@@ -268,6 +281,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.6,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!9XDQCE"
         },
         "!599Nkv": {
@@ -276,6 +294,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.1,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!599Nkv"
         },
         "!TzspYl": {
@@ -284,6 +307,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.7,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!TzspYl"
         },
         "!rr2exi": {
@@ -292,6 +320,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!rr2exi"
         },
         "!oi8KhK": {
@@ -300,6 +333,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!oi8KhK"
         },
         "!ThJdP1": {
@@ -308,6 +346,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.5,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!ThJdP1"
         },
         "!QiDXEo": {
@@ -316,6 +359,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.2,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!QiDXEo"
         },
         "!bRBb5K": {
@@ -324,6 +372,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!bRBb5K"
         },
         "!KVhJFB": {
@@ -340,6 +393,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.2,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!PwPrlq"
         },
         "!fTqo40": {
@@ -356,6 +414,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!7ugOaW"
         },
         "!VomShB": {
@@ -396,6 +459,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.4,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!T9s5sR"
         },
         "!TLdoEo": {
@@ -404,6 +472,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.2,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!TLdoEo"
         },
         "!zYkYWx": {
@@ -428,14 +501,24 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!8eXjAy"
+                }
+            ],
             "!id": "!KRV6tI"
         },
         "!CIEnCh": {
-            "name": "vertex connectivity",
+            "name": "vertex connectivity / distance to disconnected",
             "type": {
                 "!id": "!TrvG50"
             },
-            "importance": 0.6,
+            "importance": 0.5,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!CIEnCh"
         },
         "!VipBQc": {
@@ -461,6 +544,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!MBBkVW"
+                }
+            ],
             "!id": "!3Xj5rP"
         },
         "!QF9fW9": {
@@ -518,6 +606,11 @@
             "to": {
                 "!id": "!IcKqSn"
             },
+            "notes": [
+                {
+                    "!id": "!DQzjIV"
+                }
+            ],
             "!id": "!c7lkhf"
         },
         "!tKCHeJ": {
@@ -566,6 +659,11 @@
             "to": {
                 "!id": "!T9s5sR"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!AbAK8n"
         },
         "!slhzot": {
@@ -578,6 +676,11 @@
             "to": {
                 "!id": "!ThJdP1"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!slhzot"
         },
         "!XuYoYh": {
@@ -590,6 +693,11 @@
             "to": {
                 "!id": "!599Nkv"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!XuYoYh"
         },
         "!9Pdp4G": {
@@ -626,6 +734,11 @@
             "to": {
                 "!id": "!TzspYl"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!gzyoLp"
         },
         "!BWJDZs": {
@@ -638,6 +751,11 @@
             "to": {
                 "!id": "!PwPrlq"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!BWJDZs"
         },
         "!VsrnoK": {
@@ -650,6 +768,11 @@
             "to": {
                 "!id": "!9XDQCE"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!VsrnoK"
         },
         "!yWSq1V": {
@@ -662,6 +785,11 @@
             "to": {
                 "!id": "!bRBb5K"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!yWSq1V"
         },
         "!5z03w7": {
@@ -686,6 +814,11 @@
             "to": {
                 "!id": "!zYkYWx"
             },
+            "notes": [
+                {
+                    "!id": "!aQyAEM"
+                }
+            ],
             "!id": "!juphuT"
         },
         "!DjfbnG": {
@@ -722,6 +855,11 @@
             "to": {
                 "!id": "!X7CxTe"
             },
+            "notes": [
+                {
+                    "!id": "!aQyAEM"
+                }
+            ],
             "!id": "!ncjZd0"
         },
         "!8JcAxM": {
@@ -758,6 +896,11 @@
             "to": {
                 "!id": "!gKbGUa"
             },
+            "notes": [
+                {
+                    "!id": "!aQyAEM"
+                }
+            ],
             "!id": "!PTu5gn"
         },
         "!9uKn16": {
@@ -768,8 +911,13 @@
                 "!id": "!NCg08F"
             },
             "to": {
-                "!id": "!CIEnCh"
+                "!id": "!W3n2Jv"
             },
+            "notes": [
+                {
+                    "!id": "!aQyAEM"
+                }
+            ],
             "!id": "!9uKn16"
         },
         "!l4bNpX": {
@@ -902,6 +1050,11 @@
             "to": {
                 "!id": "!GNOiyB"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!lmKGuy"
         },
         "!rHotfs": {
@@ -914,6 +1067,11 @@
             "to": {
                 "!id": "!rr2exi"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!rHotfs"
         },
         "!KtFhkk": {
@@ -962,6 +1120,11 @@
             "to": {
                 "!id": "!rr2exi"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!FM1wVJ"
         },
         "!7RXwqI": {
@@ -974,6 +1137,11 @@
             "to": {
                 "!id": "!QiDXEo"
             },
+            "notes": [
+                {
+                    "!id": "!DQzjIV"
+                }
+            ],
             "!id": "!7RXwqI"
         },
         "!fKpyMg": {
@@ -986,6 +1154,11 @@
             "to": {
                 "!id": "!oi8KhK"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!fKpyMg"
         },
         "!hKjhJE": {
@@ -1046,6 +1219,11 @@
             "to": {
                 "!id": "!3Xj5rP"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!ZiCzGe"
         },
         "!stwHRi": {
@@ -1106,6 +1284,11 @@
             "to": {
                 "!id": "!KVhJFB"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!wKsJTT"
         },
         "!10tIHQ": {
@@ -1118,6 +1301,11 @@
             "to": {
                 "!id": "!KEP2qM"
             },
+            "notes": [
+                {
+                    "!id": "!aQyAEM"
+                }
+            ],
             "!id": "!10tIHQ"
         },
         "!g8LSVx": {
@@ -1130,6 +1318,11 @@
             "to": {
                 "!id": "!KEP2qM"
             },
+            "notes": [
+                {
+                    "!id": "!aQyAEM"
+                }
+            ],
             "!id": "!g8LSVx"
         },
         "!Tr2Ih9": {
@@ -1142,6 +1335,11 @@
             "to": {
                 "!id": "!TzspYl"
             },
+            "notes": [
+                {
+                    "!id": "!DQzjIV"
+                }
+            ],
             "!id": "!Tr2Ih9"
         },
         "!0mwDzZ": {
@@ -1202,6 +1400,11 @@
             "to": {
                 "!id": "!TLdoEo"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!ogyvLp"
         },
         "!kXNdFI": {
@@ -1226,6 +1429,11 @@
             "to": {
                 "!id": "!NCg08F"
             },
+            "notes": [
+                {
+                    "!id": "!aQyAEM"
+                }
+            ],
             "!id": "!YHgf7M"
         },
         "!1LfCs5": {
@@ -1320,49 +1528,18 @@
             },
             "!id": "!uzK8uZ"
         },
-        "!6OLBhN": {
-            "type": {
-                "!id": "!jgWdIT"
-            },
-            "from": {
-                "!id": "!4lp9Yj"
-            },
-            "to": {
-                "!id": "!wpeKEI"
-            },
-            "!id": "!6OLBhN"
-        },
         "!veU7Jf": {
             "name": "maximum matching",
             "type": {
                 "!id": "!TrvG50"
             },
+            "notes": [
+                {
+                    "!id": "!f3q99d"
+                }
+            ],
             "importance": 0.6,
             "!id": "!veU7Jf"
-        },
-        "!LJ6kMQ": {
-            "type": {
-                "!id": "!jgWdIT"
-            },
-            "from": {
-                "!id": "!veU7Jf"
-            },
-            "to": {
-                "!id": "!TzspYl"
-            },
-            "!id": "!LJ6kMQ"
-        },
-        "!2pPdVZ": {
-            "type": {
-                "!id": "!jgWdIT"
-            },
-            "from": {
-                "!id": "!veU7Jf"
-            },
-            "to": {
-                "!id": "!9XDQCE"
-            },
-            "!id": "!2pPdVZ"
         },
         "!ySKjme": {
             "type": {
@@ -1374,9 +1551,90 @@
             "to": {
                 "!id": "!wpeKEI"
             },
+            "notes": [
+                {
+                    "!id": "!DQzjIV"
+                }
+            ],
             "!id": "!ySKjme"
         },
-        "!s9UacU": {
+        "!W0Iwpj": {
+            "name": "branch width",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!W0Iwpj"
+        },
+        "!DQzjIV": {
+            "text": "by definition",
+            "!id": "!DQzjIV"
+        },
+        "!aQyAEM": {
+            "text": "by a simple observation",
+            "!id": "!aQyAEM"
+        },
+        "!UQLQ2Q": {
+            "text": "by graph inclusion",
+            "!id": "!UQLQ2Q"
+        },
+        "!cYFhiJ": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!W0Iwpj"
+            },
+            "to": {
+                "!id": "!IcKqSn"
+            },
+            "!id": "!cYFhiJ"
+        },
+        "!J94Xp2": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!IcKqSn"
+            },
+            "to": {
+                "!id": "!W0Iwpj"
+            },
+            "!id": "!J94Xp2"
+        },
+        "!IMmY3n": {
+            "name": "rankwidth",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.5,
+            "!id": "!IMmY3n"
+        },
+        "!paKd9Z": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!IMmY3n"
+            },
+            "to": {
+                "!id": "!U3jPaT"
+            },
+            "!id": "!paKd9Z"
+        },
+        "!zwiV6A": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!U3jPaT"
+            },
+            "to": {
+                "!id": "!IMmY3n"
+            },
+            "!id": "!zwiV6A"
+        },
+        "!eg3i0f": {
             "type": {
                 "!id": "!jgWdIT"
             },
@@ -1384,9 +1642,85 @@
                 "!id": "!veU7Jf"
             },
             "to": {
-                "!id": "!KEP2qM"
+                "!id": "!4lp9Yj"
             },
-            "!id": "!s9UacU"
+            "!id": "!eg3i0f"
+        },
+        "!ZXIraS": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!4lp9Yj"
+            },
+            "to": {
+                "!id": "!veU7Jf"
+            },
+            "!id": "!ZXIraS"
+        },
+        "!f3q99d": {
+            "text": "A matching in a graph is a subset of pairwise disjoint edges (any two edges that do not share an endpoint). The parameter maximum matching of a graph $G$ is the largest size of a matching in $G$.",
+            "url": "https://www.graphclasses.org/classes/par_13.html",
+            "!id": "!f3q99d"
+        },
+        "!cNSdgE": {
+            "text": "The acyclic chromatic number of a graph $G$ is the smallest size of a vertex partition $V_1,\\dots,V_\\ell$ such that each $V_i$ is an independent set and for all $i,j$ that graph $G[V_i \\cup V_j]$ does not contain a cycle.",
+            "url": "https://www.graphclasses.org/classes/par_31.html",
+            "!id": "!cNSdgE"
+        },
+        "!W3n2Jv": {
+            "name": "edge connectivity",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.7,
+            "notes": [
+                {
+                    "!id": "!ZunX1e"
+                }
+            ],
+            "!id": "!W3n2Jv"
+        },
+        "!haGgbI": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!W3n2Jv"
+            },
+            "to": {
+                "!id": "!CIEnCh"
+            },
+            "notes": [
+                {
+                    "!id": "!aQyAEM"
+                }
+            ],
+            "!id": "!haGgbI"
+        },
+        "!ZunX1e": {
+            "text": "The edge connectivity, also called the line connectivity, of a graph is the minimum number of edges $\\lambda(G)$ whose deletion from a graph $G$ disconnects $G$.",
+            "url": "https://mathworld.wolfram.com/EdgeConnectivity.html",
+            "!id": "!ZunX1e"
+        },
+        "!MBBkVW": {
+            "text": "We can remove $k$ vertices to obtain a graph from the graph class mentioned in name of this parameter.",
+            "!id": "!MBBkVW"
+        },
+        "!8eXjAy": {
+            "text": "The maximum number of disjoint dominating sets in a domatic partition of a graph $G$ is called its domatic number $d(G)$. ",
+            "url": "https://mathworld.wolfram.com/DomaticNumber.html",
+            "!id": "!8eXjAy"
+        },
+        "!W4j934": {
+            "text": "..., the treewidth of an undirected graph is an integer number which specifies, informally, how far the graph is from being a tree.",
+            "url": "https://en.wikipedia.org/wiki/Treewidth",
+            "!id": "!W4j934"
+        },
+        "!xnhT1P": {
+            "text": "Very roughly, treewidth captures how similar a graph is to a tree. There are many ways to define ``tree-likeness'' of a graph; ... it appears that the approach most useful from algorithmic and graph theoretical perspectives, is to view tree-likeness of a graph $G$ as the existence of a structural decomposition of $G$ into pieces of bounded size that are connected in a tree-like fashion. This intuitive concept is formalized via the notions of a *tree decomposition* and the *treewidth* of a graph; the latter is a quantitative measure of how good a tree decomposition we can possibly obtain.",
+            "url": "https://www.mimuw.edu.pl/~malcin/book/parameterized-algorithms.pdf",
+            "!id": "!xnhT1P"
         }
     },
     "ids": {

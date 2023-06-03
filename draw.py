@@ -28,10 +28,10 @@ def avg_color(color1, color2, weight):
 
 
 u = graphviz.Digraph('unix',
-                     filename='my-diagram',
+                     filename='parameters',
                      node_attr={'color': 'lightblue2', 'style': 'filled'})
 
-u.attr(size='6,6')
+u.attr(size='6,6', margin='0.04')
 
 nos_path = os.path.expanduser('~') + '/Dropbox/Projects/noosphere'
 sys.path.insert(1, nos_path)
@@ -60,8 +60,88 @@ entries = list(filter(check_is_par, nos.data.all()))
 connections = list(filter(check_is_connection, nos.data.all()))
 for entry in entries:
     col = avg_color('e0e0e0', '90c0f0', entry['importance'])
-    u.node(entry['!id'], label=entry['name'], shape='box', color='#'+col)
+    u.node(entry['!id'],
+           label=entry['name'],
+           URL='./#'+entry['!id'],
+           shape='box',
+           color='#'+col)
 for connection in connections:
-    u.edge(connection['from']['!id'], connection['to']['!id'])
+    label = '◯'
+    if 'notes' in connection:
+        label = '⬤'
+    u.edge(connection['from']['!id'],
+           connection['to']['!id'],
+           label=label,
+           URL='./#'+connection['!id'],
+           decorate='true',
+           lblstyle="above, sloped")
 
-u.view()
+for a in connections:
+    for b in connections:
+        for c in connections:
+            if a != b and b != c and a != c:
+                if a['to']['!id'] == b['from']['!id'] \
+                        and b['to']['!id'] == c['from']['!id'] \
+                        and c['from']['!id'] == a['from']['!id'] \
+                        and c['to']['!id'] == b['to']['!id']:
+                    print('transitive can be removed:', a, b, c)
+
+#  u.view()
+u.render()
+
+
+def format_note(note):
+    res = ''
+    res += '* '
+    if 'url' in note:
+        res += f'[link]({note["url"]}) '
+    res += note["text"]
+    res += '\n'
+    return res
+
+
+#  construct and save the website
+content = ''
+content += '+++\n'
+content += 'title = "Parameterized complexity hierarchy"\n'
+content += 'date = "2023-06-01"\n'
+content += '+++\n'
+content += '\n\n'
+content += 'Zoom with Ctrl+wheel and move with wheel & Shift+wheel\n'
+content += '<object data="parameters.pdf" type="application/pdf" width="100%" height="480px"><embed src="parameters.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="main.pdf">Download PDF</a>.</p></embed></object>'
+content += '\n\n'
+content += 'Inspired by [parameterized hierarchy](https://manyu.pro/assets/parameter-hierarchy.pdf) by M. Sorge.\n'
+content += '\n'
+content += '# Parameters\n\n'
+for entry in entries:
+    content += '## ' + entry['name']
+    if 'abbreviation' in entry:
+        content += ' (' + entry['abbreviation'] + ')'
+    content += f' <span id={entry["!id"]}></span>'
+    content += '\n'
+    if 'notes' in entry:
+        for note_id in entry['notes']:
+            note = nos.core.call('get', note_id)
+            content += format_note(note)
+content += '\n\n'
+content += '# Relations\n\n'
+for connection in connections:
+    fr = nos.core.call('get', connection['from']['!id'])
+    to = nos.core.call('get', connection['to']['!id'])
+    content += '## '
+    content += f'[{fr["name"]}](#{fr["!id"]})'
+    content += ' → '
+    content += f'[{to["name"]}](#{to["!id"]})'
+    content += f' <span id={connection["!id"]}></span>'
+    content += '\n'
+    if 'notes' in connection:
+        for note_id in connection['notes']:
+            note = nos.core.call('get', note_id)
+            content += format_note(note)
+
+for _ in range(100):
+    content += '<br>'
+content += 'The space above is here just to make the relative links work nicely even for the last entries :)'
+file = open("./page.md", "w")
+file.write(content)
+file.close()
