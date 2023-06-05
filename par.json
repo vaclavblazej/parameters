@@ -171,6 +171,11 @@
             },
             "abbreviation": "FES",
             "importance": 0.7,
+            "notes": [
+                {
+                    "!id": "!WP7pFA"
+                }
+            ],
             "!id": "!HTk9PZ"
         },
         "!4lp9Yj": {
@@ -686,6 +691,11 @@
             "to": {
                 "!id": "!U3jPaT"
             },
+            "notes": [
+                {
+                    "!id": "!DKZYEb"
+                }
+            ],
             "!id": "!9V7MFq"
         },
         "!2FIPpF": {
@@ -727,6 +737,11 @@
             "to": {
                 "!id": "!nQhAoF"
             },
+            "notes": [
+                {
+                    "!id": "!q3qJkr"
+                }
+            ],
             "!id": "!tKCHeJ"
         },
         "!6Kl5Pp": {
@@ -739,6 +754,11 @@
             "to": {
                 "!id": "!QF9fW9"
             },
+            "notes": [
+                {
+                    "!id": "!7tFsi6"
+                }
+            ],
             "!id": "!6Kl5Pp"
         },
         "!XqzgTC": {
@@ -836,6 +856,11 @@
             "to": {
                 "!id": "!gbaHdw"
             },
+            "notes": [
+                {
+                    "!id": "!8dQ8Us"
+                }
+            ],
             "!id": "!12cxS9"
         },
         "!gzyoLp": {
@@ -916,6 +941,11 @@
             "to": {
                 "!id": "!VipBQc"
             },
+            "notes": [
+                {
+                    "!id": "!08lETp"
+                }
+            ],
             "!id": "!5z03w7"
         },
         "!juphuT": {
@@ -957,6 +987,11 @@
             "to": {
                 "!id": "!MB1Sr1"
             },
+            "notes": [
+                {
+                    "!id": "!uKFrrb"
+                }
+            ],
             "!id": "!P4jZlH"
         },
         "!ncjZd0": {
@@ -1044,6 +1079,11 @@
             "to": {
                 "!id": "!KRV6tI"
             },
+            "notes": [
+                {
+                    "!id": "!UYpwYn"
+                }
+            ],
             "!id": "!l4bNpX"
         },
         "!JArOAD": {
@@ -1092,6 +1132,11 @@
             "to": {
                 "!id": "!nQhAoF"
             },
+            "notes": [
+                {
+                    "!id": "!kiza4J"
+                }
+            ],
             "!id": "!v6d2P7"
         },
         "!e6NaBr": {
@@ -1104,6 +1149,11 @@
             "to": {
                 "!id": "!UyQ5yM"
             },
+            "notes": [
+                {
+                    "!id": "!waxvtz"
+                }
+            ],
             "!id": "!e6NaBr"
         },
         "!MKUFA8": {
@@ -1116,6 +1166,11 @@
             "to": {
                 "!id": "!wUdmUb"
             },
+            "notes": [
+                {
+                    "!id": "!LyJWeW"
+                }
+            ],
             "!id": "!MKUFA8"
         },
         "!sMfXRo": {
@@ -1203,6 +1258,11 @@
             "to": {
                 "!id": "!nQhAoF"
             },
+            "notes": [
+                {
+                    "!id": "!d2ZJIh"
+                }
+            ],
             "!id": "!KtFhkk"
         },
         "!150N9P": {
@@ -1215,6 +1275,11 @@
             "to": {
                 "!id": "!gKbGUa"
             },
+            "notes": [
+                {
+                    "!id": "!d2ZJIh"
+                }
+            ],
             "!id": "!150N9P"
         },
         "!B9l0ai": {
@@ -1227,6 +1292,11 @@
             "to": {
                 "!id": "!IcKqSn"
             },
+            "notes": [
+                {
+                    "!id": "!d2ZJIh"
+                }
+            ],
             "!id": "!B9l0ai"
         },
         "!FM1wVJ": {
@@ -1336,6 +1406,11 @@
             "to": {
                 "!id": "!IcKqSn"
             },
+            "notes": [
+                {
+                    "!id": "!d2ZJIh"
+                }
+            ],
             "!id": "!voVCvr"
         },
         "!ZiCzGe": {
@@ -1365,6 +1440,11 @@
             "to": {
                 "!id": "!TLdoEo"
             },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
             "!id": "!stwHRi"
         },
         "!crL8y9": {
@@ -1532,6 +1612,11 @@
             "to": {
                 "!id": "!QF9fW9"
             },
+            "notes": [
+                {
+                    "!id": "!J0jyXi"
+                }
+            ],
             "!id": "!UcXeli"
         },
         "!ogyvLp": {
@@ -1561,6 +1646,11 @@
             "to": {
                 "!id": "!MB1Sr1"
             },
+            "notes": [
+                {
+                    "!id": "!xrVJqb"
+                }
+            ],
             "!id": "!kXNdFI"
         },
         "!YHgf7M": {
@@ -1575,7 +1665,7 @@
             },
             "notes": [
                 {
-                    "!id": "!aQyAEM"
+                    "!id": "!DQzjIV"
                 }
             ],
             "!id": "!YHgf7M"
@@ -1614,6 +1704,11 @@
             "to": {
                 "!id": "!GPmPOT"
             },
+            "notes": [
+                {
+                    "!id": "!DQzjIV"
+                }
+            ],
             "!id": "!hTp0QP"
         },
         "!x9pao2": {
@@ -1707,11 +1802,16 @@
             "type": {
                 "!id": "!TrvG50"
             },
+            "notes": [
+                {
+                    "!id": "!ZhBkjd"
+                }
+            ],
             "importance": 0.5,
             "!id": "!W0Iwpj"
         },
         "!DQzjIV": {
-            "text": "by definition",
+            "text": "By definition. One parameter is special case of the other.",
             "!id": "!DQzjIV"
         },
         "!aQyAEM": {
@@ -1719,7 +1819,7 @@
             "!id": "!aQyAEM"
         },
         "!UQLQ2Q": {
-            "text": "by graph inclusion",
+            "text": "By graph inclusion of the remaining graph classes.",
             "!id": "!UQLQ2Q"
         },
         "!cYFhiJ": {
@@ -2002,6 +2102,68 @@
             "text": "... a book embedding is a generalization of planar embedding of a graph to embeddings into a book, a collection of half-planes all having the same line as their boundary. Usually, the vertices of the graph are required to lie on this boundary line, called the spine, and the edges are required to stay within a single half-plane. The book thickness of a graph is the smallest possible number of half-planes for any book embedding of the graph.",
             "url": "https://en.wikipedia.org/wiki/Book_embedding",
             "!id": "!YGmwCG"
+        },
+        "!DKZYEb": {
+            "text": "A nice tree decomposition yields a clique width decomposition of bounded number of labels as the forgotten vertices get one color and bag vertices get each its own color.",
+            "!id": "!DKZYEb"
+        },
+        "!q3qJkr": {
+            "text": "Saving the set of open vertices in a DFS over the tree treedepth after every step yields bags of a nice path decomposition.",
+            "!id": "!q3qJkr"
+        },
+        "!7tFsi6": {
+            "text": "An unbounded diameter implies the class contains paths as subgraphs. Minimum treedepth to embed a path of length $n$ in a treedepth tree is $\\log n$.",
+            "!id": "!7tFsi6"
+        },
+        "!8dQ8Us": {
+            "text": "Removing $k$ edges creates a forest that is embeddable into the plane. We now add one handle for each of the $k$ edges to get embedding into $k$-handle genus.",
+            "!id": "!8dQ8Us"
+        },
+        "!08lETp": {
+            "text": "Once two vertices have the same label they share their neighborhood with respect to all vertices they are connected to further. So to get a twinwidth sequence we merge all vertices that get same labels. Hence, red edges may occur only between different labels and the maximum red degree is bounded by the number of labels.",
+            "!id": "!08lETp"
+        },
+        "!uKFrrb": {
+            "text": "Greedily color the vertices in order of the degeneracy ordering. As each vertex has at most $k$ colored predecesors we use at most $k+1$ colors.",
+            "!id": "!uKFrrb"
+        },
+        "!UYpwYn": {
+            "text": "The vertex of minimum degree needs to be dominated in each of the sets. As the sets cannot overlap there can be at most $k+1$ of them.",
+            "!id": "!UYpwYn"
+        },
+        "!kiza4J": {
+            "text": "Having bandwidth $k$, order vertices by their values. We create a bag for each vertex $u$ by taking $u$ and all vertices that have a value that is at most $k$ larger than the value of $u$. All edges fall into some bag and vertices span connected span of bags.",
+            "!id": "!kiza4J"
+        },
+        "!waxvtz": {
+            "text": "Each vertex has an integer $i$ and may be connected only to vertices whose difference from $i$ is at most $k$. There are at most $k$ bigger and $k$ smaller such neighbors.",
+            "!id": "!waxvtz"
+        },
+        "!LyJWeW": {
+            "text": "Order vertices by their bandwidth integer. We split the graph in the middle of this ordering. There are at most roughly $k^2/2$ edges over this split.",
+            "!id": "!LyJWeW"
+        },
+        "!d2ZJIh": {
+            "text": "After removal of $k$ vertices the remaining class has a bounded width $w$. So by including the removed vertices in every bag, we can achieve decomposition of width $w+k$",
+            "!id": "!d2ZJIh"
+        },
+        "!J0jyXi": {
+            "text": "An unbounded diameter implies a long path where no vertices that are more than $3$ apart may be dominated by the same dominating vertex, otherwise we could shorten the path. Hence, the number of dominating vertices is also unbounded.",
+            "!id": "!J0jyXi"
+        },
+        "!xrVJqb": {
+            "text": "Removed vertices get one color each and we need only $2$ colors for the rest.",
+            "!id": "!xrVJqb"
+        },
+        "!ZhBkjd": {
+            "text": "... branch-decomposition of an undirected graph $G$ is a hierarchical clustering of the edges of $G$, represented by an unrooted binary tree $T$ with the edges of $G$ as its leaves. Removing any edge from $T$ partitions the edges of $G$ into two subgraphs, and the width of the decomposition is the maximum number of shared vertices of any pair of subgraphs formed in this way. The branchwidth of $G$ is the minimum width of any branch-decomposition of $G$.",
+            "url": "https://en.wikipedia.org/wiki/Branch-decomposition",
+            "!id": "!ZhBkjd"
+        },
+        "!WP7pFA": {
+            "text": "Let $G = (V,E)$ be an undirected graph. A set $F \\subseteq E$ of edges is called a feedback-edge set if every cycle of $G$ has at least one edge in $F$.",
+            "url": "https://stackoverflow.com/questions/10791689/how-to-find-feedback-edge-set-in-undirected-graph",
+            "!id": "!WP7pFA"
         }
     },
     "ids": {
