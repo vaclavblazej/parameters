@@ -58,6 +58,8 @@ def check_is_connection(x):
 nodes = {}
 entries = list(filter(check_is_par, nos.data.all()))
 connections = list(filter(check_is_connection, nos.data.all()))
+print("entries:", len(entries))
+print("connections:", len(connections))
 for entry in entries:
     col = avg_color('e0e0e0', '90c0f0', entry['importance'])
     u.node(entry['!id'],
@@ -113,6 +115,7 @@ content += '* Zoom with Ctrl+wheel and move with wheel & Shift+wheel\n'
 content += '* Click nodes or circles at edges to jump to the relevant section with definition or inclusion proof.\n'
 content += '* Any copied material has a source link -- this is the preferred way. Everything else will be slowly replaced.\n'
 content += '* The sources are available [online](https://github.com/vaclavblazej/parameters), however, it is not trivial to work with.\n'
+content += '\n'
 content += '<object data="parameters.pdf" type="application/pdf" width="100%" height="480px"><embed src="parameters.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="main.pdf">Download PDF</a>.</p></embed></object>'
 content += '\n\n'
 content += 'Inspired by:\n'

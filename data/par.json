@@ -464,7 +464,7 @@
             "!id": "!bRBb5K"
         },
         "!KVhJFB": {
-            "name": "vertex integrity / fractioning number",
+            "name": "vertex integrity",
             "type": {
                 "!id": "!TrvG50"
             },
@@ -862,23 +862,6 @@
                 }
             ],
             "!id": "!12cxS9"
-        },
-        "!gzyoLp": {
-            "type": {
-                "!id": "!jgWdIT"
-            },
-            "from": {
-                "!id": "!4lp9Yj"
-            },
-            "to": {
-                "!id": "!TzspYl"
-            },
-            "notes": [
-                {
-                    "!id": "!UQLQ2Q"
-                }
-            ],
-            "!id": "!gzyoLp"
         },
         "!BWJDZs": {
             "type": {
@@ -2164,6 +2147,189 @@
             "text": "Let $G = (V,E)$ be an undirected graph. A set $F \\subseteq E$ of edges is called a feedback-edge set if every cycle of $G$ has at least one edge in $F$.",
             "url": "https://stackoverflow.com/questions/10791689/how-to-find-feedback-edge-set-in-undirected-graph",
             "!id": "!WP7pFA"
+        },
+        "!vMs3RS": {
+            "name": "neighborhood diversity",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.6,
+            "notes": [
+                {
+                    "!id": "!L2KX25"
+                }
+            ],
+            "!id": "!vMs3RS"
+        },
+        "!L2KX25": {
+            "text": "We will say that two vertices $v, v'$ of a graph $G(V, E)$ have the same *type* iff they have the same colors and $N(v) \\setminus \\{v\\} = N(v') \\setminus \\{v\\}$, where $N(v)$ denotes the set of neighbors of $v$. ... A colored graph $G(V, E)$ has neighborhood diversity at most $w$, if there exists a partition of $V$ into at most $w$ sets, such that all the vertices in each set have the same type.",
+            "url": "https://link.springer.com/article/10.1007/s00453-011-9554-x",
+            "!id": "!L2KX25"
+        },
+        "!tSmPSE": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!4lp9Yj"
+            },
+            "to": {
+                "!id": "!vMs3RS"
+            },
+            "notes": [
+                {
+                    "!id": "!YgTRtT"
+                }
+            ],
+            "!id": "!tSmPSE"
+        },
+        "!YgTRtT": {
+            "text": "Construct $k$ singleton sets, one for each vertex in the vertex cover and at most $2^k$ additional sets, one for each subset of vertices of the vertex cover. ...",
+            "url": "https://link.springer.com/article/10.1007/s00453-011-9554-x",
+            "!id": "!YgTRtT"
+        },
+        "!WxT333": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!vMs3RS"
+            },
+            "to": {
+                "!id": "!mOq1g7"
+            },
+            "notes": [
+                {
+                    "!id": "!gZpHgQ"
+                }
+            ],
+            "!id": "!WxT333"
+        },
+        "!gZpHgQ": {
+            "text": "",
+            "!id": "!gZpHgQ"
+        },
+        "!mOq1g7": {
+            "name": "shrub-depth",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.4,
+            "notes": [
+                {
+                    "!id": "!4Dua5N"
+                }
+            ],
+            "!id": "!mOq1g7"
+        },
+        "!MUnHA0": {
+            "name": "twin cover number",
+            "type": {
+                "!id": "!TrvG50"
+            },
+            "importance": 0.4,
+            "notes": [
+                {
+                    "!id": "!nTIDMU"
+                }
+            ],
+            "!id": "!MUnHA0"
+        },
+        "!nTIDMU": {
+            "text": "Distance to cluster where all vertices of each clique are siblings.",
+            "!id": "!nTIDMU"
+        },
+        "!4Dua5N": {
+            "text": "",
+            "url": "https://arxiv.org/abs/1707.00359",
+            "!id": "!4Dua5N"
+        },
+        "!1r3KyM": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!MUnHA0"
+            },
+            "to": {
+                "!id": "!mOq1g7"
+            },
+            "!id": "!1r3KyM"
+        },
+        "!2f2OYD": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!MUnHA0"
+            },
+            "to": {
+                "!id": "!TzspYl"
+            },
+            "notes": [
+                {
+                    "!id": "!DQzjIV"
+                }
+            ],
+            "!id": "!2f2OYD"
+        },
+        "!7rSPl5": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!4lp9Yj"
+            },
+            "to": {
+                "!id": "!MUnHA0"
+            },
+            "notes": [
+                {
+                    "!id": "!UQLQ2Q"
+                }
+            ],
+            "!id": "!7rSPl5"
+        },
+        "!rJOrPy": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!7ugOaW"
+            },
+            "to": {
+                "!id": "!vMs3RS"
+            },
+            "notes": [
+                {
+                    "!id": "!YgTRtT"
+                }
+            ],
+            "!id": "!rJOrPy"
+        },
+        "!oWACte": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!KEP2qM"
+            },
+            "to": {
+                "!id": "!mOq1g7"
+            },
+            "!id": "!oWACte"
+        },
+        "!knb7xY": {
+            "type": {
+                "!id": "!jgWdIT"
+            },
+            "from": {
+                "!id": "!mOq1g7"
+            },
+            "to": {
+                "!id": "!U3jPaT"
+            },
+            "!id": "!knb7xY"
         }
     },
     "ids": {
