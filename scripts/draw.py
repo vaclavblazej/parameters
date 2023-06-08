@@ -110,10 +110,6 @@ def format_note(note):
 
 #  construct and save the website
 content = ''
-content += '+++\n'
-content += 'title = "Parameterized complexity hierarchy"\n'
-content += '+++\n'
-content += '\n\n'
 content += '* Zoom with Ctrl+wheel and move with wheel & Shift+wheel\n'
 content += '* Click nodes or circles at edges to jump to the relevant section with definition or inclusion proof.\n'
 content += '* Any copied material has a source link -- this is the preferred way. Everything else will be slowly replaced.\n'

@@ -1,0 +1,7 @@
+baseURL = 'https://vaclavblazej.github.io/parameters/'
+languageCode = 'en-us'
+title = 'Parameters hierarchy'
+theme = 'ronu'
+
+[markup.goldmark.renderer]
+unsafe = true

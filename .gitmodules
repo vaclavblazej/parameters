@@ -1,0 +1,3 @@
+[submodule "themes/ronu"]
+	path = themes/ronu
+	url = https://github.com/softwareyoga/ronu-hugo-theme.git

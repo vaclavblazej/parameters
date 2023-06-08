@@ -2,6 +2,8 @@
 
 This repository contains the data and scripts that generate the web with parameter hierarchy in the context of [parameterized complexity](https://en.wikipedia.org/wiki/Parameterized_complexity).
 
+[See the resulting website.](https://vaclavblazej.github.io/parameters/)
+
 * `data` holds raw data; hard to work with without the scripts
 * `scripts` has source codes that export the data into a human-interactible form, they also generate the pages
 
@@ -23,3 +25,8 @@ To give your suggestions and fixes (with references), please open a [github issu
 * 2013-2019 [Parameterized Hierarchy](https://manyu.pro/assets/parameter-hierarchy.pdf) by M. Sorge.
 * [Comparing Graph Parameters](https://fpt.akt.tu-berlin.de/publications/theses/BA-Schr%C3%B6der.pdf) by J. Ch. B. Schröder
 * 2010 [Comparing 17 graph parameters](https://core.ac.uk/download/pdf/30926677.pdf) by Róbert Sasák
+
+## Rendering
+
+The page is setup using the [Hugo](https://gohugo.io/) static page generator.
+Automatic deployment is made with github pages.
