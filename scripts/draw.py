@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#  processes the data to produce:
+#  * parameters.pdf -- diagram of the parameters
+#  * page.md -- website that contains the pdf and info on the parameters and bounds
+
 import os
 import sys
 import graphviz
@@ -38,7 +42,7 @@ sys.path.insert(1, nos_path)
 from noosphere import Noosphere
 from noosphere.data import FileDB
 
-nos = Noosphere(FileDB("par.json"))
+nos = Noosphere(FileDB("../data/par.json"))
 
 
 def check_type(x, tp):
@@ -55,6 +59,7 @@ def check_is_connection(x):
     return check_type(x, '!jgWdIT')
 
 
+print('processing data ...')
 nodes = {}
 entries = list(filter(check_is_par, nos.data.all()))
 connections = list(filter(check_is_connection, nos.data.all()))
@@ -90,6 +95,7 @@ for a in connections:
 
 #  u.view()
 u.render()
+print('Saved pdf into ./parameters.pdf')
 
 
 def format_note(note):
@@ -156,3 +162,4 @@ content += 'The space above is here just to make the relative links work nicely 
 file = open("./page.md", "w")
 file.write(content)
 file.close()
+print('Saved website into ./page.md')
