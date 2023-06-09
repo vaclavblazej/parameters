@@ -131,6 +131,11 @@
             },
             "abbreviation": "PW",
             "importance": 0.9,
+            "notes": [
+                {
+                    "!id": "!dxaIhi"
+                }
+            ],
             "!id": "!nQhAoF"
         },
         "!KEP2qM": {
@@ -294,6 +299,9 @@
             "notes": [
                 {
                     "!id": "!cNSdgE"
+                },
+                {
+                    "!id": "!rj2m4h"
                 }
             ],
             "importance": 0.3,
@@ -495,6 +503,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.8,
+            "notes": [
+                {
+                    "!id": "!zYzUJ5"
+                }
+            ],
             "!id": "!fTqo40"
         },
         "!7ugOaW": {
@@ -529,6 +542,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.9,
+            "notes": [
+                {
+                    "!id": "!0cYayY"
+                }
+            ],
             "!id": "!mHtXUU"
         },
         "!Gq0onN": {
@@ -537,6 +555,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 1,
+            "notes": [
+                {
+                    "!id": "!82RsGb"
+                }
+            ],
             "!id": "!Gq0onN"
         },
         "!AxyLAU": {
@@ -583,6 +606,11 @@
             "type": {
                 "!id": "!TrvG50"
             },
+            "notes": [
+                {
+                    "!id": "!PVi4lL"
+                }
+            ],
             "importance": 0.7,
             "!id": "!zYkYWx"
         },
@@ -591,6 +619,11 @@
             "type": {
                 "!id": "!TrvG50"
             },
+            "notes": [
+                {
+                    "!id": "!o6tFCJ"
+                }
+            ],
             "importance": 0.4,
             "!id": "!X7CxTe"
         },
@@ -627,6 +660,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.6,
+            "notes": [
+                {
+                    "!id": "!nyaOye"
+                }
+            ],
             "!id": "!VipBQc"
         },
         "!pKMM6O": {
@@ -674,6 +712,11 @@
                 "!id": "!TrvG50"
             },
             "importance": 0.1,
+            "notes": [
+                {
+                    "!id": "!GfSsR4"
+                }
+            ],
             "!id": "!GPmPOT"
         },
         "!jgWdIT": {
@@ -1724,6 +1767,11 @@
             },
             "name": "maximum induced matching",
             "importance": 0.3,
+            "notes": [
+                {
+                    "!id": "!TKnuNP"
+                }
+            ],
             "!id": "!wpeKEI"
         },
         "!gQqUuq": {
@@ -1830,11 +1878,16 @@
             "!id": "!J94Xp2"
         },
         "!IMmY3n": {
-            "name": "rankwidth",
+            "name": "rank-width",
             "type": {
                 "!id": "!TrvG50"
             },
             "importance": 0.5,
+            "notes": [
+                {
+                    "!id": "!pjVGlR"
+                }
+            ],
             "!id": "!IMmY3n"
         },
         "!paKd9Z": {
@@ -1847,6 +1900,11 @@
             "to": {
                 "!id": "!U3jPaT"
             },
+            "notes": [
+                {
+                    "!id": "!wrBAYk"
+                }
+            ],
             "!id": "!paKd9Z"
         },
         "!zwiV6A": {
@@ -1859,6 +1917,11 @@
             "to": {
                 "!id": "!IMmY3n"
             },
+            "notes": [
+                {
+                    "!id": "!wrBAYk"
+                }
+            ],
             "!id": "!zwiV6A"
         },
         "!eg3i0f": {
@@ -2198,16 +2261,8 @@
             "to": {
                 "!id": "!mOq1g7"
             },
-            "notes": [
-                {
-                    "!id": "!gZpHgQ"
-                }
-            ],
+            "notes": [],
             "!id": "!WxT333"
-        },
-        "!gZpHgQ": {
-            "text": "",
-            "!id": "!gZpHgQ"
         },
         "!mOq1g7": {
             "name": "shrub-depth",
@@ -2240,8 +2295,8 @@
             "!id": "!nTIDMU"
         },
         "!4Dua5N": {
-            "text": "",
-            "url": "https://arxiv.org/abs/1707.00359",
+            "text": "Tree-model of $m$ colors and depth $d$: a rooted tree $T$ of height $d$, leaves are the vertices of $G$, each leaf has one of $m$ colors, an associated signature determining the edge set of $G$ as follows: for $i = 1,2,\\dots,d$, let $u$ and $v$ be leaves with the least common ancestor at height $i$ in $T$, then $uv \\in E(G)$ iff the color pair of $u,v$ is in the signature at height $i$.",
+            "url": "https://www.fi.muni.cz/~hlineny/papers/shrubdepth-warw18-slipp.pdf",
             "!id": "!4Dua5N"
         },
         "!1r3KyM": {
@@ -2330,6 +2385,66 @@
                 "!id": "!U3jPaT"
             },
             "!id": "!knb7xY"
+        },
+        "!zYzUJ5": {
+            "text": "The \\emph{chordality} of a graph $G=(V,E)$ is defined as the minimum $k$ such that we can write $E=E_1,\\cap\\dots\\cap E_k$ with each $(V,E_i)$ a chordal graph.",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgt.3190170210",
+            "!id": "!zYzUJ5"
+        },
+        "!0cYayY": {
+            "text": "For a graph $G=(V,E)$, an independent set $S$ is a maximal independent set if for $v \\in V$, one of the following is true: 1) $v \\in S$ 2) $N(v) \\cap S \\ne \\emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum independent set of a graph is called a maximum independent set.",
+            "url": "https://en.wikipedia.org/wiki/Maximal_independent_set",
+            "!id": "!0cYayY"
+        },
+        "!PVi4lL": {
+            "text": "A maximum clique of a graph $G$ is a clique (i.e., complete subgraph) of maximum possible size for $G$.",
+            "url": "https://mathworld.wolfram.com/MaximumClique.html",
+            "!id": "!PVi4lL"
+        },
+        "!o6tFCJ": {
+            "text": "Average degree is simply the average number of edges per node in the graph. ... Total Edges/Total Nodes=Average Degree",
+            "url": "https://bookdown.org/omarlizardo/_main/2-7-average-degree.html",
+            "!id": "!o6tFCJ"
+        },
+        "!nyaOye": {
+            "text": "... we consider a sequence of graph $G_n,G_{n-1},\\dots,G_2,G_1$, where $G_n$ is the original graph $G$, $G_1$ is the one-vertex graph, $G_i$ has $i$ vertices, and $G_{i-1}$ is obtained from $G_i$ by performing a single contraction of two (non-necessarily adjacent) vertices. For every vertex $u \\in V(G_i)$, let us denote by $u(G)$ the vertices of $G$ which have been contracted to $u$ along the sequence $G_n,\\dots,G_i$. A pair of disjoint sets of vertices is homogeneous if, between these sets, there are either all possible edges or no edge at all. The red edges mentioned previously consist of all pairs $uv$ of vertices of $G_i$ such that $u(G)$ and $v(G)$ are not homogeneous in $G$. If the red degree of every $G_i$ is at most $d$, then $G_n,G_{n-1},\\dots,G_2,G_1$ is called a sequence of $d$-contractions, or $d$-sequence. The twin-width of $G$ is the minimum $d$ for which there exists a sequence of $d$-contractions.",
+            "url": "https://dl.acm.org/doi/10.1145/3486655",
+            "!id": "!nyaOye"
+        },
+        "!GfSsR4": {
+            "text": "The average distance in a graph is defined as the average length of a shortest path between two vertices, taken over all pairs of vertices.",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgt.3190120309",
+            "!id": "!GfSsR4"
+        },
+        "!TKnuNP": {
+            "text": "An induced matching in a graph G is a set of edges, no two of which meet a common node or are joined by an edge of G;",
+            "url": "https://www.sciencedirect.com/science/article/pii/0166218X9290275F?via%3Dihub",
+            "!id": "!TKnuNP"
+        },
+        "!pjVGlR": {
+            "text": "see Section 6",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0095895605001528",
+            "!id": "!pjVGlR"
+        },
+        "!wrBAYk": {
+            "text": "Proposition 6.3",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0095895605001528",
+            "!id": "!wrBAYk"
+        },
+        "!rj2m4h": {
+            "text": "... an acyclic coloring is a (proper) vertex coloring in which every 2-chromatic subgraph is acyclic.",
+            "url": "https://en.wikipedia.org/wiki/Acyclic_coloring",
+            "!id": "!rj2m4h"
+        },
+        "!82RsGb": {
+            "text": "The domination number $\\gamma(G)$ of a graph $G$ is the minimum size of a dominating set of vertices in $G$ ...",
+            "url": "https://mathworld.wolfram.com/DominationNumber.html",
+            "!id": "!82RsGb"
+        },
+        "!dxaIhi": {
+            "text": "The pathwidth of a graph $G$, also called the interval thickness, vertex separation number, and node searching number, is one less than the size of the largest set in a path decomposition G.",
+            "url": "https://mathworld.wolfram.com/Pathwidth.html",
+            "!id": "!dxaIhi"
         }
     },
     "ids": {

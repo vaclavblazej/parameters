@@ -28,5 +28,5 @@ To give your suggestions and fixes (with references), please open a [github issu
 
 ## Rendering
 
-The page is setup using the [Hugo](https://gohugo.io/) static page generator.
+The page is setup using the [Hugo](https://gohugo.io/) static page generator which can be run locally with `hugo server`.
 Automatic deployment is made with github pages.
