@@ -1,11 +1,8 @@
 # Parameter hierarchy
 
-This repository contains the data and scripts that generate the web with parameter hierarchy in the context of [parameterized complexity](https://en.wikipedia.org/wiki/Parameterized_complexity).
+This repository contains the data and scripts that generate the parameter hierarchy website.
 
 [See the resulting website.](https://vaclavblazej.github.io/parameters/)
-
-* `data` holds raw data; hard to work with without the scripts
-* `scripts` has source codes that export the data into a human-interactible form, they also generate the pages
 
 What it the parameter hierarchy meant to provide:
 
@@ -19,6 +16,22 @@ It will take us a while to have majority of the parameter relations and referenc
 To give your suggestions and fixes (with references), please open a [github issue](https://github.com/vaclavblazej/parameters/issues) or [mail us](vaclav.blazej@warwick.ac.uk).
 
 * Any copied material has a source link -- this is the preferred way. Everything else will be slowly replaced.
+
+## Repository folders and files
+
+* main content
+    * `content` markdown of the website
+    * `data` holds raw data; hard to work with without the scripts
+    * `scripts` has source codes that export the data into human-readable form in the `content` folder
+* website setup
+    * `.github` setup for the website deployment
+    * `hugo.toml` website settings
+    * `layouts` custom components and templates for the website
+    * `static` css files for the website
+    * `themes` contains git submodule with the website style
+* extras
+    * `.git, .gitignore, .gitmodules` git versioning data
+    * `README.md`, `todo.md`, documentation
 
 ## Inspired by
 

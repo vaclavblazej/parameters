@@ -11,23 +11,24 @@ Click nodes or circles at edges to jump to the relevant section with definition 
 ---
 # Parameters
 
-## treewidth (TW) <span id=!IcKqSn></span>
+## treewidth <span id=!IcKqSn></span>
 * [source](https://en.wikipedia.org/wiki/Treewidth) ..., the treewidth of an undirected graph is an integer number which specifies, informally, how far the graph is from being a tree.
 * [source](https://www.mimuw.edu.pl/~malcin/book/parameterized-algorithms.pdf) Very roughly, treewidth captures how similar a graph is to a tree. There are many ways to define ``tree-likeness'' of a graph; ... it appears that the approach most useful from algorithmic and graph theoretical perspectives, is to view tree-likeness of a graph $G$ as the existence of a structural decomposition of $G$ into pieces of bounded size that are connected in a tree-like fashion. This intuitive concept is formalized via the notions of a *tree decomposition* and the *treewidth* of a graph; the latter is a quantitative measure of how good a tree decomposition we can possibly obtain.
-## pathwidth (PW) <span id=!nQhAoF></span>
+## pathwidth <span id=!nQhAoF></span>
 * [source](https://mathworld.wolfram.com/Pathwidth.html) The pathwidth of a graph $G$, also called the interval thickness, vertex separation number, and node searching number, is one less than the size of the largest set in a path decomposition G.
-## treedepth (TD) <span id=!KEP2qM></span>
+## treedepth <span id=!KEP2qM></span>
 * [source](https://en.wikipedia.org/wiki/Tree-depth) The tree-depth of a graph $G$ may be defined as the minimum height of a forest $F$ with the property that every edge of $G$ connects a pair of nodes that have an ancestor-descendant relationship to each other in $F$.
-## feedback vertex set (FVS) <span id=!GNOiyB></span>
+## feedback vertex set <span id=!GNOiyB></span>
 * [source](https://en.wikipedia.org/wiki/Feedback_vertex_set) ... a feedback vertex set (FVS) of a graph is a set of vertices whose removal leaves a graph without cycles... . The feedback vertex set number of a graph is the size of a smallest feedback vertex set.
 * can be thought of as a *distance to forest*
-## feedback edge set (FES) <span id=!HTk9PZ></span>
+## feedback edge set <span id=!HTk9PZ></span>
 * [source](https://stackoverflow.com/questions/10791689/how-to-find-feedback-edge-set-in-undirected-graph) Let $G = (V,E)$ be an undirected graph. A set $F \subseteq E$ of edges is called a feedback-edge set if every cycle of $G$ has at least one edge in $F$.
-## vertex cover (VC) <span id=!4lp9Yj></span>
+## vertex cover <span id=!4lp9Yj></span>
 * [source](https://en.wikipedia.org/wiki/Vertex_cover) ... set of vertices that includes at least one endpoint of every edge of the graph.
 * can be thought of as a *distance to independent set*
 ## cliquewidth <span id=!U3jPaT></span>
-* [source](https://en.wikipedia.org/wiki/Clique-width) ... the minimum number of labels needed to construct G by means of the following 4 operations: 1. Creation of a new vertex... 2. Disjoint union of two labeled graphs... 3. Joining by an edge every vertex labeled $i$ to every vertex labeled $j$, where $i \ne j$ 4. Renaming label $i$ to label $j$
+* [source](https://en.wikipedia.org/wiki/Clique-width) ... the minimum number of labels needed to construct G by means of the following 4 operations: 1. Creation of a new vertex... 2. Disjoint union of two labeled graphs... 3. Joining by an edge every vertex labeled $i$ to every vertex labeled $j$, where $i 
+e j$ 4. Renaming label $i$ to label $j$
 ## chromatic number <span id=!MB1Sr1></span>
 * [source](https://mathworld.wolfram.com/ChromaticNumber.html) The chromatic number of a graph G is the smallest number of colors needed to color the vertices of G so that no two adjacent vertices share the same color (Skiena 1990, p. 210), ...
 ## degeneracy <span id=!m2q96O></span>
@@ -79,7 +80,8 @@ Click nodes or circles at edges to jump to the relevant section with definition 
 ## clique cover number <span id=!VomShB></span>
 * [source](https://en.wikipedia.org/wiki/Clique_cover) A minimum clique cover is a clique cover that uses as few cliques as possible. The minimum $k$ for which a clique cover exists is called the clique cover number of the given graph.
 ## maximum independent set <span id=!mHtXUU></span>
-* [source](https://en.wikipedia.org/wiki/Maximal_independent_set) For a graph $G=(V,E)$, an independent set $S$ is a maximal independent set if for $v \in V$, one of the following is true: 1) $v \in S$ 2) $N(v) \cap S \ne \emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum independent set of a graph is called a maximum independent set.
+* [source](https://en.wikipedia.org/wiki/Maximal_independent_set) For a graph $G=(V,E)$, an independent set $S$ is a maximal independent set if for $v \in V$, one of the following is true: 1) $v \in S$ 2), $N(v) \cap S 
+e \emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum independent set of a graph is called a maximum independent set.
 ## domination number <span id=!Gq0onN></span>
 * [source](https://mathworld.wolfram.com/DominationNumber.html) The domination number $\gamma(G)$ of a graph $G$ is the minimum size of a dominating set of vertices in $G$ ...
 ## girth <span id=!AxyLAU></span>
@@ -96,7 +98,7 @@ Click nodes or circles at edges to jump to the relevant section with definition 
 * [source](https://mathworld.wolfram.com/DomaticNumber.html) The maximum number of disjoint dominating sets in a domatic partition of a graph $G$ is called its domatic number $d(G)$. 
 ## vertex connectivity / distance to disconnected <span id=!CIEnCh></span>
 * We can remove $k$ vertices to obtain a graph from the graph class mentioned in name of this parameter.
-## twinwidth (tww) <span id=!VipBQc></span>
+## twinwidth <span id=!VipBQc></span>
 * [source](https://dl.acm.org/doi/10.1145/3486655) ... we consider a sequence of graph $G_n,G_{n-1},\dots,G_2,G_1$, where $G_n$ is the original graph $G$, $G_1$ is the one-vertex graph, $G_i$ has $i$ vertices, and $G_{i-1}$ is obtained from $G_i$ by performing a single contraction of two (non-necessarily adjacent) vertices. For every vertex $u \in V(G_i)$, let us denote by $u(G)$ the vertices of $G$ which have been contracted to $u$ along the sequence $G_n,\dots,G_i$. A pair of disjoint sets of vertices is homogeneous if, between these sets, there are either all possible edges or no edge at all. The red edges mentioned previously consist of all pairs $uv$ of vertices of $G_i$ such that $u(G)$ and $v(G)$ are not homogeneous in $G$. If the red degree of every $G_i$ is at most $d$, then $G_n,G_{n-1},\dots,G_2,G_1$ is called a sequence of $d$-contractions, or $d$-sequence. The twin-width of $G$ is the minimum $d$ for which there exists a sequence of $d$-contractions.
 ## book thickness <span id=!pKMM6O></span>
 * [source](https://en.wikipedia.org/wiki/Book_embedding) ... a book embedding is a generalization of planar embedding of a graph to embeddings into a book, a collection of half-planes all having the same line as their boundary. Usually, the vertices of the graph are required to lie on this boundary line, called the spine, and the edges are required to stay within a single half-plane. The book thickness of a graph is the smallest possible number of half-planes for any book embedding of the graph.
@@ -139,6 +141,7 @@ Click nodes or circles at edges to jump to the relevant section with definition 
 ## [feedback vertex set](#!GNOiyB) → [distance to chordal](#!oi8KhK) <span id=!XqzgTC></span>
 * By graph inclusion of the remaining graph classes.
 ## [feedback vertex set](#!GNOiyB) → [distance to bipartite](#!T9s5sR) <span id=!AbAK8n></span>
+* A.k.a. odd cycle transversal
 * By graph inclusion of the remaining graph classes.
 ## [feedback vertex set](#!GNOiyB) → [distance to outerplanar](#!ThJdP1) <span id=!slhzot></span>
 * By graph inclusion of the remaining graph classes.

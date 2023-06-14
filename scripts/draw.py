@@ -4,6 +4,8 @@
 #  * parameters.pdf -- diagram of the parameters
 #  * page.md -- website that contains the pdf and info on the parameters and bounds
 
+import data
+
 import os
 import sys
 import graphviz
@@ -37,13 +39,6 @@ u = graphviz.Digraph('unix',
 
 u.attr(size='6,6', margin='0.04')
 
-nos_path = os.path.expanduser('~') + '/Dropbox/Projects/noosphere'
-sys.path.insert(1, nos_path)
-from noosphere import Noosphere
-from noosphere.data import FileDB
-
-nos = Noosphere(FileDB("../data/par.json"))
-
 
 def check_type(x, tp):
     if 'type' not in x:
@@ -58,40 +53,29 @@ def check_is_par(x):
 def check_is_connection(x):
     return check_type(x, '!jgWdIT')
 
+(entries, connections) = data.export()
 
 print('processing data ...')
 nodes = {}
-entries = list(filter(check_is_par, nos.data.all()))
-connections = list(filter(check_is_connection, nos.data.all()))
 print("entries:", len(entries))
 print("connections:", len(connections))
 for entry in entries:
-    col = avg_color('e0e0e0', '90c0f0', entry['importance'])
-    u.node(entry['!id'],
-           label=entry['name'],
-           URL='./#'+entry['!id'],
+    col = avg_color('e0e0e0', '90c0f0', entry.hue)
+    u.node(entry.id,
+           label=entry.name,
+           URL='./#'+entry.id,
            shape='box',
            color='#'+col)
 for connection in connections:
     label = '◯'
-    if 'notes' in connection:
+    if len(connection.notes) != 0:
         label = '⬤'
-    u.edge(connection['from']['!id'],
-           connection['to']['!id'],
+    u.edge(connection.fr.id,
+           connection.to.id,
            label=label,
-           URL='./#'+connection['!id'],
+           URL='./#'+connection.id,
            decorate='true',
            lblstyle="above, sloped")
-
-for a in connections:
-    for b in connections:
-        for c in connections:
-            if a != b and b != c and a != c:
-                if a['to']['!id'] == b['from']['!id'] \
-                        and b['to']['!id'] == c['from']['!id'] \
-                        and c['from']['!id'] == a['from']['!id'] \
-                        and c['to']['!id'] == b['to']['!id']:
-                    print('transitive can be removed:', a, b, c)
 
 #  u.view()
 u.render()
@@ -101,9 +85,9 @@ print('Saved pdf into ./parameters.pdf')
 def format_note(note):
     res = ''
     res += '* '
-    if 'url' in note:
-        res += f'[source]({note["url"]}) '
-    res += note["text"]
+    if note.url is not None:
+        res += f'[source]({note.url}) '
+    res += note.text
     res += '\n'
     return res
 
@@ -121,30 +105,27 @@ content += '<object data="parameters.pdf" type="application/pdf" width="100%" he
 content += '\n\n---\n'
 content += '# Parameters\n\n'
 for entry in entries:
-    content += '## ' + entry['name']
-    if 'abbreviation' in entry:
-        content += ' (' + entry['abbreviation'] + ')'
-    content += f' <span id={entry["!id"]}></span>'
+    content += '## ' + entry.name
+    if entry.abbreviation is not None:
+        content += ' (' + entry.abbreviation + ')'
+    content += f' <span id={entry.id}></span>'
     content += '\n'
-    if 'notes' in entry:
-        for note_id in entry['notes']:
-            note = nos.core.call('get', note_id)
+    if len(entry.notes) != 0:
+        for note in entry.notes:
             content += format_note(note)
 content += '\n\n---\n'
 content += '# Relations\n\n'
 for connection in connections:
-    fr = nos.core.call('get', connection['from']['!id'])
-    to = nos.core.call('get', connection['to']['!id'])
+    fr = connection.fr
+    to = connection.to
     content += '## '
-    content += f'[{fr["name"]}](#{fr["!id"]})'
+    content += f'[{fr.name}](#{fr.id})'
     content += ' → '
-    content += f'[{to["name"]}](#{to["!id"]})'
-    content += f' <span id={connection["!id"]}></span>'
+    content += f'[{to.name}](#{to.id})'
+    content += f' <span id={connection.id}></span>'
     content += '\n'
-    if 'notes' in connection:
-        for note_id in connection['notes']:
-            note = nos.core.call('get', note_id)
-            content += format_note(note)
+    for note in connection.notes:
+        content += format_note(note)
 
 for _ in range(100):
     content += '<br>'
