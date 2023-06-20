@@ -1,107 +1,12 @@
 #!/usr/bin/env python3
 
-import os
-import sys
+import par_types
+import par_processing
 
-# arrays that collect the data on their definition
-types = []
-entries = []
-connections = []
+from par_types import Data, Parameter, Note, UpperBound
 
 def export():
-    return (entries, connections)
-
-################################################################################
-
-class CustomType:
-    def __init__(self, id, name, description):
-        types.append(self)
-        self.id = id
-        self.name = name
-        self.description = description
-
-parameter_type = CustomType(
-        id = "!TrvG50",
-        name = "parameter",
-        description = "Instance of this type represents a graph Parameter in the context of Parameterized complexity. They are associated with meta-data, e.g., an approximate (and highly oppinionated) importance, and upper_bounds that says whether for this parameter $k$ and any graph there is a computable function $f$ such that another parameter is upper bound by $f(k)$."
-        )
-
-bound_type = CustomType(
-        id = "!jgWdIT",
-        name = "upper bounds",
-        description = "Connection between two parameters that describes that if the first one is K then the second one is at most f(K) where f is a computable function. Alternatively, one can think about this relation as that the second one is potentially smaller for a wider class of graphs"
-        )
-
-graph_type = CustomType(
-        id = "!JpeEf9",
-        name = "graph",
-        description = "A graph class that is (preferrably) linked to ISGCI (https://www.graphclasses.org/). Classes that do not have impact on the parameter picture ought to be omitted."
-        )
-
-################################################################################
-
-class Parameter:
-    def __init__(self, id, name, hue, notes, abbreviation=None, isgci=None):
-        entries.append(self)
-        self.type = parameter_type
-        self.id = id
-        self.name = name
-        self.abbreviation = abbreviation
-        self.hue = hue
-        self.notes = notes
-        self.isgci = isgci
-        self.below = []
-        self.above = []
-
-class DistEntry:
-    def __init__(self, id, graph, hue, notes, abbreviation=None, isgci=None):
-        entries.append(self)
-        self.type = parameter_type
-        self.id = id
-        self.name = f"distance to {graph.name}"
-        self.abbreviation = abbreviation
-        self.hue = hue
-        self.notes = notes
-        self.isgci = isgci
-        self.below = []
-        self.above = []
-
-class UpperBound:
-    def __init__(self, id, fr, to, notes):
-        connections.append(self)
-        self.type = bound_type
-        self.id = id
-        self.fr = fr
-        self.to = to
-        self.notes = notes
-        self.fr.below.append(self.to)
-        self.to.below.append(self.fr)
-
-class Note:
-    def __init__(self, id, url, text):
-        self.id = id
-        self.url = url
-        self.text = text
-
-#  class Graph:
-    #  def __init__(self, id, name, isgci):
-        #  self.id = id
-        #  self.name = name
-        #  self.isgci = isgci
-
-#  class HasBounded:
-    #  def __init__(self, id, graph, entry, notes):
-        #  self.id = id
-        #  self.graph = graph
-        #  self.entry = entry
-        #  self.notes = notes
-
-#  class HasUnbounded:
-    #  def __init__(self, id, graph, entry, notes):
-        #  self.id = id
-        #  self.graph = graph
-        #  self.entry = entry
-        #  self.notes = notes
+    return par_processing.postprocess(par_types.data)
 
 ################################################################################
 ## Parameters ##################################################################
@@ -122,7 +27,7 @@ fvs = Parameter(id = "!GNOiyB", name = "feedback vertex set", hue = 0.9, notes =
     Note(id = "!81zlqB", url = None, text = "can be thought of as a *distance to forest*")
     ])
 fes = Parameter(id = "!HTk9PZ", name = "feedback edge set", hue = 0.7, notes = [
-    Note(id = "!WP7pFA", url = "https://stackoverflow.com/questions/10791689/how-to-find-feedback-edge-set-in-undirected-graph", text = "Let $G = (V,E)$ be an undirected graph. A set $F \subseteq E$ of edges is called a feedback-edge set if every cycle of $G$ has at least one edge in $F$.")
+    Note(id = "!WP7pFA", url = "https://stackoverflow.com/questions/10791689/how-to-find-feedback-edge-set-in-undirected-graph", text = "Let $G = (V,E)$ be an undirected graph. A set $F \\subseteq E$ of edges is called a feedback-edge set if every cycle of $G$ has at least one edge in $F$.")
     ])
 vc = Parameter(id = "!4lp9Yj", name = "vertex cover", hue = 1, isgci = 2, notes = [
     Note(id = "!ez07Er", url = "https://en.wikipedia.org/wiki/Vertex_cover", text = "... set of vertices that includes at least one endpoint of every edge of the graph."),
@@ -150,7 +55,7 @@ min_degree = Parameter(id = "!NCg08F", name = "minimum degree", hue = 0.1, notes
     Note(id = "!CKNuj2", url = None, text = "minimum degree of graph's vertices")
     ])
 acn = Parameter(id = "!QoA8jA", name = "acyclic chromatic number", hue = 0.3, isgci = 31, notes = [
-    Note(id = "!cNSdgE", url = "https://www.graphclasses.org/classes/par_31.html", text = "The acyclic chromatic number of a graph $G$ is the smallest size of a vertex partition $V_1,\dots,V_\ell$ such that each $V_i$ is an independent set and for all $i,j$ that graph $G[V_i \cup V_j]$ does not contain a cycle."),
+    Note(id = "!cNSdgE", url = "https://www.graphclasses.org/classes/par_31.html", text = "The acyclic chromatic number of a graph $G$ is the smallest size of a vertex partition $V_1,\\dots,V_\\ell$ such that each $V_i$ is an independent set and for all $i,j$ that graph $G[V_i \\cup V_j]$ does not contain a cycle."),
     Note(id = "!rj2m4h", url = "https://en.wikipedia.org/wiki/Acyclic_coloring", text = "... an acyclic coloring is a (proper) vertex coloring in which every 2-chromatic subgraph is acyclic.")
     ])
 hindex = Parameter(id = "!gKbGUa", name = "h-index", hue = 0.1, notes = [
@@ -197,7 +102,7 @@ dist_stars = Parameter(id = "!PwPrlq", name = "distance to stars", hue = 0.2, no
     Note(id = "!MBBkVW", url = None, text = "We can remove $k$ vertices to obtain a graph from the graph class mentioned in name of this parameter.")
     ])
 chordality = Parameter(id = "!fTqo40", name = "chordality", hue = 0.8, notes = [
-    Note(id = "!zYzUJ5", url = "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgt.3190170210", text = "The \emph{chordality} of a graph $G=(V,E)$ is defined as the minimum $k$ such that we can write $E=E_1,\cap\dots\cap E_k$ with each $(V,E_i)$ a chordal graph.")
+    Note(id = "!zYzUJ5", url = "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgt.3190170210", text = "The \\emph{chordality} of a graph $G=(V,E)$ is defined as the minimum $k$ such that we can write $E=E_1,\\cap\\dots\\cap E_k$ with each $(V,E_i)$ a chordal graph.")
     ])
 dist_clique = Parameter(id = "!7ugOaW", name = "distance to clique", hue = 0.3, isgci = 1, notes = [
     Note(id = "!MBBkVW", url = None, text = "We can remove $k$ vertices to obtain a graph from the graph class mentioned in name of this parameter.")
@@ -206,10 +111,10 @@ clique_cover_num = Parameter(id = "!VomShB", name = "clique cover number", hue =
     Note(id = "!jh0OIZ", url = "https://en.wikipedia.org/wiki/Clique_cover", text = "A minimum clique cover is a clique cover that uses as few cliques as possible. The minimum $k$ for which a clique cover exists is called the clique cover number of the given graph.")
     ])
 max_independent_set = Parameter(id = "!mHtXUU", name = "maximum independent set", hue = 0.9, isgci = 8, notes = [
-    Note(id = "!0cYayY", url = "https://en.wikipedia.org/wiki/Maximal_independent_set", text = "For a graph $G=(V,E)$, an independent set $S$ is a maximal independent set if for $v \in V$, one of the following is true: 1) $v \in S$ 2), $N(v) \cap S \ne \emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum independent set of a graph is called a maximum independent set.")
+    Note(id = "!0cYayY", url = "https://en.wikipedia.org/wiki/Maximal_independent_set", text = "For a graph $G=(V,E)$, an independent set $S$ is a maximal independent set if for $v \\in V$, one of the following is true: 1) $v \\in S$ 2), $N(v) \\cap S \\ne \\emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum independent set of a graph is called a maximum independent set.")
 ])
 domination_num = Parameter(id = "!Gq0onN", name = "domination number", hue = 1, isgci = 5, notes = [
-    Note(id = "!82RsGb", url = "https://mathworld.wolfram.com/DominationNumber.html", text = "The domination number $\gamma(G)$ of a graph $G$ is the minimum size of a dominating set of vertices in $G$ ...")
+    Note(id = "!82RsGb", url = "https://mathworld.wolfram.com/DominationNumber.html", text = "The domination number $\\gamma(G)$ of a graph $G$ is the minimum size of a dominating set of vertices in $G$ ...")
     ])
 girth = Parameter(id = "!AxyLAU", name = "girth", hue = 1, notes = [
     Note(id = "!u13WN1", url = "https://en.wikipedia.org/wiki/Girth_(graph_theory)", text = "In graph theory, the girth of an undirected graph is the length of a shortest cycle contained in the graph.")
@@ -233,7 +138,7 @@ vertex_connectivity = Parameter(id = "!CIEnCh", name = "vertex connectivity / di
     Note(id = "!MBBkVW", url = None, text = "We can remove $k$ vertices to obtain a graph from the graph class mentioned in name of this parameter.")
     ])
 twinwidth = Parameter(id = "!VipBQc", name = "twinwidth", hue = 0.6, notes = [
-    Note(id = "!nyaOye", url = "https://dl.acm.org/doi/10.1145/3486655", text = "... we consider a sequence of graph $G_n,G_{n-1},\dots,G_2,G_1$, where $G_n$ is the original graph $G$, $G_1$ is the one-vertex graph, $G_i$ has $i$ vertices, and $G_{i-1}$ is obtained from $G_i$ by performing a single contraction of two (non-necessarily adjacent) vertices. For every vertex $u \in V(G_i)$, let us denote by $u(G)$ the vertices of $G$ which have been contracted to $u$ along the sequence $G_n,\dots,G_i$. A pair of disjoint sets of vertices is homogeneous if, between these sets, there are either all possible edges or no edge at all. The red edges mentioned previously consist of all pairs $uv$ of vertices of $G_i$ such that $u(G)$ and $v(G)$ are not homogeneous in $G$. If the red degree of every $G_i$ is at most $d$, then $G_n,G_{n-1},\dots,G_2,G_1$ is called a sequence of $d$-contractions, or $d$-sequence. The twin-width of $G$ is the minimum $d$ for which there exists a sequence of $d$-contractions.")
+    Note(id = "!nyaOye", url = "https://dl.acm.org/doi/10.1145/3486655", text = "... we consider a sequence of graph $G_n,G_{n-1},\\dots,G_2,G_1$, where $G_n$ is the original graph $G$, $G_1$ is the one-vertex graph, $G_i$ has $i$ vertices, and $G_{i-1}$ is obtained from $G_i$ by performing a single contraction of two (non-necessarily adjacent) vertices. For every vertex $u \\in V(G_i)$, let us denote by $u(G)$ the vertices of $G$ which have been contracted to $u$ along the sequence $G_n,\\dots,G_i$. A pair of disjoint sets of vertices is homogeneous if, between these sets, there are either all possible edges or no edge at all. The red edges mentioned previously consist of all pairs $uv$ of vertices of $G_i$ such that $u(G)$ and $v(G)$ are not homogeneous in $G$. If the red degree of every $G_i$ is at most $d$, then $G_n,G_{n-1},\\dots,G_2,G_1$ is called a sequence of $d$-contractions, or $d$-sequence. The twin-width of $G$ is the minimum $d$ for which there exists a sequence of $d$-contractions.")
     ])
 book_thickness = Parameter(id = "!pKMM6O", name = "book thickness", hue = 0.3, isgci = 32, notes = [
     Note(id = "!YGmwCG", url = "https://en.wikipedia.org/wiki/Book_embedding", text = "... a book embedding is a generalization of planar embedding of a graph to embeddings into a book, a collection of half-planes all having the same line as their boundary. Usually, the vertices of the graph are required to lie on this boundary line, called the spine, and the edges are required to stay within a single half-plane. The book thickness of a graph is the smallest possible number of half-planes for any book embedding of the graph.")
@@ -260,22 +165,22 @@ rank_width = Parameter(id = "!IMmY3n", name = "rank-width", hue = 0.5, isgci = 2
     Note(id = "!pjVGlR", url = "https://www.sciencedirect.com/science/article/pii/S0095895605001528", text = "see Section 6")
     ])
 edge_connectivity = Parameter(id = "!W3n2Jv", name = "edge connectivity", hue = 0.7, notes = [
-    Note(id = "!ZunX1e", url = "https://mathworld.wolfram.com/EdgeConnectivity.html", text = "The edge connectivity, also called the line connectivity, of a graph is the minimum number of edges $\lambda(G)$ whose deletion from a graph $G$ disconnects $G$.")
+    Note(id = "!ZunX1e", url = "https://mathworld.wolfram.com/EdgeConnectivity.html", text = "The edge connectivity, also called the line connectivity, of a graph is the minimum number of edges $\\lambda(G)$ whose deletion from a graph $G$ disconnects $G$.")
     ])
 neighborhood_diversity = Parameter(id = "!vMs3RS", name = "neighborhood diversity", hue = 0.6, notes = [
-    Note(id = "!L2KX25", url = "https://link.springer.com/article/10.1007/s00453-011-9554-x", text = "We will say that two vertices $v, v'$ of a graph $G(V, E)$ have the same *type* iff they have the same colors and $N(v) \setminus \{v\} = N(v') \setminus \{v\}$, where $N(v)$ denotes the set of neighbors of $v$. ... A colored graph $G(V, E)$ has neighborhood diversity at most $w$, if there exists a partition of $V$ into at most $w$ sets, such that all the vertices in each set have the same type.")
+    Note(id = "!L2KX25", url = "https://link.springer.com/article/10.1007/s00453-011-9554-x", text = "We will say that two vertices $v, v'$ of a graph $G(V, E)$ have the same *type* iff they have the same colors and $N(v) \\setminus \\{v\\} = N(v') \\setminus \\{v\\}$, where $N(v)$ denotes the set of neighbors of $v$. ... A colored graph $G(V, E)$ has neighborhood diversity at most $w$, if there exists a partition of $V$ into at most $w$ sets, such that all the vertices in each set have the same type.")
     ])
 shrub_depth = Parameter(id = "!mOq1g7", name = "shrub-depth", hue = 0.4, notes = [
-    Note(id = "!4Dua5N", url = "https://www.fi.muni.cz/~hlineny/papers/shrubdepth-warw18-slipp.pdf", text = "Tree-model of $m$ colors and depth $d$: a rooted tree $T$ of height $d$, leaves are the vertices of $G$, each leaf has one of $m$ colors, an associated signature determining the edge set of $G$ as follows: for $i = 1,2,\dots,d$, let $u$ and $v$ be leaves with the least common ancestor at height $i$ in $T$, then $uv \in E(G)$ iff the color pair of $u,v$ is in the signature at height $i$.")
+    Note(id = "!4Dua5N", url = "https://www.fi.muni.cz/~hlineny/papers/shrubdepth-warw18-slipp.pdf", text = "Tree-model of $m$ colors and depth $d$: a rooted tree $T$ of height $d$, leaves are the vertices of $G$, each leaf has one of $m$ colors, an associated signature determining the edge set of $G$ as follows: for $i = 1,2,\\dots,d$, let $u$ and $v$ be leaves with the least common ancestor at height $i$ in $T$, then $uv \\in E(G)$ iff the color pair of $u,v$ is in the signature at height $i$.")
     ])
 twin_cover_num = Parameter(id = "!MUnHA0", name = "twin cover number", hue = 0.4, notes = [
     Note(id = "!nTIDMU", url = None, text = "Distance to cluster where all vertices of each clique are siblings.")
     ])
 inf_flip_width = Parameter(id = "!gNhjIg", name = "inf-flip-width", abbreviation = "fw", hue = 0.4, notes = [
-    Note(id = "!9VHraO", url = "https://arxiv.org/abs/2302.00352", text = "See radius-r flip-width for $r=\infty$.")
+    Note(id = "!9VHraO", url = "https://arxiv.org/abs/2302.00352", text = "See radius-r flip-width for $r=\\infty$.")
     ])
 r_flip_width = Parameter(id = "!nMKJBg", name = "radius-r flip-width", abbreviation = "fwr", hue = 0.4, notes = [
-    Note(id = "!gxeVOT", url = "https://arxiv.org/abs/2302.00352", text = "The radius-$r$ flip-width of a graph $G$, denoted $fwr (G)$, is the smallest number $k \in \mathbb{N}$ such that the cops have a winning strategy in the flipper game of radius $r$ and width $k$ on $G$")
+    Note(id = "!gxeVOT", url = "https://arxiv.org/abs/2302.00352", text = "The radius-$r$ flip-width of a graph $G$, denoted $fwr (G)$, is the smallest number $k \\in \\mathbb{N}$ such that the cops have a winning strategy in the flipper game of radius $r$ and width $k$ on $G$")
     ])
 booleanwidth = Parameter(id = "!XPNgY0", name = "booleanwidth", hue = 0.2, isgci = 21, notes = [
     ])
@@ -305,7 +210,7 @@ UpperBound(id = "!tKCHeJ", fr = treedepth, to = pathwidth, notes = [
     Note(id = "!q3qJkr", url = None, text = "Saving the set of open vertices in a DFS over the tree treedepth after every step yields bags of a nice path decomposition.")
     ])
 UpperBound(id = "!6Kl5Pp", fr = treedepth, to = diameter, notes = [
-    Note(id = "!7tFsi6", url = None, text = "An unbounded diameter implies the class contains paths as subgraphs. Minimum treedepth to embed a path of length $n$ in a treedepth tree is $\log n$.")
+    Note(id = "!7tFsi6", url = None, text = "An unbounded diameter implies the class contains paths as subgraphs. Minimum treedepth to embed a path of length $n$ in a treedepth tree is $\\log n$.")
     ])
 UpperBound(id = "!XqzgTC", fr = fvs, to = dist_chordal, notes = [
     graph_inclusion
@@ -524,12 +429,3 @@ UpperBound(id = "!DxYTTn", fr = dist_block, to = dist_cluster, notes = [
 UpperBound(id = "!WJHhf0", fr = dist_block, to = dist_lin_forest, notes = [
     graph_inclusion
     ])
-
-################################################################################
-## Processing ##################################################################
-################################################################################
-
-# todo
-
-# propagate boundness and unboundess of graph classes
-# compare inclusions and determine strict inclusions

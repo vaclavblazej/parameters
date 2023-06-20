@@ -5,9 +5,6 @@
 #  * page.md -- website that contains the pdf and info on the parameters and bounds
 
 import data
-
-import os
-import sys
 import graphviz
 
 
@@ -53,7 +50,9 @@ def check_is_par(x):
 def check_is_connection(x):
     return check_type(x, '!jgWdIT')
 
-(entries, connections) = data.export()
+data = data.export()
+entries = data.entries
+connections = data.connections
 
 print('processing data ...')
 nodes = {}
