@@ -1,28 +1,30 @@
 # Parameter hierarchy
 
-This repository contains the data and scripts that generate the parameter hierarchy website.
+This repository contains the data and scripts that generate the [parameter hierarchy website](https://vaclavblazej.github.io/parameters/).
 
-[See the resulting website.](https://vaclavblazej.github.io/parameters/)
+The web is meant to provide:
 
-What it the parameter hierarchy meant to provide:
+* a quick overview of
+    * (partially done) parameter definitions
+    * (partially done) bounding connections
+    * (in future) graph classes that distinguish parameters (via ISGCI)
+* (current focus) display relevant references
+* (in future) single PDF
+* (in future) interactive mode
+    * let users with visualize the boundary of tractability and hardness for their problems
+    * customize the view by hiding and positioning the nodes
+    * output TikZ code that can be directly used in a scientific paper
 
-* provide quick overview of parameters
-* allow quick access to references (parameter definitions, bounds, counterexamples, etc.)
-* (in future) help users with visualizing the boundary of tractability and hardness for their problems
-* (in future) customize the view by hiding and positioning the nodes
-* (in future) output TikZ code that can be directly used in a paper
+It will take us a while to have majority of the parameter relations and their references.
+To give your suggestions and fixes (with references) please open a [github issue](https://github.com/vaclavblazej/parameters/issues) or [mail us](vaclav.blazej@warwick.ac.uk).
 
-It will take us a while to have majority of the parameter relations and references.
-To give your suggestions and fixes (with references), please open a [github issue](https://github.com/vaclavblazej/parameters/issues) or [mail us](vaclav.blazej@warwick.ac.uk).
-
-* Any copied material has a source link -- this is the preferred way. Everything else will be slowly replaced.
+* Any copied material must have a source link. Everything else will be slowly replaced.
 
 ## Repository folders and files
 
 * main content
     * `content` markdown of the website
-    * `data` holds raw data; hard to work with without the scripts
-    * `scripts` has source codes that export the data into human-readable form in the `content` folder
+    * `scripts` source data and codes that export the data into human-readable form to the `content` folder
 * website setup
     * `.github` setup for the website deployment
     * `hugo.toml` website settings
@@ -43,3 +45,11 @@ To give your suggestions and fixes (with references), please open a [github issu
 
 The page is setup using the [Hugo](https://gohugo.io/) static page generator which can be run locally with `hugo server`.
 Automatic deployment is made with github pages.
+
+## License
+
+This project is licensed under [MIT](LICENSE) license.
+
+## Authors and Contributors
+
+* [Václav Blažej](https://blazeva1.pages.fit/)
