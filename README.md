@@ -43,8 +43,19 @@ To give your suggestions and fixes (with references) please open a [github issue
 
 ## Rendering
 
-The page is setup using the [Hugo](https://gohugo.io/) static page generator which can be run locally with `hugo server`.
-Automatic deployment is made with github pages.
+First, download git submodule for theme.
+
+```sh
+git submodule init
+git submodule update
+```
+
+The page is setup using the [Hugo](https://gohugo.io/) static page generator which can be run locally with:
+```sh
+hugo server
+```
+
+Automatic deployment is made with github pages that has its settings in `.github` folder.
 
 ## License
 
