@@ -86,7 +86,7 @@ def format_note(note):
     res = ''
     res += '* '
     if note.url is not None:
-        res += f'[source]({note.url}) '
+        res += f'[↗]({note.url}) '
     res += note.text
     res += '\n'
     return res
@@ -100,8 +100,11 @@ content += '<!--this is a generated file-->\n\n'
 content += '**Controls:**\n'
 content += 'Zoom with Ctrl+wheel and move with wheel & Shift+wheel.\n'
 content += 'Click nodes or circles at edges to jump to the relevant section with definition or inclusion proof.\n'
+content += 'Empty circles are waiting for the proof with a link to be added to this database.'
 content += '\n'
 content += '<object data="parameters.pdf" type="application/pdf" width="100%" height="480px"><embed src="parameters.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="main.pdf">Download PDF</a>.</p></embed></object>'
+content += '\n\n'
+content += f'entries: {len(entries)}, connections: {len(connections)}'
 content += '\n\n---\n'
 content += '# Parameters\n\n'
 for entry in entries:
