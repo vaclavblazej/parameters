@@ -8,7 +8,7 @@ Click nodes or circles at edges to jump to the relevant section with definition 
 Empty circles are waiting for the proof with a link to be added to this database.
 <object data="parameters.pdf" type="application/pdf" width="100%" height="480px"><embed src="parameters.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="main.pdf">Download PDF</a>.</p></embed></object>
 
-entries: 60, connections: 101
+parameters: 60, connections: 101
 
 ---
 # Parameters
@@ -82,8 +82,7 @@ e j$ 4. Renaming label $i$ to label $j$
 ## clique cover number <span id=!VomShB></span>
 * [↗](https://en.wikipedia.org/wiki/Clique_cover) A minimum clique cover is a clique cover that uses as few cliques as possible. The minimum $k$ for which a clique cover exists is called the clique cover number of the given graph.
 ## maximum independent set <span id=!mHtXUU></span>
-* [↗](https://en.wikipedia.org/wiki/Maximal_independent_set) For a graph $G=(V,E)$, an independent set $S$ is a maximal independent set if for $v \in V$, one of the following is true: 1) $v \in S$ 2), $N(v) \cap S 
-e \emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum independent set of a graph is called a maximum independent set.
+* [↗](https://en.wikipedia.org/wiki/Maximal_independent_set) For a graph $G=(V,E)$, an independent set $S$ is a maximal independent set if for $v \in V$, one of the following is true: 1) $v \in S$ 2), $N(v) \cap S \ne \emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum independent set of a graph is called a maximum independent set.
 ## domination number <span id=!Gq0onN></span>
 * [↗](https://mathworld.wolfram.com/DominationNumber.html) The domination number $\gamma(G)$ of a graph $G$ is the minimum size of a dominating set of vertices in $G$ ...
 ## girth <span id=!AxyLAU></span>
@@ -132,6 +131,7 @@ e \emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum 
 * [↗](https://arxiv.org/abs/2302.00352) The radius-$r$ flip-width of a graph $G$, denoted $fwr (G)$, is the smallest number $k \in \mathbb{N}$ such that the cops have a winning strategy in the flipper game of radius $r$ and width $k$ on $G$
 ## booleanwidth <span id=!XPNgY0></span>
 ## carvingwidth <span id=!dS6OgO></span>
+* [↗](https://link.springer.com/article/10.1007/bf01215352) Let $V$ be a finite set with $|V| \ge 2$. Two subsets $A,B\subseteq V$ \emph{cross} if $A\cap B$, $A-B$, $B-A$, $V-(A\cup B)$ are all non-empty. A \emph{carving} in $V$ is a set $\mathscr{C}$ of subsets of $V$ such that \begin{enumerate} \item $\emptyset, V \notin \mathscr{C}$ \item no two members of $\mathscr{C}$ cross, and \item $\mathscr{C}$ is maximal subject to (1) and (2). ... Foro $A \subseteq V(G)$, we denote by $\delta(A)$ ... the set of all edges with an end in $A$ and an end in $V(G)-A$. For each $e \in E(G)$, let $p(e) \ge 0$ be an integer. For $X \subseteq E(G)$ we denote $\sum_{e \in X}p(e)$ by $p(X)$, and if $|V(G)| \ge 2$ we define the \emph{$p$-carving-width} of $G$ to be the minimum, over all carvings $\mathscr{C}$ in $V(G)$, of the maximum, over all $A \in \mathscr{C}$, of $p(\delta(A))$. ... The \emph{carving-width} of $G$ is the $p$-carving-width of $G$ where $p(e)=1$ for every edge $e$.
 ## cutwidth <span id=!TLx1pz></span>
 ## distance to block <span id=!mRtQEh></span>
 ## distance to co-cluster <span id=!ioPkQ0></span>
@@ -302,8 +302,8 @@ e \emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum 
 ## [cutwidth](#!TLx1pz) → [carvingwidth](#!dS6OgO) <span id=!Ye2Rw9></span>
 ## [carvingwidth](#!dS6OgO) → [maximum degree](#!UyQ5yM) <span id=!5u1jOQ></span>
 ## [carvingwidth](#!dS6OgO) → [treewidth](#!IcKqSn) <span id=!Gjs6EG></span>
-## [distance to block](#!mRtQEh) → [distance to cluster](#!TzspYl) <span id=!DxYTTn></span>
+## [distance to cluster](#!TzspYl) → [distance to block](#!mRtQEh) <span id=!DxYTTn></span>
 * By graph inclusion of the remaining graph classes.
-## [distance to block](#!mRtQEh) → [distance to linear forest](#!9XDQCE) <span id=!WJHhf0></span>
+## [distance to linear forest](#!9XDQCE) → [distance to block](#!mRtQEh) <span id=!WJHhf0></span>
 * By graph inclusion of the remaining graph classes.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>The space above is here just to make the relative links work nicely even for the last entries :)
