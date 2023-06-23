@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-
 import par_types
 import par_processing
 
-from par_types import Data, Parameter, Note, UpperBound
+from par_types import Data, Parameter, Note, UpperBound, GraphClass, HasBounded, HasUnbounded
 
 def export():
     return par_processing.postprocess(par_types.data)
@@ -185,6 +183,7 @@ r_flip_width = Parameter(id = "!nMKJBg", name = "radius-r flip-width", abbreviat
 booleanwidth = Parameter(id = "!XPNgY0", name = "booleanwidth", hue = 0.2, isgci = 21, notes = [
     ])
 carvingwidth = Parameter(id = "!dS6OgO", name = "carvingwidth", hue = 0.1, isgci = 16, notes = [
+    Note(id = "!bnOBjM", url = "https://link.springer.com/article/10.1007/bf01215352", text = "Let $V$ be a finite set with $|V| \\ge 2$. Two subsets $A,B\\subseteq V$ \\emph{cross} if $A\\cap B$, $A-B$, $B-A$, $V-(A\\cup B)$ are all non-empty. A \\emph{carving} in $V$ is a set $\\mathscr{C}$ of subsets of $V$ such that \\begin{enumerate} \\item $\\emptyset, V \\notin \\mathscr{C}$ \\item no two members of $\\mathscr{C}$ cross, and \\item $\\mathscr{C}$ is maximal subject to (1) and (2). ... Foro $A \\subseteq V(G)$, we denote by $\\delta(A)$ ... the set of all edges with an end in $A$ and an end in $V(G)-A$. For each $e \in E(G)$, let $p(e) \\ge 0$ be an integer. For $X \\subseteq E(G)$ we denote $\\sum_{e \\in X}p(e)$ by $p(X)$, and if $|V(G)| \\ge 2$ we define the \\emph{$p$-carving-width} of $G$ to be the minimum, over all carvings $\\mathscr{C}$ in $V(G)$, of the maximum, over all $A \\in \\mathscr{C}$, of $p(\\delta(A))$. ... The \\emph{carving-width} of $G$ is the $p$-carving-width of $G$ where $p(e)=1$ for every edge $e$.")
     ])
 cutwidth = Parameter(id = "!TLx1pz", name = "cutwidth", hue = 0.2, isgci = 15, notes = [
     ])
@@ -423,9 +422,9 @@ UpperBound(id = "!QtSu9i", fr = cutwidth, to = pathwidth, notes = [])
 UpperBound(id = "!Ye2Rw9", fr = cutwidth, to = carvingwidth, notes = [])
 UpperBound(id = "!5u1jOQ", fr = carvingwidth, to = max_degree, notes = [])
 UpperBound(id = "!Gjs6EG", fr = carvingwidth, to = treewidth, notes = [])
-UpperBound(id = "!DxYTTn", fr = dist_block, to = dist_cluster, notes = [
+UpperBound(id = "!DxYTTn", fr = dist_cluster, to = dist_block, notes = [
     graph_inclusion
     ])
-UpperBound(id = "!WJHhf0", fr = dist_block, to = dist_lin_forest, notes = [
+UpperBound(id = "!WJHhf0", fr = dist_lin_forest, to = dist_block, notes = [
     graph_inclusion
     ])

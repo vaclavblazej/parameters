@@ -1,0 +1,2 @@
+graphviz==0.20.1
+latex2markdown==0.2.1

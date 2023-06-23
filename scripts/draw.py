@@ -30,55 +30,58 @@ def avg_color(color1, color2, weight):
     return rgb_to_hex(new_rgb)
 
 
-u = graphviz.Digraph('unix',
-                     filename='parameters',
-                     node_attr={'color': 'lightblue2', 'style': 'filled'})
-
-u.attr(size='6,6', margin='0.04')
-
-
-def check_type(x, tp):
-    if 'type' not in x:
-        return False
-    return x['type']['!id'] == tp
-
-
-def check_is_par(x):
-    return check_type(x, '!TrvG50')
-
-
-def check_is_connection(x):
-    return check_type(x, '!jgWdIT')
-
 data = data.export()
-entries = data.entries
+parameters = data.parameters
 connections = data.connections
 
 print('processing data ...')
-nodes = {}
-print("entries:", len(entries))
+print("parameters:", len(parameters))
 print("connections:", len(connections))
-for entry in entries:
-    col = avg_color('e0e0e0', '90c0f0', entry.hue)
-    u.node(entry.id,
-           label=entry.name,
-           URL='./#'+entry.id,
-           shape='box',
-           color='#'+col)
-for connection in connections:
-    label = '◯'
-    if len(connection.notes) != 0:
-        label = '⬤'
-    u.edge(connection.fr.id,
-           connection.to.id,
-           label=label,
-           URL='./#'+connection.id,
-           decorate='true',
-           lblstyle="above, sloped")
 
-#  u.view()
-u.render()
-print('Saved pdf into ./parameters.pdf')
+def render_with_colors(filename, entry_coloring_function):
+    u = graphviz.Digraph('unix',
+                         filename=filename,
+                         directory="build",
+                         node_attr={'color': 'lightblue2', 'style': 'filled'})
+    u.attr(size='6,6', margin='0.04')
+    for parameter in parameters:
+        u.node(parameter.id,
+               label=parameter.name,
+               URL='./#'+parameter.id,
+               shape='box',
+               color=entry_coloring_function(parameter))
+    for connection in connections:
+        style = {
+               "URL": './#'+connection.id,
+               "decorate": 'true',
+               "lblstyle": "above, sloped"
+        }
+        if len(connection.notes) != 0:
+            style.update({"label": '⬤'})
+        if connection.known_strict:
+            style.update({"arrowhead": 'icurve'})
+        u.edge(connection.fr.id, connection.to.id, **style)
+    u.render()
+    print(f'Rendered ./build/{filename}.pdf')
+
+def color_by_hue(parameter):
+    return '#'+avg_color('e0e0e0', '90c0f0', parameter.hue)
+
+render_with_colors('parameters', color_by_hue)
+
+def color_by_graphclass(parameter, graphclass):
+    if graphclass in parameter.bounded_for and graphclass in parameter.unbounded_for:
+        col = '#6666dd'
+    elif graphclass in parameter.bounded_for:
+        col = '#dd0000'
+    elif graphclass in parameter.unbounded_for:
+        col = '#00aa00'
+    else:
+        col = '#ddaa00'
+    return col
+
+for gc in data.graph_classes:
+    render_with_colors(gc.name, lambda x: color_by_graphclass(x, gc))
 
 
 def format_note(note):
@@ -103,17 +106,17 @@ content += 'Empty circles are waiting for the proof with a link to be added to t
 content += '\n'
 content += '<object data="parameters.pdf" type="application/pdf" width="100%" height="480px"><embed src="parameters.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="main.pdf">Download PDF</a>.</p></embed></object>'
 content += '\n\n'
-content += f'entries: {len(entries)}, connections: {len(connections)}'
+content += f'parameters: {len(parameters)}, connections: {len(connections)}'
 content += '\n\n---\n'
 content += '# Parameters\n\n'
-for entry in entries:
-    content += '## ' + entry.name
-    if entry.abbreviation is not None:
-        content += ' (' + entry.abbreviation + ')'
-    content += f' <span id={entry.id}></span>'
+for parameter in parameters:
+    content += '## ' + parameter.name
+    if parameter.abbreviation is not None:
+        content += ' (' + parameter.abbreviation + ')'
+    content += f' <span id={parameter.id}></span>'
     content += '\n'
-    if len(entry.notes) != 0:
-        for note in entry.notes:
+    if len(parameter.notes) != 0:
+        for note in parameter.notes:
             content += format_note(note)
 content += '\n\n---\n'
 content += '# Relations\n\n'
@@ -132,7 +135,7 @@ for connection in connections:
 for _ in range(100):
     content += '<br>'
 content += 'The space above is here just to make the relative links work nicely even for the last entries :)'
-file = open("./page.md", "w")
+file = open("./build/page.md", "w")
 file.write(content)
 file.close()
-print('Saved website into ./page.md')
+print('Saved website into ./build/page.md')

@@ -41,6 +41,29 @@ To give your suggestions and fixes (with references) please open a [github issue
 * [Comparing Graph Parameters](https://fpt.akt.tu-berlin.de/publications/theses/BA-Schr%C3%B6der.pdf) by J. Ch. B. Schröder
 * 2010 [Comparing 17 graph parameters](https://core.ac.uk/download/pdf/30926677.pdf) by Róbert Sasák
 
+## Generating content
+
+In `scripts` folder, there are python source codes that generate the static content.
+The content is pushed in the repository so there is no need to regenerate it to view raw website, however, it may be useful for seeing changed made to the data.
+We use `venv` to manage python's enviroment.
+Running the following activates the virtual python environment for you and it should 
+
+```sh
+cd scripts
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+```
+
+Now run `./build.py` to generate the content.
+
+To add a new package:
+
+```sh
+pip install new_pip_package
+pip freeze > requirements.txt
+```
+
 ## Rendering
 
 First, download git submodule for theme.

@@ -1,3 +1,4 @@
-page.md
-parameters*
+.venv
+/build/**
+!/build/.keep
 __pycache__
