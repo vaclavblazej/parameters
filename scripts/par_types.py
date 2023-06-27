@@ -39,7 +39,7 @@ graph_type = CustomType(
 ################################################################################
 
 class Parameter:
-    def __init__(self, id, name, hue, notes, abbreviation=None, isgci=None):
+    def __init__(self, id, name, hue, notes, abbreviation=None, isgci=None, topics=None):
         data.parameters.append(self)
         self.type = parameter_type
         self.id = id
@@ -48,6 +48,9 @@ class Parameter:
         self.hue = hue
         self.notes = notes
         self.isgci = isgci
+        self.topics = []
+        if topics is not None:
+            self.topics = topics
         self.below = []
         self.above = []
         self.bounded_for = []
@@ -79,6 +82,12 @@ class UpperBound:
         self.known_strict = False
         self.fr.below.append(self.to)
         self.to.above.append(self.fr)
+
+class Topic:
+    def __init__(self, id, name, description):
+        self.id = id
+        self.name = name
+        self.description = description
 
 class Note:
     def __init__(self, id, url, text):

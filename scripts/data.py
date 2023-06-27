@@ -1,10 +1,17 @@
 import par_types
 import par_processing
 
-from par_types import Data, Parameter, Note, UpperBound, GraphClass, HasBounded, HasUnbounded
+from par_types import Data, Parameter, Note, UpperBound, GraphClass, HasBounded, HasUnbounded, Topic
 
 def export():
     return par_processing.postprocess(par_types.data)
+
+################################################################################
+## Topics connected to some parameters #########################################
+################################################################################
+
+top_metric = Topic(id = "!wpYsel", name = "metric", description = "Typically used in metric spaces.")
+top_drawing = Topic(id = "!lJJaYb", name = "drawing", description = "Closely tied to drawing the graph onto a topological space.")
 
 ################################################################################
 ## Parameters ##################################################################
@@ -42,7 +49,7 @@ degeneracy = Parameter(id = "!m2q96O", name = "degeneracy", hue = 0.2, isgci = 1
     ])
 genus = Parameter(id = "!gbaHdw", name = "genus", hue = 0.3, isgci = 23, notes = [
     Note(id = "!8ryhNq", url = "https://en.wikipedia.org/wiki/Genus_(mathematics)#Graph_theory", text = "The genus of a graph is the minimal integer $n$ such that the graph can be drawn without crossing itself on a sphere with $n$ handles.")
-    ])
+    ], topics = [top_drawing])
 boxicity = Parameter(id = "!j1rrOV", name = "boxicity", hue = 0.2, notes = [
     Note(id = "!XWbXPm", url = "https://en.wikipedia.org/wiki/Boxicity", text = "The boxicity of a graph is the minimum dimension in which a given graph can be represented as an intersection graph of axis-parallel boxes.")
     ])
@@ -110,7 +117,7 @@ clique_cover_num = Parameter(id = "!VomShB", name = "clique cover number", hue =
     ])
 max_independent_set = Parameter(id = "!mHtXUU", name = "maximum independent set", hue = 0.9, isgci = 8, notes = [
     Note(id = "!0cYayY", url = "https://en.wikipedia.org/wiki/Maximal_independent_set", text = "For a graph $G=(V,E)$, an independent set $S$ is a maximal independent set if for $v \\in V$, one of the following is true: 1) $v \\in S$ 2), $N(v) \\cap S \\ne \\emptyset$ where $N(v)$ denotes the neighbors of $v$. ... the largest maximum independent set of a graph is called a maximum independent set.")
-])
+    ])
 domination_num = Parameter(id = "!Gq0onN", name = "domination number", hue = 1, isgci = 5, notes = [
     Note(id = "!82RsGb", url = "https://mathworld.wolfram.com/DominationNumber.html", text = "The domination number $\\gamma(G)$ of a graph $G$ is the minimum size of a dominating set of vertices in $G$ ...")
     ])
@@ -140,10 +147,10 @@ twinwidth = Parameter(id = "!VipBQc", name = "twinwidth", hue = 0.6, notes = [
     ])
 book_thickness = Parameter(id = "!pKMM6O", name = "book thickness", hue = 0.3, isgci = 32, notes = [
     Note(id = "!YGmwCG", url = "https://en.wikipedia.org/wiki/Book_embedding", text = "... a book embedding is a generalization of planar embedding of a graph to embeddings into a book, a collection of half-planes all having the same line as their boundary. Usually, the vertices of the graph are required to lie on this boundary line, called the spine, and the edges are required to stay within a single half-plane. The book thickness of a graph is the smallest possible number of half-planes for any book embedding of the graph.")
-    ])
+    ], topics = [top_drawing])
 dist_planar = Parameter(id = "!3Xj5rP", name = "distance to planar", hue = 0.3, notes = [
     Note(id = "!MBBkVW", url = None, text = "We can remove $k$ vertices to obtain a graph from the graph class mentioned in name of this parameter.")
-    ])
+    ], topics = [top_drawing])
 diameter = Parameter(id = "!QF9fW9", name = "diameter", hue = 0.2, isgci = 6, notes = [
     Note(id = "!055mG5", url = "https://en.wikipedia.org/wiki/Distance_(graph_theory)#Related_concepts", text = "... [diameter] is the greatest distance between any pair of vertices ...")
     ])
