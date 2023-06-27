@@ -204,13 +204,16 @@ dist_co_cluster = Parameter(id = "!ioPkQ0", name = "distance to co-cluster", hue
 ################################################################################
 
 graph_inclusion = Note(id = "!UQLQ2Q", url = None, text = "By graph inclusion of the remaining graph classes.")
+definition = Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+simple = Note(id = "!aQyAEM", url = None, text = "by a simple observation")
+
 
 UpperBound(id = "!9V7MFq", fr = treewidth, to = cliquewidth, notes = [
     Note(id = "!DKZYEb", url = None, text = "A nice tree decomposition yields a clique width decomposition of bounded number of labels as the forgotten vertices get one color and bag vertices get each its own color.")
     ])
 UpperBound(id = "!2FIPpF", fr = treewidth, to = book_thickness, notes = [])
 UpperBound(id = "!c7lkhf", fr = pathwidth, to = treewidth, notes = [
-    Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+    definition
     ])
 UpperBound(id = "!tKCHeJ", fr = treedepth, to = pathwidth, notes = [
     Note(id = "!q3qJkr", url = None, text = "Saving the set of open vertices in a DFS over the tree treedepth after every step yields bags of a nice path decomposition.")
@@ -232,7 +235,7 @@ UpperBound(id = "!XuYoYh", fr = fvs, to = dist_cycles, notes = [
     graph_inclusion
     ])
 UpperBound(id = "!9Pdp4G", fr = fes, to = fvs, notes = [
-    Note(id = "!aQyAEM", url = None, text = "by a simple observation")
+    simple
     ])
 UpperBound(id = "!12cxS9", fr = fes, to = genus, notes = [
     Note(id = "!8dQ8Us", url = None, text = "Removing $k$ edges creates a forest that is embeddable into the plane. We now add one handle for each of the $k$ edges to get embedding into $k$-handle genus.")
@@ -250,22 +253,22 @@ UpperBound(id = "!5z03w7", fr = cliquewidth, to = twinwidth, notes = [
     Note(id = "!08lETp", url = None, text = "Once two vertices have the same label they share their neighborhood with respect to all vertices they are connected to further. So to get a twinwidth sequence we merge all vertices that get same labels. Hence, red edges may occur only between different labels and the maximum red degree is bounded by the number of labels.")
     ])
 UpperBound(id = "!juphuT", fr = chromatic_num, to = max_clique, notes = [
-    Note(id = "!aQyAEM", url = None, text = "by a simple observation")
+    simple
     ])
 UpperBound(id = "!DjfbnG", fr = chromatic_num, to = chordality, notes = [])
 UpperBound(id = "!P4jZlH", fr = degeneracy, to = chromatic_num, notes = [
     Note(id = "!uKFrrb", url = None, text = "Greedily color the vertices in order of the degeneracy ordering. As each vertex has at most $k$ colored predecesors we use at most $k+1$ colors.")
     ])
 UpperBound(id = "!ncjZd0", fr = degeneracy, to = average_degree, notes = [
-    Note(id = "!aQyAEM", url = None, text = "by a simple observation")
+    simple
     ])
 UpperBound(id = "!8JcAxM", fr = genus, to = book_thickness, notes = [])
 UpperBound(id = "!ljoRXM", fr = boxicity, to = chordality, notes = [])
 UpperBound(id = "!PTu5gn", fr = max_degree, to = hindex, notes = [
-    Note(id = "!aQyAEM", url = None, text = "by a simple observation")
+    simple
     ])
 UpperBound(id = "!9uKn16", fr = min_degree, to = edge_connectivity, notes = [
-    Note(id = "!aQyAEM", url = None, text = "by a simple observation")
+    simple
     ])
 UpperBound(id = "!l4bNpX", fr = min_degree, to = domatic_num, notes = [
     Note(id = "!UYpwYn", url = None, text = "The vertex of minimum degree needs to be dominated in each of the sets. As the sets cannot overlap there can be at most $k+1$ of them.")
@@ -283,7 +286,7 @@ UpperBound(id = "!MKUFA8", fr = bandwidth, to = bisection_bandwidth, notes = [
     Note(id = "!LyJWeW", url = None, text = "Order vertices by their bandwidth integer. We split the graph in the middle of this ordering. There are at most roughly $k^2/2$ edges over this split.")
     ])
 UpperBound(id = "!sMfXRo", fr = bisection_bandwidth, to = edge_connectivity, notes = [
-    Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+    definition
     ])
 UpperBound(id = "!mgFizL", fr = max_leaf_num, to = bandwidth, notes = [])
 UpperBound(id = "!8oOsXL", fr = max_leaf_num, to = dist_lin_forest, notes = [])
@@ -306,13 +309,13 @@ UpperBound(id = "!FM1wVJ", fr = dist_cluster, to = dist_interval, notes = [
     graph_inclusion
     ])
 UpperBound(id = "!7RXwqI", fr = dist_cluster, to = dist_cograph, notes = [
-    Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+    definition
     ])
 UpperBound(id = "!fKpyMg", fr = dist_interval, to = dist_chordal, notes = [
     graph_inclusion
     ])
 UpperBound(id = "!hKjhJE", fr = dist_interval, to = boxicity, notes = [
-    Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+    definition
     ])
 UpperBound(id = "!piRTZw", fr = dist_chordal, to = dist_perfect, notes = [
     graph_inclusion
@@ -334,13 +337,13 @@ UpperBound(id = "!wKsJTT", fr = dist_const, to = vertex_integrity, notes = [
     graph_inclusion
     ])
 UpperBound(id = "!10tIHQ", fr = vertex_integrity, to = treedepth, notes = [
-    Note(id = "!aQyAEM", url = None, text = "by a simple observation")
+    simple
     ])
 UpperBound(id = "!g8LSVx", fr = dist_stars, to = treedepth, notes = [
-    Note(id = "!aQyAEM", url = None, text = "by a simple observation")
+    simple
     ])
 UpperBound(id = "!Tr2Ih9", fr = dist_clique, to = dist_cluster, notes = [
-    Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+    definition
     ])
 UpperBound(id = "!0mwDzZ", fr = dist_clique, to = clique_cover_num, notes = [
     Note(id = "!bYybsT", url = None, text = "We cover the $k$ vertices of the modulator by cliques of size $1$ and cover the remaining clique by another one.")
@@ -361,19 +364,19 @@ UpperBound(id = "!kXNdFI", fr = dist_bipartite, to = chromatic_num, notes = [
     Note(id = "!xrVJqb", url = None, text = "Removed vertices get one color each and we need only $2$ colors for the rest.")
     ])
 UpperBound(id = "!YHgf7M", fr = average_degree, to = min_degree, notes = [
-    Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+    definition
     ])
 UpperBound(id = "!1LfCs5", fr = book_thickness, to = acn, notes = [])
 UpperBound(id = "!pEHP0K", fr = dist_planar, to = acn, notes = [])
 UpperBound(id = "!hTp0QP", fr = diameter, to = average_distance, notes = [
-    Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+    definition
     ])
 UpperBound(id = "!x9pao2", fr = average_distance, to = girth, notes = [])
 UpperBound(id = "!v4djMN", fr = max_leaf_num, to = fes, notes = [])
 UpperBound(id = "!gQqUuq", fr = max_induced_matching, to = diameter, notes = [])
 UpperBound(id = "!uzK8uZ", fr = max_independent_set, to = max_induced_matching, notes = [])
 UpperBound(id = "!ySKjme", fr = max_matching, to = max_induced_matching, notes = [
-    Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+    definition
     ])
 UpperBound(id = "!cYFhiJ", fr = branch_width, to = treewidth, notes = [])
 UpperBound(id = "!J94Xp2", fr = treewidth, to = branch_width, notes = [])
@@ -390,7 +393,7 @@ UpperBound(id = "!ZXIraS", fr = vc, to = max_matching, notes = [
     Note(id = "!gBA7dc", url = "https://en.wikipedia.org/wiki/K%C5%91nig%27s_theorem_(graph_theory)", text = "Kőnig's theorem")
     ])
 UpperBound(id = "!haGgbI", fr = edge_connectivity, to = vertex_connectivity, notes = [
-    Note(id = "!aQyAEM", url = None, text = "by a simple observation")
+    simple
     ])
 UpperBound(id = "!tSmPSE", fr = vc, to = neighborhood_diversity, notes = [
     Note(id = "!YgTRtT", url = "https://link.springer.com/article/10.1007/s00453-011-9554-x", text = "Construct $k$ singleton sets, one for each vertex in the vertex cover and at most $2^k$ additional sets, one for each subset of vertices of the vertex cover. ...")
@@ -398,7 +401,7 @@ UpperBound(id = "!tSmPSE", fr = vc, to = neighborhood_diversity, notes = [
 UpperBound(id = "!WxT333", fr = neighborhood_diversity, to = shrub_depth, notes = [])
 UpperBound(id = "!1r3KyM", fr = twin_cover_num, to = shrub_depth, notes = [])
 UpperBound(id = "!2f2OYD", fr = twin_cover_num, to = dist_cluster, notes = [
-    Note(id = "!DQzjIV", url = None, text = "By definition. One parameter is special case of the other.")
+    definition
     ])
 UpperBound(id = "!7rSPl5", fr = vc, to = twin_cover_num, notes = [
     graph_inclusion
