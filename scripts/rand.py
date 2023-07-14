@@ -14,6 +14,6 @@ def rand_alphanum():
 
 
 def new_id(length):
-    return '!' + ''.join([rand_alphanum() for _ in range(length)])
+    return ''.join([rand_alphanum() for _ in range(length)])
 
 print(new_id(6))

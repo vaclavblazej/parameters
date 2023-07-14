@@ -87,3 +87,8 @@ This project is licensed under [MIT](LICENSE) license.
 ## Authors and Contributors
 
 * [Václav Blažej](https://blazeva1.pages.fit/)
+
+contributors
+
+* [Šimon Schierreich](https://pages.fit.cvut.cz/schiesim/)
+* Jan Pokorný

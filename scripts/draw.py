@@ -6,6 +6,18 @@
 
 import data
 import graphviz
+import latex2markdown
+
+import par_types
+from par_types import Note, Cite, ISGCI, Parameter, GraphClass
+
+from pybtex.database.input import bibtex
+parser = bibtex.Parser()
+bib_data = parser.parse_file('main.bib')
+
+
+def latex_to_markdown(latext):
+    return latex2markdown.LaTeX2Markdown(latext).to_markdown()
 
 
 def hex_to_rgb(value):
@@ -31,96 +43,201 @@ def avg_color(color1, color2, weight):
 
 
 data = data.export()
-parameters = data.parameters
-connections = data.connections
 
 print('processing data ...')
-print("parameters:", len(parameters))
-print("connections:", len(connections))
+print("parameters:", len(data.parameters))
+print("connections:", len(data.connections))
 
-def render_with_colors(filename, entry_coloring_function):
+
+class DrawNode:
+
+    def __init__(self, node):
+        self.node = node
+
+    def draw(self, digraph, entry_coloring_function):
+        digraph.node(self.node.id,
+                     label=self.node.name,
+                     URL='./#'+self.node.id,
+                     shape='box',
+                     color=entry_coloring_function(self.node))
+
+
+def drawNode(node):
+    if hasattr(data, 'equivalencies'):
+        for eq in data.equivalencies:
+            if eq.removed == node:
+                return None
+    return DrawNode(node)
+
+
+def linkto(text, node_or_url):
+    if hasattr(node_or_url, 'id'):
+        return f'[{text}]({node_or_url.id})'
+    else:
+        return f'[{text}]({node_or_url})'
+
+
+def remap(id):
+    remap_eqiv = dict()
+    for eq in data.equivalencies:
+        remap_eqiv[eq.removed.id] = eq.persist.id
+    if id in remap_eqiv.keys():
+        return remap_eqiv[id]
+    return id
+
+
+def render_graph_classes(filename, entry_coloring_function):
     u = graphviz.Digraph('unix',
                          filename=filename,
                          directory="build",
-                         node_attr={'color': 'lightblue2', 'style': 'filled'})
+                         node_attr={'color': 'lightblue2', 'style': 'filled'},
+                         )
     u.attr(size='6,6', margin='0.04')
-    for parameter in parameters:
-        u.node(parameter.id,
-               label=parameter.name,
-               URL='./#'+parameter.id,
-               shape='box',
-               color=entry_coloring_function(parameter))
-    for connection in connections:
+    drawNodes = list(filter(lambda x: x is not None, map(lambda x: drawNode(x), data.graph_classes)))
+    for node in drawNodes:
+        node.draw(u, entry_coloring_function)
+    for inclusion in data.graph_inclusions:
         style = {
-               "URL": './#'+connection.id,
+               "URL": './#'+inclusion.id,
                "decorate": 'true',
-               "lblstyle": "above, sloped"
+               "lblstyle": "above, sloped",
+               "color": "gray",
+               "weight": "1",
         }
-        if len(connection.notes) != 0:
-            style.update({"label": '⬤'})
-        if connection.known_strict:
-            style.update({"arrowhead": 'icurve'})
-        u.edge(connection.fr.id, connection.to.id, **style)
+        u.edge(inclusion.subclass.id, inclusion.superclass.id, **style)
     u.render()
     print(f'Rendered ./build/{filename}.pdf')
 
+
+def render_parameters(filename, entry_coloring_function):
+    u = graphviz.Digraph('unix',
+                         filename=filename,
+                         directory="build",
+                         node_attr={'color': 'lightblue2', 'style': 'filled'},
+                         )
+    u.attr(size='6,6', margin='0.04')
+    drawNodes = list(filter(lambda x: x is not None, map(lambda x: drawNode(x), data.parameters)))
+    for node in drawNodes:
+        node.draw(u, entry_coloring_function)
+    for connection in data.connections:
+        style = {
+               "URL": './#'+connection.id,
+               "decorate": 'true',
+               "lblstyle": "above, sloped",
+               "color": "gray",
+               "weight": "1",
+        }
+        if connection.upper_bound != par_types.MAX_NONE:
+            style.update({"color": "black"})
+        if connection.upper_bound == par_types.LINEAR:
+            style.update({"penwidth": "3.0", "weight": "100"})
+        if connection.upper_bound == par_types.POLYNOMIAL:
+            style.update({"penwidth": "1.0", "weight": "20"})
+        if connection.upper_bound == par_types.EXPONENTIAL:
+            style.update({"penwidth": "1.0", "weight": "4", "style": "dotted"})
+        style.update({"label": '⬤'})
+        if len(list(filter(lambda x: isinstance(x, Cite), connection.notes))) != 0:
+            style.update({"fontcolor": 'black'})
+        else:
+            style.update({"fontcolor": 'gray'})
+        arrowhead = []
+        if connection.known_strict:
+            arrowhead.append('icurve')
+        else:
+            arrowhead.append('normal')
+        if connection.known_optimal_head:
+            arrowhead.append('tee')
+        if connection.known_optimal_tail:
+            style.update({"arrowtail": 'tee', 'dir': 'both'})
+        style.update({"arrowhead": 'none'.join(arrowhead)})
+        u.edge(remap(connection.fr.id), remap(connection.to.id), **style)
+    u.render()
+    print(f'Rendered ./build/{filename}.pdf')
+
+
 def color_by_hue(parameter):
-    return '#'+avg_color('e0e0e0', '90c0f0', parameter.hue)
+    return '#e0e0e0'
+    #  return '#'+avg_color('e0e0e0', '90c0f0', parameter.hue)
 
-render_with_colors('parameters', color_by_hue)
 
-def color_by_graphclass(parameter, graphclass):
+def color_by_inclusion(parameter, graphclass):
     if graphclass in parameter.bounded_for and graphclass in parameter.unbounded_for:
+        print(f'WARNING: {parameter.name} is both bounded and unbounded for {graphclass.name}')
         col = '#6666dd'
     elif graphclass in parameter.bounded_for:
-        col = '#dd0000'
-    elif graphclass in parameter.unbounded_for:
         col = '#00aa00'
+    elif graphclass in parameter.unbounded_for:
+        col = '#dd0000'
     else:
         col = '#ddaa00'
     return col
 
-for gc in data.graph_classes:
-    render_with_colors(gc.name, lambda x: color_by_graphclass(x, gc))
+
+#  render_parameters('parameters', color_by_hue)
+#  render_graph_classes('graphs', color_by_hue)
+
+#  for gc in data.graph_classes:
+    #  render_parameters(gc.name, lambda x: color_by_inclusion(x, gc))
+#  for par in data.parameters:
+    #  render_graph_classes(par.name, lambda x: color_by_inclusion(par, x))
 
 
 def format_note(note):
     res = ''
-    res += '* '
-    if note.url is not None:
-        res += f'[↗]({note.url}) '
-    res += note.text
-    res += '\n'
+    if isinstance(note, ISGCI):
+        gc_base = 'https://www.graphclasses.org'
+        link = None
+        if isinstance(note.parent, Parameter):
+            link = f'{gc_base}/classes/par_{note.code}.html'
+        if isinstance(note.parent, GraphClass):
+            link = f'{gc_base}/classes/gc_{note.code}.html'
+        if link is not None:
+            res += f'* graphclasses.org: [{note.parent.name}]({link})\n'
+    if isinstance(note, Note):
+        res += f'* {latex_to_markdown(note.text)}\n'
+    if isinstance(note, Cite):
+        res += '* '
+        if 'url' in note.kwargs:
+            res += f'[↗]({note.kwargs["url"]}) '
+        if 'source' in note.kwargs:
+            source = note.kwargs["source"]
+            res += f'[{source.sourcekey}](#{source.id}): '
+        res += latex_to_markdown(note.kwargs['text'])
+        res += '\n'
     return res
 
 
-#  construct and save the website
-content = ''
-content += '+++\n'
-content += '+++\n'
-content += '<!--this is a generated file-->\n\n'
-content += '**Controls:**\n'
-content += 'Zoom with Ctrl+wheel and move with wheel & Shift+wheel.\n'
-content += 'Click nodes or circles at edges to jump to the relevant section with definition or inclusion proof.\n'
-content += 'Empty circles are waiting for the proof with a link to be added to this database.'
-content += '\n'
-content += '<object data="parameters.pdf" type="application/pdf" width="100%" height="480px"><embed src="parameters.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="main.pdf">Download PDF</a>.</p></embed></object>'
-content += '\n\n'
-content += f'parameters: {len(parameters)}, connections: {len(connections)}'
-content += '\n\n---\n'
-content += '# Parameters\n\n'
-for parameter in parameters:
+def embed_pdf(name, height):
+    return f'\n<object data="{name}.pdf" type="application/pdf" width="100%" height="{height}px"><embed src="{name}.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="{name}.pdf">Download PDF</a>.</p></embed></object>\n\n'
+
+
+def markdown_parameter(parameter):
+    content = ''
     content += '## ' + parameter.name
-    if parameter.abbreviation is not None:
-        content += ' (' + parameter.abbreviation + ')'
+    #  if parameter.abbreviation is not None:
+        #  content += ' (' + parameter.abbreviation + ')'
     content += f' <span id={parameter.id}></span>'
     content += '\n'
     if len(parameter.notes) != 0:
         for note in parameter.notes:
             content += format_note(note)
-content += '\n\n---\n'
-content += '# Relations\n\n'
-for connection in connections:
+    content += embed_pdf(parameter.name, 280)
+    return content
+
+
+def markdown_graph_class(graph_class):
+    content = ''
+    content += f'## {graph_class.name}'
+    content += f' <span id={graph_class.id}></span>'
+    content += '\n'
+    for note in graph_class.notes:
+        content += format_note(note)
+    content += embed_pdf(graph_class.name, 280)
+    return content
+
+
+def markdown_connection(connection):
+    content = ''
     fr = connection.fr
     to = connection.to
     content += '## '
@@ -131,11 +248,96 @@ for connection in connections:
     content += '\n'
     for note in connection.notes:
         content += format_note(note)
+    return content
 
-for _ in range(100):
-    content += '<br>'
-content += 'The space above is here just to make the relative links work nicely even for the last entries :)'
-file = open("./build/page.md", "w")
-file.write(content)
-file.close()
-print('Saved website into ./build/page.md')
+
+def markdown_source(source):
+    content = ''
+    content += f'## {source.sourcekey}'
+    content += f' <span id={source.id}></span>'
+    content += '\n'
+    if source.sourcekey in bib_data.entries:
+        content += '```'
+        fields = bib_data.entries[source.sourcekey].fields
+        for key in fields:
+            value = fields[key]
+            content += key + ': ' + value + '\n'
+        content += '```'
+        content += '\n'
+    return content
+
+
+def markdown_landing_page():
+    content = ''
+    content += '**Controls:**\n'
+    content += 'Zoom with Ctrl+wheel and move with wheel & Shift+wheel.\n'
+    content += 'Click nodes or circles at edges to jump to the relevant section with definition or inclusion proof.\n'
+    content += 'Gray edges are waiting for the proof with a link to be added to this database.'
+    content += 'Edge style represents bound:'
+    content += 'Thick = linear, '
+    content += 'Thin = polynomial, and '
+    content += 'Dashed = exponential.'
+    content += embed_pdf('parameters', 480)
+    content += '\n'
+    content += f'parameters: {len(data.parameters)} and '
+    content += f'connections: {len(data.connections)}\n'
+    content += '\n'
+    content += 'Some parameters are derived from associated graph classes.\n'
+    content += 'Graph classes can be also used to derive proper inclusions.\n'
+    content += 'For these purposes, we use the following graph class hierarchy.\n'
+    content += '\n'
+    content += embed_pdf('graphs', 300)
+    content += '\n'
+    content += 'We aim to have here only the graph classes that influence parameter inclusions.\n'
+    content += 'Please, see [ISGCI](https://www.graphclasses.org/) for a comprehensive picture of graph class inclusions.\n'
+    content += '\n\n---\n'
+
+    content += '# Parameters\n\n'
+    for parameter in sorted(data.parameters, key=lambda x: x.name):
+        content += f'* {linkto(parameter.name, parameter)}\n'
+
+    #  for parameter in sorted(data.parameters, key=lambda x: len(x.unbounded_for) - len(x.bounded_for)):
+        #  content += markdown_parameter(parameter)
+
+    content += '\n\n---\n'
+    content += '# Graph classes\n\n'
+    for graph_class in sorted(data.graph_classes, key=lambda x: x.name):
+        content += f'* {linkto(graph_class.name, graph_class)}\n'
+    #  for graph_class in sorted(data.graph_classes, key=lambda x: len(x.has_unbounded) - len(x.has_bounded)):
+        #  content += markdown_graph_class(graph_class)
+
+    #  content += '\n\n---\n'
+    #  content += '# Parameter relations\n\n'
+    #  for connection in data.connections:
+        #  content += f'* {linkto(connection.name, connection)}\n'
+        #  content += markdown_connection(connection)
+
+    content += '\n\n---\n'
+    content += '# Sources\n\n'
+    for source in data.sources:
+        content += f'* {linkto(source.sourcekey, source)}\n'
+        #  content += markdown_source(source)
+
+    return content
+
+
+def make_page(pagename, content):
+    final_markdown = ''
+    final_markdown += '+++\n'
+    final_markdown += 'layout = "single"\n'
+    final_markdown += '+++\n'
+    final_markdown += '<!--this is a generated file-->\n\n'
+    final_markdown += content
+    #  for _ in range(100):
+        #  final_markdown += '<br>'
+    #  final_markdown += 'The space above is here just to make the relative links work nicely even for the last entries :)'
+    filename = f"./build/{pagename}"
+    file = open(filename, "w")
+    file.write(final_markdown)
+    file.close()
+    print(f'Saved website into {filename}')
+
+
+make_page("_index.md", markdown_landing_page())
+for entry in data.parameters:
+    make_page(f'{entry.id}.md', markdown_parameter(entry))
