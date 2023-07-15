@@ -70,6 +70,8 @@ class Parameter:
         self.bounded_for = []
         self.unbounded_for = []
         self.visible = True
+        self.hue = 0.0
+        self.equivalent_to = []
 
 
 def distanceTo(graph_class) -> Parameter:
@@ -213,11 +215,11 @@ class HasUnbounded:
         self.graph_class.not_contained_in.append(parameter)
 
 class Source:
-    def __init__(self, id, sourcekey, args):
+    def __init__(self, id, sourcekey, notes):
         data.sources.append(self)
         self.id = id
         self.sourcekey = sourcekey
-        self.args = args
+        self.notes = notes
 
 class Cite:
     def __init__(self, id, **kwargs):

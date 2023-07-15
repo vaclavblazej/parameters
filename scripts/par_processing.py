@@ -56,7 +56,8 @@ def add_equivalence_note(data):
     for eq in data.equivalencies:
         eq.persist.notes.append(Note(id=f"{eq.id}_note", text=f"is equivalent to [{eq.removed.name}](#{eq.removed.id})"))
         eq.removed.notes.append(Note(id=f"{eq.id}_note", text=f"is equivalent to [{eq.persist.name}](#{eq.persist.id}) (see more info there)"))
-    #  content += f'[{fr.name}](#{fr.id})'
+        eq.persist.equivalent_to.append(eq.removed)
+        eq.removed.equivalent_to.append(eq.persist)
 
 
 def down(entry):
@@ -123,7 +124,7 @@ def derive_connection_properties(data):
         if len(witnesses) != 0 and not connection.known_strict:
             connection.known_strict = True
             graph_class = witnesses[0]
-            strict_note = Note(connection.id + '_strict', f'This inclusion is proper because [{graph_class.name}](#{graph_class.id}) graph class has bounded "{connection.to.name}" but unbounded "{connection.fr.name}"')
+            strict_note = Note(connection.id + '_strict', f'This inclusion is proper because [{graph_class.name}](#{graph_class.id}) graph class has bounded [{connection.to.name}](../{connection.to.id}) but unbounded [{connection.fr.name}](../{connection.fr.id})')
             connection.notes.append(strict_note)
         can_move_head_up = False
         for anc in connection.to.above:

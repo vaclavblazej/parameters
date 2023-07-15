@@ -19,7 +19,7 @@ Torunczyk2023=Source("KpkMZB", "Torunczyk2023", [
 Tran2022=Source("uXViPE", "Tran2022", [
     ])
 SchroderThesis=Source("DYGiYb", "SchroderThesis", [
-    Cite(id="3Ovt5i", source=Tran2022),
+    Cite(id="3Ovt5i", source=Tran2022, text="Our goal is to expand the graph parameter hierarchy build up by Schröder [Sch]."),
     ])
 Diestel2017=Source("r2Lwky", "Diestel2017", [
     ])

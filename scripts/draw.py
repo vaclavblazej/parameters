@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-#  processes the data to produce:
-#  * parameters.pdf -- diagram of the parameters
-#  * page.md -- website that contains the pdf and info on the parameters and bounds
-
 import data
 import graphviz
 import latex2markdown
@@ -57,7 +53,7 @@ class DrawNode:
     def draw(self, digraph, entry_coloring_function):
         digraph.node(self.node.id,
                      label=self.node.name,
-                     URL='./#'+self.node.id,
+                     URL='./'+self.node.id,
                      shape='box',
                      color=entry_coloring_function(self.node))
 
@@ -98,7 +94,7 @@ def render_graph_classes(filename, entry_coloring_function):
         node.draw(u, entry_coloring_function)
     for inclusion in data.graph_inclusions:
         style = {
-               "URL": './#'+inclusion.id,
+               "URL": './'+inclusion.id,
                "decorate": 'true',
                "lblstyle": "above, sloped",
                "color": "gray",
@@ -106,22 +102,32 @@ def render_graph_classes(filename, entry_coloring_function):
         }
         u.edge(inclusion.subclass.id, inclusion.superclass.id, **style)
     u.render()
-    print(f'Rendered ./build/{filename}.pdf')
+    #  print(f'Rendered ./build/{filename}.pdf')
 
 
-def render_parameters(filename, entry_coloring_function):
+def nop(x):
+    return True
+
+
+def render_parameters(filename, entry_coloring_function, filter_vertices=nop):
     u = graphviz.Digraph('unix',
                          filename=filename,
                          directory="build",
                          node_attr={'color': 'lightblue2', 'style': 'filled'},
                          )
     u.attr(size='6,6', margin='0.04')
-    drawNodes = list(filter(lambda x: x is not None, map(lambda x: drawNode(x), data.parameters)))
+    filterPars = list(filter(filter_vertices, data.parameters))
+    drawNodes = list(filter(lambda x: x is not None, map(lambda x: drawNode(x), filterPars)))
     for node in drawNodes:
         node.draw(u, entry_coloring_function)
+    filterParIds = list(map(lambda x: remap(x.id), filterPars))
     for connection in data.connections:
+        frid = remap(connection.fr.id)
+        toid = remap(connection.to.id)
+        if frid not in filterParIds or toid not in filterParIds:
+            continue
         style = {
-               "URL": './#'+connection.id,
+               "URL": './'+connection.id,
                "decorate": 'true',
                "lblstyle": "above, sloped",
                "color": "gray",
@@ -152,12 +158,32 @@ def render_parameters(filename, entry_coloring_function):
         style.update({"arrowhead": 'none'.join(arrowhead)})
         u.edge(remap(connection.fr.id), remap(connection.to.id), **style)
     u.render()
-    print(f'Rendered ./build/{filename}.pdf')
+    #  print(f'Rendered ./build/{filename}.pdf')
+
+
+def get_close_parameters(parameter, steps=3):
+    open = [parameter]
+    next_open = []
+    visited = set()
+    for i in range(steps):
+        while len(open) != 0:
+            entry = open.pop()
+            if entry not in visited and entry not in open:
+                visited.add(entry)
+                entry.hue = 1.0-i/steps
+                next_open += entry.above + entry.below
+                open += entry.equivalent_to
+        open = next_open
+        next_open = []
+    return list(visited)
 
 
 def color_by_hue(parameter):
-    return '#e0e0e0'
-    #  return '#'+avg_color('e0e0e0', '90c0f0', parameter.hue)
+    default = 'e0e0e0'
+    if hasattr(parameter, 'hue'):
+        return '#'+avg_color(default, '90c0f0', parameter.hue)
+    else:
+        return '#'+default
 
 
 def color_by_inclusion(parameter, graphclass):
@@ -173,13 +199,17 @@ def color_by_inclusion(parameter, graphclass):
     return col
 
 
-#  render_parameters('parameters', color_by_hue)
-#  render_graph_classes('graphs', color_by_hue)
-
-#  for gc in data.graph_classes:
-    #  render_parameters(gc.name, lambda x: color_by_inclusion(x, gc))
-#  for par in data.parameters:
-    #  render_graph_classes(par.name, lambda x: color_by_inclusion(par, x))
+render_parameters('parameters', color_by_hue)
+for par in data.parameters:
+    close_pars = get_close_parameters(par)
+    if par.id == 'p5skoj_dist':
+        print(list(map(lambda x:x.name,close_pars)))
+    render_parameters('local_'+par.id, color_by_hue, lambda x: x in close_pars)
+for gc in data.graph_classes:
+    render_parameters(gc.id, lambda x: color_by_inclusion(x, gc))
+render_graph_classes('graphs', color_by_hue)
+for par in data.parameters:
+    render_graph_classes(par.id, lambda x: color_by_inclusion(par, x))
 
 
 def format_note(note):
@@ -201,7 +231,7 @@ def format_note(note):
             res += f'[↗]({note.kwargs["url"]}) '
         if 'source' in note.kwargs:
             source = note.kwargs["source"]
-            res += f'[{source.sourcekey}](#{source.id}): '
+            res += f'[{source.sourcekey}](../{source.id}): '
         res += latex_to_markdown(note.kwargs['text'])
         res += '\n'
     return res
@@ -216,23 +246,26 @@ def markdown_parameter(parameter):
     content += '## ' + parameter.name
     #  if parameter.abbreviation is not None:
         #  content += ' (' + parameter.abbreviation + ')'
-    content += f' <span id={parameter.id}></span>'
+    #  content += f' <span id={parameter.id}></span>'
     content += '\n'
     if len(parameter.notes) != 0:
         for note in parameter.notes:
             content += format_note(note)
-    content += embed_pdf(parameter.name, 280)
+    content += embed_pdf('../local_' + parameter.id, 480)
+    content += embed_pdf('../' + parameter.id, 480)
     return content
 
 
 def markdown_graph_class(graph_class):
     content = ''
     content += f'## {graph_class.name}'
-    content += f' <span id={graph_class.id}></span>'
+    #  content += f' <span id={graph_class.id}></span>'
     content += '\n'
     for note in graph_class.notes:
         content += format_note(note)
-    content += embed_pdf(graph_class.name, 280)
+    content += '\n'
+    content += f'[Graph class PDF](../{graph_class.id}.pdf)\n'
+    content += embed_pdf('../' + graph_class.id, 480)
     return content
 
 
@@ -241,10 +274,10 @@ def markdown_connection(connection):
     fr = connection.fr
     to = connection.to
     content += '## '
-    content += f'[{fr.name}](#{fr.id})'
+    content += f'[{fr.name}](../{fr.id})'
     content += ' → '
-    content += f'[{to.name}](#{to.id})'
-    content += f' <span id={connection.id}></span>'
+    content += f'[{to.name}](../{to.id})'
+    #  content += f' <span id={connection.id}></span>'
     content += '\n'
     for note in connection.notes:
         content += format_note(note)
@@ -254,55 +287,71 @@ def markdown_connection(connection):
 def markdown_source(source):
     content = ''
     content += f'## {source.sourcekey}'
-    content += f' <span id={source.id}></span>'
+    #  content += f' <span id={source.id}></span>'
     content += '\n'
     if source.sourcekey in bib_data.entries:
-        content += '```'
-        fields = bib_data.entries[source.sourcekey].fields
-        for key in fields:
-            value = fields[key]
-            content += key + ': ' + value + '\n'
-        content += '```'
+        entry = bib_data.entries[source.sourcekey]
+        url = None
+        fields = entry.fields
+        if 'url' in fields:
+            url = fields['url']
+        elif 'doi' in fields:
+            url = 'https://www.doi.org/' + fields['doi']
+        if url is not None:
+            content += f'[{url}]({url})\n'
+        content += '```\n'
+        content += entry.to_string('bibtex')
+        content += '```\n'
+        for note in source.notes:
+            content += format_note(note)
         content += '\n'
     return content
 
 
 def markdown_landing_page():
     content = ''
-    content += '**Controls:**\n'
-    content += 'Zoom with Ctrl+wheel and move with wheel & Shift+wheel.\n'
-    content += 'Click nodes or circles at edges to jump to the relevant section with definition or inclusion proof.\n'
+    content += '**PDF Controls:**\n'
+    content += 'Zoom with Ctrl+wheel, Click nodes or edge-circles to open relevant page.\n'
+    content += '\n'
     content += 'Gray edges are waiting for the proof with a link to be added to this database.'
     content += 'Edge style represents bound:'
     content += 'Thick = linear, '
     content += 'Thin = polynomial, and '
-    content += 'Dashed = exponential.'
+    content += 'Dashed = exponential.\n'
+    content += '\n'
+    content += 'This page lists:\n'
+    content += '* [parameters](#parameters)\n'
+    content += '* [graph classes](#graph-classes)\n'
+    content += '* [sources](#sources)\n'
+
+    content += '\n\n---\n'
+    content += '# Parameters\n\n'
+    content += '[Parameter hierarchy PDF](parameters.pdf)\n'
     content += embed_pdf('parameters', 480)
     content += '\n'
-    content += f'parameters: {len(data.parameters)} and '
-    content += f'connections: {len(data.connections)}\n'
-    content += '\n'
-    content += 'Some parameters are derived from associated graph classes.\n'
-    content += 'Graph classes can be also used to derive proper inclusions.\n'
-    content += 'For these purposes, we use the following graph class hierarchy.\n'
-    content += '\n'
-    content += embed_pdf('graphs', 300)
-    content += '\n'
-    content += 'We aim to have here only the graph classes that influence parameter inclusions.\n'
-    content += 'Please, see [ISGCI](https://www.graphclasses.org/) for a comprehensive picture of graph class inclusions.\n'
-    content += '\n\n---\n'
-
-    content += '# Parameters\n\n'
+    content += f'{len(data.parameters)} parameters and '
+    content += f'{len(data.connections)} connections\n'
     for parameter in sorted(data.parameters, key=lambda x: x.name):
         content += f'* {linkto(parameter.name, parameter)}\n'
+
+    content += '\n\n---\n'
+    content += '# Graph classes\n\n'
+    content += 'Some parameters are derived from associated graph classes.\n'
+    content += 'Graph classes can be also used as witnesses of proper inclusions.\n'
+    content += 'For these purposes, we use the following graph class hierarchy.\n'
+    content += '\n'
+    content += 'We aim to have here only the graph classes that influence parameter inclusions.\n'
+    content += 'Please, see [Information System on Graph Classes and their Inclusions (ISGCI)](https://www.graphclasses.org/) for an exhaustive list of graph classes and their inclusions.\n'
+    content += '\n'
+    content += '[Graph hierarchy PDF](graphs.pdf)\n'
+    content += embed_pdf('graphs', 420)
+    content += '\n'
+    for graph_class in sorted(data.graph_classes, key=lambda x: x.name):
+        content += f'* {linkto(graph_class.name, graph_class)}\n'
 
     #  for parameter in sorted(data.parameters, key=lambda x: len(x.unbounded_for) - len(x.bounded_for)):
         #  content += markdown_parameter(parameter)
 
-    content += '\n\n---\n'
-    content += '# Graph classes\n\n'
-    for graph_class in sorted(data.graph_classes, key=lambda x: x.name):
-        content += f'* {linkto(graph_class.name, graph_class)}\n'
     #  for graph_class in sorted(data.graph_classes, key=lambda x: len(x.has_unbounded) - len(x.has_bounded)):
         #  content += markdown_graph_class(graph_class)
 
@@ -323,21 +372,27 @@ def markdown_landing_page():
 
 def make_page(pagename, content):
     final_markdown = ''
-    final_markdown += '+++\n'
-    final_markdown += 'layout = "single"\n'
-    final_markdown += '+++\n'
+    final_markdown += '---\n'
+    final_markdown += 'layout: "single"\n'
+    final_markdown += 'title: "Parameters hierarchy"\n'
+    final_markdown += '---\n'
     final_markdown += '<!--this is a generated file-->\n\n'
     final_markdown += content
-    #  for _ in range(100):
-        #  final_markdown += '<br>'
-    #  final_markdown += 'The space above is here just to make the relative links work nicely even for the last entries :)'
     filename = f"./build/{pagename}"
     file = open(filename, "w")
     file.write(final_markdown)
     file.close()
-    print(f'Saved website into {filename}')
+    #  print(f'Saved website into {filename}')
 
 
 make_page("_index.md", markdown_landing_page())
 for entry in data.parameters:
     make_page(f'{entry.id}.md', markdown_parameter(entry))
+for entry in data.graph_classes:
+    make_page(f'{entry.id}.md', markdown_graph_class(entry))
+for entry in data.connections:
+    make_page(f'{entry.id}.md', markdown_connection(entry))
+for entry in data.sources:
+    make_page(f'{entry.id}.md', markdown_source(entry))
+#  for entry in data.inclusions:
+    #  make_page(f'{entry.id}.md', markdown_inclusion(entry))
