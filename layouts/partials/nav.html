@@ -1,0 +1,14 @@
+<header>
+    <div class="menu">
+        <div class="inner">
+            <div class="left">
+                {{- range .Ancestors.Reverse }}
+                <span><a href="{{ .RelPermalink }}">← {{ .Title }}&nbsp;&nbsp;</a></span>
+                {{- end }}
+            </div>
+            <div class="right">
+                <a href="#">&uarr;Back to top</a>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,3 +1,35 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #420e0e;
+}
+
+header .menu {
+    max-width: 62em;
+    margin: auto;
+}
+
+header .menu .inner {
+    margin: 0 0.5em 0.5em 0.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header .menu .inner .right {
+    float: right;
+}
+
+main {
+    padding-top: 2em;
+}
+
+body {
+    max-width: 62em;
+}
+
 .imagebuttons {
     display: flex;
     flex-direction: column;
@@ -41,3 +73,14 @@
     padding: 10px;
     font-weight: bold;
 }
+
+li {
+    margin-bottom: 0;
+}
+
+.wide {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
