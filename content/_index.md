@@ -1,18 +1,22 @@
-+++
-+++
+---
+title: "Signpost"
+---
+
+# Parameters hierarchy signpost
 
 ---
 
-*Welcome, we collect parameters from the field of parameterized complexity analysis and create views and exports of them.*
+*Welcome, we collect parameters, their relations, and references to relevant publications.*
 
 This project is in its baby phase so we are grateful for any feedback.
-You may write us a [mail](mailto:vaclav.blazej@warwick.ac.uk) or [raise a GitHub issue](https://github.com/vaclavblazej/parameters/issues).
+[Write a mail to us](mailto:vaclav.blazej@warwick.ac.uk) or [raise a GitHub issue](https://github.com/vaclavblazej/parameters/issues).
+Sources for this page are available online on [GitHub](https://github.com/vaclavblazej/parameters)
 
 <div class="imagebuttons">
-    {{< imagebutton "Web view" "html/" "html/img.png" >}}
+    {{< imagebutton "Website view" "html/" "images/html.png" >}}
 </div>
 
-Sources for this page are available on [GitHub](https://github.com/vaclavblazej/parameters)
+<br/>
 
 * Any copied material has a source link -- this is the preferred way. Everything else will be slowly replaced.
 
