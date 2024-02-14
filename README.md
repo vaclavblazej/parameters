@@ -1,4 +1,8 @@
-# HOPS frontend code
+# HOPS frontend setup and generated markdowns
+
+This repository contains content that is ready to be displayed on [HOPS](vaclavblazej.github.io/parameters/) when rendered using Hugo framework.
+
+To see the source of the data about parameters look at [parameters-code](https://github.com/vaclavblazej/parameters-code) which contains all relevant entries and generates the `content` folder of this repository.
 
 ## Repository folders and files
 
