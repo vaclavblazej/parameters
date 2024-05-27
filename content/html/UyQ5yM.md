@@ -1,15 +1,26 @@
----
-layout: "single"
-title: "Parameters hierarchy"
----
-<!--this is a generated file-->
+# maximum degree
 
-## maximum degree
-* graphclasses.org: [maximum degree](https://www.graphclasses.org/classes/par_28.html)
-* maximum degree of graph's vertices
+
+
 
 <object data="../local_UyQ5yM.pdf" type="application/pdf" width="100%" height="480px"><embed src="../local_UyQ5yM.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../local_UyQ5yM.pdf">Download PDF</a>.</p></embed></object>
 
 
-<object data="../UyQ5yM.pdf" type="application/pdf" width="100%" height="480px"><embed src="../UyQ5yM.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../UyQ5yM.pdf">Download PDF</a>.</p></embed></object>
+<object data="../inclusions_UyQ5yM.pdf" type="application/pdf" width="100%" height="480px"><embed src="../inclusions_UyQ5yM.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../inclusions_UyQ5yM.pdf">Download PDF</a>.</p></embed></object>
 
+* 2013 [Belmonte2013]({{< base >}}html/sJ476m)
+    * [carving-width]({{< base >}}html/dS6OgO) $k$ upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by $\mathcal O(k)$ -- Observation 1. Let $G$ be a graph. Then $cw(G) \ge \Delta(G)$.
+* 2010/08 [Sasak2010]({{< base >}}html/XlBXyo)
+    * page 28 : [cutwidth]({{< base >}}html/TLx1pz) $k$ upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by $\mathcal O(k)$ -- Lemma 2.18. For any graph $G$ and any vertex $v \in V(G), cutw(g) \ge \lceil \frac{deg(v)}2 \rceil$.
+*  [unknown](#)
+    * [pathwidth+maxdegree]({{< base >}}html/6BWcgd) $k$ upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by $\mathcal O(k)$ -- by definition
+    * [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [distance to maximum degree]({{< base >}}html/distance_to_UyQ5yM) by a constant -- by definition
+    * [maximum degree]({{< base >}}html/UyQ5yM) $k$ upper bounds [h-index]({{< base >}}html/GNTwUS) by $\mathcal O(k)$ -- As h-index seeks $k$ vertices of degree $k$ it is trivially upper bound by maximum degree.
+    * [bandwidth]({{< base >}}html/aP5a38) $k$ upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by $\mathcal O(k)$ -- Each vertex has an integer $i$ and may be connected only to vertices whose difference from $i$ is at most $k$. There are at most $k$ bigger and $k$ smaller such neighbors.
+    * [maximum degree]({{< base >}}html/UyQ5yM) -- maximum degree of graph's vertices
+    * [grid]({{< base >}}html/lfYXuK) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant
+    * bounded [planar]({{< base >}}html/loZ5LD) does not imply bounded [maximum degree]({{< base >}}html/UyQ5yM)
+*  [SchroderThesis]({{< base >}}html/DYGiYb)
+    * page 24 : bounded [vertex cover]({{< base >}}html/4lp9Yj) does not imply bounded [maximum degree]({{< base >}}html/UyQ5yM) -- Proposition 3.19
+    * page 28 : bounded [maximum degree]({{< base >}}html/UyQ5yM) does not imply bounded [clique width]({{< base >}}html/wg5HuV) -- Proposition 3.26
+    * page 28 : bounded [maximum degree]({{< base >}}html/UyQ5yM) does not imply bounded [bisection bandwidth]({{< base >}}html/wUdmUb) -- Proposition 3.26

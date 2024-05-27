@@ -1,0 +1,3 @@
+# Online source YGmwCG
+
+* [book thickness]({{< base >}}html/doijTS) -- ... a book embedding is a generalization of planar embedding of a graph to embeddings into a book, a collection of half-planes all having the same line as their boundary. Usually, the vertices of the graph are required to lie on this boundary line, called the spine, and the edges are required to stay within a single half-plane. The book thickness of a graph is the smallest possible number of half-planes for any book embedding of the graph.

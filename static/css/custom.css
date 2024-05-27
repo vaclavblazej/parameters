@@ -1,3 +1,63 @@
+html {
+    font-size: 66%;
+    font-family: Roboto;
+}
+
+body {
+    font-size: 1.8em;
+    max-width: 38em;
+    margin: auto;
+    color: #dddddd;
+    background-color: #120c0e;
+    padding: 13px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    font-family: Roboto;
+    margin-bottom: .3em;
+    overflow-wrap: break-word;
+}
+
+h1 .glow {
+    text-shadow: 0 0 3.2px #e26f7a;
+}
+
+h1 {
+    font-size: 2.35em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+h2 { font-size: 2.00em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.25em; }
+h6 { font-size: 1em; }
+
+p {
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
+}
+
+small, sub, sup {
+    font-size: 75%;
+}
+
+hr {
+    border-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: #e26f7a;
+}
+a:hover {
+    color: #DA4453;
+    border-bottom: 2px solid #d9d8dc;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -12,7 +72,7 @@ header .menu {
 }
 
 header .menu .inner {
-    margin: 0 0.5em 0.5em 0.5em;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -23,7 +83,7 @@ header .menu .inner .right {
 }
 
 main {
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 body {
@@ -74,6 +134,23 @@ body {
     font-weight: bold;
 }
 
+.menu .left {
+    padding-left: 4px;
+}
+.menu .right {
+    padding-right: 4px;
+}
+.menu .left-rest {
+    margin-left: 16px;
+}
+.logo-svg {
+    min-width: 19px;
+    margin: 0;
+    position: absolute;
+    offset: relative;
+    top: 4px;
+}
+
 li {
     margin-bottom: 0;
 }
@@ -83,4 +160,3 @@ li {
     left: 0;
     right: 0;
 }
-

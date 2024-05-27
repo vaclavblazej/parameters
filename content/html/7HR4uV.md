@@ -1,14 +1,20 @@
----
-layout: "single"
-title: "Parameters hierarchy"
----
-<!--this is a generated file-->
+# co-cluster
 
-## co-cluster
-* Complete multipartite graph.
-* graphclasses.org: [co-cluster](https://www.graphclasses.org/classes/gc_1248.html)
 
-[Graph class PDF](../7HR4uV.pdf)
 
-<object data="../7HR4uV.pdf" type="application/pdf" width="100%" height="480px"><embed src="../7HR4uV.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../7HR4uV.pdf">Download PDF</a>.</p></embed></object>
 
+<object data="../local_7HR4uV.pdf" type="application/pdf" width="100%" height="480px"><embed src="../local_7HR4uV.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../local_7HR4uV.pdf">Download PDF</a>.</p></embed></object>
+
+
+<object data="../inclusions_7HR4uV.pdf" type="application/pdf" width="100%" height="480px"><embed src="../inclusions_7HR4uV.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../inclusions_7HR4uV.pdf">Download PDF</a>.</p></embed></object>
+
+*  [unknown](#)
+    * [co-cluster]({{< base >}}html/7HR4uV) -- Complete multipartite graph.
+    * [co-cluster]({{< base >}}html/7HR4uV) upper bounds [cograph]({{< base >}}html/9Qd0Mx) by a constant
+    * bounded [cograph]({{< base >}}html/9Qd0Mx) does not imply bounded [co-cluster]({{< base >}}html/7HR4uV)
+    * [complete]({{< base >}}html/EhdXNA) upper bounds [co-cluster]({{< base >}}html/7HR4uV) by a constant
+    * bounded [co-cluster]({{< base >}}html/7HR4uV) does not imply bounded [complete]({{< base >}}html/EhdXNA)
+    * [edgeless]({{< base >}}html/LsiBbX) upper bounds [co-cluster]({{< base >}}html/7HR4uV) by a constant
+    * bounded [co-cluster]({{< base >}}html/7HR4uV) does not imply bounded [edgeless]({{< base >}}html/LsiBbX)
+    * [co-cluster]({{< base >}}html/7HR4uV) upper bounds [distance to co-cluster]({{< base >}}html/distance_to_7HR4uV) by a constant -- by definition
+    * bounded [co-cluster]({{< base >}}html/7HR4uV) does not imply bounded [distance to chordal]({{< base >}}html/distance_to_Cv1PaJ)

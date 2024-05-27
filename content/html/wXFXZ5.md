@@ -1,0 +1,3 @@
+# Online source wXFXZ5
+
+* [branch width]({{< base >}}html/lIcmuR) equal to $k$ implies that [treewidth]({{< base >}}html/5Q7fuR) is upper bounded by $\mathcal O(k)$ -- Relation to treewidth ... for a graph $G$ with tree-width $k$ and branchwidth $b > 1$, $b - 1 \le k$ ...

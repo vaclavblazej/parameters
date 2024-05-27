@@ -2,12 +2,15 @@
     <div class="menu">
         <div class="inner">
             <div class="left">
+                <a class="logo" href="{{ .Site.BaseURL }}"><img class="logo-svg" src = "{{ .Site.BaseURL }}images/hops.svg" alt="HOPS"/></a>
+                <span class="left-rest">
                 {{- range .Ancestors.Reverse }}
-                <span><a href="{{ .RelPermalink }}">← {{ .Title }}&nbsp;&nbsp;</a></span>
+                <span><a href="{{ .RelPermalink }}">/{{ .Title }}</a></span>
                 {{- end }}
+                </span>
             </div>
             <div class="right">
-                <a href="#">&uarr;Back to top</a>
+                <a href="#">&uarr;Jump up</a>
             </div>
         </div>
     </div>

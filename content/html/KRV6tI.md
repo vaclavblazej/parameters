@@ -1,14 +1,22 @@
----
-layout: "single"
-title: "Parameters hierarchy"
----
-<!--this is a generated file-->
+# domatic number
 
-## domatic number
-* [↗](https://mathworld.wolfram.com/DomaticNumber.html) The maximum number of disjoint dominating sets in a domatic partition of a graph $G$ is called its domatic number $d(G)$.
+
+
 
 <object data="../local_KRV6tI.pdf" type="application/pdf" width="100%" height="480px"><embed src="../local_KRV6tI.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../local_KRV6tI.pdf">Download PDF</a>.</p></embed></object>
 
 
-<object data="../KRV6tI.pdf" type="application/pdf" width="100%" height="480px"><embed src="../KRV6tI.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../KRV6tI.pdf">Download PDF</a>.</p></embed></object>
+<object data="../inclusions_KRV6tI.pdf" type="application/pdf" width="100%" height="480px"><embed src="../inclusions_KRV6tI.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../inclusions_KRV6tI.pdf">Download PDF</a>.</p></embed></object>
 
+* 2022/09 [Tran2022]({{< base >}}html/uXViPE)
+    * page 20 : bounded [twin-cover number]({{< base >}}html/MUnHA0) does not imply bounded [domatic number]({{< base >}}html/KRV6tI) -- Parameter is unbounded for the graph class of cliques.
+*  [https://mathworld.wolfram.com/DomaticNumber.html](https://mathworld.wolfram.com/DomaticNumber.html)
+    * [domatic number]({{< base >}}html/KRV6tI) -- The maximum number of disjoint dominating sets in a domatic partition of a graph $G$ is called its domatic number $d(G)$. 
+*  [unknown](#)
+    * [minimum degree]({{< base >}}html/GPmOeT) $k$ upper bounds [domatic number]({{< base >}}html/KRV6tI) by $\mathcal O(k)$ -- The vertex of minimum degree needs to be dominated in each of the sets. As the sets cannot overlap there can be at most $k+1$ of them.
+    * bounded [complete]({{< base >}}html/EhdXNA) does not imply bounded [domatic number]({{< base >}}html/KRV6tI) -- Parameter is unbounded for the graph class of cliques.
+*  [SchroderThesis]({{< base >}}html/DYGiYb)
+    * page 16 : bounded [distance to complete]({{< base >}}html/distance_to_EhdXNA) does not imply bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.7
+    * page 20 : bounded [distance to co-cluster]({{< base >}}html/distance_to_7HR4uV) does not imply bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.12
+    * page 20 : bounded [distance to bipartite]({{< base >}}html/distance_to_cLHJkW) does not imply bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.12
+    * page 30 : bounded [bisection bandwidth]({{< base >}}html/wUdmUb) does not imply bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.28

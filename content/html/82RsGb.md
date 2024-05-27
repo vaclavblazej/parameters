@@ -1,0 +1,3 @@
+# Online source 82RsGb
+
+* [domination number]({{< base >}}html/Gq0onN) -- The domination number $\gamma(G)$ of a graph $G$ is the minimum size of a dominating set of vertices in $G$ ...

@@ -4,7 +4,7 @@
     <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{end}}</title>
 
     <meta name="robots" content="noodp"/>
-    
+
     {{ if .IsPage }}
       <meta name="description" content="{{ .Description }}">
     {{ else if .IsHome }}
@@ -14,7 +14,8 @@
     {{ end }}
 
     <link rel="canonical" href="{{ .Permalink }}"/>
-  
+    <link rel="icon" type="image/x-icon" href="{{ .Site.BaseURL }}favicon.ico" />
+
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/schema.html" . }}
@@ -23,11 +24,8 @@
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
-	<!-- Styles from Sakura and Dark mode support -->
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/sakura.css" media="screen" />
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/sakura-vader.css" media="screen and (prefers-color-scheme: dark)" />
-	<!-- Custom CSS Styles -->
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css" />
+    <!-- Custom CSS Styles -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css" />
 
     <script>
         window.MathJax = {
