@@ -12,3 +12,5 @@
     * page 3 : [arboricity]({{< base >}}html/zgMenA) -- The \emph{arboricity} of a graph $G$ is the minimum number of forests the edges of $G$ can be partitioned into.
     * page 8 : [arboricity]({{< base >}}html/zgMenA) $k$ upper bounds [degeneracy]({{< base >}}html/VowkuW) by $\mathcal O(k)$ -- Lemma 4.5
     * page 8 : [degeneracy]({{< base >}}html/VowkuW) $k$ upper bounds [arboricity]({{< base >}}html/zgMenA) by $\mathcal O(k)$ -- Lemma 4.5
+* 2007 [GeometricThickness2007]({{< base >}}html/2q7m9E)
+    * page 5 : [treewidth]({{< base >}}html/5Q7fuR) $k$ upper bounds [arboricity]({{< base >}}html/zgMenA) by $\mathcal O(k)$ -- Proposition 2. The maximum arboricity of a graph in $\mathcal T_k$ (ed: $k$-tree) is $k$; ...

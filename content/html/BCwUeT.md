@@ -12,10 +12,10 @@
     * page 21 : bounded [maximum leaf number]({{< base >}}html/BN92vX) does not imply bounded [girth]({{< base >}}html/BCwUeT) -- Proposition 3.14
 *  [https://en.wikipedia.org/wiki/Girth_(graph_theory)](https://en.wikipedia.org/wiki/Girth_(graph_theory))
     * [girth]({{< base >}}html/BCwUeT) -- In graph theory, the girth of an undirected graph is the length of a shortest cycle contained in the graph.
-*  [unknown](#)
+*  [unknown]({{< base >}}html/myit4D)
     * [average distance]({{< base >}}html/zH8PpT) $k$ upper bounds [girth]({{< base >}}html/BCwUeT) by $f(k)$
-    * bounded [bipartite]({{< base >}}html/cLHJkW) does not imply bounded [girth]({{< base >}}html/BCwUeT)
-    * bounded [forest]({{< base >}}html/JngPPm) does not imply bounded [girth]({{< base >}}html/BCwUeT)
-    * bounded [disjoint cycles]({{< base >}}html/AGnF5Z) does not imply bounded [girth]({{< base >}}html/BCwUeT)
-    * bounded [planar]({{< base >}}html/loZ5LD) does not imply bounded [girth]({{< base >}}html/BCwUeT)
-    * bounded [cycle]({{< base >}}html/Ti0asF) does not imply bounded [girth]({{< base >}}html/BCwUeT)
+    * graph class [bipartite]({{< base >}}html/cLHJkW) has unbounded [girth]({{< base >}}html/BCwUeT)
+    * graph class [forest]({{< base >}}html/JngPPm) has unbounded [girth]({{< base >}}html/BCwUeT)
+    * graph class [disjoint cycles]({{< base >}}html/AGnF5Z) has unbounded [girth]({{< base >}}html/BCwUeT)
+    * graph class [planar]({{< base >}}html/loZ5LD) has unbounded [girth]({{< base >}}html/BCwUeT)
+    * graph class [cycle]({{< base >}}html/Ti0asF) has unbounded [girth]({{< base >}}html/BCwUeT)

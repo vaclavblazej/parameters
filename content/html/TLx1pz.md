@@ -16,6 +16,6 @@
     * page 24 : [cutwidth]({{< base >}}html/TLx1pz) $k$ upper bounds [pathwidth]({{< base >}}html/VHClqR) by $\mathcal O(k)$ -- Theorem 47. For every graph $G$, the pathwidth of $G$ is at most the cutwidth of $G$.
     * page 24 : [pathwidth+maxdegree]({{< base >}}html/6BWcgd) $k$ upper bounds [cutwidth]({{< base >}}html/TLx1pz) by $\mathcal O(k)$ -- Theorem 49.
     * page 24 : [cutwidth]({{< base >}}html/TLx1pz) $k$ upper bounds [pathwidth+maxdegree]({{< base >}}html/6BWcgd) by $\mathcal O(k)$ -- Theorem 49.
-*  [unknown](#)
+*  [unknown]({{< base >}}html/myit4D)
     * [bandwidth]({{< base >}}html/aP5a38) $k$ implies that [cutwidth]({{< base >}}html/TLx1pz) is $k^{\mathcal O(1)}$ -- Any bandwidth bound cutwidth quadratically. An example where this happens is $(P_n)^k$ which has bandwidth $k$ and cutwidth $O(k^2)$; both seem to be optimal.
     * [constant components]({{< base >}}html/FJ8gmU) upper bounds [cutwidth]({{< base >}}html/TLx1pz) by a constant

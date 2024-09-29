@@ -10,5 +10,5 @@
 
 * 2023/02 [Torunczyk2023]({{< base >}}html/KpkMZB)
     * [radius-r flip-width]({{< base >}}html/4DIiH0) -- The radius-$r$ flip-width of a graph $G$, denoted $fwr (G)$, is the smallest number $k \in \mathbb{N}$ such that the cops have a winning strategy in the flipper game of radius $r$ and width $k$ on $G$
-    * [twin width]({{< base >}}html/MNTjuW) $k$ upper bounds [radius-r flip-width]({{< base >}}html/4DIiH0) by $2^{\mathcal O(k)}$ -- Theorem 7.1. Fix $r \in \mathbb N$. For every graph $G$ of twin-width $d$ we have: $\mathrm{fw}_r(G) \le 2^d \cdot d^{O(r)}.$
+    * [twin-width]({{< base >}}html/reduced_UyQ5yM) $k$ upper bounds [radius-r flip-width]({{< base >}}html/4DIiH0) by $2^{\mathcal O(k)}$ -- Theorem 7.1. Fix $r \in \mathbb N$. For every graph $G$ of twin-width $d$ we have: $\mathrm{fw}_r(G) \le 2^d \cdot d^{O(r)}$.
     * [inf-flip-width]({{< base >}}html/nYXiuT) $k$ upper bounds [radius-r flip-width]({{< base >}}html/4DIiH0) by $\mathcal O(k)$ -- By definition

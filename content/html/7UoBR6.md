@@ -22,6 +22,6 @@ year = {2012},
 * page 263 : bounded [twin-cover number]({{< base >}}html/MUnHA0) does not imply bounded [vertex cover]({{< base >}}html/4lp9Yj) -- The vertex cover of graphs of bounded twin-cover may be arbitrarily large.
 * page 263 : bounded [twin-cover number]({{< base >}}html/MUnHA0) does not imply bounded [treewidth]({{< base >}}html/5Q7fuR) -- There exists graphs with arbitrarily large twin-cover and bounded tree-width and vice-versa.
 * page 263 : bounded [treewidth]({{< base >}}html/5Q7fuR) does not imply bounded [twin-cover number]({{< base >}}html/MUnHA0) -- There exists graphs with arbitrarily large twin-cover and bounded tree-width and vice-versa.
-* page 263 : [twin-cover number]({{< base >}}html/MUnHA0) $k$ upper bounds [clique width]({{< base >}}html/wg5HuV) by $\mathcal O(k)$ -- The clique-width of graphs of twin-cover $k$ is at most $k+2$.
-* page 263 : [twin-cover number]({{< base >}}html/MUnHA0) $k$ upper bounds [rank width]({{< base >}}html/fojquT) by $\mathcal O(k)$ -- The rank-width and linaer rank-width of graph of twin-cover $k$ are at most $k+1$.
-* page 263 : [twin-cover number]({{< base >}}html/MUnHA0) $k$ upper bounds [linear rank width]({{< base >}}html/cHugsk) by $\mathcal O(k)$ -- The rank-width and linaer rank-width of graph of twin-cover $k$ are at most $k+1$.
+* page 263 : [twin-cover number]({{< base >}}html/MUnHA0) $k$ upper bounds [clique-width]({{< base >}}html/wg5HuV) by $\mathcal O(k)$ -- The clique-width of graphs of twin-cover $k$ is at most $k+2$.
+* page 263 : [twin-cover number]({{< base >}}html/MUnHA0) $k$ upper bounds [rank-width]({{< base >}}html/fojquT) by $\mathcal O(k)$ -- The rank-width and linaer rank-width of graph of twin-cover $k$ are at most $k+1$.
+* page 263 : [twin-cover number]({{< base >}}html/MUnHA0) $k$ upper bounds [linear rank-width]({{< base >}}html/cHugsk) by $\mathcal O(k)$ -- The rank-width and linaer rank-width of graph of twin-cover $k$ are at most $k+1$.

@@ -15,5 +15,6 @@ volume = {96},
 year = {2006},
 }
 ```
-* [rank width]({{< base >}}html/fojquT) $k$ implies that [clique width]({{< base >}}html/wg5HuV) is $2^{\mathcal O(k)}$ -- Proposition 6.3
-* [clique width]({{< base >}}html/wg5HuV) $k$ upper bounds [rank width]({{< base >}}html/fojquT) by $\mathcal O(k)$ -- Proposition 6.3
+* page 9 : [rank-width]({{< base >}}html/fojquT) -- ... and the \emph{rank-width} $\mathrm{rwd}(G)$ of $G$ is the branch-width of $\mathrm{cutrk}_G$.
+* page 9 : [rank-width]({{< base >}}html/fojquT) $k$ implies that [clique-width]({{< base >}}html/wg5HuV) is $2^{\mathcal O(k)}$ -- Proposition 6.3
+* page 9 : [clique-width]({{< base >}}html/wg5HuV) $k$ upper bounds [rank-width]({{< base >}}html/fojquT) by $\mathcal O(k)$ -- Proposition 6.3

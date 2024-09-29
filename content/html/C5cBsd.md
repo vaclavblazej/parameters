@@ -13,7 +13,6 @@ language = {en},
 month = {February},
 pages = {R33--R33},
 title = {Spanning Trees with Many Leaves and Average Distance},
-url = {https://www.combinatorics.org/ojs/index.php/eljc/article/view/v15i1r33},
 year = {2008},
 }
 ```
