@@ -17,10 +17,10 @@
     * page 9 : [acyclic chromatic number]({{< base >}}html/QGZuUW) $k$ upper bounds [degeneracy]({{< base >}}html/VowkuW) by $k^{\mathcal O(1)}$ -- Lemma 4.18. The acyclic chromatic number $a$ upper bounds the degeneracy $d$. We have $d \le 2 \binom a2 - 1$
 * 2004 [TackLayouts2004]({{< base >}}html/w7RVn9)
     * page 14 : [book thickness]({{< base >}}html/doijTS) $k$ upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by $2^{\mathcal O(k)}$ -- Theorem 5. Acyclic chromatic number is bounded by stack-number (ed: a.k.a. book-thickness). In particular, every $k$-stack graph $G$ has acyclich chromatic number $\chi_a(G) \le 80^{k(2k-1)}$.
-*  [https://en.wikipedia.org/wiki/Acyclic_coloring](https://en.wikipedia.org/wiki/Acyclic_coloring)
-    * [acyclic chromatic number]({{< base >}}html/QGZuUW) -- ... an acyclic coloring is a (proper) vertex coloring in which every 2-chromatic subgraph is acyclic.
 *  [https://www.graphclasses.org/classes/par_31.html](https://www.graphclasses.org/classes/par_31.html)
     * [acyclic chromatic number]({{< base >}}html/QGZuUW) -- The acyclic chromatic number of a graph $G$ is the smallest size of a vertex partition $V_1,\dots,V_\ell$ such that each $V_i$ is an independent set and for all $i,j$ that graph $G[V_i \cup V_j]$ does not contain a cycle.
 *  [unknown]({{< base >}}html/myit4D)
     * [acyclic chromatic number]({{< base >}}html/QGZuUW) $k$ upper bounds [boxicity]({{< base >}}html/a7MpiT) by $f(k)$
     * [book thickness]({{< base >}}html/doijTS) $k$ upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by $f(k)$
+*  [https://en.wikipedia.org/wiki/Acyclic_coloring](https://en.wikipedia.org/wiki/Acyclic_coloring)
+    * [acyclic chromatic number]({{< base >}}html/QGZuUW) -- ... an acyclic coloring is a (proper) vertex coloring in which every 2-chromatic subgraph is acyclic.

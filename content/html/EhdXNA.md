@@ -19,9 +19,6 @@
     * page 17 : graph class [complete]({{< base >}}html/EhdXNA) has unbounded [treewidth]({{< base >}}html/5Q7fuR) -- Theorem 2.2
 * 1993 [BodlaenderMohring1993]({{< base >}}html/a3yKzk)
     * page 4 : graph class [complete]({{< base >}}html/EhdXNA) has unbounded [treewidth]({{< base >}}html/5Q7fuR) -- Lemma 3.1 ("clique containment lemma"). Let $(\{X_i\mid u\in I\},T=(I,F))$ be a tree-decomposition of $G=(V,E)$ and let $W \subseteq V$ be a clique in $G$. Then there exists $i \in I$ with $W \subseteq X_i$.
-*  [assumed]({{< base >}}html/9kg0oo)
-    * [complete]({{< base >}}html/EhdXNA) upper bounds [co-cluster]({{< base >}}html/7HR4uV) by a constant
-    * graph class [co-cluster]({{< base >}}html/7HR4uV) is not included in graph class [complete]({{< base >}}html/EhdXNA)
 *  [unknown]({{< base >}}html/myit4D)
     * [complete]({{< base >}}html/EhdXNA) upper bounds [connected]({{< base >}}html/KlMP0i) by a constant -- by definition
     * [complete]({{< base >}}html/EhdXNA) upper bounds [cluster]({{< base >}}html/WAU7vf) by a constant -- by definition
@@ -29,3 +26,6 @@
     * graph class [complete]({{< base >}}html/EhdXNA) has unbounded [maximum clique]({{< base >}}html/q7zHeT) -- Parameter is unbounded for the graph class of cliques.
     * graph class [complete]({{< base >}}html/EhdXNA) has unbounded [domatic number]({{< base >}}html/KRV6tI) -- Parameter is unbounded for the graph class of cliques.
     * graph class [complete]({{< base >}}html/EhdXNA) has unbounded [edge connectivity]({{< base >}}html/JbqZoT) -- Parameter is unbounded for the graph class of cliques.
+*  [assumed]({{< base >}}html/9kg0oo)
+    * [complete]({{< base >}}html/EhdXNA) upper bounds [co-cluster]({{< base >}}html/7HR4uV) by a constant
+    * graph class [co-cluster]({{< base >}}html/7HR4uV) is not included in graph class [complete]({{< base >}}html/EhdXNA)

@@ -22,14 +22,13 @@
     * graph class [grid]({{< base >}}html/lfYXuK) has unbounded [average distance]({{< base >}}html/zH8PpT)
     * graph class [grid]({{< base >}}html/lfYXuK) has unbounded [bisection bandwidth]({{< base >}}html/wUdmUb)
     * [grid]({{< base >}}html/lfYXuK) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant
+    * [grid]({{< base >}}html/lfYXuK) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
 *  [assumed]({{< base >}}html/9kg0oo)
     * [grid]({{< base >}}html/lfYXuK) -- Cartesian product of two paths.
     * [grid]({{< base >}}html/lfYXuK) upper bounds [planar]({{< base >}}html/loZ5LD) by a constant
     * graph class [planar]({{< base >}}html/loZ5LD) is not included in graph class [grid]({{< base >}}html/lfYXuK)
     * [grid]({{< base >}}html/lfYXuK) upper bounds [bipartite]({{< base >}}html/cLHJkW) by a constant
     * graph class [bipartite]({{< base >}}html/cLHJkW) is not included in graph class [grid]({{< base >}}html/lfYXuK)
-    * [grid]({{< base >}}html/lfYXuK) upper bounds [bounded degree]({{< base >}}html/yeKPCw) by a constant
-    * graph class [bounded degree]({{< base >}}html/yeKPCw) is not included in graph class [grid]({{< base >}}html/lfYXuK)
     * [grid]({{< base >}}html/lfYXuK) upper bounds [connected]({{< base >}}html/KlMP0i) by a constant
     * graph class [connected]({{< base >}}html/KlMP0i) is not included in graph class [grid]({{< base >}}html/lfYXuK)
     * [path]({{< base >}}html/ryPlqz) upper bounds [grid]({{< base >}}html/lfYXuK) by a constant

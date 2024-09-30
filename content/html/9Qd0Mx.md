@@ -12,10 +12,10 @@
     * [cograph]({{< base >}}html/9Qd0Mx) is equal to [reduced edgeless]({{< base >}}html/reduced_LsiBbX)
 * 1994 [Wanke1994]({{< base >}}html/SQjcYg)
     * page 5 : [cograph]({{< base >}}html/9Qd0Mx) upper bounds [NLC-width]({{< base >}}html/Xrpbv7) by a constant -- Fact 2.3. $G$ is a $1$-NLC graph if and only if $unlab(G)$ is a co-graph.
-*  [unknown]({{< base >}}html/myit4D)
-    * [cograph]({{< base >}}html/9Qd0Mx) upper bounds [distance to cograph]({{< base >}}html/distance_to_9Qd0Mx) by a constant -- by definition
 *  [assumed]({{< base >}}html/9kg0oo)
     * [cograph]({{< base >}}html/9Qd0Mx) upper bounds [perfect]({{< base >}}html/RmssrZ) by a constant
     * graph class [perfect]({{< base >}}html/RmssrZ) is not included in graph class [cograph]({{< base >}}html/9Qd0Mx)
     * [co-cluster]({{< base >}}html/7HR4uV) upper bounds [cograph]({{< base >}}html/9Qd0Mx) by a constant
     * graph class [cograph]({{< base >}}html/9Qd0Mx) is not included in graph class [co-cluster]({{< base >}}html/7HR4uV)
+*  [unknown]({{< base >}}html/myit4D)
+    * [cograph]({{< base >}}html/9Qd0Mx) upper bounds [distance to cograph]({{< base >}}html/distance_to_9Qd0Mx) by a constant -- by definition

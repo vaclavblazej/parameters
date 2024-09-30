@@ -30,8 +30,11 @@
     * [maximum degree]({{< base >}}html/UyQ5yM) $k$ upper bounds [distance to maximum degree]({{< base >}}html/distance_to_UyQ5yM) by $\mathcal O(k)$ -- by definition
     * [maximum degree]({{< base >}}html/UyQ5yM) $k$ upper bounds [h-index]({{< base >}}html/GNTwUS) by $\mathcal O(k)$ -- As h-index seeks $k$ vertices of degree $k$ it is trivially upper bound by maximum degree.
     * [bandwidth]({{< base >}}html/aP5a38) $k$ upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by $\mathcal O(k)$ -- Each vertex has an integer $i$ and may be connected only to vertices whose difference from $i$ is at most $k$. There are at most $k$ bigger and $k$ smaller such neighbors.
-    * [bounded degree]({{< base >}}html/yeKPCw) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
     * [maximum degree]({{< base >}}html/UyQ5yM) $k$ upper bounds [c-closure]({{< base >}}html/ou9VU1) by $f(k)$
     * [maximum degree]({{< base >}}html/UyQ5yM) -- maximum degree of graph's vertices
     * [grid]({{< base >}}html/lfYXuK) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant
     * graph class [planar]({{< base >}}html/loZ5LD) has unbounded [maximum degree]({{< base >}}html/UyQ5yM)
+    * [grid]({{< base >}}html/lfYXuK) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
+    * [bounded components]({{< base >}}html/t7c4mp) $k$ upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by $\mathcal O(k)$ -- By definition
+    * [linear forest]({{< base >}}html/skQuFN) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
+    * [cycles]({{< base >}}html/2iJr52) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition

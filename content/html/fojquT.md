@@ -22,8 +22,8 @@
     * page 9 : [rank-width]({{< base >}}html/fojquT) -- ... and the \emph{rank-width} $\mathrm{rwd}(G)$ of $G$ is the branch-width of $\mathrm{cutrk}_G$.
     * page 9 : [rank-width]({{< base >}}html/fojquT) $k$ implies that [clique-width]({{< base >}}html/wg5HuV) is $2^{\mathcal O(k)}$ -- Proposition 6.3
     * page 9 : [clique-width]({{< base >}}html/wg5HuV) $k$ upper bounds [rank-width]({{< base >}}html/fojquT) by $\mathcal O(k)$ -- Proposition 6.3
-*  [https://www.sciencedirect.com/science/article/pii/S0095895605001528](https://www.sciencedirect.com/science/article/pii/S0095895605001528)
-    * [rank-width]({{< base >}}html/fojquT) -- see Section 6
 *  [unknown]({{< base >}}html/myit4D)
     * [linear rank-width]({{< base >}}html/cHugsk) $k$ upper bounds [rank-width]({{< base >}}html/fojquT) by $f(k)$
     * [branch width]({{< base >}}html/lIcmuR) $k$ upper bounds [rank-width]({{< base >}}html/fojquT) by $\mathcal O(k)$
+*  [https://www.sciencedirect.com/science/article/pii/S0095895605001528](https://www.sciencedirect.com/science/article/pii/S0095895605001528)
+    * [rank-width]({{< base >}}html/fojquT) -- see Section 6

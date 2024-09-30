@@ -18,4 +18,4 @@
     * page 24 : [cutwidth]({{< base >}}html/TLx1pz) $k$ upper bounds [pathwidth+maxdegree]({{< base >}}html/6BWcgd) by $\mathcal O(k)$ -- Theorem 49.
 *  [unknown]({{< base >}}html/myit4D)
     * [bandwidth]({{< base >}}html/aP5a38) $k$ implies that [cutwidth]({{< base >}}html/TLx1pz) is $k^{\mathcal O(1)}$ -- Any bandwidth bound cutwidth quadratically. An example where this happens is $(P_n)^k$ which has bandwidth $k$ and cutwidth $O(k^2)$; both seem to be optimal.
-    * [constant components]({{< base >}}html/FJ8gmU) upper bounds [cutwidth]({{< base >}}html/TLx1pz) by a constant
+    * [bounded components]({{< base >}}html/t7c4mp) $k$ upper bounds [cutwidth]({{< base >}}html/TLx1pz) by $k^{\mathcal O(1)}$ -- By greedily placing one component after another.

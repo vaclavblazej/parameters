@@ -19,6 +19,8 @@
     * page 34 : bounded [vertex cover]({{< base >}}html/4lp9Yj) does not imply bounded [c-closure]({{< base >}}html/ou9VU1) -- Proposition 5.3. $c$-Closure is incomparable to Vertex Cover Number.
 * 2012 [GanianTwinCover2012]({{< base >}}html/7UoBR6)
     * page 263 : bounded [twin-cover number]({{< base >}}html/MUnHA0) does not imply bounded [vertex cover]({{< base >}}html/4lp9Yj) -- The vertex cover of graphs of bounded twin-cover may be arbitrarily large.
+*  [https://en.wikipedia.org/wiki/Vertex_cover](https://en.wikipedia.org/wiki/Vertex_cover)
+    * [vertex cover]({{< base >}}html/4lp9Yj) -- ... set of vertices that includes at least one endpoint of every edge of the graph.
 *  [unknown]({{< base >}}html/myit4D)
     * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) $k$ implies that [vertex cover]({{< base >}}html/4lp9Yj) is $\mathcal O(k)$ -- Kőnig's theorem
     * [vertex cover]({{< base >}}html/4lp9Yj) $k$ implies that [maximum matching]({{< base >}}html/veU7Jf) is $\mathcal O(k)$ -- Every edge of the matching needs to be covered by at least one vertex. Path shows lower bound.
@@ -31,5 +33,3 @@
     * page 24 : bounded [vertex cover]({{< base >}}html/4lp9Yj) does not imply bounded [genus]({{< base >}}html/gbaHdw) -- Proposition 3.18
     * page 24 : bounded [vertex cover]({{< base >}}html/4lp9Yj) does not imply bounded [maximum degree]({{< base >}}html/UyQ5yM) -- Proposition 3.19
     * page 24 : bounded [vertex cover]({{< base >}}html/4lp9Yj) does not imply bounded [bisection bandwidth]({{< base >}}html/wUdmUb) -- Proposition 3.20
-*  [https://en.wikipedia.org/wiki/Vertex_cover](https://en.wikipedia.org/wiki/Vertex_cover)
-    * [vertex cover]({{< base >}}html/4lp9Yj) -- ... set of vertices that includes at least one endpoint of every edge of the graph.

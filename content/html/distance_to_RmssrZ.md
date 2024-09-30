@@ -21,5 +21,5 @@
 *  [unknown]({{< base >}}html/myit4D)
     * [perfect]({{< base >}}html/RmssrZ) upper bounds [distance to perfect]({{< base >}}html/distance_to_RmssrZ) by a constant -- by definition
     * graph class [planar]({{< base >}}html/loZ5LD) has unbounded [distance to perfect]({{< base >}}html/distance_to_RmssrZ)
-    * graph class [constant components]({{< base >}}html/FJ8gmU) has unbounded [distance to perfect]({{< base >}}html/distance_to_RmssrZ)
     * graph class [disjoint cycles]({{< base >}}html/AGnF5Z) has unbounded [distance to perfect]({{< base >}}html/distance_to_RmssrZ)
+    * bounded [bounded components]({{< base >}}html/t7c4mp) does not imply bounded [distance to perfect]({{< base >}}html/distance_to_RmssrZ) -- By a disjoint union of small components with distance to perfect at least 1.

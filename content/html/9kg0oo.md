@@ -5,7 +5,6 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * [stars]({{< base >}}html/10JR3F) -- Disjoint union of stars.
 * [grid]({{< base >}}html/lfYXuK) -- Cartesian product of two paths.
 * [cycles]({{< base >}}html/2iJr52) -- Every component is a cycle.
-* [constant components]({{< base >}}html/FJ8gmU) -- Disjoint union of components of constant size.
 * [chordal]({{< base >}}html/Cv1PaJ) upper bounds [perfect]({{< base >}}html/RmssrZ) by a constant
 * graph class [perfect]({{< base >}}html/RmssrZ) is not included in graph class [chordal]({{< base >}}html/Cv1PaJ)
 * [cograph]({{< base >}}html/9Qd0Mx) upper bounds [perfect]({{< base >}}html/RmssrZ) by a constant
@@ -46,28 +45,14 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * graph class [forest]({{< base >}}html/JngPPm) is not included in graph class [stars]({{< base >}}html/10JR3F)
 * [edgeless]({{< base >}}html/LsiBbX) upper bounds [stars]({{< base >}}html/10JR3F) by a constant
 * graph class [stars]({{< base >}}html/10JR3F) is not included in graph class [edgeless]({{< base >}}html/LsiBbX)
-* [edgeless]({{< base >}}html/LsiBbX) upper bounds [constant components]({{< base >}}html/FJ8gmU) by a constant
-* graph class [constant components]({{< base >}}html/FJ8gmU) is not included in graph class [edgeless]({{< base >}}html/LsiBbX)
 * [edgeless]({{< base >}}html/LsiBbX) upper bounds [co-cluster]({{< base >}}html/7HR4uV) by a constant
 * graph class [co-cluster]({{< base >}}html/7HR4uV) is not included in graph class [edgeless]({{< base >}}html/LsiBbX)
 * [grid]({{< base >}}html/lfYXuK) upper bounds [planar]({{< base >}}html/loZ5LD) by a constant
 * graph class [planar]({{< base >}}html/loZ5LD) is not included in graph class [grid]({{< base >}}html/lfYXuK)
 * [grid]({{< base >}}html/lfYXuK) upper bounds [bipartite]({{< base >}}html/cLHJkW) by a constant
 * graph class [bipartite]({{< base >}}html/cLHJkW) is not included in graph class [grid]({{< base >}}html/lfYXuK)
-* [grid]({{< base >}}html/lfYXuK) upper bounds [bounded degree]({{< base >}}html/yeKPCw) by a constant
-* graph class [bounded degree]({{< base >}}html/yeKPCw) is not included in graph class [grid]({{< base >}}html/lfYXuK)
-* [constant components]({{< base >}}html/FJ8gmU) upper bounds [bounded degree]({{< base >}}html/yeKPCw) by a constant
-* graph class [bounded degree]({{< base >}}html/yeKPCw) is not included in graph class [constant components]({{< base >}}html/FJ8gmU)
-* [constant components]({{< base >}}html/FJ8gmU) upper bounds [bounded components]({{< base >}}html/t7c4mp) by a constant
-* graph class [bounded components]({{< base >}}html/t7c4mp) is not included in graph class [constant components]({{< base >}}html/FJ8gmU)
-* [bounded components]({{< base >}}html/t7c4mp) upper bounds [bounded degree]({{< base >}}html/yeKPCw) by a constant
-* graph class [bounded degree]({{< base >}}html/yeKPCw) is not included in graph class [bounded components]({{< base >}}html/t7c4mp)
-* [linear forest]({{< base >}}html/skQuFN) upper bounds [bounded degree]({{< base >}}html/yeKPCw) by a constant
-* graph class [bounded degree]({{< base >}}html/yeKPCw) is not included in graph class [linear forest]({{< base >}}html/skQuFN)
 * [cycles]({{< base >}}html/2iJr52) upper bounds [disjoint cycles]({{< base >}}html/AGnF5Z) by a constant
 * graph class [disjoint cycles]({{< base >}}html/AGnF5Z) is not included in graph class [cycles]({{< base >}}html/2iJr52)
-* [cycles]({{< base >}}html/2iJr52) upper bounds [bounded degree]({{< base >}}html/yeKPCw) by a constant
-* graph class [bounded degree]({{< base >}}html/yeKPCw) is not included in graph class [cycles]({{< base >}}html/2iJr52)
 * [grid]({{< base >}}html/lfYXuK) upper bounds [connected]({{< base >}}html/KlMP0i) by a constant
 * graph class [connected]({{< base >}}html/KlMP0i) is not included in graph class [grid]({{< base >}}html/lfYXuK)
 * [edgeless]({{< base >}}html/LsiBbX) upper bounds [cluster]({{< base >}}html/WAU7vf) by a constant

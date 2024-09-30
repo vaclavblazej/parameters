@@ -22,11 +22,11 @@
     * page 9 : [distance to interval]({{< base >}}html/distance_to_p5skoj) $k$ upper bounds [boxicity]({{< base >}}html/a7MpiT) by $\mathcal O(k)$ -- Lemma 4.16. The distance $i$ to an interval graph upper bounds the boxicity $b$. We have $b \le i+1$.
 * 2011 [bipboxicity2011]({{< base >}}html/Vkc4EU)
     * page 9 : bounded [distance to bipartite]({{< base >}}html/distance_to_cLHJkW) does not imply bounded [boxicity]({{< base >}}html/a7MpiT) -- Theorem 2 For any $b \in \mathbb N^+$, there exists a chordal bipartite graph $G$ (ed: i.e. bipartite graph with no induced cycle on more than 4 vertices) with $\mathrm{box}(G) > b$.
+*  [SchroderThesis]({{< base >}}html/DYGiYb)
+    * page 14 : bounded [distance to co-cluster]({{< base >}}html/distance_to_7HR4uV) does not imply bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 3.4
+    * page 27 : bounded [distance to chordal]({{< base >}}html/distance_to_Cv1PaJ) does not imply bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 3.25
 *  [https://en.wikipedia.org/wiki/Boxicity](https://en.wikipedia.org/wiki/Boxicity)
     * [boxicity]({{< base >}}html/a7MpiT) -- The boxicity of a graph is the minimum dimension in which a given graph can be represented as an intersection graph of axis-parallel boxes.
 *  [unknown]({{< base >}}html/myit4D)
     * [acyclic chromatic number]({{< base >}}html/QGZuUW) $k$ upper bounds [boxicity]({{< base >}}html/a7MpiT) by $f(k)$
     * [distance to interval]({{< base >}}html/distance_to_p5skoj) $k$ upper bounds [boxicity]({{< base >}}html/a7MpiT) by $\mathcal O(k)$ -- By definition
-*  [SchroderThesis]({{< base >}}html/DYGiYb)
-    * page 14 : bounded [distance to co-cluster]({{< base >}}html/distance_to_7HR4uV) does not imply bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 3.4
-    * page 27 : bounded [distance to chordal]({{< base >}}html/distance_to_Cv1PaJ) does not imply bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 3.25

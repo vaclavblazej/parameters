@@ -35,11 +35,10 @@ This knowledge was added to the database without tying it to an appropriate reso
 * [planar]({{< base >}}html/loZ5LD) upper bounds [distance to planar]({{< base >}}html/distance_to_loZ5LD) by a constant -- by definition
 * [chordal]({{< base >}}html/Cv1PaJ) upper bounds [distance to chordal]({{< base >}}html/distance_to_Cv1PaJ) by a constant -- by definition
 * [stars]({{< base >}}html/10JR3F) upper bounds [distance to stars]({{< base >}}html/distance_to_10JR3F) by a constant -- by definition
-* [constant components]({{< base >}}html/FJ8gmU) upper bounds [distance to constant components]({{< base >}}html/distance_to_FJ8gmU) by a constant -- by definition
 * [perfect]({{< base >}}html/RmssrZ) upper bounds [distance to perfect]({{< base >}}html/distance_to_RmssrZ) by a constant -- by definition
 * [interval]({{< base >}}html/p5skoj) upper bounds [distance to interval]({{< base >}}html/distance_to_p5skoj) by a constant -- by definition
 * [maximum degree]({{< base >}}html/UyQ5yM) $k$ upper bounds [distance to maximum degree]({{< base >}}html/distance_to_UyQ5yM) by $\mathcal O(k)$ -- by definition
-* [bounded components]({{< base >}}html/t7c4mp) upper bounds [distance to bounded components]({{< base >}}html/distance_to_t7c4mp) by a constant -- by definition
+* [bounded components]({{< base >}}html/t7c4mp) $k$ upper bounds [distance to bounded components]({{< base >}}html/distance_to_t7c4mp) by $\mathcal O(k)$ -- by definition
 * [disconnected]({{< base >}}html/lA0K71) upper bounds [distance to disconnected]({{< base >}}html/distance_to_lA0K71) by a constant -- by definition
 * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) $k$ upper bounds [bipartite]({{< base >}}html/cLHJkW) by $\mathcal O(k)$ -- by definition
 * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) $k$ upper bounds [maximum matching]({{< base >}}html/veU7Jf) by $\mathcal O(k)$ -- by definition
@@ -75,7 +74,6 @@ This knowledge was added to the database without tying it to an appropriate reso
 * [acyclic chromatic number]({{< base >}}html/QGZuUW) $k$ upper bounds [boxicity]({{< base >}}html/a7MpiT) by $f(k)$
 * [h-index]({{< base >}}html/GNTwUS) $k$ upper bounds [distance to maximum degree]({{< base >}}html/distance_to_UyQ5yM) by $\mathcal O(k)$ -- Remove the $h$ vertices of degree at least $h$ to get a graph that has maximum degree $h$.
 * [distance to maximum degree]({{< base >}}html/distance_to_UyQ5yM) $k$ upper bounds [h-index]({{< base >}}html/GNTwUS) by $\mathcal O(k)$ -- Removal of $k$ vertices yielding a graph with maximum degree $c$ means that there were $k$ vertices of arbitrary degree and the remaining vertices had degree at most $k+c$. Hence, $h$-index is no more than $k+c$.
-* [bounded degree]({{< base >}}html/yeKPCw) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
 * [vertex connectivity]({{< base >}}html/OyLUe4) is equal to [distance to disconnected]({{< base >}}html/distance_to_lA0K71) -- By definition
 * [distance to cograph]({{< base >}}html/distance_to_9Qd0Mx) $k$ upper bounds [clique-width]({{< base >}}html/wg5HuV) by $f(k)$
 * [distance to cograph]({{< base >}}html/distance_to_9Qd0Mx) $k$ upper bounds [chordality]({{< base >}}html/fTqo40) by $f(k)$
@@ -145,13 +143,18 @@ This knowledge was added to the database without tying it to an appropriate reso
 * graph class [planar]({{< base >}}html/loZ5LD) has unbounded [girth]({{< base >}}html/BCwUeT)
 * graph class [planar]({{< base >}}html/loZ5LD) has unbounded [maximum degree]({{< base >}}html/UyQ5yM)
 * graph class [planar]({{< base >}}html/loZ5LD) has unbounded [distance to perfect]({{< base >}}html/distance_to_RmssrZ)
-* [constant components]({{< base >}}html/FJ8gmU) upper bounds [cutwidth]({{< base >}}html/TLx1pz) by a constant
-* graph class [constant components]({{< base >}}html/FJ8gmU) has unbounded [distance to perfect]({{< base >}}html/distance_to_RmssrZ)
 * bounded [vertex integrity]({{< base >}}html/KVhJFB) does not imply bounded [neighborhood diversity]({{< base >}}html/vMs3RS)
-* graph class [constant components]({{< base >}}html/FJ8gmU) has unbounded [distance to planar]({{< base >}}html/distance_to_loZ5LD)
 * graph class [stars]({{< base >}}html/10JR3F) has unbounded [h-index]({{< base >}}html/GNTwUS)
 * graph class [stars]({{< base >}}html/10JR3F) has unbounded [vertex integrity]({{< base >}}html/KVhJFB)
 * graph class [disjoint cycles]({{< base >}}html/AGnF5Z) has unbounded [distance to perfect]({{< base >}}html/distance_to_RmssrZ)
 * [cycle]({{< base >}}html/Ti0asF) upper bounds [maximum leaf number]({{< base >}}html/BN92vX) by a constant
 * graph class [cycle]({{< base >}}html/Ti0asF) has unbounded [girth]({{< base >}}html/BCwUeT)
 * [maximum leaf number]({{< base >}}html/BN92vX) $k$ upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by $k^{\mathcal O(1)}$ -- M. Bentert (personal communication)
+* [bounded components]({{< base >}}html/t7c4mp) $k$ upper bounds [cutwidth]({{< base >}}html/TLx1pz) by $k^{\mathcal O(1)}$ -- By greedily placing one component after another.
+* bounded [bounded components]({{< base >}}html/t7c4mp) does not imply bounded [distance to perfect]({{< base >}}html/distance_to_RmssrZ) -- By a disjoint union of small components with distance to perfect at least 1.
+* bounded [bounded components]({{< base >}}html/t7c4mp) does not imply bounded [distance to planar]({{< base >}}html/distance_to_loZ5LD) -- By a disjoint union of many $K_5$ graphs.
+* [edgeless]({{< base >}}html/LsiBbX) upper bounds [bounded components]({{< base >}}html/t7c4mp) by a constant -- By definition
+* [grid]({{< base >}}html/lfYXuK) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
+* [bounded components]({{< base >}}html/t7c4mp) $k$ upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by $\mathcal O(k)$ -- By definition
+* [linear forest]({{< base >}}html/skQuFN) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
+* [cycles]({{< base >}}html/2iJr52) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition

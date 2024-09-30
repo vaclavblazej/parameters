@@ -23,12 +23,12 @@
     * page 23 : [bandwidth]({{< base >}}html/aP5a38) $k$ upper bounds [pathwidth]({{< base >}}html/VHClqR) by $\mathcal O(k)$ -- Theorem 44. For every graph $G$, the pathwidth of $G$ is at most the bandwidth of $G$, ... Proof. Let $f \colon V\to \{1,\dots,n\}$ be a linear ordering of $G$ with bandwidth $k$. Then $(X_1,\dots,X_{n-k})$ with $X_i=\{f^{-1}(i), f^{-1}(i+1), \dots, f^{-1}(i+k)\}$ is a path decomposition of $G$ with pathwidth $k$. ...
     * page 23 : [topological bandwidth]({{< base >}}html/SnA7Eq) $k$ upper bounds [pathwidth]({{< base >}}html/VHClqR) by $\mathcal O(k)$ -- Theorem 45. For every graph $G$, the pathwidth of $G$ is at most the topological band-width of $G$.
     * page 24 : [cutwidth]({{< base >}}html/TLx1pz) $k$ upper bounds [pathwidth]({{< base >}}html/VHClqR) by $\mathcal O(k)$ -- Theorem 47. For every graph $G$, the pathwidth of $G$ is at most the cutwidth of $G$.
+*  [SchroderThesis]({{< base >}}html/DYGiYb)
+    * page 23 : bounded [feedback edge set]({{< base >}}html/HTk9PZ) does not imply bounded [pathwidth]({{< base >}}html/VHClqR) -- Proposition 3.16
+*  [https://mathworld.wolfram.com/Pathwidth.html](https://mathworld.wolfram.com/Pathwidth.html)
+    * [pathwidth]({{< base >}}html/VHClqR) -- The pathwidth of a graph $G$, also called the interval thickness, vertex separation number, and node searching number, is one less than the size of the largest set in a path decomposition G.
 *  [unknown]({{< base >}}html/myit4D)
     * [pathwidth+maxdegree]({{< base >}}html/6BWcgd) $k$ upper bounds [pathwidth]({{< base >}}html/VHClqR) by $\mathcal O(k)$ -- by definition
     * [pathwidth]({{< base >}}html/VHClqR) $k$ upper bounds [linear rank-width]({{< base >}}html/cHugsk) by $f(k)$
     * [distance to linear forest]({{< base >}}html/distance_to_skQuFN) $k$ upper bounds [pathwidth]({{< base >}}html/VHClqR) by $\mathcal O(k)$ -- After removal of $k$ vertices the remaining class has a bounded width $w$. So by including the removed vertices in every bag, we can achieve decomposition of width $w+k$
     * [distance to linear forest]({{< base >}}html/distance_to_skQuFN) $k$ upper bounds [pathwidth]({{< base >}}html/VHClqR) by $\mathcal O(k)$ -- After removal of $k$ vertices the remaining class has a bounded width $w$. So by including the removed vertices in every bag, we can achieve decomposition of width $w+k$
-*  [SchroderThesis]({{< base >}}html/DYGiYb)
-    * page 23 : bounded [feedback edge set]({{< base >}}html/HTk9PZ) does not imply bounded [pathwidth]({{< base >}}html/VHClqR) -- Proposition 3.16
-*  [https://mathworld.wolfram.com/Pathwidth.html](https://mathworld.wolfram.com/Pathwidth.html)
-    * [pathwidth]({{< base >}}html/VHClqR) -- The pathwidth of a graph $G$, also called the interval thickness, vertex separation number, and node searching number, is one less than the size of the largest set in a path decomposition G.

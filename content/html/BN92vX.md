@@ -13,10 +13,10 @@
     * page 10 : [maximum leaf number]({{< base >}}html/BN92vX) $k$ upper bounds [bandwidth]({{< base >}}html/aP5a38) by $\mathcal O(k)$ -- Lemma 4.25. The max leaf number $\mathrm{ml}$ strictly upper bounds the bandwidth $\mathrm{bw}$.
 *  [SchroderThesis]({{< base >}}html/DYGiYb)
     * page 21 : bounded [maximum leaf number]({{< base >}}html/BN92vX) does not imply bounded [girth]({{< base >}}html/BCwUeT) -- Proposition 3.14
-*  [https://mathworld.wolfram.com/MaximumLeafNumber.html](https://mathworld.wolfram.com/MaximumLeafNumber.html)
-    * [maximum leaf number]({{< base >}}html/BN92vX) -- ... the largest number of tree leaves in any of its spanning trees.
 *  [unknown]({{< base >}}html/myit4D)
     * [maximum leaf number]({{< base >}}html/BN92vX) $k$ upper bounds [distance to linear forest]({{< base >}}html/distance_to_skQuFN) by $f(k)$
     * [maximum leaf number]({{< base >}}html/BN92vX) $k$ upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by $f(k)$
     * [cycle]({{< base >}}html/Ti0asF) upper bounds [maximum leaf number]({{< base >}}html/BN92vX) by a constant
     * [maximum leaf number]({{< base >}}html/BN92vX) $k$ upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by $k^{\mathcal O(1)}$ -- M. Bentert (personal communication)
+*  [https://mathworld.wolfram.com/MaximumLeafNumber.html](https://mathworld.wolfram.com/MaximumLeafNumber.html)
+    * [maximum leaf number]({{< base >}}html/BN92vX) -- ... the largest number of tree leaves in any of its spanning trees.

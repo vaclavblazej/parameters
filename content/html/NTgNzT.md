@@ -15,8 +15,8 @@
 * 2013 [modularwidth2013]({{< base >}}html/OH3sI3)
     * page 8 : bounded [modular-width]({{< base >}}html/4bj71L) does not imply bounded [shrub-depth]({{< base >}}html/NTgNzT) -- Theorem 4. There are classes of graphs with unbounded modular-width and bounded shrub-depth and vice versa.
     * page 8 : bounded [shrub-depth]({{< base >}}html/NTgNzT) does not imply bounded [modular-width]({{< base >}}html/4bj71L) -- Theorem 4. There are classes of graphs with unbounded modular-width and bounded shrub-depth and vice versa.
-*  [unknown]({{< base >}}html/myit4D)
-    * [twin-cover number]({{< base >}}html/MUnHA0) $k$ upper bounds [shrub-depth]({{< base >}}html/NTgNzT) by $\mathcal O(k)$
 *  [https://www.fi.muni.cz/~hlineny/papers/shrubdepth-warw18-slipp.pdf](https://www.fi.muni.cz/~hlineny/papers/shrubdepth-warw18-slipp.pdf)
     * page 7 : [shrub-depth]({{< base >}}html/NTgNzT) -- Tree-model of $m$ colors and depth $d$: a rooted tree $T$ of height $d$, leaves are the vertices of $G$, each leaf has one of $m$ colors, an associated signature determining the edge set of $G$ as follows: for $i=1,2,\dots,d$, let $u$ and $v$ be leaves with the least common ancestor at height $i$ in $T$, then $uv \in E(G)$ iff the color pair of $u,v$ is in the signature at height $i$.
     * page 9 : [neighborhood diversity]({{< base >}}html/vMs3RS) upper bounds [shrub-depth]({{< base >}}html/NTgNzT) by a constant -- Shrub-depth 1: e.g., cliques, stars, \dots, gen. BND -- bounded neighborhood diversity.
+*  [unknown]({{< base >}}html/myit4D)
+    * [twin-cover number]({{< base >}}html/MUnHA0) $k$ upper bounds [shrub-depth]({{< base >}}html/NTgNzT) by $\mathcal O(k)$

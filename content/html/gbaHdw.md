@@ -22,12 +22,12 @@
     * page 24 : [genus]({{< base >}}html/gbaHdw) $k$ upper bounds [book thickness]({{< base >}}html/doijTS) by $\mathcal O(k)$ -- Theorem 5.1. Genus $g$ graphs have pagenumber $O(\sqrt{g})$.
 *  [https://en.wikipedia.org/wiki/Genus_(mathematics)#Graph_theory](https://en.wikipedia.org/wiki/Genus_(mathematics)#Graph_theory)
     * [genus]({{< base >}}html/gbaHdw) -- The genus of a graph is the minimal integer $n$ such that the graph can be drawn without crossing itself on a sphere with $n$ handles.
+*  [unknown]({{< base >}}html/myit4D)
+    * [feedback edge set]({{< base >}}html/HTk9PZ) $k$ upper bounds [genus]({{< base >}}html/gbaHdw) by $\mathcal O(k)$ -- Removing $k$ edges creates a forest that is embeddable into the plane. We now add one handle for each of the $k$ edges to get embedding into $k$-handle genus.
+    * [planar]({{< base >}}html/loZ5LD) upper bounds [genus]({{< base >}}html/gbaHdw) by a constant
 *  [SchroderThesis]({{< base >}}html/DYGiYb)
     * page 23 : bounded [genus]({{< base >}}html/gbaHdw) does not imply bounded [clique-width]({{< base >}}html/wg5HuV) -- Proposition 3.17
     * page 24 : bounded [vertex cover]({{< base >}}html/4lp9Yj) does not imply bounded [genus]({{< base >}}html/gbaHdw) -- Proposition 3.18
     * page 26 : bounded [genus]({{< base >}}html/gbaHdw) does not imply bounded [distance to perfect]({{< base >}}html/distance_to_RmssrZ) -- Proposition 3.24
     * page 30 : bounded [bandwidth]({{< base >}}html/aP5a38) does not imply bounded [genus]({{< base >}}html/gbaHdw) -- Proposition 3.27
     * page 33 : bounded [genus]({{< base >}}html/gbaHdw) does not imply bounded [distance to planar]({{< base >}}html/distance_to_loZ5LD) -- Proposition 3.34
-*  [unknown]({{< base >}}html/myit4D)
-    * [feedback edge set]({{< base >}}html/HTk9PZ) $k$ upper bounds [genus]({{< base >}}html/gbaHdw) by $\mathcal O(k)$ -- Removing $k$ edges creates a forest that is embeddable into the plane. We now add one handle for each of the $k$ edges to get embedding into $k$-handle genus.
-    * [planar]({{< base >}}html/loZ5LD) upper bounds [genus]({{< base >}}html/gbaHdw) by a constant
