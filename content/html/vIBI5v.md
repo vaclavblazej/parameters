@@ -1,7 +1,5 @@
 # Jelinek2010
 
-[https://www.doi.org/10.1016/j.dam.2009.02.007](https://www.doi.org/10.1016/j.dam.2009.02.007)
-
 ```bibtex
 @article{Jelinek2010,
 author = {Vít Jelínek},

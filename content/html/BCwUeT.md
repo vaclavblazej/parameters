@@ -8,8 +8,8 @@
 
 <object data="../inclusions_BCwUeT.pdf" type="application/pdf" width="100%" height="480px"><embed src="../inclusions_BCwUeT.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../inclusions_BCwUeT.pdf">Download PDF</a>.</p></embed></object>
 
-*  [unknown]({{< base >}}html/myit4D)
-    * [average distance]({{< base >}}html/zH8PpT) $k$ upper bounds [girth]({{< base >}}html/BCwUeT) by $f(k)$
+*  [unknown source]({{< base >}}html/myit4D)
+    * [average distance]({{< base >}}html/zH8PpT) upper bounds [girth]({{< base >}}html/BCwUeT) by a computable function
     * graph class [bipartite]({{< base >}}html/cLHJkW) has unbounded [girth]({{< base >}}html/BCwUeT)
     * graph class [forest]({{< base >}}html/JngPPm) has unbounded [girth]({{< base >}}html/BCwUeT)
     * graph class [disjoint cycles]({{< base >}}html/AGnF5Z) has unbounded [girth]({{< base >}}html/BCwUeT)

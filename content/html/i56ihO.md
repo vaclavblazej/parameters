@@ -1,7 +1,5 @@
 # RobertsonSymour1986
 
-[https://www.doi.org/10.1016/0196-6774(86)90023-4](https://www.doi.org/10.1016/0196-6774(86)90023-4)
-
 ```bibtex
 @article{RobertsonSymour1986,
 author = {Neil Robertson and Paul D. Seymour},

@@ -1,7 +1,5 @@
 # Chung1985
 
-[https://www.doi.org/10.1137/0606026](https://www.doi.org/10.1137/0606026)
-
 ```bibtex
 @article{Chung1985,
 author = {Fan R. K. Chung},

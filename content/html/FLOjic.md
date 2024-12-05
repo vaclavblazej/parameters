@@ -1,7 +1,5 @@
 # Jansen2013
 
-[https://www.win.tue.nl/~bjansen/papers/BMPJansen-ThePowerOfDataReduction.pdf](https://www.win.tue.nl/~bjansen/papers/BMPJansen-ThePowerOfDataReduction.pdf)
-
 ```bibtex
 @thesis{Jansen2013,
 author = {Bart M. P. Jansen},

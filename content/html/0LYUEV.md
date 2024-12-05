@@ -1,7 +1,5 @@
 # lampis2012
 
-[https://www.doi.org/10.1007/s00453-011-9554-x](https://www.doi.org/10.1007/s00453-011-9554-x)
-
 ```bibtex
 @article{lampis2012,
 author = {Michael Lampis},

@@ -1,7 +1,5 @@
 # BodlaenderMohring1993
 
-[https://www.doi.org/10.1137/0406014](https://www.doi.org/10.1137/0406014)
-
 ```bibtex
 @article{BodlaenderMohring1993,
 author = {Hans L. Bodlaender and Rolf H. Möhring},

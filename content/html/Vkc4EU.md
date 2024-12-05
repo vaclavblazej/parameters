@@ -1,7 +1,5 @@
 # bipboxicity2011
 
-[https://www.doi.org/10.1007/S00373-011-1017-2](https://www.doi.org/10.1007/S00373-011-1017-2)
-
 ```bibtex
 @article{bipboxicity2011,
 author = {L. Sunil Chandran and Mathew C. Francis and Rogers Mathew},

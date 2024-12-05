@@ -1,7 +1,5 @@
 # mimwidth2020
 
-[https://www.doi.org/10.1016/j.dam.2019.06.026](https://www.doi.org/10.1016/j.dam.2019.06.026)
-
 ```bibtex
 @article{mimwidth2020,
 author = {Lars Jaffke and O-joung Kwon and Jan Arne Telle},

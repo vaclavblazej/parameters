@@ -1,7 +1,5 @@
 # SchroderThesis
 
-[https://fpt.akt.tu-berlin.de/publications/theses/BA-Schr%C3%B6der.pdf](https://fpt.akt.tu-berlin.de/publications/theses/BA-Schr%C3%B6der.pdf)
-
 ```bibtex
 @thesis{SchroderThesis,
 author = {Johannes Christoph Benjamin Schröder},
@@ -11,10 +9,10 @@ type = {Bachelor's Thesis},
 url = {https://fpt.akt.tu-berlin.de/publications/theses/BA-Schr%C3%B6der.pdf},
 }
 ```
-* Sorge2019 -- Based on the work by [Sa19] as well as [Fr8], we investigate unknown connections between graph parameters to continue the work on the graph parameter hierarchy
-* Froemmrich2018 -- Based on the work by [Sa19] as well as [Fr8], we investigate unknown connections between graph parameters to continue the work on the graph parameter hierarchy
-* page 11 : [treedepth]({{< base >}}html/KEP2qM) $k$ upper bounds [diameter]({{< base >}}html/p4bTjp) by $\mathcal O(k)$ -- Proposition 3.1
-* page 12 : [distance to linear forest]({{< base >}}html/distance_to_skQuFN) $k$ upper bounds [h-index]({{< base >}}html/GNTwUS) by $\mathcal O(k)$ -- Proposition 3.2
+* SchroderThesis -- Based on the work by [Sa19] as well as [Fr8], we investigate unknown connections between graph parameters to continue the work on the graph parameter hierarchy
+* SchroderThesis -- Based on the work by [Sa19] as well as [Fr8], we investigate unknown connections between graph parameters to continue the work on the graph parameter hierarchy
+* page 11 : [treedepth]({{< base >}}html/KEP2qM) upper bounds [diameter]({{< base >}}html/p4bTjp) by an exponential function -- Proposition 3.1
+* page 12 : [distance to linear forest]({{< base >}}html/distance_to_skQuFN) upper bounds [h-index]({{< base >}}html/GNTwUS) by a linear function -- Proposition 3.2
 * page 13 : bounded [distance to cluster]({{< base >}}html/distance_to_WAU7vf) does not imply bounded [distance to co-cluster]({{< base >}}html/distance_to_7HR4uV) -- Proposition 3.3
 * page 14 : bounded [distance to co-cluster]({{< base >}}html/distance_to_7HR4uV) does not imply bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 3.4
 * page 15 : bounded [vertex cover]({{< base >}}html/4lp9Yj) does not imply bounded [domination number]({{< base >}}html/Gq0onN) -- Proposition 3.5

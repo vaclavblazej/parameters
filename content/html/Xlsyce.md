@@ -1,7 +1,5 @@
 # ParameterizedAlgorithms2015
 
-[https://www.doi.org/10.1007/978-3-319-21275-3](https://www.doi.org/10.1007/978-3-319-21275-3)
-
 ```bibtex
 @book{ParameterizedAlgorithms2015,
 author = {Marek Cygan and

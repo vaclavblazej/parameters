@@ -10,7 +10,7 @@ volume = {132},
 year = {1998},
 }
 ```
-* [clique-width]({{< base >}}html/wg5HuV) $k$ upper bounds [NLC-width]({{< base >}}html/Xrpbv7) by $\mathcal O(k)$
-* [NLC-width]({{< base >}}html/Xrpbv7) $k$ upper bounds [clique-width]({{< base >}}html/wg5HuV) by $\mathcal O(k)$
-* [linear clique-width]({{< base >}}html/fQj3wU) $k$ upper bounds [linear NLC-width]({{< base >}}html/v09DMY) by $\mathcal O(k)$
-* [linear NLC-width]({{< base >}}html/v09DMY) $k$ upper bounds [linear clique-width]({{< base >}}html/fQj3wU) by $\mathcal O(k)$
+* [clique-width]({{< base >}}html/wg5HuV) upper bounds [NLC-width]({{< base >}}html/Xrpbv7) by a linear function
+* [NLC-width]({{< base >}}html/Xrpbv7) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a linear function
+* [linear clique-width]({{< base >}}html/fQj3wU) upper bounds [linear NLC-width]({{< base >}}html/v09DMY) by a linear function
+* [linear NLC-width]({{< base >}}html/v09DMY) upper bounds [linear clique-width]({{< base >}}html/fQj3wU) by a linear function

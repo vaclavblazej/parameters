@@ -176,3 +176,33 @@ li {
 footer {
     margin-top: 2em;
 }
+
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table th {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+table td {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+table td:last-child {
+    border-right: none;
+}
+

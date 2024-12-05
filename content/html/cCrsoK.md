@@ -1,7 +1,5 @@
 # Malitz1994
 
-[https://www.doi.org/10.1006/jagm.1994.1028](https://www.doi.org/10.1006/jagm.1994.1028)
-
 ```bibtex
 @article{Malitz1994,
 author = {S.M. Malitz},
@@ -15,4 +13,4 @@ volume = {17},
 year = {1994},
 }
 ```
-* page 24 : [genus]({{< base >}}html/gbaHdw) $k$ upper bounds [book thickness]({{< base >}}html/doijTS) by $\mathcal O(k)$ -- Theorem 5.1. Genus $g$ graphs have pagenumber $O(\sqrt{g})$.
+* page 24 : [genus]({{< base >}}html/gbaHdw) upper bounds [book thickness]({{< base >}}html/doijTS) by a linear function -- Theorem 5.1. Genus $g$ graphs have pagenumber $O(\sqrt{g})$.
