@@ -1,4 +1,6 @@
-# TackLayouts2004
+# Track Layouts of Graphs by Dujmović, Pór, Wood
+
+[https://www.doi.org/10.46298/DMTCS.315](https://www.doi.org/10.46298/DMTCS.315)
 
 ```bibtex
 @article{TackLayouts2004,

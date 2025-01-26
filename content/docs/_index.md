@@ -7,9 +7,10 @@ title: "Documentation"
 
 This website uses several things that deserve to be explained in detail.
 
-* [Legend for diagrams](./legend/)
+* [Legend for website's graphical elements](./legend/)
 * [Website controls](./controls/)
 * [Intro to relevant complexity theory](./complexity/)
+* [About the project](./about/)
 
 ## Structure of HOPS
 

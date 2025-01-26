@@ -1,4 +1,6 @@
-# spanningTreesManyLeaves2008
+# Spanning Trees with Many Leaves and Average Distance by DeLaViña, Waller
+
+[https://www.doi.org/10.37236/757](https://www.doi.org/10.37236/757)
 
 ```bibtex
 @article{spanningTreesManyLeaves2008,
@@ -14,3 +16,4 @@ title = {Spanning Trees with Many Leaves and Average Distance},
 year = {2008},
 }
 ```
+* page 5 : [average distance]({{< base >}}html/zH8PpT) upper bounds [bipartite number]({{< base >}}html/1dQQ87) by a linear function -- Theorem 9 (Main Theorem). Let $G$ be a graph. Then $\bar{D} < \frac b2 + \frac 12$. ...

@@ -1,4 +1,6 @@
-# gradnesetril2008
+# Grad and classes with bounded expansion II. Algorithmic aspects by Nešetřil, Ossona de Mendez
+
+[https://www.doi.org/10.1016/j.ejc.2006.07.014](https://www.doi.org/10.1016/j.ejc.2006.07.014)
 
 ```bibtex
 @article{gradnesetril2008,

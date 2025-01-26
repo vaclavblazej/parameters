@@ -1,4 +1,4 @@
-# Diestel2017
+# Graph Theory by Diestel
 
 ```bibtex
 @book{Diestel2017,

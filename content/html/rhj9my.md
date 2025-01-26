@@ -1,4 +1,6 @@
-# Adler2015
+# Linear rank-width and linear clique-width of trees by Adler, Kanté
+
+[https://www.doi.org/10.1016/j.tcs.2015.04.021](https://www.doi.org/10.1016/j.tcs.2015.04.021)
 
 ```bibtex
 @article{Adler2015,

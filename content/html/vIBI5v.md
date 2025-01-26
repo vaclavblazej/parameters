@@ -1,4 +1,6 @@
-# Jelinek2010
+# The rank-width of the square grid by Jelínek
+
+[https://www.doi.org/10.1016/j.dam.2009.02.007](https://www.doi.org/10.1016/j.dam.2009.02.007)
 
 ```bibtex
 @article{Jelinek2010,

@@ -1,4 +1,6 @@
-# Vatshelle2012
+# New Width Parameters of Graphs by Vatshelle
+
+[https://hdl.handle.net/1956/6166](https://hdl.handle.net/1956/6166)
 
 ```bibtex
 @thesis{Vatshelle2012,

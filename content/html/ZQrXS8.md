@@ -1,4 +1,6 @@
-# courcelle2000
+# Upper bounds to the clique width of graphs by Courcelle, Olariu
+
+[https://www.doi.org/10.1016/S0166-218X(99)00184-5](https://www.doi.org/10.1016/S0166-218X(99)00184-5)
 
 ```bibtex
 @article{courcelle2000,

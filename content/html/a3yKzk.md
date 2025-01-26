@@ -1,4 +1,6 @@
-# BodlaenderMohring1993
+# The Pathwidth and Treewidth of Cographs by Bodlaender, Möhring
+
+[https://www.doi.org/10.1137/0406014](https://www.doi.org/10.1137/0406014)
 
 ```bibtex
 @article{BodlaenderMohring1993,

@@ -1,0 +1,5 @@
+digraph local_OyLUe4 {
+	node [color=lightblue2 style=filled]
+	margin=0.04 size="6,6"
+	"n_OyLUe4" [label="vertex connectivity" URL="/parameters/html/OyLUe4" color="#78acff" shape=box]
+}

@@ -1,4 +1,4 @@
-# Johansson1998
+# Clique-decomposition, NLC-decomposition and modular decomposition—relationships and results for random graphs by Johansson
 
 ```bibtex
 @article{Johansson1998,

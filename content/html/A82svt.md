@@ -1,4 +1,6 @@
-# RobertsonSymour1986V
+# Graph minors. V. Excluding a planar graph by Robertson, Seymour
+
+[https://www.doi.org/10.1016/0095-8956(86)90030-4](https://www.doi.org/10.1016/0095-8956(86)90030-4)
 
 ```bibtex
 @article{RobertsonSymour1986V,

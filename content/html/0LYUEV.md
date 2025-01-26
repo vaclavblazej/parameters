@@ -1,4 +1,6 @@
-# lampis2012
+# Algorithmic Meta-theorems for Restrictions of Treewidth by Lampis
+
+[https://www.doi.org/10.1007/s00453-011-9554-x](https://www.doi.org/10.1007/s00453-011-9554-x)
 
 ```bibtex
 @article{lampis2012,

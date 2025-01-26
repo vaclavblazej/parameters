@@ -1,4 +1,6 @@
-# Bodlaender1998
+# A partial $k$-arboretum of graphs with bounded treewidth by Bodlaender
+
+[https://www.doi.org/10.1016/S0304-3975(97)00228-4](https://www.doi.org/10.1016/S0304-3975(97)00228-4)
 
 ```bibtex
 @article{Bodlaender1998,

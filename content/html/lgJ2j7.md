@@ -1,4 +1,6 @@
-# twwsurfaces2024
+# Twin-width of graphs on surfaces by Kráľ, Pekárková, Štorgel
+
+[https://arxiv.org/abs/2307.05811](https://arxiv.org/abs/2307.05811)
 
 ```bibtex
 @misc{twwsurfaces2024,
@@ -11,4 +13,4 @@ url = {https://arxiv.org/abs/2307.05811},
 year = {2024},
 }
 ```
-* page 18 : [genus]({{< base >}}html/gbaHdw) upper bounds [twin-width]({{< base >}}html/reduced_UyQ5yM) by a linear function -- The twin-width of every graph $G$ of Euler genus $g \ge 1$ is at most ... $18 \sqrt{47g}+O(1)$.
+* page 18 : [genus]({{< base >}}html/gbaHdw) upper bounds [twin-width]({{< base >}}html/OrH7et) by a linear function -- The twin-width of every graph $G$ of Euler genus $g \ge 1$ is at most ... $18 \sqrt{47g}+O(1)$.

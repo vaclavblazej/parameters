@@ -1,4 +1,6 @@
-# RobertsonSymour1991
+# Graph minors. X. Obstructions to tree-decomposition by Robertson, Seymour
+
+[https://www.doi.org/10.1016/0095-8956(91)90061-N](https://www.doi.org/10.1016/0095-8956(91)90061-N)
 
 ```bibtex
 @article{RobertsonSymour1991,

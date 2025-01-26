@@ -1,4 +1,6 @@
-# Malitz1994
+# Genus g Graphs Have Pagenumber O(√g) by Malitz
+
+[https://www.doi.org/10.1006/jagm.1994.1028](https://www.doi.org/10.1006/jagm.1994.1028)
 
 ```bibtex
 @article{Malitz1994,

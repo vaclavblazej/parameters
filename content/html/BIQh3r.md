@@ -1,4 +1,6 @@
-# mimwidth2020
+# Mim-Width I. Induced path problems by Jaffke, Kwon, Telle
+
+[https://www.doi.org/10.1016/j.dam.2019.06.026](https://www.doi.org/10.1016/j.dam.2019.06.026)
 
 ```bibtex
 @article{mimwidth2020,

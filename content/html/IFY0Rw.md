@@ -1,4 +1,6 @@
-# chordality1993
+# On the chordality of a graph by McKee, Scheinerman
+
+[https://www.doi.org/10.1002/jgt.3190170210](https://www.doi.org/10.1002/jgt.3190170210)
 
 ```bibtex
 @article{chordality1993,

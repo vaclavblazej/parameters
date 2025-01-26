@@ -1,4 +1,6 @@
-# modularwidth2013
+# Parameterized Algorithms for Modular-Width by Gajarský, Lampis, Ordyniak
+
+[https://www.doi.org/10.1007/978-3-319-03898-8_15](https://www.doi.org/10.1007/978-3-319-03898-8_15)
 
 ```bibtex
 @inproceedings{modularwidth2013,

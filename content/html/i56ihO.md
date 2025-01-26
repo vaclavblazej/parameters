@@ -1,4 +1,6 @@
-# RobertsonSymour1986
+# Graph minors. II. Algorithmic aspects of tree-width by Robertson, Seymour
+
+[https://www.doi.org/10.1016/0196-6774(86)90023-4](https://www.doi.org/10.1016/0196-6774(86)90023-4)
 
 ```bibtex
 @article{RobertsonSymour1986,

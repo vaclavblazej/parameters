@@ -1,4 +1,6 @@
-# Wanke1994
+# k-NLC graphs and polynomial algorithms by Wanke
+
+[https://www.doi.org/10.1016/0166-218X(94)90026-4](https://www.doi.org/10.1016/0166-218X(94)90026-4)
 
 ```bibtex
 @article{Wanke1994,

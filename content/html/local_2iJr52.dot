@@ -1,0 +1,18 @@
+digraph local_2iJr52 {
+	node [color=lightblue2 style=filled]
+	margin=0.04 size="6,6"
+	"n_JngPPm" [label="forest" URL="/parameters/html/JngPPm" color="#bbccf0" shape=box]
+	"n_2iJr52" [label="cycles" URL="/parameters/html/2iJr52" color="#78acff" shape=box]
+	"n_loZ5LD" [label="planar" URL="/parameters/html/loZ5LD" color="#dddde8" shape=box]
+	"n_0oCyaG" [label="outerplanar" URL="/parameters/html/0oCyaG" color="#bbccf0" shape=box]
+	"n_Ti0asF" [label="cycle" URL="/parameters/html/Ti0asF" color="#99bcf8" shape=box]
+	"n_EhdXNA" [label="complete" URL="/parameters/html/EhdXNA" color="#dddde8" shape=box]
+	"n_cLHJkW" [label="bipartite" URL="/parameters/html/cLHJkW" color="#dddde8" shape=box]
+	"n_AGnF5Z" [label="disjoint cycles" URL="/parameters/html/AGnF5Z" color="#99bcf8" shape=box]
+	"n_JngPPm" -> "n_cLHJkW" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+	"n_2iJr52" -> "n_AGnF5Z" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+	"n_Ti0asF" -> "n_2iJr52" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+	"n_0oCyaG" -> "n_loZ5LD" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+	"n_AGnF5Z" -> "n_0oCyaG" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+	"n_JngPPm" -> "n_AGnF5Z" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+}

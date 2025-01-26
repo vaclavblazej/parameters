@@ -1,4 +1,6 @@
-# Oum2006
+# Approximating clique-width and branch-width by Oum, Seymour
+
+[https://www.doi.org/10.1016/j.jctb.2005.10.006](https://www.doi.org/10.1016/j.jctb.2005.10.006)
 
 ```bibtex
 @article{Oum2006,

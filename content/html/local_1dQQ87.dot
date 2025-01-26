@@ -1,0 +1,17 @@
+digraph local_1dQQ87 {
+	node [color=lightblue2 style=filled]
+	margin=0.04 size="6,6"
+	"n_4bj71L" [label="modular-width" URL="/parameters/html/4bj71L" color="#dddde8" shape=box]
+	"n_zH8PpT" [label="average distance" URL="/parameters/html/zH8PpT" color="#99bcf8" shape=box]
+	"n_4lp9Yj" [label="vertex cover" URL="/parameters/html/4lp9Yj" color="#dddde8" shape=box]
+	"n_p4bTjp" [label="diameter" URL="/parameters/html/p4bTjp" color="#bbccf0" shape=box]
+	"n_KEP2qM" [label="treedepth" URL="/parameters/html/KEP2qM" color="#dddde8" shape=box]
+	"n_1dQQ87" [label="bipartite number" URL="/parameters/html/1dQQ87" color="#78acff" shape=box]
+	"n_4bj71L" -> "n_p4bTjp" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_p4bTjp" -> "n_zH8PpT" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_4lp9Yj" -> "n_KEP2qM" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_KEP2qM" -> "n_p4bTjp" [label="" decorate=true lblstyle="above, sloped" style="dotted" weight="1" penwidth="1.0"]
+	"n_4lp9Yj" -> "n_p4bTjp" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_4lp9Yj" -> "n_4bj71L" [label="" decorate=true lblstyle="above, sloped" style="dotted" weight="1" penwidth="1.0"]
+	"n_zH8PpT" -> "n_1dQQ87" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+}

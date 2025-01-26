@@ -1,4 +1,6 @@
-# cliquewidthnpc2009
+# Clique-Width is `NP`-Complete by Fellows, Rosamond, Rotics, Szeider
+
+[https://www.doi.org/10.1137/070687256](https://www.doi.org/10.1137/070687256)
 
 ```bibtex
 @article{cliquewidthnpc2009,

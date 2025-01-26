@@ -1,4 +1,6 @@
-# Chung1985
+# On the Cutwidth and the Topological Bandwidth of a Tree by Chung
+
+[https://www.doi.org/10.1137/0606026](https://www.doi.org/10.1137/0606026)
 
 ```bibtex
 @article{Chung1985,

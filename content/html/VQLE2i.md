@@ -1,4 +1,6 @@
-# ganianTwinCover2015
+# Improving Vertex Cover as a Graph Parameter by Ganian
+
+[https://www.doi.org/10.46298/dmtcs.2136](https://www.doi.org/10.46298/dmtcs.2136)
 
 ```bibtex
 @article{ganianTwinCover2015,

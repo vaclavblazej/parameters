@@ -1,4 +1,6 @@
-# Ganian2019
+# Shrub-depth: Capturing Height of Dense Graphs by Ganian, Hliněný, Nešetřil, Obdržálek, Mendez
+
+[https://www.doi.org/10.48550/ARXIV.1707.00359](https://www.doi.org/10.48550/ARXIV.1707.00359)
 
 ```bibtex
 @article{Ganian2019,

@@ -1,4 +1,6 @@
-# Gurski2005
+# On the relationship between NLC-width and linear NLC-width by Gurski, Wanke
+
+[https://www.doi.org/10.1016/j.tcs.2005.05.018](https://www.doi.org/10.1016/j.tcs.2005.05.018)
 
 ```bibtex
 @article{Gurski2005,

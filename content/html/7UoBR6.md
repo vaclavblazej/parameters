@@ -1,4 +1,6 @@
-# GanianTwinCover2012
+# Twin-Cover: Beyond Vertex Cover in Parameterized Algorithmics by Ganian
+
+[https://www.doi.org/10.1007/978-3-642-28050-4_21](https://www.doi.org/10.1007/978-3-642-28050-4_21)
 
 ```bibtex
 @inproceedings{GanianTwinCover2012,

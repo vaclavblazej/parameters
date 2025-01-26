@@ -1,4 +1,6 @@
-# Jansen2013
+# The Power of Data Reduction: Kernels for Fundamental Graph Problems by Jansen
+
+[https://www.win.tue.nl/~bjansen/papers/BMPJansen-ThePowerOfDataReduction.pdf](https://www.win.tue.nl/~bjansen/papers/BMPJansen-ThePowerOfDataReduction.pdf)
 
 ```bibtex
 @thesis{Jansen2013,
