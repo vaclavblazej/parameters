@@ -34,4 +34,3 @@ It is also designed to work well without javascript, but contains a few javascri
 
 * Use Ctrl+f on the landing page to invoke browser's search bar. There is some effort put into having all relevant terms on the landing page to make such a search useful.
 * Top bar contains breadcrumbs which go back to the ancestor pages.
-

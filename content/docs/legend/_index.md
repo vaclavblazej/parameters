@@ -70,4 +70,3 @@ Relevance is meant to give a very rough direction for people who are not familia
 This value is entered manually which inadvertently introduces personal bias.
 The hope is that eventually each parameter is somewhat correctly categorized as viewed by the community.
 If you feel some values are significantly incorrect, then let us know.
-

@@ -10,6 +10,8 @@ url = {https://manyu.pro/assets/parameter-hierarchy.pdf},
 year = {2019},
 }
 ```
+<p><div id="../drawing_VnTIL0_0.dot" class="svg-diagram"></div></p><script>Viz.instance().then(function(viz) {fetch('../drawing_VnTIL0_0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);svg.setAttribute("width", "100%");svg.setAttribute("height", "300pt");document.getElementById("../drawing_VnTIL0_0.dot").appendChild(svg);svgPanZoom(svg, {zoomEnabled: true,zoomScaleSensitivity: 0.3,minZoom: 0.9,maxZoom: 6,});})});</script>
+
 * page 3 : [acyclic chromatic number]({{< base >}}html/QGZuUW) -- The \emph{acyclic chromatic number} of a graph $G = (V,E)$ is the smallest size of a vertex partition $P=\{V_1,\dots,V_\ell\}$ such that each $V_i$ is an independent set and for all $V_i,V_j$ the graph $G[V_i \cup V_j]$ does not contain a cycle.
 * page 3 : [arboricity]({{< base >}}html/zgMenA) -- The \emph{arboricity} of a graph $G$ is the minimum number of forests the edges of $G$ can be partitioned into.
 * page 3 : [average degree]({{< base >}}html/z0y4TW) -- The \emph{average degree} of a graph $G = (V,E)$ is $2|E|/|V|$.
@@ -18,8 +20,8 @@ year = {2019},
 * page 8 : [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a polynomial function -- Lemma 4.6 ([15]). The acyclic chromatic number $\chi_a$ is uppre bounded by the maximum degree $\Delta$ (for every graph with $\Delta > 4$). We have $\chi_a \le \Delta(\Delta-1)/2$.
 * page 8 : [h-index]({{< base >}}html/GNTwUS) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a polynomial function -- Lemma 4.7. The acyclic chromatic number $\chi_a$ is upper bounded by the $h$-index $h$. We have $\chi_a \le h(h+1)/2$.
 * page 8 : [genus]({{< base >}}html/gbaHdw) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a linear function -- Lemma 4.8 ([3]). The accylic chromatic number $\chi_a$ is upper bounded by the genus $g$. We have $\chi_a \le 4g+4$.
-* page 8 : [acyclic chromatic number]({{< base >}}html/QGZuUW) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a polynomial function -- Lemma 4.9. The boxicity $b$ is upper bounded by the acyclic chromatic number $\chi_a$ (for every graph with $\chi_a>1$). We have $b \le \chi_a(\chi_a-1)$.
-* page 8 : [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a linear function -- Lemma 4.10 ([14]). The max-leaf number $\mathrm{ml}$ upper bounds the distance to disjoint paths $d$. We have $d \le \mathrm{ml}-1$.
+* page 8 : [acyclic chromatic number]({{< base >}}html/QGZuUW) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a computable function -- Lemma 4.9. The boxicity $b$ is upper bounded by the acyclic chromatic number $\chi_a$ (for every graph with $\chi_a>1$). We have $b \le \chi_a(\chi_a-1)$.
+* page 8 : [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a computable function -- Lemma 4.10 ([14]). The max-leaf number $\mathrm{ml}$ upper bounds the distance to disjoint paths $d$. We have $d \le \mathrm{ml}-1$.
 * page 9 : [boxicity]({{< base >}}html/a7MpiT) upper bounds [chordality]({{< base >}}html/fTqo40) by a linear function -- Lemma 4.15 ([8,11]). The boxicity $b$ upper-bounds the chordality $c$. We have $c \le b$.
 * page 9 : [distance to interval]({{< base >}}html/AVc2K6) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a linear function -- Lemma 4.16. The distance $i$ to an interval graph upper bounds the boxicity $b$. We have $b \le i+1$.
 * page 9 : [distance to chordal]({{< base >}}html/OdZQna) upper bounds [chordality]({{< base >}}html/fTqo40) by a linear function -- (ed: apparently goes as the lemma for ddist to interval and boxicity) Lemma 4.16. The distance $i$ to an interval graph upper bounds the boxicity $b$. We have $b \le i+1$.

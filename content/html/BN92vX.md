@@ -1,10 +1,12 @@
-# maximum leaf number
+---
+title: "maximum leaf number"
+---# maximum leaf number
 
 tags: [covering vertices]({{< base >}}html/TgTiqK)
 
-equivalent to: [maximum leaf number]({{< base >}}html/BN92vX)
-
 providers: [ISGCI](https://www.graphclasses.org/classes/par_22.html)
+
+**Definition:** Largest number of tree leaves in any of graph's spanning trees.
 
 
 
@@ -18,132 +20,138 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_22.html)
 
 ## Relations
 
-| Other | Relation from | Relation to |
-| --- | --- | --- |
-| [acyclic chromatic number]({{< base >}}html/QGZuUW) | exclusion | upper bound |
-| [arboricity]({{< base >}}html/zgMenA) | exclusion | upper bound |
-| [average degree]({{< base >}}html/z0y4TW) | exclusion | upper bound |
-| [average distance]({{< base >}}html/zH8PpT) | exclusion | exclusion |
-| [bandwidth]({{< base >}}html/aP5a38) | exclusion | upper bound |
-| [bipartite]({{< base >}}html/cLHJkW) | unbounded | unknown to HOPS |
-| [bipartite number]({{< base >}}html/1dQQ87) | exclusion | unknown to HOPS |
-| [bisection bandwidth]({{< base >}}html/wUdmUb) | exclusion | upper bound |
-| [block]({{< base >}}html/QrxQsH) | unbounded | unknown to HOPS |
-| [book thickness]({{< base >}}html/doijTS) | exclusion | upper bound |
-| [boolean width]({{< base >}}html/A2jPWT) | exclusion | upper bound |
-| [bounded components]({{< base >}}html/t7c4mp) | exclusion | exclusion |
-| [boxicity]({{< base >}}html/a7MpiT) | exclusion | upper bound |
-| [branch width]({{< base >}}html/lIcmuR) | exclusion | upper bound |
-| [c-closure]({{< base >}}html/ou9VU1) | exclusion | upper bound |
-| [carving-width]({{< base >}}html/dS6OgO) | exclusion | upper bound |
-| [chordal]({{< base >}}html/Cv1PaJ) | unbounded | unknown to HOPS |
-| [chordality]({{< base >}}html/fTqo40) | exclusion | upper bound |
-| [chromatic number]({{< base >}}html/w7MmyW) | exclusion | upper bound |
-| [clique cover number]({{< base >}}html/VomShB) | exclusion | exclusion |
-| [clique-tree-width]({{< base >}}html/7P9WUz) | exclusion | upper bound |
-| [clique-width]({{< base >}}html/wg5HuV) | exclusion | upper bound |
-| [cluster]({{< base >}}html/WAU7vf) | unbounded | exclusion |
-| [co-cluster]({{< base >}}html/7HR4uV) | unbounded | exclusion |
-| [cograph]({{< base >}}html/9Qd0Mx) | unbounded | exclusion |
-| [complete]({{< base >}}html/EhdXNA) | unbounded | exclusion |
-| [connected]({{< base >}}html/KlMP0i) | unbounded | unknown to HOPS |
-| [cutwidth]({{< base >}}html/TLx1pz) | exclusion | upper bound |
-| [cycle]({{< base >}}html/Ti0asF) | constant | unknown to HOPS |
-| [cycles]({{< base >}}html/2iJr52) | unbounded | unknown to HOPS |
-| [d-path-free]({{< base >}}html/s4EiWI) | exclusion | exclusion |
-| [degeneracy]({{< base >}}html/VowkuW) | exclusion | upper bound |
-| [degree treewidth]({{< base >}}html/nCWUh3) | exclusion | upper bound |
-| [diameter]({{< base >}}html/p4bTjp) | exclusion | exclusion |
-| [diameter+max degree]({{< base >}}html/ri9Seh) | exclusion | exclusion |
-| [disjoint cycles]({{< base >}}html/AGnF5Z) | unbounded | unknown to HOPS |
-| [distance to bipartite]({{< base >}}html/1yW82F) | exclusion | upper bound |
-| [distance to block]({{< base >}}html/xNJnFb) | exclusion | upper bound |
-| [distance to bounded components]({{< base >}}html/RPTCxd) | exclusion | exclusion |
-| [distance to chordal]({{< base >}}html/OdZQna) | exclusion | upper bound |
-| [distance to cluster]({{< base >}}html/aXw3Co) | exclusion | unknown to HOPS |
-| [distance to co-cluster]({{< base >}}html/hbfWwE) | exclusion | exclusion |
-| [distance to cograph]({{< base >}}html/uDXX2i) | exclusion | exclusion |
-| [distance to complete]({{< base >}}html/2LDMQ6) | exclusion | exclusion |
-| [distance to edgeless]({{< base >}}html/4INs10) | exclusion | exclusion |
-| [distance to forest]({{< base >}}html/hQZlLU) | exclusion | upper bound |
-| [distance to interval]({{< base >}}html/AVc2K6) | exclusion | upper bound |
-| [distance to linear forest]({{< base >}}html/yk7XP0) | exclusion | upper bound |
-| [distance to maximum degree]({{< base >}}html/kRR8zx) | exclusion | upper bound |
-| [distance to outerplanar]({{< base >}}html/lPHVWU) | exclusion | upper bound |
-| [distance to perfect]({{< base >}}html/kJZKgd) | exclusion | upper bound |
-| [distance to planar]({{< base >}}html/MLJMRH) | exclusion | upper bound |
-| [distance to stars]({{< base >}}html/Z10jME) | exclusion | exclusion |
-| [domatic number]({{< base >}}html/KRV6tI) | exclusion | upper bound |
-| [domination number]({{< base >}}html/Gq0onN) | exclusion | exclusion |
-| [edge clique cover number]({{< base >}}html/nYQDv6) | exclusion | exclusion |
-| [edge connectivity]({{< base >}}html/JbqZoT) | exclusion | upper bound |
-| [edgeless]({{< base >}}html/LsiBbX) | unknown to HOPS | exclusion |
-| [feedback edge set]({{< base >}}html/HTk9PZ) | exclusion | upper bound |
-| [feedback vertex set]({{< base >}}html/GNOiyB) | exclusion | upper bound |
-| [forest]({{< base >}}html/JngPPm) | unbounded | unknown to HOPS |
-| [genus]({{< base >}}html/gbaHdw) | exclusion | upper bound |
-| [girth]({{< base >}}html/BCwUeT) | exclusion | exclusion |
-| [grid]({{< base >}}html/lfYXuK) | unbounded | unknown to HOPS |
-| [h-index]({{< base >}}html/GNTwUS) | exclusion | upper bound |
-| [inf-flip-width]({{< base >}}html/nYXiuT) | exclusion | upper bound |
-| [interval]({{< base >}}html/p5skoj) | unbounded | unknown to HOPS |
-| [iterated type partitions]({{< base >}}html/G1Cwmc) | exclusion | exclusion |
-| [linear clique-width]({{< base >}}html/fQj3wU) | exclusion | upper bound |
-| [linear forest]({{< base >}}html/skQuFN) | unknown to HOPS | unknown to HOPS |
-| [linear NLC-width]({{< base >}}html/v09DMY) | exclusion | upper bound |
-| [linear rank-width]({{< base >}}html/cHugsk) | exclusion | upper bound |
-| [maximum clique]({{< base >}}html/q7zHeT) | exclusion | upper bound |
-| [maximum degree]({{< base >}}html/UyQ5yM) | exclusion | upper bound |
-| [maximum independent set]({{< base >}}html/mHtXUU) | exclusion | exclusion |
-| [maximum induced matching]({{< base >}}html/GzMYlT) | exclusion | exclusion |
-| [maximum matching]({{< base >}}html/veU7Jf) | exclusion | exclusion |
-| [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) | exclusion | exclusion |
-| [mim-width]({{< base >}}html/WmIFB1) | exclusion | upper bound |
-| [minimum degree]({{< base >}}html/GPmOeT) | exclusion | upper bound |
-| [mm-width]({{< base >}}html/d7vRYU) | exclusion | upper bound |
-| [modular-width]({{< base >}}html/4bj71L) | exclusion | exclusion |
-| [module-width]({{< base >}}html/EV3FqL) | exclusion | upper bound |
-| [neighborhood diversity]({{< base >}}html/vMs3RS) | exclusion | exclusion |
-| [NLC-width]({{< base >}}html/Xrpbv7) | exclusion | upper bound |
-| [NLCT-width]({{< base >}}html/mOri44) | exclusion | upper bound |
-| [odd cycle transversal]({{< base >}}html/Ve5ruW) | exclusion | upper bound |
-| [outerplanar]({{< base >}}html/0oCyaG) | unbounded | unknown to HOPS |
-| [path]({{< base >}}html/ryPlqz) | unknown to HOPS | unknown to HOPS |
-| [pathwidth]({{< base >}}html/VHClqR) | exclusion | upper bound |
-| [pathwidth+maxdegree]({{< base >}}html/6BWcgd) | exclusion | upper bound |
-| [perfect]({{< base >}}html/RmssrZ) | unbounded | unknown to HOPS |
-| [planar]({{< base >}}html/loZ5LD) | unbounded | unknown to HOPS |
-| [radius-r flip-width]({{< base >}}html/4DIiH0) | exclusion | upper bound |
-| [rank-width]({{< base >}}html/fojquT) | exclusion | upper bound |
-| [shrub-depth]({{< base >}}html/NTgNzT) | exclusion | unknown to HOPS |
-| [sim-width]({{< base >}}html/aEGv5N) | exclusion | upper bound |
-| [star]({{< base >}}html/CortlU) | unbounded | exclusion |
-| [stars]({{< base >}}html/10JR3F) | unbounded | exclusion |
-| [topological bandwidth]({{< base >}}html/SnA7Eq) | exclusion | upper bound |
-| [tree]({{< base >}}html/rJyICu) | unbounded | unknown to HOPS |
-| [tree-independence number]({{< base >}}html/fNR6QK) | exclusion | upper bound |
-| [treedepth]({{< base >}}html/KEP2qM) | exclusion | exclusion |
-| [treelength]({{< base >}}html/JA2nKw) | exclusion | unknown to HOPS |
-| [treewidth]({{< base >}}html/5Q7fuR) | exclusion | upper bound |
-| [twin-cover number]({{< base >}}html/MUnHA0) | exclusion | exclusion |
-| [twin-width]({{< base >}}html/OrH7et) | exclusion | upper bound |
-| [vertex connectivity]({{< base >}}html/OyLUe4) | exclusion | unknown to HOPS |
-| [vertex cover]({{< base >}}html/4lp9Yj) | exclusion | exclusion |
-| [vertex integrity]({{< base >}}html/KVhJFB) | exclusion | exclusion |
+| Other |  | Relation from | Relation to |
+| --- | --- | --- | --- |
+| [acyclic chromatic number]({{< base >}}html/QGZuUW) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [arboricity]({{< base >}}html/zgMenA) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [average degree]({{< base >}}html/z0y4TW) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [average distance]({{< base >}}html/zH8PpT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [bandwidth]({{< base >}}html/aP5a38) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [bipartite]({{< base >}}html/cLHJkW) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [bipartite number]({{< base >}}html/1dQQ87) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [bisection bandwidth]({{< base >}}html/wUdmUb) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [block]({{< base >}}html/QrxQsH) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [book thickness]({{< base >}}html/doijTS) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [boolean width]({{< base >}}html/A2jPWT) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [bounded components]({{< base >}}html/t7c4mp) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [boxicity]({{< base >}}html/a7MpiT) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [branch width]({{< base >}}html/lIcmuR) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [c-closure]({{< base >}}html/ou9VU1) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [carving-width]({{< base >}}html/dS6OgO) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [chordal]({{< base >}}html/Cv1PaJ) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [chordality]({{< base >}}html/fTqo40) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [chromatic number]({{< base >}}html/w7MmyW) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [clique cover number]({{< base >}}html/VomShB) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [clique-tree-width]({{< base >}}html/7P9WUz) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [clique-width]({{< base >}}html/wg5HuV) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [cluster]({{< base >}}html/WAU7vf) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [co-cluster]({{< base >}}html/7HR4uV) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [cograph]({{< base >}}html/9Qd0Mx) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [complete]({{< base >}}html/EhdXNA) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [connected]({{< base >}}html/KlMP0i) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [contraction complexity]({{< base >}}html/LlWzhg) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [cutwidth]({{< base >}}html/TLx1pz) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [cycle]({{< base >}}html/Ti0asF) | <span style="display:none">green</span><span style="color:#006400">■</span> | upper bound | exclusion |
+| [cycles]({{< base >}}html/2iJr52) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [d-path-free]({{< base >}}html/s4EiWI) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [degeneracy]({{< base >}}html/VowkuW) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [degree treewidth]({{< base >}}html/nCWUh3) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [diameter]({{< base >}}html/p4bTjp) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [diameter+max degree]({{< base >}}html/ri9Seh) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [disconnected]({{< base >}}html/lA0K71) | <span style="display:none">gray</span><span style="color:#bebebe">■</span> | unknown to HOPS | unknown to HOPS |
+| [disjoint cycles]({{< base >}}html/AGnF5Z) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [distance to bipartite]({{< base >}}html/1yW82F) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to block]({{< base >}}html/xNJnFb) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to bounded components]({{< base >}}html/RPTCxd) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [distance to chordal]({{< base >}}html/OdZQna) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to cluster]({{< base >}}html/aXw3Co) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [distance to co-cluster]({{< base >}}html/hbfWwE) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [distance to cograph]({{< base >}}html/uDXX2i) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [distance to complete]({{< base >}}html/2LDMQ6) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [distance to disconnected]({{< base >}}html/ZL7BOP) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to edgeless]({{< base >}}html/4INs10) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [distance to forest]({{< base >}}html/hQZlLU) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to interval]({{< base >}}html/AVc2K6) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to linear forest]({{< base >}}html/yk7XP0) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to maximum degree]({{< base >}}html/kRR8zx) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to outerplanar]({{< base >}}html/lPHVWU) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to perfect]({{< base >}}html/kJZKgd) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to planar]({{< base >}}html/MLJMRH) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [distance to stars]({{< base >}}html/Z10jME) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [domatic number]({{< base >}}html/KRV6tI) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [domination number]({{< base >}}html/Gq0onN) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [edge clique cover number]({{< base >}}html/nYQDv6) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [edge connectivity]({{< base >}}html/JbqZoT) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [edgeless]({{< base >}}html/LsiBbX) | <span style="display:none">cyan</span><span style="color:#40e0d0">■</span> | unknown to HOPS | exclusion |
+| [feedback edge set]({{< base >}}html/HTk9PZ) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [feedback vertex set]({{< base >}}html/GNOiyB) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [forest]({{< base >}}html/JngPPm) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [genus]({{< base >}}html/gbaHdw) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [girth]({{< base >}}html/BCwUeT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [grid]({{< base >}}html/lfYXuK) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [h-index]({{< base >}}html/GNTwUS) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [inf-flip-width]({{< base >}}html/nYXiuT) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [interval]({{< base >}}html/p5skoj) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [iterated type partitions]({{< base >}}html/G1Cwmc) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [linear clique-width]({{< base >}}html/fQj3wU) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [linear forest]({{< base >}}html/skQuFN) | <span style="display:none">cyan</span><span style="color:#40e0d0">■</span> | unknown to HOPS | exclusion |
+| [linear NLC-width]({{< base >}}html/v09DMY) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [linear rank-width]({{< base >}}html/cHugsk) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [maximum clique]({{< base >}}html/q7zHeT) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [maximum degree]({{< base >}}html/UyQ5yM) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [maximum independent set]({{< base >}}html/mHtXUU) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [maximum induced matching]({{< base >}}html/GzMYlT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [maximum leaf number]({{< base >}}html/BN92vX) | <span style="display:none">yellow</span><span style="color:#ffd700">■</span> | equal | equal |
+| [maximum matching]({{< base >}}html/veU7Jf) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [mim-width]({{< base >}}html/WmIFB1) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [minimum degree]({{< base >}}html/GPmOeT) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [mm-width]({{< base >}}html/d7vRYU) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [modular-width]({{< base >}}html/4bj71L) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [module-width]({{< base >}}html/EV3FqL) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [neighborhood diversity]({{< base >}}html/vMs3RS) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [NLC-width]({{< base >}}html/Xrpbv7) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [NLCT-width]({{< base >}}html/mOri44) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [odd cycle transversal]({{< base >}}html/Ve5ruW) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [outerplanar]({{< base >}}html/0oCyaG) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [path]({{< base >}}html/ryPlqz) | <span style="display:none">cyan</span><span style="color:#40e0d0">■</span> | unknown to HOPS | exclusion |
+| [pathwidth]({{< base >}}html/VHClqR) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [pathwidth+maxdegree]({{< base >}}html/6BWcgd) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [perfect]({{< base >}}html/RmssrZ) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [planar]({{< base >}}html/loZ5LD) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [radius-r flip-width]({{< base >}}html/4DIiH0) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [rank-width]({{< base >}}html/fojquT) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [shrub-depth]({{< base >}}html/NTgNzT) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [sim-width]({{< base >}}html/aEGv5N) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [size]({{< base >}}html/F1NpDy) | <span style="display:none">green</span><span style="color:#006400">■</span> | upper bound | exclusion |
+| [star]({{< base >}}html/CortlU) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [stars]({{< base >}}html/10JR3F) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [topological bandwidth]({{< base >}}html/SnA7Eq) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [tree]({{< base >}}html/rJyICu) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | unbounded | exclusion |
+| [tree-independence number]({{< base >}}html/fNR6QK) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [treedepth]({{< base >}}html/KEP2qM) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [treelength]({{< base >}}html/JA2nKw) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [treewidth]({{< base >}}html/5Q7fuR) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [twin-cover number]({{< base >}}html/MUnHA0) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [twin-width]({{< base >}}html/OrH7et) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [vertex connectivity]({{< base >}}html/OyLUe4) | <span style="display:none">red</span><span style="color:#ff0000">■</span> | exclusion | upper bound |
+| [vertex cover]({{< base >}}html/4lp9Yj) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [vertex integrity]({{< base >}}html/KVhJFB) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
 
 ---
 
 ## Results
 
 * 2019 [The Graph Parameter Hierarchy by Sorge]({{< base >}}html/VnTIL0)
-    * page 8 : [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a linear function -- Lemma 4.10 ([14]). The max-leaf number $\mathrm{ml}$ upper bounds the distance to disjoint paths $d$. We have $d \le \mathrm{ml}-1$.
+    * page 8 : [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a computable function -- Lemma 4.10 ([14]). The max-leaf number $\mathrm{ml}$ upper bounds the distance to disjoint paths $d$. We have $d \le \mathrm{ml}-1$.
     * page 10 : [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [bandwidth]({{< base >}}html/aP5a38) by a linear function -- Lemma 4.25. The max leaf number $\mathrm{ml}$ strictly upper bounds the bandwidth $\mathrm{bw}$.
-* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
-    * page 21 : bounded [maximum leaf number]({{< base >}}html/BN92vX) does not imply bounded [girth]({{< base >}}html/BCwUeT) -- Proposition 3.14
-* [https://mathworld.wolfram.com/MaximumLeafNumber.html](https://mathworld.wolfram.com/MaximumLeafNumber.html)
-    * [maximum leaf number]({{< base >}}html/BN92vX) -- ... the largest number of tree leaves in any of its spanning trees.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [size]({{< base >}}html/F1NpDy) upper bounds [maximum leaf number]({{< base >}}html/BN92vX) by a linear function -- By definition
+    * [maximum leaf number]({{< base >}}html/BN92vX) is equivalent to [maximum leaf number]({{< base >}}html/BN92vX) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a computable function
-    * [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by a computable function
-    * graph class [cycle]({{< base >}}html/Ti0asF) has constant [maximum leaf number]({{< base >}}html/BN92vX)
+    * [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by a polynomial function
+    * [cycle]({{< base >}}html/Ti0asF) upper bounds [maximum leaf number]({{< base >}}html/BN92vX) by a constant
     * [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by a polynomial function -- M. Bentert (personal communication)
+* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
+    * page 21 : bounded [maximum leaf number]({{< base >}}html/BN92vX) does not imply bounded [girth]({{< base >}}html/BCwUeT) -- Proposition 3.14

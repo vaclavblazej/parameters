@@ -74,4 +74,3 @@ There are many other things one may show about a parameterized problem, which we
 * [Iterative compression](https://en.wikipedia.org/wiki/Iterative_compression) - A technique of turning an approximate to an exact solution in FPT time.
 * [Matroids](https://en.wikipedia.org/wiki/Matroid) - Many problems can be expressed in the language of matroids, which have some general tractability results.
 * and many others. As noted at the beginning, read Parameterized Algorithms book, which contains these (and other) topics.
-

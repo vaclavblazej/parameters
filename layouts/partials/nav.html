@@ -4,9 +4,7 @@
             <div class="left">
                 <a class="logo" href="{{ .Site.BaseURL }}"><img class="logo-svg" src = "{{ .Site.BaseURL }}images/hops.svg" alt="HOPS"/></a>
                 <span class="left-rest">
-                {{- range .Ancestors.Reverse }}
-                <span><a href="{{ .RelPermalink }}">/{{ .Title }}</a></span>
-                {{- end }}
+                    {{- range .Ancestors.Reverse }}<span><a href="{{ .RelPermalink }}">/{{ .Title }}</a></span>{{- end }}<span>/{{ .Page.Title }}</span>
                 </span>
             </div>
             <div class="right">

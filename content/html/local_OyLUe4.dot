@@ -1,5 +1,21 @@
 digraph local_OyLUe4 {
 	node [color=lightblue2 style=filled]
 	margin=0.04 size="6,6"
-	"n_OyLUe4" [label="vertex connectivity" URL="/parameters/html/OyLUe4" color="#78acff" shape=box]
+	"n_5Q7fuR" [label="treewidth" URL="/parameters/html/5Q7fuR" color="#dddde8" shape=box]
+	"n_SnA7Eq" [label="topological bandwidth" URL="/parameters/html/SnA7Eq" color="#bbccf0" shape=box]
+	"n_4lp9Yj" [label="vertex cover" URL="/parameters/html/4lp9Yj" color="#dddde8" shape=box]
+	"n_GPmOeT" [label="minimum degree" URL="/parameters/html/GPmOeT" color="#99bcf8" shape=box]
+	"n_GNOiyB" [label="feedback vertex set" URL="/parameters/html/GNOiyB" color="#dddde8" shape=box]
+	"n_ZL7BOP" [label="distance to disconnected" URL="/parameters/html/ZL7BOP" color="#99bcf8" shape=box]
+	"n_wUdmUb" [label="bisection bandwidth" URL="/parameters/html/wUdmUb" color="#99bcf8" shape=box]
+	"n_VHClqR" [label="pathwidth" URL="/parameters/html/VHClqR" color="#dddde8" shape=box]
+	"n_wUdmUb" -> "n_ZL7BOP" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_5Q7fuR" -> "n_GPmOeT" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_GPmOeT" -> "n_ZL7BOP" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_VHClqR" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_GNOiyB" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_SnA7Eq" -> "n_wUdmUb" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_4lp9Yj" -> "n_VHClqR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_4lp9Yj" -> "n_GNOiyB" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_SnA7Eq" -> "n_VHClqR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
 }

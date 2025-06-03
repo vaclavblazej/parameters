@@ -1,3 +1,0 @@
-# Online source VqwUmp
-
-* [chromatic number]({{< base >}}html/w7MmyW) -- The chromatic number of a graph G is the smallest number of colors needed to color the vertices of G so that no two adjacent vertices share the same color (Skiena 1990, p. 210), ...

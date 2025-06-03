@@ -21,7 +21,7 @@ year = {2022},
 * page 16 : [chordality]({{< base >}}html/fTqo40) -- The chordality of a graph $G$ is the minimum amount of chordal graphs required, such that their intersection (ed: fixed typo) results in $G$.
 * page 18 : [vertex cover]({{< base >}}html/4lp9Yj) upper bounds [twin-cover number]({{< base >}}html/MUnHA0) by a linear function -- By definition
 * page 18 : graph class [complete]({{< base >}}html/EhdXNA) has unbounded [vertex cover]({{< base >}}html/4lp9Yj) -- Note that a clique of size $n$ has ... a vertex cover number of $n-1$
-* page 18 : graph class [complete]({{< base >}}html/EhdXNA) has constant [twin-cover number]({{< base >}}html/MUnHA0) -- Note that a clique of size $n$ has a twin cover number of 0 ...
+* page 18 : [complete]({{< base >}}html/EhdXNA) upper bounds [twin-cover number]({{< base >}}html/MUnHA0) by a constant -- Note that a clique of size $n$ has a twin cover number of 0 ...
 * page 18 : [twin-cover number]({{< base >}}html/MUnHA0) upper bounds [distance to cluster]({{< base >}}html/aXw3Co) by a linear function -- ... graph $H$ with a twin cover of size $k$ has a distance to cluster of at most $k$.
 * page 18 : bounded [distance to cluster]({{< base >}}html/aXw3Co) does not imply bounded [twin-cover number]({{< base >}}html/MUnHA0) -- We show that twin cover number is not upper bounded by distance to cluster.
 * page 18 : bounded [twin-cover number]({{< base >}}html/MUnHA0) does not imply bounded [distance to complete]({{< base >}}html/2LDMQ6) -- Observation 3.3. Twin Cover Number is incomparable to Distance to Clique.
@@ -41,9 +41,9 @@ year = {2022},
 * page 23 : [vertex cover]({{< base >}}html/4lp9Yj) upper bounds [neighborhood diversity]({{< base >}}html/vMs3RS) by an exponential function -- Proposition 4.3. Vertex Cover Number strictly upper bounds Neighborhood Diversity.
 * page 23 : bounded [neighborhood diversity]({{< base >}}html/vMs3RS) does not imply bounded [vertex cover]({{< base >}}html/4lp9Yj) -- Proposition 4.3. Vertex Cover Number strictly upper bounds Neighborhood Diversity.
 * page 24 : graph class [path]({{< base >}}html/ryPlqz) has unbounded [modular-width]({{< base >}}html/4bj71L) -- The Modular-width of a path $P$ with length $n > 3$ is $n$.
-* page 25 : [modular-width]({{< base >}}html/4bj71L) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a linear function -- Proposition 4.6. Modular-width strictly upper bounds Clique-width.
+* page 25 : [modular-width]({{< base >}}html/4bj71L) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a computable function -- Proposition 4.6. Modular-width strictly upper bounds Clique-width.
 * page 25 : bounded [clique-width]({{< base >}}html/wg5HuV) does not imply bounded [modular-width]({{< base >}}html/4bj71L) -- Proposition 4.6. Modular-width strictly upper bounds Clique-width.
-* page 25 : [modular-width]({{< base >}}html/4bj71L) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function -- Theorem 4.7. Modular-width strictly upper bounds Max Diameter of Components.
+* page 25 : [modular-width]({{< base >}}html/4bj71L) upper bounds [diameter]({{< base >}}html/p4bTjp) by a computable function -- Theorem 4.7. Modular-width strictly upper bounds Max Diameter of Components.
 * page 25 : bounded [diameter]({{< base >}}html/p4bTjp) does not imply bounded [modular-width]({{< base >}}html/4bj71L) -- Theorem 4.7. Modular-width strictly upper bounds Max Diameter of Components.
 * page 26 : graph class [path]({{< base >}}html/ryPlqz) has unbounded [neighborhood diversity]({{< base >}}html/vMs3RS) -- The Neighborhood Diversity of a Path $P$ with length $n > 3$ is $n$.
 * page 26 : [neighborhood diversity]({{< base >}}html/vMs3RS) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a polynomial function -- Note that given a path of length $n > 3$. The boxicity is 1 while ... neighborhood diversity is $n$. ... a graph ... with neighborhood diversity of $k$, its boxicity is at most $k+k^2$. 
@@ -62,9 +62,9 @@ year = {2022},
 * page 29 : bounded [distance to perfect]({{< base >}}html/kJZKgd) does not imply bounded [edge clique cover number]({{< base >}}html/nYQDv6) -- Proposition 4.15. Edge Clique Cover Number is incomparable to Distance to Perfect.
 * page 30 : bounded [modular-width]({{< base >}}html/4bj71L) does not imply bounded [chordality]({{< base >}}html/fTqo40) -- Theorem 4.16. Modular-width is incomparable to Chordality.
 * page 30 : bounded [chordality]({{< base >}}html/fTqo40) does not imply bounded [modular-width]({{< base >}}html/4bj71L) -- Theorem 4.16. Modular-width is incomparable to Chordality.
-* page 32 : [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [c-closure]({{< base >}}html/ou9VU1) by a linear function -- Proposition 5.1. Maximum Degree strictly upper bounds $c$-Closure.
+* page 32 : [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [c-closure]({{< base >}}html/ou9VU1) by a computable function -- Proposition 5.1. Maximum Degree strictly upper bounds $c$-Closure.
 * page 32 : bounded [c-closure]({{< base >}}html/ou9VU1) does not imply bounded [maximum degree]({{< base >}}html/UyQ5yM) -- Proposition 5.1. Maximum Degree strictly upper bounds $c$-Closure.
-* page 32 : [feedback edge set]({{< base >}}html/HTk9PZ) upper bounds [c-closure]({{< base >}}html/ou9VU1) by a linear function -- Theorem 5.2. Feedback Edge Number strictly upper bounds $c$-Closure.
+* page 32 : [feedback edge set]({{< base >}}html/HTk9PZ) upper bounds [c-closure]({{< base >}}html/ou9VU1) by a computable function -- Theorem 5.2. Feedback Edge Number strictly upper bounds $c$-Closure.
 * page 32 : bounded [c-closure]({{< base >}}html/ou9VU1) does not imply bounded [feedback edge set]({{< base >}}html/HTk9PZ) -- Theorem 5.2. Feedback Edge Number strictly upper bounds $c$-Closure.
 * page 34 : bounded [c-closure]({{< base >}}html/ou9VU1) does not imply bounded [vertex cover]({{< base >}}html/4lp9Yj) -- Proposition 5.3. $c$-Closure is incomparable to Vertex Cover Number.
 * page 34 : bounded [vertex cover]({{< base >}}html/4lp9Yj) does not imply bounded [c-closure]({{< base >}}html/ou9VU1) -- Proposition 5.3. $c$-Closure is incomparable to Vertex Cover Number.
@@ -82,7 +82,7 @@ year = {2022},
 * page 34 : bounded [maximum clique]({{< base >}}html/q7zHeT) does not imply bounded [c-closure]({{< base >}}html/ou9VU1) -- Observation 5.7. $c$-Closure is incomparable to Distance to Disconnected, Domatic Number and Maximum Clique.
 * page 35 : bounded [c-closure]({{< base >}}html/ou9VU1) does not imply bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 5.8. $c$-Closure is incomparable to Boxicity.
 * page 35 : bounded [boxicity]({{< base >}}html/a7MpiT) does not imply bounded [c-closure]({{< base >}}html/ou9VU1) -- Proposition 5.8. $c$-Closure is incomparable to Boxicity.
-* page 36 : [clique-width]({{< base >}}html/wg5HuV) upper bounds [twin-width]({{< base >}}html/OrH7et) by an exponential function -- Proposition 6.2. Clique-width strictly upper bounds Twin-width.
+* page 36 : [clique-width]({{< base >}}html/wg5HuV) upper bounds [twin-width]({{< base >}}html/OrH7et) by a tower function -- Proposition 6.2. Clique-width strictly upper bounds Twin-width.
 * page 36 : bounded [twin-width]({{< base >}}html/OrH7et) does not imply bounded [clique-width]({{< base >}}html/wg5HuV) -- Proposition 6.2. Clique-width strictly upper bounds Twin-width.
 * page 37 : [genus]({{< base >}}html/gbaHdw) upper bounds [twin-width]({{< base >}}html/OrH7et) by a linear function -- Proposition 6.3. Genus strictly upper bounds Twin-width.
 * page 37 : bounded [twin-width]({{< base >}}html/OrH7et) does not imply bounded [genus]({{< base >}}html/gbaHdw) -- Proposition 6.3. Genus strictly upper bounds Twin-width.

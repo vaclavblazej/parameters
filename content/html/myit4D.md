@@ -2,9 +2,9 @@
 
 This knowledge was added to the database without tying it to an appropriate resource.
 
-* [linear forest]({{< base >}}html/skQuFN) -- Disjoint union of paths.
 * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) upper and lower bounds [vertex cover]({{< base >}}html/4lp9Yj) by a linear function -- Kőnig's theorem
-* [vertex cover]({{< base >}}html/4lp9Yj) upper and lower bounds [maximum matching]({{< base >}}html/veU7Jf) by a linear function -- Every edge of the matching needs to be covered by at least one vertex. Path shows lower bound.
+* [vertex cover]({{< base >}}html/4lp9Yj) upper and lower bounds [maximum matching]({{< base >}}html/veU7Jf) by a linear function -- Every edge of the matching needs to be covered by at least one vertex. Path shows that this relation is not better than linear.
+* [maximum matching]({{< base >}}html/veU7Jf) upper bounds [vertex cover]({{< base >}}html/4lp9Yj) by a linear function -- A set of all vertices taking part in a maximum matching creates a vertex cover, hence $vc(G) \le 2 \cdot mm(G)$.
 * [odd cycle transversal]({{< base >}}html/Ve5ruW) is equivalent to [distance to bipartite]({{< base >}}html/1yW82F) -- Bipartite graphs is the graph class without any odd cycles.
 * [distance to bipartite]({{< base >}}html/1yW82F) is equivalent to [odd cycle transversal]({{< base >}}html/Ve5ruW) -- Bipartite graphs is the graph class without any odd cycles.
 * [feedback edge set]({{< base >}}html/HTk9PZ) upper bounds [feedback vertex set]({{< base >}}html/GNOiyB) by a linear function -- Given solution to feedback edge set one can remove one vertex incident to the solution edges to obtain feedback vertex set.
@@ -38,13 +38,15 @@ This knowledge was added to the database without tying it to an appropriate reso
 * [distance to cograph]({{< base >}}html/uDXX2i) upper bounds [chordality]({{< base >}}html/fTqo40) by a linear function
 * [distance to cograph]({{< base >}}html/uDXX2i) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function
 * [book thickness]({{< base >}}html/doijTS) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a computable function
-* [average distance]({{< base >}}html/zH8PpT) upper bounds [girth]({{< base >}}html/BCwUeT) by a computable function
-* [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by a computable function
+* [average distance]({{< base >}}html/zH8PpT) upper bounds [girth]({{< base >}}html/BCwUeT) by a computable function -- Small average distance implies a small cycle while adding a triangle makes the girth constant and minimally changes the average distance.
+* bounded [girth]({{< base >}}html/BCwUeT) does not imply bounded [average distance]({{< base >}}html/zH8PpT) -- Small average distance implies a small cycle while adding a triangle makes the girth constant and minimally changes the average distance.
+* bounded [average distance]({{< base >}}html/zH8PpT) does not imply bounded [diameter]({{< base >}}html/p4bTjp) -- join of a path and a complete bipartite graph
+* [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by a polynomial function
 * [maximum induced matching]({{< base >}}html/GzMYlT) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function -- Diameter requires an induced path on $d$ edges, hence, maximum induced matching is at least $\lfloor (d+1)/3 \rfloor$.
 * [maximum independent set]({{< base >}}html/mHtXUU) upper bounds [maximum induced matching]({{< base >}}html/GzMYlT) by a linear function -- Each edge of the induced matching can host at one vertex of the independent set.
 * [vertex cover]({{< base >}}html/4lp9Yj) upper bounds [neighborhood diversity]({{< base >}}html/vMs3RS) by an exponential function
 * bounded [twin-cover number]({{< base >}}html/MUnHA0) does not imply bounded [neighborhood diversity]({{< base >}}html/vMs3RS)
-* [linear clique-width]({{< base >}}html/fQj3wU) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a computable function
+* [linear clique-width]({{< base >}}html/fQj3wU) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a linear function
 * [clique-width]({{< base >}}html/wg5HuV) upper bounds [boolean width]({{< base >}}html/A2jPWT) by a linear function
 * [boolean width]({{< base >}}html/A2jPWT) upper bounds [clique-width]({{< base >}}html/wg5HuV) by an exponential function
 * [branch width]({{< base >}}html/lIcmuR) upper bounds [boolean width]({{< base >}}html/A2jPWT) by a linear function
@@ -53,18 +55,12 @@ This knowledge was added to the database without tying it to an appropriate reso
 * [treewidth]({{< base >}}html/5Q7fuR) upper bounds [mm-width]({{< base >}}html/d7vRYU) by a computable function
 * [mm-width]({{< base >}}html/d7vRYU) upper bounds [treewidth]({{< base >}}html/5Q7fuR) by a computable function
 * [branch width]({{< base >}}html/lIcmuR) upper bounds [rank-width]({{< base >}}html/fojquT) by a linear function
-* [treewidth]({{< base >}}html/5Q7fuR) upper bounds [boolean width]({{< base >}}html/A2jPWT) by a computable function
-* [bandwidth]({{< base >}}html/aP5a38) upper and lower bounds [cutwidth]({{< base >}}html/TLx1pz) by a polynomial function -- Any bandwidth bound cutwidth quadratically. An example where this happens is $(P_n)^k$ which has bandwidth $k$ and cutwidth $O(k^2)$; both seem to be optimal.
+* [treewidth]({{< base >}}html/5Q7fuR) upper bounds [boolean width]({{< base >}}html/A2jPWT) by a linear function
+* [bandwidth]({{< base >}}html/aP5a38) upper bounds [cutwidth]({{< base >}}html/TLx1pz) by a linear function and lower bounds it by a polynomial function -- Any bandwidth bound cutwidth quadratically. An example where this happens is $(P_n)^k$ which has bandwidth $k$ and cutwidth $O(k^2)$; both seem to be optimal.
 * [modular-width]({{< base >}}html/4bj71L) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a computable function
 * [modular-width]({{< base >}}html/4bj71L) upper bounds [diameter]({{< base >}}html/p4bTjp) by a computable function
 * [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [c-closure]({{< base >}}html/ou9VU1) by a computable function
 * [feedback edge set]({{< base >}}html/HTk9PZ) upper bounds [c-closure]({{< base >}}html/ou9VU1) by a computable function
-* [vertex integrity]({{< base >}}html/KVhJFB) -- Minimum $k$ such that there exists $k$ vertices whose removal results in connected components of sizes at most $k$.
-* [twin-cover number]({{< base >}}html/MUnHA0) -- Distance to cluster where all vertices of each clique are siblings.
-* [maximum degree]({{< base >}}html/UyQ5yM) -- maximum degree of graph's vertices
-* [feedback vertex set]({{< base >}}html/GNOiyB) -- can be thought of as a *distance to forest*
-* [minimum degree]({{< base >}}html/GPmOeT) -- minimum degree of graph's vertices
-* [diameter]({{< base >}}html/p4bTjp) -- Maximum distance of two vertices that are in the same connected component.
 * [feedback vertex set]({{< base >}}html/GNOiyB) is equivalent to [distance to forest]({{< base >}}html/hQZlLU)
 * [distance to forest]({{< base >}}html/hQZlLU) is equivalent to [feedback vertex set]({{< base >}}html/GNOiyB)
 * [vertex cover]({{< base >}}html/4lp9Yj) is equivalent to [distance to edgeless]({{< base >}}html/4INs10)
@@ -73,26 +69,26 @@ This knowledge was added to the database without tying it to an appropriate reso
 * graph class [complete]({{< base >}}html/EhdXNA) has unbounded [domatic number]({{< base >}}html/KRV6tI) -- Parameter is unbounded for the graph class of cliques.
 * graph class [complete]({{< base >}}html/EhdXNA) has unbounded [edge connectivity]({{< base >}}html/JbqZoT) -- Parameter is unbounded for the graph class of cliques.
 * graph class [co-cluster]({{< base >}}html/7HR4uV) has unbounded [distance to chordal]({{< base >}}html/OdZQna)
-* graph class [cluster]({{< base >}}html/WAU7vf) has constant [twin-cover number]({{< base >}}html/MUnHA0)
+* [cluster]({{< base >}}html/WAU7vf) upper bounds [twin-cover number]({{< base >}}html/MUnHA0) by a constant
 * graph class [cluster]({{< base >}}html/WAU7vf) has unbounded [domination number]({{< base >}}html/Gq0onN)
 * graph class [bipartite]({{< base >}}html/cLHJkW) has unbounded [girth]({{< base >}}html/BCwUeT)
 * graph class [bipartite]({{< base >}}html/cLHJkW) has unbounded [edge connectivity]({{< base >}}html/JbqZoT)
-* graph class [forest]({{< base >}}html/JngPPm) has constant [feedback edge set]({{< base >}}html/HTk9PZ)
+* [forest]({{< base >}}html/JngPPm) upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by a constant
 * graph class [forest]({{< base >}}html/JngPPm) has unbounded [girth]({{< base >}}html/BCwUeT)
 * graph class [forest]({{< base >}}html/JngPPm) has unbounded [distance to interval]({{< base >}}html/AVc2K6)
-* graph class [edgeless]({{< base >}}html/LsiBbX) has constant [vertex cover]({{< base >}}html/4lp9Yj)
+* [edgeless]({{< base >}}html/LsiBbX) upper bounds [vertex cover]({{< base >}}html/4lp9Yj) by a constant
 * graph class [edgeless]({{< base >}}html/LsiBbX) has unbounded [domination number]({{< base >}}html/Gq0onN)
 * graph class [grid]({{< base >}}html/lfYXuK) has unbounded [distance to chordal]({{< base >}}html/OdZQna)
 * graph class [grid]({{< base >}}html/lfYXuK) has unbounded [average distance]({{< base >}}html/zH8PpT)
 * graph class [grid]({{< base >}}html/lfYXuK) has unbounded [bisection bandwidth]({{< base >}}html/wUdmUb)
-* graph class [disjoint cycles]({{< base >}}html/AGnF5Z) has constant [bisection bandwidth]({{< base >}}html/wUdmUb)
-* graph class [outerplanar]({{< base >}}html/0oCyaG) has constant [bisection bandwidth]({{< base >}}html/wUdmUb)
-* graph class [grid]({{< base >}}html/lfYXuK) has constant [maximum degree]({{< base >}}html/UyQ5yM)
+* [disjoint cycles]({{< base >}}html/AGnF5Z) upper bounds [bisection bandwidth]({{< base >}}html/wUdmUb) by a constant
+* [outerplanar]({{< base >}}html/0oCyaG) upper bounds [bisection bandwidth]({{< base >}}html/wUdmUb) by a constant
+* [grid]({{< base >}}html/lfYXuK) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant
 * graph class [disjoint cycles]({{< base >}}html/AGnF5Z) has unbounded [girth]({{< base >}}html/BCwUeT)
 * graph class [interval]({{< base >}}html/p5skoj) has unbounded [average distance]({{< base >}}html/zH8PpT)
 * graph class [path]({{< base >}}html/ryPlqz) has unbounded [treedepth]({{< base >}}html/KEP2qM)
 * graph class [linear forest]({{< base >}}html/skQuFN) has unbounded [average distance]({{< base >}}html/zH8PpT)
-* graph class [planar]({{< base >}}html/loZ5LD) has constant [genus]({{< base >}}html/gbaHdw)
+* [planar]({{< base >}}html/loZ5LD) upper bounds [genus]({{< base >}}html/gbaHdw) by a constant
 * graph class [planar]({{< base >}}html/loZ5LD) has unbounded [girth]({{< base >}}html/BCwUeT)
 * graph class [planar]({{< base >}}html/loZ5LD) has unbounded [maximum degree]({{< base >}}html/UyQ5yM)
 * graph class [planar]({{< base >}}html/loZ5LD) has unbounded [distance to perfect]({{< base >}}html/kJZKgd)
@@ -100,25 +96,34 @@ This knowledge was added to the database without tying it to an appropriate reso
 * graph class [stars]({{< base >}}html/10JR3F) has unbounded [h-index]({{< base >}}html/GNTwUS)
 * graph class [stars]({{< base >}}html/10JR3F) has unbounded [vertex integrity]({{< base >}}html/KVhJFB)
 * graph class [cycles]({{< base >}}html/2iJr52) has unbounded [distance to perfect]({{< base >}}html/kJZKgd)
-* graph class [cycle]({{< base >}}html/Ti0asF) has constant [maximum leaf number]({{< base >}}html/BN92vX)
+* [cycle]({{< base >}}html/Ti0asF) upper bounds [maximum leaf number]({{< base >}}html/BN92vX) by a constant
 * graph class [cycle]({{< base >}}html/Ti0asF) has unbounded [girth]({{< base >}}html/BCwUeT)
 * [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by a polynomial function -- M. Bentert (personal communication)
-* [bounded components]({{< base >}}html/t7c4mp) upper bounds [cutwidth]({{< base >}}html/TLx1pz) by a polynomial function -- By greedily placing one component after another.
+* [bounded components]({{< base >}}html/t7c4mp) upper bounds [cutwidth]({{< base >}}html/TLx1pz) by a linear function -- By greedily placing one component after another.
 * bounded [bounded components]({{< base >}}html/t7c4mp) does not imply bounded [distance to perfect]({{< base >}}html/kJZKgd) -- By a disjoint union of small components with distance to perfect at least 1.
 * bounded [bounded components]({{< base >}}html/t7c4mp) does not imply bounded [distance to planar]({{< base >}}html/MLJMRH) -- By a disjoint union of many $K_5$ graphs.
-* graph class [star]({{< base >}}html/CortlU) has constant [vertex cover]({{< base >}}html/4lp9Yj) -- trivially
-* graph class [star]({{< base >}}html/CortlU) has constant [h-index]({{< base >}}html/GNTwUS) -- trivially
+* [star]({{< base >}}html/CortlU) upper bounds [vertex cover]({{< base >}}html/4lp9Yj) by a constant -- trivially
+* [star]({{< base >}}html/CortlU) upper bounds [h-index]({{< base >}}html/GNTwUS) by a constant -- trivially
 * graph class [tree]({{< base >}}html/rJyICu) has unbounded [h-index]({{< base >}}html/GNTwUS) -- trivially
 * graph class [path]({{< base >}}html/ryPlqz) has unbounded [distance to cluster]({{< base >}}html/aXw3Co) -- trivially
 * graph class [path]({{< base >}}html/ryPlqz) has unbounded [diameter]({{< base >}}html/p4bTjp) -- trivially
-* graph class [cycles]({{< base >}}html/2iJr52) has constant [pathwidth]({{< base >}}html/VHClqR) -- trivially
+* [cycles]({{< base >}}html/2iJr52) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a constant -- trivially
 * graph class [star]({{< base >}}html/CortlU) has unbounded [maximum degree]({{< base >}}html/UyQ5yM) -- trivially
 * graph class [complete]({{< base >}}html/EhdXNA) has unbounded [maximum matching]({{< base >}}html/veU7Jf)
 * graph class [path]({{< base >}}html/ryPlqz) has unbounded [maximum matching]({{< base >}}html/veU7Jf)
-* graph class [star]({{< base >}}html/CortlU) has constant [maximum matching]({{< base >}}html/veU7Jf)
-* graph class [edgeless]({{< base >}}html/LsiBbX) has constant [maximum matching]({{< base >}}html/veU7Jf)
-* [clique-width]({{< base >}}html/wg5HuV) upper bounds [mim-width]({{< base >}}html/WmIFB1) by a computable function
+* [star]({{< base >}}html/CortlU) upper bounds [maximum matching]({{< base >}}html/veU7Jf) by a constant
+* [edgeless]({{< base >}}html/LsiBbX) upper bounds [maximum matching]({{< base >}}html/veU7Jf) by a constant
+* [clique-width]({{< base >}}html/wg5HuV) upper bounds [mim-width]({{< base >}}html/WmIFB1) by a linear function
 * [mim-width]({{< base >}}html/WmIFB1) upper bounds [sim-width]({{< base >}}html/aEGv5N) by a computable function
 * [treewidth]({{< base >}}html/5Q7fuR) upper bounds [tree-independence number]({{< base >}}html/fNR6QK) by a computable function
 * [tree-independence number]({{< base >}}html/fNR6QK) upper bounds [sim-width]({{< base >}}html/aEGv5N) by a computable function
-* [clique-width]({{< base >}}html/wg5HuV) upper bounds [twin-width]({{< base >}}html/OrH7et) by a computable function
+* [clique-width]({{< base >}}html/wg5HuV) upper bounds [twin-width]({{< base >}}html/OrH7et) by a tower function
+* [minimum degree]({{< base >}}html/GPmOeT) upper bounds [distance to disconnected]({{< base >}}html/ZL7BOP) by a computable function
+* [bisection bandwidth]({{< base >}}html/wUdmUb) upper bounds [distance to disconnected]({{< base >}}html/ZL7BOP) by a computable function
+* [distance to cluster]({{< base >}}html/aXw3Co) upper bounds [distance to cograph]({{< base >}}html/uDXX2i) by a linear function
+* [feedback vertex set]({{< base >}}html/GNOiyB) upper bounds [distance to outerplanar]({{< base >}}html/lPHVWU) by a linear function
+* [distance to planar]({{< base >}}html/MLJMRH) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a computable function
+* bounded [maximum independent set]({{< base >}}html/mHtXUU) does not imply bounded [clique cover number]({{< base >}}html/VomShB)
+* bounded [domination number]({{< base >}}html/Gq0onN) does not imply bounded [maximum independent set]({{< base >}}html/mHtXUU)
+* [genus]({{< base >}}html/gbaHdw) upper bounds [chromatic number]({{< base >}}html/w7MmyW) by a linear function -- in fact, bounded by square root
+* [distance to cluster]({{< base >}}html/aXw3Co) upper bounds [shrub-depth]({{< base >}}html/NTgNzT) by a constant -- J. Pokorný, personal communication: Assume the class of constant dtc we want to show it has constant sd as well. For each clique connect them in a star in the tree model T. Each vertex in the modulator connect to their own vertex in T. Add a root that is in distance 2 to all leaves. Now give each vertex in the modulator a unique colour. Each other vertex that is not in the modulator has as it's colour the set of neighbours from the modulator. In total there are $2^{dtc} + dtc$ colours that is a constant.

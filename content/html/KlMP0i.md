@@ -1,6 +1,8 @@
-# connected
+---
+title: "connected"
+---# connected
 
-equivalent to: [connected]({{< base >}}html/KlMP0i)
+**Definition:** There is a path between any pair of vertices.
 
 
 
@@ -14,129 +16,136 @@ equivalent to: [connected]({{< base >}}html/KlMP0i)
 
 ## Relations
 
-| Other | Relation from | Relation to |
-| --- | --- | --- |
-| [acyclic chromatic number]({{< base >}}html/QGZuUW) | unknown to HOPS | unbounded |
-| [arboricity]({{< base >}}html/zgMenA) | unknown to HOPS | unbounded |
-| [average degree]({{< base >}}html/z0y4TW) | unknown to HOPS | unbounded |
-| [average distance]({{< base >}}html/zH8PpT) | unknown to HOPS | unbounded |
-| [bandwidth]({{< base >}}html/aP5a38) | unknown to HOPS | unbounded |
-| [bipartite]({{< base >}}html/cLHJkW) | unknown to HOPS | exclusion |
-| [bipartite number]({{< base >}}html/1dQQ87) | unknown to HOPS | unknown to HOPS |
-| [bisection bandwidth]({{< base >}}html/wUdmUb) | unknown to HOPS | unbounded |
-| [block]({{< base >}}html/QrxQsH) | unknown to HOPS | exclusion |
-| [book thickness]({{< base >}}html/doijTS) | unknown to HOPS | unbounded |
-| [boolean width]({{< base >}}html/A2jPWT) | unknown to HOPS | unbounded |
-| [bounded components]({{< base >}}html/t7c4mp) | unknown to HOPS | unbounded |
-| [boxicity]({{< base >}}html/a7MpiT) | unknown to HOPS | unknown to HOPS |
-| [branch width]({{< base >}}html/lIcmuR) | unknown to HOPS | unbounded |
-| [c-closure]({{< base >}}html/ou9VU1) | unknown to HOPS | unknown to HOPS |
-| [carving-width]({{< base >}}html/dS6OgO) | unknown to HOPS | unbounded |
-| [chordal]({{< base >}}html/Cv1PaJ) | unknown to HOPS | exclusion |
-| [chordality]({{< base >}}html/fTqo40) | unknown to HOPS | unknown to HOPS |
-| [chromatic number]({{< base >}}html/w7MmyW) | unknown to HOPS | unbounded |
-| [clique cover number]({{< base >}}html/VomShB) | unknown to HOPS | unbounded |
-| [clique-tree-width]({{< base >}}html/7P9WUz) | unknown to HOPS | unbounded |
-| [clique-width]({{< base >}}html/wg5HuV) | unknown to HOPS | unbounded |
-| [cluster]({{< base >}}html/WAU7vf) | unknown to HOPS | exclusion |
-| [co-cluster]({{< base >}}html/7HR4uV) | unknown to HOPS | exclusion |
-| [cograph]({{< base >}}html/9Qd0Mx) | unknown to HOPS | exclusion |
-| [complete]({{< base >}}html/EhdXNA) | inclusion | exclusion |
-| [cutwidth]({{< base >}}html/TLx1pz) | unknown to HOPS | unbounded |
-| [cycle]({{< base >}}html/Ti0asF) | inclusion | exclusion |
-| [cycles]({{< base >}}html/2iJr52) | unknown to HOPS | exclusion |
-| [d-path-free]({{< base >}}html/s4EiWI) | unknown to HOPS | unbounded |
-| [degeneracy]({{< base >}}html/VowkuW) | unknown to HOPS | unbounded |
-| [degree treewidth]({{< base >}}html/nCWUh3) | unknown to HOPS | unbounded |
-| [diameter]({{< base >}}html/p4bTjp) | unknown to HOPS | unbounded |
-| [diameter+max degree]({{< base >}}html/ri9Seh) | unknown to HOPS | unbounded |
-| [disjoint cycles]({{< base >}}html/AGnF5Z) | unknown to HOPS | exclusion |
-| [distance to bipartite]({{< base >}}html/1yW82F) | unknown to HOPS | unbounded |
-| [distance to block]({{< base >}}html/xNJnFb) | unknown to HOPS | unbounded |
-| [distance to bounded components]({{< base >}}html/RPTCxd) | unknown to HOPS | unbounded |
-| [distance to chordal]({{< base >}}html/OdZQna) | unknown to HOPS | unbounded |
-| [distance to cluster]({{< base >}}html/aXw3Co) | unknown to HOPS | unbounded |
-| [distance to co-cluster]({{< base >}}html/hbfWwE) | unknown to HOPS | unbounded |
-| [distance to cograph]({{< base >}}html/uDXX2i) | unknown to HOPS | unbounded |
-| [distance to complete]({{< base >}}html/2LDMQ6) | unknown to HOPS | unbounded |
-| [distance to edgeless]({{< base >}}html/4INs10) | unknown to HOPS | unbounded |
-| [distance to forest]({{< base >}}html/hQZlLU) | unknown to HOPS | unbounded |
-| [distance to interval]({{< base >}}html/AVc2K6) | unknown to HOPS | unbounded |
-| [distance to linear forest]({{< base >}}html/yk7XP0) | unknown to HOPS | unbounded |
-| [distance to maximum degree]({{< base >}}html/kRR8zx) | unknown to HOPS | unbounded |
-| [distance to outerplanar]({{< base >}}html/lPHVWU) | unknown to HOPS | unbounded |
-| [distance to perfect]({{< base >}}html/kJZKgd) | unknown to HOPS | unknown to HOPS |
-| [distance to planar]({{< base >}}html/MLJMRH) | unknown to HOPS | unknown to HOPS |
-| [distance to stars]({{< base >}}html/Z10jME) | unknown to HOPS | unbounded |
-| [domatic number]({{< base >}}html/KRV6tI) | unknown to HOPS | unbounded |
-| [domination number]({{< base >}}html/Gq0onN) | unknown to HOPS | unbounded |
-| [edge clique cover number]({{< base >}}html/nYQDv6) | unknown to HOPS | unbounded |
-| [edge connectivity]({{< base >}}html/JbqZoT) | unknown to HOPS | unbounded |
-| [edgeless]({{< base >}}html/LsiBbX) | unknown to HOPS | exclusion |
-| [feedback edge set]({{< base >}}html/HTk9PZ) | unknown to HOPS | unbounded |
-| [feedback vertex set]({{< base >}}html/GNOiyB) | unknown to HOPS | unbounded |
-| [forest]({{< base >}}html/JngPPm) | unknown to HOPS | exclusion |
-| [genus]({{< base >}}html/gbaHdw) | unknown to HOPS | unbounded |
-| [girth]({{< base >}}html/BCwUeT) | unknown to HOPS | unbounded |
-| [grid]({{< base >}}html/lfYXuK) | inclusion | exclusion |
-| [h-index]({{< base >}}html/GNTwUS) | unknown to HOPS | unbounded |
-| [inf-flip-width]({{< base >}}html/nYXiuT) | unknown to HOPS | unbounded |
-| [interval]({{< base >}}html/p5skoj) | unknown to HOPS | exclusion |
-| [iterated type partitions]({{< base >}}html/G1Cwmc) | unknown to HOPS | unbounded |
-| [linear clique-width]({{< base >}}html/fQj3wU) | unknown to HOPS | unbounded |
-| [linear forest]({{< base >}}html/skQuFN) | unknown to HOPS | exclusion |
-| [linear NLC-width]({{< base >}}html/v09DMY) | unknown to HOPS | unbounded |
-| [linear rank-width]({{< base >}}html/cHugsk) | unknown to HOPS | unbounded |
-| [maximum clique]({{< base >}}html/q7zHeT) | unknown to HOPS | unbounded |
-| [maximum degree]({{< base >}}html/UyQ5yM) | unknown to HOPS | unbounded |
-| [maximum independent set]({{< base >}}html/mHtXUU) | unknown to HOPS | unbounded |
-| [maximum induced matching]({{< base >}}html/GzMYlT) | unknown to HOPS | unbounded |
-| [maximum leaf number]({{< base >}}html/BN92vX) | unknown to HOPS | unbounded |
-| [maximum matching]({{< base >}}html/veU7Jf) | unknown to HOPS | unbounded |
-| [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) | unknown to HOPS | unbounded |
-| [mim-width]({{< base >}}html/WmIFB1) | unknown to HOPS | unknown to HOPS |
-| [minimum degree]({{< base >}}html/GPmOeT) | unknown to HOPS | unbounded |
-| [mm-width]({{< base >}}html/d7vRYU) | unknown to HOPS | unbounded |
-| [modular-width]({{< base >}}html/4bj71L) | unknown to HOPS | unbounded |
-| [module-width]({{< base >}}html/EV3FqL) | unknown to HOPS | unbounded |
-| [neighborhood diversity]({{< base >}}html/vMs3RS) | unknown to HOPS | unbounded |
-| [NLC-width]({{< base >}}html/Xrpbv7) | unknown to HOPS | unbounded |
-| [NLCT-width]({{< base >}}html/mOri44) | unknown to HOPS | unbounded |
-| [odd cycle transversal]({{< base >}}html/Ve5ruW) | unknown to HOPS | unbounded |
-| [outerplanar]({{< base >}}html/0oCyaG) | unknown to HOPS | exclusion |
-| [path]({{< base >}}html/ryPlqz) | inclusion | exclusion |
-| [pathwidth]({{< base >}}html/VHClqR) | unknown to HOPS | unbounded |
-| [pathwidth+maxdegree]({{< base >}}html/6BWcgd) | unknown to HOPS | unbounded |
-| [perfect]({{< base >}}html/RmssrZ) | unknown to HOPS | unknown to HOPS |
-| [planar]({{< base >}}html/loZ5LD) | unknown to HOPS | exclusion |
-| [radius-r flip-width]({{< base >}}html/4DIiH0) | unknown to HOPS | unknown to HOPS |
-| [rank-width]({{< base >}}html/fojquT) | unknown to HOPS | unbounded |
-| [shrub-depth]({{< base >}}html/NTgNzT) | unknown to HOPS | unbounded |
-| [sim-width]({{< base >}}html/aEGv5N) | unknown to HOPS | unknown to HOPS |
-| [star]({{< base >}}html/CortlU) | inclusion | exclusion |
-| [stars]({{< base >}}html/10JR3F) | unknown to HOPS | exclusion |
-| [topological bandwidth]({{< base >}}html/SnA7Eq) | unknown to HOPS | unbounded |
-| [tree]({{< base >}}html/rJyICu) | inclusion | exclusion |
-| [tree-independence number]({{< base >}}html/fNR6QK) | unknown to HOPS | unknown to HOPS |
-| [treedepth]({{< base >}}html/KEP2qM) | unknown to HOPS | unbounded |
-| [treelength]({{< base >}}html/JA2nKw) | unknown to HOPS | unknown to HOPS |
-| [treewidth]({{< base >}}html/5Q7fuR) | unknown to HOPS | unbounded |
-| [twin-cover number]({{< base >}}html/MUnHA0) | unknown to HOPS | unbounded |
-| [twin-width]({{< base >}}html/OrH7et) | unknown to HOPS | unknown to HOPS |
-| [vertex connectivity]({{< base >}}html/OyLUe4) | unknown to HOPS | unknown to HOPS |
-| [vertex cover]({{< base >}}html/4lp9Yj) | unknown to HOPS | unbounded |
-| [vertex integrity]({{< base >}}html/KVhJFB) | unknown to HOPS | unbounded |
+| Other |  | Relation from | Relation to |
+| --- | --- | --- | --- |
+| [acyclic chromatic number]({{< base >}}html/QGZuUW) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [arboricity]({{< base >}}html/zgMenA) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [average degree]({{< base >}}html/z0y4TW) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [average distance]({{< base >}}html/zH8PpT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [bandwidth]({{< base >}}html/aP5a38) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [bipartite]({{< base >}}html/cLHJkW) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [bipartite number]({{< base >}}html/1dQQ87) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [bisection bandwidth]({{< base >}}html/wUdmUb) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [block]({{< base >}}html/QrxQsH) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [book thickness]({{< base >}}html/doijTS) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [boolean width]({{< base >}}html/A2jPWT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [bounded components]({{< base >}}html/t7c4mp) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [boxicity]({{< base >}}html/a7MpiT) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [branch width]({{< base >}}html/lIcmuR) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [c-closure]({{< base >}}html/ou9VU1) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [carving-width]({{< base >}}html/dS6OgO) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [chordal]({{< base >}}html/Cv1PaJ) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [chordality]({{< base >}}html/fTqo40) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [chromatic number]({{< base >}}html/w7MmyW) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [clique cover number]({{< base >}}html/VomShB) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [clique-tree-width]({{< base >}}html/7P9WUz) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [clique-width]({{< base >}}html/wg5HuV) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [cluster]({{< base >}}html/WAU7vf) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [co-cluster]({{< base >}}html/7HR4uV) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [cograph]({{< base >}}html/9Qd0Mx) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [complete]({{< base >}}html/EhdXNA) | <span style="display:none">green</span><span style="color:#006400">■</span> | upper bound | exclusion |
+| [connected]({{< base >}}html/KlMP0i) | <span style="display:none">yellow</span><span style="color:#ffd700">■</span> | equal | equal |
+| [contraction complexity]({{< base >}}html/LlWzhg) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [cutwidth]({{< base >}}html/TLx1pz) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [cycle]({{< base >}}html/Ti0asF) | <span style="display:none">green</span><span style="color:#006400">■</span> | upper bound | exclusion |
+| [cycles]({{< base >}}html/2iJr52) | <span style="display:none">cyan</span><span style="color:#40e0d0">■</span> | unknown to HOPS | exclusion |
+| [d-path-free]({{< base >}}html/s4EiWI) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [degeneracy]({{< base >}}html/VowkuW) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [degree treewidth]({{< base >}}html/nCWUh3) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [diameter]({{< base >}}html/p4bTjp) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [diameter+max degree]({{< base >}}html/ri9Seh) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [disconnected]({{< base >}}html/lA0K71) | <span style="display:none">gray</span><span style="color:#bebebe">■</span> | unknown to HOPS | unknown to HOPS |
+| [disjoint cycles]({{< base >}}html/AGnF5Z) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [distance to bipartite]({{< base >}}html/1yW82F) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to block]({{< base >}}html/xNJnFb) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to bounded components]({{< base >}}html/RPTCxd) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to chordal]({{< base >}}html/OdZQna) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to cluster]({{< base >}}html/aXw3Co) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to co-cluster]({{< base >}}html/hbfWwE) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to cograph]({{< base >}}html/uDXX2i) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to complete]({{< base >}}html/2LDMQ6) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to disconnected]({{< base >}}html/ZL7BOP) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [distance to edgeless]({{< base >}}html/4INs10) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to forest]({{< base >}}html/hQZlLU) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to interval]({{< base >}}html/AVc2K6) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to linear forest]({{< base >}}html/yk7XP0) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to maximum degree]({{< base >}}html/kRR8zx) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to outerplanar]({{< base >}}html/lPHVWU) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to perfect]({{< base >}}html/kJZKgd) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [distance to planar]({{< base >}}html/MLJMRH) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [distance to stars]({{< base >}}html/Z10jME) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [domatic number]({{< base >}}html/KRV6tI) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [domination number]({{< base >}}html/Gq0onN) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [edge clique cover number]({{< base >}}html/nYQDv6) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [edge connectivity]({{< base >}}html/JbqZoT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [edgeless]({{< base >}}html/LsiBbX) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [feedback edge set]({{< base >}}html/HTk9PZ) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [feedback vertex set]({{< base >}}html/GNOiyB) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [forest]({{< base >}}html/JngPPm) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [genus]({{< base >}}html/gbaHdw) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [girth]({{< base >}}html/BCwUeT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [grid]({{< base >}}html/lfYXuK) | <span style="display:none">green</span><span style="color:#006400">■</span> | inclusion | exclusion |
+| [h-index]({{< base >}}html/GNTwUS) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [inf-flip-width]({{< base >}}html/nYXiuT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [interval]({{< base >}}html/p5skoj) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [iterated type partitions]({{< base >}}html/G1Cwmc) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [linear clique-width]({{< base >}}html/fQj3wU) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [linear forest]({{< base >}}html/skQuFN) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [linear NLC-width]({{< base >}}html/v09DMY) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [linear rank-width]({{< base >}}html/cHugsk) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [maximum clique]({{< base >}}html/q7zHeT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [maximum degree]({{< base >}}html/UyQ5yM) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [maximum independent set]({{< base >}}html/mHtXUU) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [maximum induced matching]({{< base >}}html/GzMYlT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [maximum leaf number]({{< base >}}html/BN92vX) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [maximum matching]({{< base >}}html/veU7Jf) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [mim-width]({{< base >}}html/WmIFB1) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [minimum degree]({{< base >}}html/GPmOeT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [mm-width]({{< base >}}html/d7vRYU) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [modular-width]({{< base >}}html/4bj71L) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [module-width]({{< base >}}html/EV3FqL) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [neighborhood diversity]({{< base >}}html/vMs3RS) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [NLC-width]({{< base >}}html/Xrpbv7) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [NLCT-width]({{< base >}}html/mOri44) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [odd cycle transversal]({{< base >}}html/Ve5ruW) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [outerplanar]({{< base >}}html/0oCyaG) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [path]({{< base >}}html/ryPlqz) | <span style="display:none">green</span><span style="color:#006400">■</span> | upper bound | exclusion |
+| [pathwidth]({{< base >}}html/VHClqR) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [pathwidth+maxdegree]({{< base >}}html/6BWcgd) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [perfect]({{< base >}}html/RmssrZ) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [planar]({{< base >}}html/loZ5LD) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [radius-r flip-width]({{< base >}}html/4DIiH0) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [rank-width]({{< base >}}html/fojquT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [shrub-depth]({{< base >}}html/NTgNzT) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [sim-width]({{< base >}}html/aEGv5N) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [size]({{< base >}}html/F1NpDy) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [star]({{< base >}}html/CortlU) | <span style="display:none">green</span><span style="color:#006400">■</span> | upper bound | exclusion |
+| [stars]({{< base >}}html/10JR3F) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | exclusion |
+| [topological bandwidth]({{< base >}}html/SnA7Eq) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [tree]({{< base >}}html/rJyICu) | <span style="display:none">green</span><span style="color:#006400">■</span> | upper bound | exclusion |
+| [tree-independence number]({{< base >}}html/fNR6QK) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [treedepth]({{< base >}}html/KEP2qM) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [treelength]({{< base >}}html/JA2nKw) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [treewidth]({{< base >}}html/5Q7fuR) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [twin-cover number]({{< base >}}html/MUnHA0) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [twin-width]({{< base >}}html/OrH7et) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [vertex connectivity]({{< base >}}html/OyLUe4) | <span style="display:none">magenta</span><span style="color:#ee82ee">■</span> | exclusion | unknown to HOPS |
+| [vertex cover]({{< base >}}html/4lp9Yj) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
+| [vertex integrity]({{< base >}}html/KVhJFB) | <span style="display:none">blue</span><span style="color:#0000ff">■</span> | exclusion | unbounded |
 
 ---
 
 ## Results
 
 * [assumed]({{< base >}}html/9kg0oo)
-    * [connected]({{< base >}}html/KlMP0i) -- A graph is connected if there is a path between any pair of its vertices.
-    * graph class [complete]({{< base >}}html/EhdXNA) is included in graph class [connected]({{< base >}}html/KlMP0i) -- by definition
-    * graph class [tree]({{< base >}}html/rJyICu) is included in graph class [connected]({{< base >}}html/KlMP0i) -- by definition
-    * graph class [path]({{< base >}}html/ryPlqz) is included in graph class [connected]({{< base >}}html/KlMP0i) -- by definition
-    * graph class [star]({{< base >}}html/CortlU) is included in graph class [connected]({{< base >}}html/KlMP0i) -- by definition
-    * graph class [cycle]({{< base >}}html/Ti0asF) is included in graph class [connected]({{< base >}}html/KlMP0i) -- by definition
+    * [complete]({{< base >}}html/EhdXNA) upper bounds [connected]({{< base >}}html/KlMP0i) by a constant -- by definition
+    * [tree]({{< base >}}html/rJyICu) upper bounds [connected]({{< base >}}html/KlMP0i) by a constant -- by definition
+    * [path]({{< base >}}html/ryPlqz) upper bounds [connected]({{< base >}}html/KlMP0i) by a constant -- by definition
+    * [star]({{< base >}}html/CortlU) upper bounds [connected]({{< base >}}html/KlMP0i) by a constant -- by definition
+    * [cycle]({{< base >}}html/Ti0asF) upper bounds [connected]({{< base >}}html/KlMP0i) by a constant -- by definition
     * graph class [grid]({{< base >}}html/lfYXuK) is included in graph class [connected]({{< base >}}html/KlMP0i)
     * graph class [connected]({{< base >}}html/KlMP0i) is not included in graph class [grid]({{< base >}}html/lfYXuK)
+    * graph class [edgeless]({{< base >}}html/LsiBbX) is not included in graph class [connected]({{< base >}}html/KlMP0i) -- By definition
+    * graphs with bounded [size]({{< base >}}html/F1NpDy) are not included in graph class [connected]({{< base >}}html/KlMP0i) -- By definition
+    * [connected]({{< base >}}html/KlMP0i) is equivalent to [connected]({{< base >}}html/KlMP0i) -- assumed

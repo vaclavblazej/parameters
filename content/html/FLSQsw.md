@@ -24,5 +24,5 @@ year = {2005},
 * page 8 : [clique-tree-width]({{< base >}}html/7P9WUz) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a linear function
 * page 8 : [clique-tree-width]({{< base >}}html/7P9WUz) upper bounds [NLCT-width]({{< base >}}html/mOri44) by a linear function
 * page 8 : [NLCT-width]({{< base >}}html/mOri44) upper bounds [clique-tree-width]({{< base >}}html/7P9WUz) by a linear function
-* page 8 : [pathwidth]({{< base >}}html/VHClqR) upper bounds [linear NLC-width]({{< base >}}html/v09DMY) by a computable function -- The results of [23] imply that each graph class of bounded path-width has bounded linear NLC-width and that each graph class of bounded tree-width has bounded NLCT-width.
+* page 8 : [pathwidth]({{< base >}}html/VHClqR) upper bounds [linear NLC-width]({{< base >}}html/v09DMY) by a linear function -- The results of [23] imply that each graph class of bounded path-width has bounded linear NLC-width and that each graph class of bounded tree-width has bounded NLCT-width.
 * page 8 : [treewidth]({{< base >}}html/5Q7fuR) upper bounds [NLCT-width]({{< base >}}html/mOri44) by a computable function -- The results of [23] imply that each graph class of bounded path-width has bounded linear NLC-width and that each graph class of bounded tree-width has bounded NLCT-width.
