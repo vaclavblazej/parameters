@@ -2,17 +2,17 @@
 title: "d-path-free"
 ---# d-path-free
 
-functionally equivalent to: [weak inf-coloring number]({{< base >}}html/DfwI9E), [treedepth]({{< base >}}html/KEP2qM)
+functionally equivalent to: [treedepth]({{< base >}}html/KEP2qM), [weak inf-coloring number]({{< base >}}html/DfwI9E)
 
 **Definition:** Minimum $k$ such that the graph contains no path on $k$ vertices.
 
 
 
-<p><div id="../local_s4EiWI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_s4EiWI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_s4EiWI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_s4EiWI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_s4EiWI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_s4EiWI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_s4EiWI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_s4EiWI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_s4EiWI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_s4EiWI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_s4EiWI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_s4EiWI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_s4EiWI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_s4EiWI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_s4EiWI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_s4EiWI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_s4EiWI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_s4EiWI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 

@@ -8,11 +8,11 @@ tags: [topology]({{< base >}}html/lJJaYb)
 
 
 
-<p><div id="../local_MLJMRH.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_MLJMRH.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_MLJMRH.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_MLJMRH.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_MLJMRH.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_MLJMRH.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_MLJMRH.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_MLJMRH.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_MLJMRH.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_MLJMRH.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_MLJMRH.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_MLJMRH.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_MLJMRH.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_MLJMRH.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_MLJMRH.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_MLJMRH.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_MLJMRH.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_MLJMRH.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -170,9 +170,6 @@ tags: [topology]({{< base >}}html/lJJaYb)
 * 2022 [Expanding the Graph Parameter Hierarchy by Tran]({{< base >}}html/uXViPE)
     * page 37 : [distance to planar]({{< base >}}html/MLJMRH) upper bounds [twin-width]({{< base >}}html/OrH7et) by an exponential function -- Theorem 6.4. Distance to Planar strictly upper bounds Twin-width.
     * page 37 : graph classes with bounded [twin-width]({{< base >}}html/OrH7et) are not bounded [distance to planar]({{< base >}}html/MLJMRH) -- Theorem 6.4. Distance to Planar strictly upper bounds Twin-width.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [planar]({{< base >}}html/loZ5LD) upper bounds [distance to planar]({{< base >}}html/MLJMRH) by a constant -- by definition
-    * [distance to planar]({{< base >}}html/MLJMRH) is equivalent to [distance to planar]({{< base >}}html/MLJMRH) -- assumed
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 21 : graph classes with bounded [bandwidth]({{< base >}}html/aP5a38) are not bounded [distance to planar]({{< base >}}html/MLJMRH) -- Proposition 3.13
     * page 21 : graph classes with bounded [treedepth]({{< base >}}html/KEP2qM) are not bounded [distance to planar]({{< base >}}html/MLJMRH) -- Proposition 3.13
@@ -181,3 +178,6 @@ tags: [topology]({{< base >}}html/lJJaYb)
 * [unknown source]({{< base >}}html/myit4D)
     * graph classes with bounded [bounded components]({{< base >}}html/t7c4mp) are not bounded [distance to planar]({{< base >}}html/MLJMRH) -- By a disjoint union of many $K_5$ graphs.
     * [distance to planar]({{< base >}}html/MLJMRH) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a computable function
+* [assumed]({{< base >}}html/9kg0oo)
+    * [planar]({{< base >}}html/loZ5LD) upper bounds [distance to planar]({{< base >}}html/MLJMRH) by a constant -- by definition
+    * [distance to planar]({{< base >}}html/MLJMRH) is equivalent to [distance to planar]({{< base >}}html/MLJMRH) -- assumed

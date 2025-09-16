@@ -8,11 +8,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_27.html)
 
 
 
-<p><div id="../local_q7zHeT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_q7zHeT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_q7zHeT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_q7zHeT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_q7zHeT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_q7zHeT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_q7zHeT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_q7zHeT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_q7zHeT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_q7zHeT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_q7zHeT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_q7zHeT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_q7zHeT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_q7zHeT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_q7zHeT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_q7zHeT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_q7zHeT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_q7zHeT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -172,6 +172,8 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_27.html)
     * page 19 : graph classes with bounded [maximum clique]({{< base >}}html/q7zHeT) are not bounded [twin-cover number]({{< base >}}html/MUnHA0) -- Observation 3.4. Twin Cover Number is incomparable to Maximum Clique, Domatic Number and Distance to Disconnected.
     * page 34 : graph classes with bounded [c-closure]({{< base >}}html/ou9VU1) are not bounded [maximum clique]({{< base >}}html/q7zHeT) -- Observation 5.7. $c$-Closure is incomparable to Distance to Disconnected, Domatic Number and Maximum Clique.
     * page 34 : graph classes with bounded [maximum clique]({{< base >}}html/q7zHeT) are not bounded [c-closure]({{< base >}}html/ou9VU1) -- Observation 5.7. $c$-Closure is incomparable to Distance to Disconnected, Domatic Number and Maximum Clique.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [maximum clique]({{< base >}}html/q7zHeT) is equivalent to [maximum clique]({{< base >}}html/q7zHeT) -- assumed
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 16 : graph classes with bounded [distance to complete]({{< base >}}html/2LDMQ6) are not bounded [maximum clique]({{< base >}}html/q7zHeT) -- Proposition 3.7
     * page 33 : graph classes with bounded [bisection bandwidth]({{< base >}}html/wUdmUb) are not bounded [maximum clique]({{< base >}}html/q7zHeT) -- Proposition 3.33
@@ -179,5 +181,3 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_27.html)
 * [unknown source]({{< base >}}html/myit4D)
     * [chromatic number]({{< base >}}html/w7MmyW) upper bounds [maximum clique]({{< base >}}html/q7zHeT) by a linear function -- Unbounded clique implies the number of needed colors is unbounded.
     * graph class [complete]({{< base >}}html/EhdXNA) is not constant [maximum clique]({{< base >}}html/q7zHeT) -- Parameter is unbounded for the graph class of cliques.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [maximum clique]({{< base >}}html/q7zHeT) is equivalent to [maximum clique]({{< base >}}html/q7zHeT) -- assumed

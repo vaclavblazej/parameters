@@ -4,7 +4,7 @@ title: "clique-width"
 
 abbr: cw
 
-functionally equivalent to: [radius-inf flip-width]({{< base >}}html/nYXiuT), [module-width]({{< base >}}html/EV3FqL), [boolean width]({{< base >}}html/A2jPWT), [rank-width]({{< base >}}html/fojquT), [NLC-width]({{< base >}}html/Xrpbv7)
+functionally equivalent to: [module-width]({{< base >}}html/EV3FqL), [NLC-width]({{< base >}}html/Xrpbv7), [radius-inf flip-width]({{< base >}}html/nYXiuT), [rank-width]({{< base >}}html/fojquT), [boolean width]({{< base >}}html/A2jPWT)
 
 providers: [ISGCI](https://www.graphclasses.org/classes/par_12.html)
 
@@ -15,11 +15,11 @@ There are quite a few parameters that are functionally equivalent to cilque-widt
 
 
 
-<p><div id="../local_wg5HuV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_wg5HuV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_wg5HuV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_wg5HuV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_wg5HuV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_wg5HuV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_wg5HuV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_wg5HuV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_wg5HuV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_wg5HuV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_wg5HuV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_wg5HuV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_wg5HuV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_wg5HuV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_wg5HuV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_wg5HuV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_wg5HuV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_wg5HuV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 

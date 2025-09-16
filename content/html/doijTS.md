@@ -12,11 +12,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_32.html)
 
 
 
-<p><div id="../local_doijTS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_doijTS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_doijTS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_doijTS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_doijTS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_doijTS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_doijTS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_doijTS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_doijTS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_doijTS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_doijTS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_doijTS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_doijTS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_doijTS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_doijTS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_doijTS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_doijTS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_doijTS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -178,8 +178,8 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_32.html)
     * page 14 : [book thickness]({{< base >}}html/doijTS) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a computable function -- Theorem 5. Acyclic chromatic number is bounded by stack-number (ed: a.k.a. book-thickness). In particular, every $k$-stack graph $G$ has acyclich chromatic number $\chi_a(G) \le 80^{k(2k-1)}$.
 * 1994 [Genus $g$ Graphs Have Pagenumber $O(\sqrt g)$ by Malitz]({{< base >}}html/cCrsoK)
     * page 24 : [genus]({{< base >}}html/gbaHdw) upper bounds [book thickness]({{< base >}}html/doijTS) by a linear function -- Theorem 5.1. Genus $g$ graphs have pagenumber $O(\sqrt{g})$.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [book thickness]({{< base >}}html/doijTS) is equivalent to [book thickness]({{< base >}}html/doijTS) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [treewidth]({{< base >}}html/5Q7fuR) upper bounds [book thickness]({{< base >}}html/doijTS) by a computable function
     * [book thickness]({{< base >}}html/doijTS) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a computable function
-* [assumed]({{< base >}}html/9kg0oo)
-    * [book thickness]({{< base >}}html/doijTS) is equivalent to [book thickness]({{< base >}}html/doijTS) -- assumed

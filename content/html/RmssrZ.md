@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_56.html)
 
 
 
-<p><div id="../local_RmssrZ.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_RmssrZ.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_RmssrZ.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_RmssrZ.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_RmssrZ.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_RmssrZ.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_RmssrZ.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_RmssrZ.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_RmssrZ.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_RmssrZ.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_RmssrZ.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_RmssrZ.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_RmssrZ.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_RmssrZ.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_RmssrZ.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_RmssrZ.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_RmssrZ.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_RmssrZ.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -171,8 +171,6 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_56.html)
 
 * 2017 [Graph Theory by Diestel]({{< base >}}html/r2Lwky)
     * page 135 : [perfect]({{< base >}}html/RmssrZ) -- A graph is called perfect if every induced subgraph $H \subseteq G$ has chromatic number $\chi(H)=\omega(H)$, i.e. if the trivial lower bound of $\omega(H)$ colours always suffices to colour the vertices of $H$.
-* [unknown source]({{< base >}}html/myit4D)
-    * [perfect]({{< base >}}html/RmssrZ) upper bounds [chi-bounded]({{< base >}}html/Jb1we5) by a constant
 * [assumed]({{< base >}}html/9kg0oo)
     * graph class [chordal]({{< base >}}html/Cv1PaJ) has contained in [perfect]({{< base >}}html/RmssrZ)
     * graph class [perfect]({{< base >}}html/RmssrZ) does not have contained in [chordal]({{< base >}}html/Cv1PaJ)
@@ -183,3 +181,5 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_56.html)
     * [perfect]({{< base >}}html/RmssrZ) upper bounds [distance to perfect]({{< base >}}html/kJZKgd) by a constant -- by definition
     * graph classes with bounded [size]({{< base >}}html/F1NpDy) do not have contained in [perfect]({{< base >}}html/RmssrZ) -- By definition
     * [perfect]({{< base >}}html/RmssrZ) is equivalent to [perfect]({{< base >}}html/RmssrZ) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [perfect]({{< base >}}html/RmssrZ) upper bounds [chi-bounded]({{< base >}}html/Jb1we5) by a constant

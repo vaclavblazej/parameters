@@ -4,11 +4,11 @@ title: "mim-width"
 
 
 
-<p><div id="../local_WmIFB1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_WmIFB1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_WmIFB1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_WmIFB1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_WmIFB1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_WmIFB1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_WmIFB1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_WmIFB1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_WmIFB1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_WmIFB1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_WmIFB1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_WmIFB1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_WmIFB1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_WmIFB1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_WmIFB1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_WmIFB1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_WmIFB1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_WmIFB1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -166,8 +166,8 @@ title: "mim-width"
 * 2012 [New Width Parameters of Graphs by Vatshelle]({{< base >}}html/nRO7AG)
     * page 33 : [mim-width]({{< base >}}html/WmIFB1) -- Definition 3.7.1 (MIM-width). For $G$ a graph and $A \subseteq V(G)$ let $mim \colon 2^{V(G)} \to \mathbb N$ be a function where $mim(A)$ is the size of a maximum induced matching in $G[A,\bar A]$. Using Definition 3.1.3 with $f=mim$ we define $mimw(T,\delta)$ as the $f$-width of a binary decomposition tree $(T,\delta)$ and $mimw(G)$ as the $f$-width of $G$, also called the MIM-width of $G$ or the maximum induced matching width.
     * page 42 : [boolean width]({{< base >}}html/A2jPWT) upper bounds [mim-width]({{< base >}}html/WmIFB1) by a linear function -- Theorem 4.2.10. Let $G$ be a graph, then $mimw(G) \le boolw(G) \le mimw(G) \log_2(n)$
+* [assumed]({{< base >}}html/9kg0oo)
+    * [mim-width]({{< base >}}html/WmIFB1) is equivalent to [mim-width]({{< base >}}html/WmIFB1) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [clique-width]({{< base >}}html/wg5HuV) upper bounds [mim-width]({{< base >}}html/WmIFB1) by a linear function
     * [mim-width]({{< base >}}html/WmIFB1) upper bounds [sim-width]({{< base >}}html/aEGv5N) by a computable function
-* [assumed]({{< base >}}html/9kg0oo)
-    * [mim-width]({{< base >}}html/WmIFB1) is equivalent to [mim-width]({{< base >}}html/WmIFB1) -- assumed

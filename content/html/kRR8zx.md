@@ -8,11 +8,11 @@ functionally equivalent to: [h-index]({{< base >}}html/GNTwUS)
 
 
 
-<p><div id="../local_kRR8zx.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_kRR8zx.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_kRR8zx.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_kRR8zx.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_kRR8zx.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_kRR8zx.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_kRR8zx.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_kRR8zx.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_kRR8zx.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_kRR8zx.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_kRR8zx.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_kRR8zx.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_kRR8zx.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_kRR8zx.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_kRR8zx.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_kRR8zx.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_kRR8zx.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_kRR8zx.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -167,9 +167,9 @@ functionally equivalent to: [h-index]({{< base >}}html/GNTwUS)
 
 ## Results
 
-* [assumed]({{< base >}}html/9kg0oo)
-    * [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [distance to maximum degree]({{< base >}}html/kRR8zx) by a linear function -- by definition
-    * [distance to maximum degree]({{< base >}}html/kRR8zx) is equivalent to [distance to maximum degree]({{< base >}}html/kRR8zx) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [h-index]({{< base >}}html/GNTwUS) upper bounds [distance to maximum degree]({{< base >}}html/kRR8zx) by a linear function -- Remove the $h$ vertices of degree at least $h$ to get a graph that has maximum degree $h$.
     * [distance to maximum degree]({{< base >}}html/kRR8zx) upper bounds [h-index]({{< base >}}html/GNTwUS) by a linear function -- Removal of $k$ vertices yielding a graph with maximum degree $c$ means that there were $k$ vertices of arbitrary degree and the remaining vertices had degree at most $k+c$. Hence, $h$-index is no more than $k+c$.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [distance to maximum degree]({{< base >}}html/kRR8zx) by a linear function -- by definition
+    * [distance to maximum degree]({{< base >}}html/kRR8zx) is equivalent to [distance to maximum degree]({{< base >}}html/kRR8zx) -- assumed

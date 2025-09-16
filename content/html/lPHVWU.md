@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_26.html)
 
 
 
-<p><div id="../local_lPHVWU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_lPHVWU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_lPHVWU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_lPHVWU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_lPHVWU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_lPHVWU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_lPHVWU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_lPHVWU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_lPHVWU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_lPHVWU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_lPHVWU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_lPHVWU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_lPHVWU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_lPHVWU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_lPHVWU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_lPHVWU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_lPHVWU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_lPHVWU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -169,11 +169,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_26.html)
 
 ## Results
 
+* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
+    * page 26 : graph classes with bounded [distance to outerplanar]({{< base >}}html/lPHVWU) are not bounded [distance to perfect]({{< base >}}html/kJZKgd) -- Proposition 3.23
 * [assumed]({{< base >}}html/9kg0oo)
     * [outerplanar]({{< base >}}html/0oCyaG) upper bounds [distance to outerplanar]({{< base >}}html/lPHVWU) by a constant -- by definition
     * [distance to outerplanar]({{< base >}}html/lPHVWU) is equivalent to [distance to outerplanar]({{< base >}}html/lPHVWU) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [distance to outerplanar]({{< base >}}html/lPHVWU) upper bounds [treewidth]({{< base >}}html/5Q7fuR) by a linear function -- After removal of $k$ vertices the remaining class has a bounded width $w$. So by including the removed vertices in every bag, we can achieve decomposition of width $w+k$
     * [feedback vertex set]({{< base >}}html/GNOiyB) upper bounds [distance to outerplanar]({{< base >}}html/lPHVWU) by a computable function
-* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
-    * page 26 : graph classes with bounded [distance to outerplanar]({{< base >}}html/lPHVWU) are not bounded [distance to perfect]({{< base >}}html/kJZKgd) -- Proposition 3.23

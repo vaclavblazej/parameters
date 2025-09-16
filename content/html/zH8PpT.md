@@ -4,11 +4,11 @@ title: "average distance"
 
 
 
-<p><div id="../local_zH8PpT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_zH8PpT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_zH8PpT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_zH8PpT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_zH8PpT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_zH8PpT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_zH8PpT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_zH8PpT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_zH8PpT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_zH8PpT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_zH8PpT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_zH8PpT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_zH8PpT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_zH8PpT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_zH8PpT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_zH8PpT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_zH8PpT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_zH8PpT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -167,11 +167,11 @@ title: "average distance"
     * page 5 : [bipartite number]({{< base >}}html/1dQQ87) upper bounds [average distance]({{< base >}}html/zH8PpT) by a linear function -- Theorem 9 (Main Theorem). Let $G$ be a graph. Then $\bar{D} < \frac b2 + \frac 12$. ...
 * 1988 [The average distanceisnot morethan the independence number by Chung]({{< base >}}html/ePpmZt)
     * [maximum independent set]({{< base >}}html/mHtXUU) upper bounds [average distance]({{< base >}}html/zH8PpT) by a linear function -- [ed. paraphrased from another source] Let $G$ be a graph. Then $\bar{D} \le \alpha$, with equality holding if and only if $G$ is complete.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [diameter]({{< base >}}html/p4bTjp) upper bounds [average distance]({{< base >}}html/zH8PpT) by a linear function -- By definition
+    * [average distance]({{< base >}}html/zH8PpT) is equivalent to [average distance]({{< base >}}html/zH8PpT) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * graph classes with bounded [average distance]({{< base >}}html/zH8PpT) are not bounded [diameter]({{< base >}}html/p4bTjp) -- join of a path and a complete bipartite graph
     * graph class [grid]({{< base >}}html/lfYXuK) is not constant [average distance]({{< base >}}html/zH8PpT)
     * graph class [interval]({{< base >}}html/p5skoj) is not constant [average distance]({{< base >}}html/zH8PpT)
     * graph class [linear forest]({{< base >}}html/skQuFN) is not constant [average distance]({{< base >}}html/zH8PpT)
-* [assumed]({{< base >}}html/9kg0oo)
-    * [diameter]({{< base >}}html/p4bTjp) upper bounds [average distance]({{< base >}}html/zH8PpT) by a linear function -- By definition
-    * [average distance]({{< base >}}html/zH8PpT) is equivalent to [average distance]({{< base >}}html/zH8PpT) -- assumed

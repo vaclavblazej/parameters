@@ -8,11 +8,11 @@ tags: [covering vertices]({{< base >}}html/TgTiqK)
 
 
 
-<p><div id="../local_VomShB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_VomShB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_VomShB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_VomShB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_VomShB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_VomShB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_VomShB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_VomShB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_VomShB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_VomShB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_VomShB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_VomShB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_VomShB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_VomShB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_VomShB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_VomShB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_VomShB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_VomShB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -172,8 +172,6 @@ tags: [covering vertices]({{< base >}}html/TgTiqK)
     * page 40 : graph classes with bounded [clique cover number]({{< base >}}html/VomShB) are not bounded [twin-width]({{< base >}}html/OrH7et) -- Proposition 6.7. Twin-width is incomparable to Clique Cover Number.
 * 2019 [The Graph Parameter Hierarchy by Sorge]({{< base >}}html/VnTIL0)
     * page 11 : [clique cover number]({{< base >}}html/VomShB) upper bounds [maximum independent set]({{< base >}}html/mHtXUU) by a linear function -- Lemma 4.26. The minimum clique cover number $c$ strictly upper bounds the independence number $\alpha$.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [clique cover number]({{< base >}}html/VomShB) is equivalent to [clique cover number]({{< base >}}html/VomShB) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [distance to complete]({{< base >}}html/2LDMQ6) upper bounds [clique cover number]({{< base >}}html/VomShB) by a linear function -- We cover the $k$ vertices of the modulator by cliques of size $1$ and cover the remaining clique by another one.
     * graph classes with bounded [maximum independent set]({{< base >}}html/mHtXUU) are not bounded [clique cover number]({{< base >}}html/VomShB)
@@ -181,3 +179,5 @@ tags: [covering vertices]({{< base >}}html/TgTiqK)
     * page 15 : graph classes with bounded [clique cover number]({{< base >}}html/VomShB) are not bounded [distance to perfect]({{< base >}}html/kJZKgd) -- Proposition 3.6
     * page 16 : graph classes with bounded [clique cover number]({{< base >}}html/VomShB) are not bounded [clique-width]({{< base >}}html/wg5HuV) -- Proposition 3.9
     * page 19 : graph classes with bounded [clique cover number]({{< base >}}html/VomShB) are not bounded [chordality]({{< base >}}html/fTqo40) -- Proposition 3.11
+* [assumed]({{< base >}}html/9kg0oo)
+    * [clique cover number]({{< base >}}html/VomShB) is equivalent to [clique cover number]({{< base >}}html/VomShB) -- assumed

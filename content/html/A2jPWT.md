@@ -2,17 +2,17 @@
 title: "boolean width"
 ---# boolean width
 
-functionally equivalent to: [clique-width]({{< base >}}html/wg5HuV), [rank-width]({{< base >}}html/fojquT), [radius-inf flip-width]({{< base >}}html/nYXiuT), [module-width]({{< base >}}html/EV3FqL), [NLC-width]({{< base >}}html/Xrpbv7)
+functionally equivalent to: [clique-width]({{< base >}}html/wg5HuV), [rank-width]({{< base >}}html/fojquT), [module-width]({{< base >}}html/EV3FqL), [NLC-width]({{< base >}}html/Xrpbv7), [radius-inf flip-width]({{< base >}}html/nYXiuT)
 
 providers: [ISGCI](https://www.graphclasses.org/classes/par_21.html)
 
 
 
-<p><div id="../local_A2jPWT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_A2jPWT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_A2jPWT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_A2jPWT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_A2jPWT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_A2jPWT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_A2jPWT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_A2jPWT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_A2jPWT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_A2jPWT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_A2jPWT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_A2jPWT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_A2jPWT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_A2jPWT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_A2jPWT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_A2jPWT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_A2jPWT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_A2jPWT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -175,10 +175,10 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_21.html)
     * [boolean width]({{< base >}}html/A2jPWT) -- \textbf{Definition 1.} A decomposition tree of a graph $G$ is a pair $(T,\delta)$ where $T$ is a tree having internal nodes of degree three and $\delta$ a bijection between the leaf set of $T$ and the vertex set of $G$. Removing an edge from $T$ results in two subtrees, and in a cut $\{A,\overline{A}\}$ of $G$ given by the two subsets of $V(G)$ in bijection $\delta$ with the leaves of the two subtrees. Let $f\colon w^V \to \mathbb{R}$ be a symmetric function that is also called a cut function: $f(A)=f(\overline{A})$ for all $A\subseteq V(G)$. The $f$-width of $(T,\delta)$ is the maximum value of $f(A)$ over all cuts $\{A,\overline{A}\}$ of $G$ given by the removal of an edge of $T$. ... \textbf{Definition 2.} Let $G$ be a graph and $A \subseteq V(G)$. Define the set of unions of neighborhoods of $A$ across the cut $\{A,\overline{A}\}$ as $U(A) = \{Y \subseteq \overline{A} \mid \exists X \subseteq A \land Y=N(X)\cap \overline{A}\}$. The \emph{bool-dim}$\colon 2^{V(G)} \to \mathbb{R}$ function of a graph $G$ is defined as $\mathrm{bool-dim}(A)=\log_2 |U(A)|$. Using Definition 1 with $f=\mathrm{bool-dim}$ we define the boolean-width of a decomposition tree, denoted by $boolw(T,\delta)$, and the boolean-width of a graph, denoted by $boolw(G)$.
     * [boolean width]({{< base >}}html/A2jPWT) upper bounds [rank-width]({{< base >}}html/fojquT) by an exponential function -- \textbf{Corollary 1.} For any graph $G$ and decomposition tree $(T,\gamma)$ of $G$ it holds that ... $\log_2 rw(G) \le boolw(G)$ ...
     * [rank-width]({{< base >}}html/fojquT) upper bounds [boolean width]({{< base >}}html/A2jPWT) by a polynomial function -- \textbf{Corollary 1.} For any graph $G$ and decomposition tree $(T,\gamma)$ of $G$ it holds that ... $boolw(G) \le \frac 14 rw^2(G)+O(rw(G))$.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [boolean width]({{< base >}}html/A2jPWT) is equivalent to [boolean width]({{< base >}}html/A2jPWT) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [clique-width]({{< base >}}html/wg5HuV) upper bounds [boolean width]({{< base >}}html/A2jPWT) by a linear function
     * [boolean width]({{< base >}}html/A2jPWT) upper bounds [clique-width]({{< base >}}html/wg5HuV) by an exponential function
     * [branch width]({{< base >}}html/lIcmuR) upper bounds [boolean width]({{< base >}}html/A2jPWT) by a linear function
     * [treewidth]({{< base >}}html/5Q7fuR) upper bounds [boolean width]({{< base >}}html/A2jPWT) by a linear function
+* [assumed]({{< base >}}html/9kg0oo)
+    * [boolean width]({{< base >}}html/A2jPWT) is equivalent to [boolean width]({{< base >}}html/A2jPWT) -- assumed

@@ -2,11 +2,11 @@ digraph local_yOZQM5 {
 	node [color=lightblue2 style=filled]
 	margin=0.04 size="6,6"
 	rankdir = BT
-	"n_Gt22Ik" [label="excluded planar minor" URL="/parameters/html/Gt22Ik" color="#bbccf0" shape=box]
 	"n_5xOuoQ" [label="excluded minor" URL="/parameters/html/5xOuoQ" color="#99bcf8" shape=box]
-	"n_lFz6Ci" [label="bounded expansion" URL="/parameters/html/lFz6Ci" color="#99bcf8" shape=box]
+	"n_Gt22Ik" [label="excluded planar minor" URL="/parameters/html/Gt22Ik" color="#bbccf0" shape=box]
 	"n_yOZQM5" [label="excluded top-minor" URL="/parameters/html/yOZQM5" color="#78acff" shape=box]
+	"n_lFz6Ci" [label="bounded expansion" URL="/parameters/html/lFz6Ci" color="#99bcf8" shape=box]
+	"n_5xOuoQ" -> "n_yOZQM5" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_Gt22Ik" -> "n_5xOuoQ" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_yOZQM5" -> "n_lFz6Ci" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
-	"n_5xOuoQ" -> "n_yOZQM5" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 }

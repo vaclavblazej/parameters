@@ -10,11 +10,11 @@ functionally equivalent to: [distance to bipartite]({{< base >}}html/1yW82F)
 
 
 
-<p><div id="../local_Ve5ruW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_Ve5ruW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_Ve5ruW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_Ve5ruW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_Ve5ruW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_Ve5ruW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_Ve5ruW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_Ve5ruW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_Ve5ruW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_Ve5ruW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_Ve5ruW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_Ve5ruW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_Ve5ruW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_Ve5ruW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_Ve5ruW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_Ve5ruW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_Ve5ruW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_Ve5ruW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -169,8 +169,8 @@ functionally equivalent to: [distance to bipartite]({{< base >}}html/1yW82F)
 
 ## Results
 
-* [assumed]({{< base >}}html/9kg0oo)
-    * [odd cycle transversal]({{< base >}}html/Ve5ruW) is equivalent to [odd cycle transversal]({{< base >}}html/Ve5ruW) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [odd cycle transversal]({{< base >}}html/Ve5ruW) is equivalent to [distance to bipartite]({{< base >}}html/1yW82F) -- Bipartite graphs is the graph class without any odd cycles.
     * [distance to bipartite]({{< base >}}html/1yW82F) is equivalent to [odd cycle transversal]({{< base >}}html/Ve5ruW) -- Bipartite graphs is the graph class without any odd cycles.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [odd cycle transversal]({{< base >}}html/Ve5ruW) is equivalent to [odd cycle transversal]({{< base >}}html/Ve5ruW) -- assumed

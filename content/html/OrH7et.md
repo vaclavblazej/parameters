@@ -10,11 +10,11 @@ providers: [PACE](https://pacechallenge.org/2023/)
 
 
 
-<p><div id="../local_OrH7et.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_OrH7et.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_OrH7et.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_OrH7et.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_OrH7et.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_OrH7et.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_OrH7et.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_OrH7et.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_OrH7et.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_OrH7et.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_OrH7et.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_OrH7et.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_OrH7et.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_OrH7et.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_OrH7et.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_OrH7et.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_OrH7et.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_OrH7et.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -169,10 +169,10 @@ providers: [PACE](https://pacechallenge.org/2023/)
 
 ## Results
 
-* 2024 [Merge-width and First-Order Model Checking by Dreier, Toruńczyk]({{< base >}}html/9exguJ)
-    * page 6 : [twin-width]({{< base >}}html/OrH7et) upper bounds [merge-width]({{< base >}}html/UWmTKl) by a computable function -- Theorem 1.4. Graph classes of bounded twin-width have bounded merge-width.
 * 2024 [Twin-width of graphs on surfaces by Kráľ, Pekárková, Štorgel]({{< base >}}html/lgJ2j7)
     * page 18 : [genus]({{< base >}}html/gbaHdw) upper bounds [twin-width]({{< base >}}html/OrH7et) by a linear function -- The twin-width of every graph $G$ of Euler genus $g \ge 1$ is at most ... $18 \sqrt{47g}+O(1)$.
+* 2024 [Merge-width and First-Order Model Checking by Dreier, Toruńczyk]({{< base >}}html/9exguJ)
+    * page 6 : [twin-width]({{< base >}}html/OrH7et) upper bounds [merge-width]({{< base >}}html/UWmTKl) by a computable function -- Theorem 1.4. Graph classes of bounded twin-width have bounded merge-width.
 * 2023 [Flip-width: Cops and Robber on dense graphs by Toruńczyk]({{< base >}}html/KpkMZB)
     * [twin-width]({{< base >}}html/OrH7et) upper bounds [radius-r flip-width]({{< base >}}html/4DIiH0) by an exponential function -- Theorem 7.1. Fix $r \in \mathbb N$. For every graph $G$ of twin-width $d$ we have: $\mathrm{fw}_r(G) \le 2^d \cdot d^{O(r)}$.
 * 2022 [Expanding the Graph Parameter Hierarchy by Tran]({{< base >}}html/uXViPE)

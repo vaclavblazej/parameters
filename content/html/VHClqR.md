@@ -13,11 +13,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_9.html)
 **Pathwidth** is a linear variant of [treewidth]({{< base >}}html/5Q7fuR), its nice tree decomposition lacks the *join node* which can be the hard part of desigining a dynamic programming solution for treewidth.
 
 
-<p><div id="../local_VHClqR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_VHClqR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_VHClqR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_VHClqR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_VHClqR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_VHClqR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_VHClqR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_VHClqR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_VHClqR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_VHClqR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_VHClqR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_VHClqR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_VHClqR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_VHClqR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_VHClqR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_VHClqR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_VHClqR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_VHClqR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -189,11 +189,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_9.html)
     * page 24 : [cutwidth]({{< base >}}html/TLx1pz) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a linear function -- Theorem 47. For every graph $G$, the pathwidth of $G$ is at most the cutwidth of $G$.
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 23 : graph classes with bounded [feedback edge set]({{< base >}}html/HTk9PZ) are not bounded [pathwidth]({{< base >}}html/VHClqR) -- Proposition 3.16
-* [assumed]({{< base >}}html/9kg0oo)
-    * [pathwidth+maxdegree]({{< base >}}html/6BWcgd) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a linear function -- by definition
-    * [pathwidth]({{< base >}}html/VHClqR) is equivalent to [pathwidth]({{< base >}}html/VHClqR) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [pathwidth]({{< base >}}html/VHClqR) upper bounds [linear rank-width]({{< base >}}html/cHugsk) by a computable function
     * [distance to linear forest]({{< base >}}html/yk7XP0) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a linear function -- After removal of $k$ vertices the remaining class has a bounded width $w$. So by including the removed vertices in every bag, we can achieve decomposition of width $w+k$
     * [distance to linear forest]({{< base >}}html/yk7XP0) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a linear function -- After removal of $k$ vertices the remaining class has a bounded width $w$. So by including the removed vertices in every bag, we can achieve decomposition of width $w+k$
     * [cycles]({{< base >}}html/2iJr52) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a constant -- trivially
+* [assumed]({{< base >}}html/9kg0oo)
+    * [pathwidth+maxdegree]({{< base >}}html/6BWcgd) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a linear function -- by definition
+    * [pathwidth]({{< base >}}html/VHClqR) is equivalent to [pathwidth]({{< base >}}html/VHClqR) -- assumed

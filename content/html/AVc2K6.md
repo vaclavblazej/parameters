@@ -6,11 +6,11 @@ title: "distance to interval"
 
 
 
-<p><div id="../local_AVc2K6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_AVc2K6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_AVc2K6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_AVc2K6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_AVc2K6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_AVc2K6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_AVc2K6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_AVc2K6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_AVc2K6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_AVc2K6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_AVc2K6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_AVc2K6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_AVc2K6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_AVc2K6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_AVc2K6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_AVc2K6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_AVc2K6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_AVc2K6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -170,11 +170,11 @@ title: "distance to interval"
     * page 38 : graph classes with bounded [distance to interval]({{< base >}}html/AVc2K6) are not bounded [twin-width]({{< base >}}html/OrH7et) -- Observation 6.5. Twin-width is incomparable to Distance to Interval.
 * 2019 [The Graph Parameter Hierarchy by Sorge]({{< base >}}html/VnTIL0)
     * page 9 : [distance to interval]({{< base >}}html/AVc2K6) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a linear function -- Lemma 4.16. The distance $i$ to an interval graph upper bounds the boxicity $b$. We have $b \le i+1$.
+* [unknown source]({{< base >}}html/myit4D)
+    * graph class [forest]({{< base >}}html/JngPPm) is not constant [distance to interval]({{< base >}}html/AVc2K6)
 * [assumed]({{< base >}}html/9kg0oo)
     * [interval]({{< base >}}html/p5skoj) upper bounds [distance to interval]({{< base >}}html/AVc2K6) by a constant -- by definition
     * [distance to interval]({{< base >}}html/AVc2K6) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a linear function -- By definition
     * [distance to interval]({{< base >}}html/AVc2K6) is equivalent to [distance to interval]({{< base >}}html/AVc2K6) -- assumed
-* [unknown source]({{< base >}}html/myit4D)
-    * graph class [forest]({{< base >}}html/JngPPm) is not constant [distance to interval]({{< base >}}html/AVc2K6)
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 25 : graph classes with bounded [feedback edge set]({{< base >}}html/HTk9PZ) are not bounded [distance to interval]({{< base >}}html/AVc2K6) -- Proposition 3.21

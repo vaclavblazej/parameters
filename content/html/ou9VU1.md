@@ -6,11 +6,11 @@ title: "c-closure"
 
 
 
-<p><div id="../local_ou9VU1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_ou9VU1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_ou9VU1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_ou9VU1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_ou9VU1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_ou9VU1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_ou9VU1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_ou9VU1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_ou9VU1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_ou9VU1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_ou9VU1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_ou9VU1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_ou9VU1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_ou9VU1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_ou9VU1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_ou9VU1.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_ou9VU1.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_ou9VU1.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -187,8 +187,8 @@ title: "c-closure"
     * page 34 : graph classes with bounded [maximum clique]({{< base >}}html/q7zHeT) are not bounded [c-closure]({{< base >}}html/ou9VU1) -- Observation 5.7. $c$-Closure is incomparable to Distance to Disconnected, Domatic Number and Maximum Clique.
     * page 35 : graph classes with bounded [c-closure]({{< base >}}html/ou9VU1) are not bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 5.8. $c$-Closure is incomparable to Boxicity.
     * page 35 : graph classes with bounded [boxicity]({{< base >}}html/a7MpiT) are not bounded [c-closure]({{< base >}}html/ou9VU1) -- Proposition 5.8. $c$-Closure is incomparable to Boxicity.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [c-closure]({{< base >}}html/ou9VU1) is equivalent to [c-closure]({{< base >}}html/ou9VU1) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [c-closure]({{< base >}}html/ou9VU1) by a computable function
     * [feedback edge set]({{< base >}}html/HTk9PZ) upper bounds [c-closure]({{< base >}}html/ou9VU1) by a computable function
-* [assumed]({{< base >}}html/9kg0oo)
-    * [c-closure]({{< base >}}html/ou9VU1) is equivalent to [c-closure]({{< base >}}html/ou9VU1) -- assumed

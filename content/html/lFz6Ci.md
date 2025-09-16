@@ -2,17 +2,17 @@
 title: "bounded expansion"
 ---# bounded expansion
 
-functionally equivalent to: [weakly sparse and merge width]({{< base >}}html/HJjpOL), [weak coloring number]({{< base >}}html/KD6n2n), [admissibility]({{< base >}}html/v4sLfO), [strong coloring number]({{< base >}}html/PxVh3F)
+functionally equivalent to: [weak coloring number]({{< base >}}html/KD6n2n), [weakly sparse and merge width]({{< base >}}html/HJjpOL), [admissibility]({{< base >}}html/v4sLfO), [strong coloring number]({{< base >}}html/PxVh3F)
 
 **Definition:** A graph class $C$ has bounded expansion if for every $r \in \mathbb N$, the family of $r$-shallow minors does not include the family of graphs with unbounded density ($|E(G)|/|V(G)|$).
 
 
 
-<p><div id="../local_lFz6Ci.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_lFz6Ci.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_lFz6Ci.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_lFz6Ci.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_lFz6Ci.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_lFz6Ci.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_lFz6Ci.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_lFz6Ci.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_lFz6Ci.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_lFz6Ci.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_lFz6Ci.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_lFz6Ci.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_lFz6Ci.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_lFz6Ci.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_lFz6Ci.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_lFz6Ci.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_lFz6Ci.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_lFz6Ci.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -171,9 +171,6 @@ functionally equivalent to: [weakly sparse and merge width]({{< base >}}html/HJj
     * page 7 : [bounded expansion]({{< base >}}html/lFz6Ci) upper bounds [merge-width]({{< base >}}html/UWmTKl) by a computable function -- Theorem 1.6. Graph classes of bounded expansion have bounded merge-width.
     * page 7 : [weakly sparse and merge width]({{< base >}}html/HJjpOL) upper bounds [bounded expansion]({{< base >}}html/lFz6Ci) by a computable function -- Corollary 1.8. A graph class has bounded expansion if and only if it has bounded merge-width, and is weakly sparse (exclydes some biclique $K_{t,t}$ as a subgraph).
     * page 7 : [bounded expansion]({{< base >}}html/lFz6Ci) upper bounds [weakly sparse and merge width]({{< base >}}html/HJjpOL) by a computable function -- Corollary 1.8. A graph class has bounded expansion if and only if it has bounded merge-width, and is weakly sparse (exclydes some biclique $K_{t,t}$ as a subgraph).
-* [assumed]({{< base >}}html/9kg0oo)
-    * [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [bounded expansion]({{< base >}}html/lFz6Ci) by a linear function -- by definition
-    * [bounded expansion]({{< base >}}html/lFz6Ci) is equivalent to [bounded expansion]({{< base >}}html/lFz6Ci) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [bounded expansion]({{< base >}}html/lFz6Ci) upper bounds [degeneracy]({{< base >}}html/VowkuW) by a constant -- $wcol_1-1 = col_1-1=adm_1=degeneracy$
     * [bounded expansion]({{< base >}}html/lFz6Ci) upper bounds [weak coloring number]({{< base >}}html/KD6n2n) by a computable function
@@ -185,3 +182,6 @@ functionally equivalent to: [weakly sparse and merge width]({{< base >}}html/HJj
     * [bounded expansion]({{< base >}}html/lFz6Ci) upper bounds [nowhere dense]({{< base >}}html/DhGqJM) by a constant -- By definition
     * [excluded top-minor]({{< base >}}html/yOZQM5) upper bounds [bounded expansion]({{< base >}}html/lFz6Ci) by a constant
     * [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [bounded expansion]({{< base >}}html/lFz6Ci) by a linear function
+* [assumed]({{< base >}}html/9kg0oo)
+    * [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [bounded expansion]({{< base >}}html/lFz6Ci) by a linear function -- by definition
+    * [bounded expansion]({{< base >}}html/lFz6Ci) is equivalent to [bounded expansion]({{< base >}}html/lFz6Ci) -- assumed

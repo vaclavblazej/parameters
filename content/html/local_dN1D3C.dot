@@ -5,6 +5,6 @@ digraph local_dN1D3C {
 	"n_jHXy6Y" [label="monadically stable" URL="/parameters/html/jHXy6Y" color="#99bcf8" shape=box]
 	"n_DhGqJM" [label="nowhere dense" URL="/parameters/html/DhGqJM" color="#bbccf0" shape=box]
 	"n_dN1D3C" [label="monadically dependent" URL="/parameters/html/dN1D3C" color="#78acff" shape=box]
-	"n_jHXy6Y" -> "n_dN1D3C" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_DhGqJM" -> "n_jHXy6Y" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+	"n_jHXy6Y" -> "n_dN1D3C" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 }

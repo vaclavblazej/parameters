@@ -4,17 +4,17 @@ title: "domino treewidth"
 
 tags: [tree decomposition]({{< base >}}html/bzffn0)
 
-functionally equivalent to: [degree treewidth]({{< base >}}html/nCWUh3), [contraction complexity]({{< base >}}html/LlWzhg), [treespan]({{< base >}}html/IbKkUQ)
+functionally equivalent to: [degree treewidth]({{< base >}}html/nCWUh3), [treespan]({{< base >}}html/IbKkUQ), [contraction complexity]({{< base >}}html/LlWzhg)
 
 **Definition:** Minimum width of tree decompositions where every vertex is in at most 2 bags.
 
 
 
-<p><div id="../local_aEs5ap.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_aEs5ap.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_aEs5ap.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_aEs5ap.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_aEs5ap.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_aEs5ap.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_aEs5ap.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_aEs5ap.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_aEs5ap.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_aEs5ap.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_aEs5ap.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_aEs5ap.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_aEs5ap.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_aEs5ap.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_aEs5ap.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_aEs5ap.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_aEs5ap.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_aEs5ap.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -177,7 +177,7 @@ functionally equivalent to: [degree treewidth]({{< base >}}html/nCWUh3), [contra
     * page 7 : [degree treewidth]({{< base >}}html/nCWUh3) upper bounds [domino treewidth]({{< base >}}html/aEs5ap) by a linear function -- Lemma 4.3 For all $d \ge 5$, $k \ge 2$, $k$ even, there exists a graph $G$ with treewidth at most $k$, maximum degree at most $d$, and domino treewidth at least $\frac{1}{12} kd-2$.
 * 1997 [Domino Treewidth by Bodlaender, Engelfriet]({{< base >}}html/SN1KnV)
     * page 3 : [domino treewidth]({{< base >}}html/aEs5ap) -- A tree-decomposition ... is a domino tree-decomposition, if ... every vertex belongs to at most two sets $X_i$. The domino treewidth of a graph $G$ is the minimum width over all domino tree-decompositions of $G$.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [domino treewidth]({{< base >}}html/aEs5ap) is equivalent to [domino treewidth]({{< base >}}html/aEs5ap) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [domino treewidth]({{< base >}}html/aEs5ap) upper bounds [slim tree-cut width]({{< base >}}html/oFvl4c) by a computable function
+* [assumed]({{< base >}}html/9kg0oo)
+    * [domino treewidth]({{< base >}}html/aEs5ap) is equivalent to [domino treewidth]({{< base >}}html/aEs5ap) -- assumed

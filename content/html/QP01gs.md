@@ -8,11 +8,11 @@ tags: [tree decomposition]({{< base >}}html/bzffn0)
 
 
 
-<p><div id="../local_QP01gs.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_QP01gs.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_QP01gs.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_QP01gs.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_QP01gs.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_QP01gs.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_QP01gs.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_QP01gs.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_QP01gs.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_QP01gs.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_QP01gs.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_QP01gs.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_QP01gs.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_QP01gs.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_QP01gs.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_QP01gs.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_QP01gs.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_QP01gs.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -176,8 +176,8 @@ tags: [tree decomposition]({{< base >}}html/bzffn0)
     * page 2 : [degree treewidth]({{< base >}}html/nCWUh3) upper bounds [tree-partition-width]({{< base >}}html/QP01gs) by a computable function and lower bounds it by a polynomial function -- $twp(G) \le 24tw(G)\Delta(G)$
     * page 2 : [degree treewidth]({{< base >}}html/nCWUh3) upper bounds [tree-partition-width]({{< base >}}html/QP01gs) by a computable function and lower bounds it by a polynomial function -- Theorem 1. ... $twp(G) < \frac 52 (tw(G)+1)(\frac 72 \Delta-1)$
     * page 2 : [degree treewidth]({{< base >}}html/nCWUh3) upper bounds [tree-partition-width]({{< base >}}html/QP01gs) by a computable function and lower bounds it by a polynomial function -- Theorem 2. ... there is a chordal graph $G$ ... $twp(G) \ge (\frac 18 - \epsilon)tw(G)\Delta(G).$
+* [assumed]({{< base >}}html/9kg0oo)
+    * [tree-partition-width]({{< base >}}html/QP01gs) is equivalent to [tree-partition-width]({{< base >}}html/QP01gs) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [tree-cut width]({{< base >}}html/8CgU0P) upper bounds [tree-partition-width]({{< base >}}html/QP01gs) by a computable function
     * [edge-treewidth]({{< base >}}html/pKi2tL) upper bounds [tree-partition-width]({{< base >}}html/QP01gs) by a computable function
-* [assumed]({{< base >}}html/9kg0oo)
-    * [tree-partition-width]({{< base >}}html/QP01gs) is equivalent to [tree-partition-width]({{< base >}}html/QP01gs) -- assumed

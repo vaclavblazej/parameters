@@ -12,11 +12,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_17.html)
 
 
 
-<p><div id="../local_VowkuW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_VowkuW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_VowkuW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_VowkuW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_VowkuW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_VowkuW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_VowkuW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_VowkuW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_VowkuW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_VowkuW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_VowkuW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_VowkuW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_VowkuW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_VowkuW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_VowkuW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_VowkuW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_VowkuW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_VowkuW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -178,10 +178,10 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_17.html)
     * page 8 : [arboricity]({{< base >}}html/zgMenA) upper bounds [degeneracy]({{< base >}}html/VowkuW) by a linear function -- Lemma 4.5
     * page 8 : [degeneracy]({{< base >}}html/VowkuW) upper bounds [arboricity]({{< base >}}html/zgMenA) by a linear function -- Lemma 4.5
     * page 9 : [acyclic chromatic number]({{< base >}}html/QGZuUW) upper bounds [degeneracy]({{< base >}}html/VowkuW) by a polynomial function -- Lemma 4.18. The acyclic chromatic number $a$ upper bounds the degeneracy $d$. We have $d \le 2 \binom a2 - 1$
-* [assumed]({{< base >}}html/9kg0oo)
-    * [degeneracy]({{< base >}}html/VowkuW) is equivalent to [degeneracy]({{< base >}}html/VowkuW) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [bounded expansion]({{< base >}}html/lFz6Ci) upper bounds [degeneracy]({{< base >}}html/VowkuW) by a constant -- $wcol_1-1 = col_1-1=adm_1=degeneracy$
     * [degeneracy]({{< base >}}html/VowkuW) upper bounds [weakly sparse]({{< base >}}html/Qme7wD) by a constant
     * [degeneracy]({{< base >}}html/VowkuW) upper bounds [chromatic number]({{< base >}}html/w7MmyW) by a linear function -- Greedily color the vertices in order of the degeneracy ordering. As each vertex has at most $k$ colored predecesors we use at most $k+1$ colors.
     * [degeneracy]({{< base >}}html/VowkuW) upper bounds [average degree]({{< base >}}html/z0y4TW) by a linear function -- Removing a vertex of degree $d$ increases the value added to the sum of all degrees by at most $2d$, hence, the average is no more than twice the degeneracy.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [degeneracy]({{< base >}}html/VowkuW) is equivalent to [degeneracy]({{< base >}}html/VowkuW) -- assumed

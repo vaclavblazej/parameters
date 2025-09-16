@@ -10,11 +10,11 @@ functionally equivalent to: [linear NLC-width]({{< base >}}html/v09DMY), [linear
 
 
 
-<p><div id="../local_fQj3wU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_fQj3wU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_fQj3wU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_fQj3wU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_fQj3wU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_fQj3wU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_fQj3wU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_fQj3wU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_fQj3wU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_fQj3wU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_fQj3wU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_fQj3wU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_fQj3wU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_fQj3wU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_fQj3wU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_fQj3wU.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_fQj3wU.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_fQj3wU.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -182,7 +182,7 @@ functionally equivalent to: [linear NLC-width]({{< base >}}html/v09DMY), [linear
 * 1998 [Clique-decomposition, NLC-decomposition and modular decomposition—relationships and results for random graphs by Johansson]({{< base >}}html/W2nwG4)
     * [linear clique-width]({{< base >}}html/fQj3wU) upper bounds [linear NLC-width]({{< base >}}html/v09DMY) by a linear function
     * [linear NLC-width]({{< base >}}html/v09DMY) upper bounds [linear clique-width]({{< base >}}html/fQj3wU) by a linear function
-* [unknown source]({{< base >}}html/myit4D)
-    * [linear clique-width]({{< base >}}html/fQj3wU) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a linear function
 * [assumed]({{< base >}}html/9kg0oo)
     * [linear clique-width]({{< base >}}html/fQj3wU) is equivalent to [linear clique-width]({{< base >}}html/fQj3wU) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [linear clique-width]({{< base >}}html/fQj3wU) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a linear function

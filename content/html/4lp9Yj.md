@@ -24,11 +24,11 @@ Now, one can either enumerate all the solutions or notice that whenever a part c
 
 
 
-<p><div id="../local_4lp9Yj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_4lp9Yj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_4lp9Yj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_4lp9Yj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_4lp9Yj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_4lp9Yj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_4lp9Yj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_4lp9Yj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_4lp9Yj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_4lp9Yj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_4lp9Yj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_4lp9Yj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_4lp9Yj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_4lp9Yj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_4lp9Yj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_4lp9Yj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_4lp9Yj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_4lp9Yj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -197,11 +197,6 @@ Now, one can either enumerate all the solutions or notice that whenever a part c
     * page 34 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [c-closure]({{< base >}}html/ou9VU1) -- Proposition 5.3. $c$-Closure is incomparable to Vertex Cover Number.
 * 2012 [Twin-Cover: Beyond Vertex Cover in Parameterized Algorithmics by Ganian]({{< base >}}html/7UoBR6)
     * page 263 : graph classes with bounded [twin-cover number]({{< base >}}html/MUnHA0) are not bounded [vertex cover]({{< base >}}html/4lp9Yj) -- The vertex cover of graphs of bounded twin-cover may be arbitrarily large.
-* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
-    * page 15 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [domination number]({{< base >}}html/Gq0onN) -- Proposition 3.5
-    * page 24 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [genus]({{< base >}}html/gbaHdw) -- Proposition 3.18
-    * page 24 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [maximum degree]({{< base >}}html/UyQ5yM) -- Proposition 3.19
-    * page 24 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [bisection bandwidth]({{< base >}}html/wUdmUb) -- Proposition 3.20
 * [unknown source]({{< base >}}html/myit4D)
     * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) upper and lower bounds [vertex cover]({{< base >}}html/4lp9Yj) by a linear function -- Kőnig's theorem
     * [vertex cover]({{< base >}}html/4lp9Yj) upper bounds [neighborhood diversity]({{< base >}}html/vMs3RS) by an exponential function
@@ -213,3 +208,8 @@ Now, one can either enumerate all the solutions or notice that whenever a part c
     * [vertex cover]({{< base >}}html/4lp9Yj) upper bounds [twin-cover number]({{< base >}}html/MUnHA0) by a linear function -- By definition
     * [size]({{< base >}}html/F1NpDy) upper bounds [vertex cover]({{< base >}}html/4lp9Yj) by a linear function -- By definition
     * [vertex cover]({{< base >}}html/4lp9Yj) is equivalent to [vertex cover]({{< base >}}html/4lp9Yj) -- assumed
+* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
+    * page 15 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [domination number]({{< base >}}html/Gq0onN) -- Proposition 3.5
+    * page 24 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [genus]({{< base >}}html/gbaHdw) -- Proposition 3.18
+    * page 24 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [maximum degree]({{< base >}}html/UyQ5yM) -- Proposition 3.19
+    * page 24 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [bisection bandwidth]({{< base >}}html/wUdmUb) -- Proposition 3.20

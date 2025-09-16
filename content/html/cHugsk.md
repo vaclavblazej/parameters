@@ -8,11 +8,11 @@ functionally equivalent to: [linear clique-width]({{< base >}}html/fQj3wU), [lin
 
 
 
-<p><div id="../local_cHugsk.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_cHugsk.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_cHugsk.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_cHugsk.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_cHugsk.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_cHugsk.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_cHugsk.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_cHugsk.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_cHugsk.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_cHugsk.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_cHugsk.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_cHugsk.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_cHugsk.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_cHugsk.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_cHugsk.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_cHugsk.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_cHugsk.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_cHugsk.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -173,8 +173,8 @@ functionally equivalent to: [linear clique-width]({{< base >}}html/fQj3wU), [lin
     * page 3 : [pathwidth]({{< base >}}html/VHClqR) upper bounds [linear rank-width]({{< base >}}html/cHugsk) by a computable function -- Lemma 5. Any graph $G$ satisfies $\mathrm{lrw}(G) \le \mathrm{pw}(G)$.
 * 2012 [Twin-Cover: Beyond Vertex Cover in Parameterized Algorithmics by Ganian]({{< base >}}html/7UoBR6)
     * page 263 : [twin-cover number]({{< base >}}html/MUnHA0) upper bounds [linear rank-width]({{< base >}}html/cHugsk) by a constant -- The rank-width and linaer rank-width of graph of twin-cover $k$ are at most $k+1$.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [linear rank-width]({{< base >}}html/cHugsk) is equivalent to [linear rank-width]({{< base >}}html/cHugsk) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [linear rank-width]({{< base >}}html/cHugsk) upper bounds [rank-width]({{< base >}}html/fojquT) by a computable function
     * [pathwidth]({{< base >}}html/VHClqR) upper bounds [linear rank-width]({{< base >}}html/cHugsk) by a computable function
-* [assumed]({{< base >}}html/9kg0oo)
-    * [linear rank-width]({{< base >}}html/cHugsk) is equivalent to [linear rank-width]({{< base >}}html/cHugsk) -- assumed

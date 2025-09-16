@@ -6,11 +6,11 @@ title: "distance to perfect"
 
 
 
-<p><div id="../local_kJZKgd.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_kJZKgd.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_kJZKgd.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_kJZKgd.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_kJZKgd.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_kJZKgd.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_kJZKgd.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_kJZKgd.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_kJZKgd.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_kJZKgd.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_kJZKgd.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_kJZKgd.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_kJZKgd.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_kJZKgd.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_kJZKgd.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_kJZKgd.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_kJZKgd.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_kJZKgd.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -175,10 +175,10 @@ title: "distance to perfect"
     * page 26 : graph classes with bounded [bandwidth]({{< base >}}html/aP5a38) are not bounded [distance to perfect]({{< base >}}html/kJZKgd) -- Proposition 3.24
     * page 26 : graph classes with bounded [genus]({{< base >}}html/gbaHdw) are not bounded [distance to perfect]({{< base >}}html/kJZKgd) -- Proposition 3.24
     * page 26 : graph classes with bounded [treedepth]({{< base >}}html/KEP2qM) are not bounded [distance to perfect]({{< base >}}html/kJZKgd) -- Proposition 3.24
+* [assumed]({{< base >}}html/9kg0oo)
+    * [perfect]({{< base >}}html/RmssrZ) upper bounds [distance to perfect]({{< base >}}html/kJZKgd) by a constant -- by definition
+    * [distance to perfect]({{< base >}}html/kJZKgd) is equivalent to [distance to perfect]({{< base >}}html/kJZKgd) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * graph class [planar]({{< base >}}html/loZ5LD) is not constant [distance to perfect]({{< base >}}html/kJZKgd)
     * graph class [cycles]({{< base >}}html/2iJr52) is not constant [distance to perfect]({{< base >}}html/kJZKgd)
     * graph classes with bounded [bounded components]({{< base >}}html/t7c4mp) are not bounded [distance to perfect]({{< base >}}html/kJZKgd) -- By a disjoint union of small components with distance to perfect at least 1.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [perfect]({{< base >}}html/RmssrZ) upper bounds [distance to perfect]({{< base >}}html/kJZKgd) by a constant -- by definition
-    * [distance to perfect]({{< base >}}html/kJZKgd) is equivalent to [distance to perfect]({{< base >}}html/kJZKgd) -- assumed

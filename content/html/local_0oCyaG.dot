@@ -2,13 +2,13 @@ digraph local_0oCyaG {
 	node [color=lightblue2 style=filled]
 	margin=0.04 size="6,6"
 	rankdir = BT
-	"n_cLHJkW" [label="bipartite" URL="/parameters/html/cLHJkW" color="#dddde8" shape=box]
 	"n_JngPPm" [label="forest" URL="/parameters/html/JngPPm" color="#dddde8" shape=box]
-	"n_loZ5LD" [label="planar" URL="/parameters/html/loZ5LD" color="#99bcf8" shape=box]
 	"n_EhdXNA" [label="complete" URL="/parameters/html/EhdXNA" color="#dddde8" shape=box]
 	"n_eW1Gic" [label="series-parallel" URL="/parameters/html/eW1Gic" color="#99bcf8" shape=box]
 	"n_0oCyaG" [label="outerplanar" URL="/parameters/html/0oCyaG" color="#78acff" shape=box]
+	"n_loZ5LD" [label="planar" URL="/parameters/html/loZ5LD" color="#99bcf8" shape=box]
+	"n_cLHJkW" [label="bipartite" URL="/parameters/html/cLHJkW" color="#dddde8" shape=box]
+	"n_0oCyaG" -> "n_loZ5LD" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_0oCyaG" -> "n_eW1Gic" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_JngPPm" -> "n_cLHJkW" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
-	"n_0oCyaG" -> "n_loZ5LD" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 }

@@ -6,11 +6,11 @@ tags: [topology]({{< base >}}html/lJJaYb)
 
 
 
-<p><div id="../local_a7MpiT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_a7MpiT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_a7MpiT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_a7MpiT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_a7MpiT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_a7MpiT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_a7MpiT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_a7MpiT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_a7MpiT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_a7MpiT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_a7MpiT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_a7MpiT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_a7MpiT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_a7MpiT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_a7MpiT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_a7MpiT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_a7MpiT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_a7MpiT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -179,11 +179,11 @@ tags: [topology]({{< base >}}html/lJJaYb)
     * page 9 : [distance to interval]({{< base >}}html/AVc2K6) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a linear function -- Lemma 4.16. The distance $i$ to an interval graph upper bounds the boxicity $b$. We have $b \le i+1$.
 * 2011 [Chordal Bipartite Graphs with High Boxicity by Chandran, Francis, Mathew]({{< base >}}html/Vkc4EU)
     * page 9 : graph classes with bounded [distance to bipartite]({{< base >}}html/1yW82F) are not bounded [boxicity]({{< base >}}html/a7MpiT) -- Theorem 2 For any $b \in \mathbb N^+$, there exists a chordal bipartite graph $G$ (ed: i.e. bipartite graph with no induced cycle on more than 4 vertices) with $\mathrm{box}(G) > b$.
-* [unknown source]({{< base >}}html/myit4D)
-    * [acyclic chromatic number]({{< base >}}html/QGZuUW) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a computable function
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 14 : graph classes with bounded [distance to co-cluster]({{< base >}}html/hbfWwE) are not bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 3.4
     * page 27 : graph classes with bounded [distance to chordal]({{< base >}}html/OdZQna) are not bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 3.25
 * [assumed]({{< base >}}html/9kg0oo)
     * [distance to interval]({{< base >}}html/AVc2K6) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a linear function -- By definition
     * [boxicity]({{< base >}}html/a7MpiT) is equivalent to [boxicity]({{< base >}}html/a7MpiT) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [acyclic chromatic number]({{< base >}}html/QGZuUW) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a computable function

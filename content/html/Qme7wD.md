@@ -6,11 +6,11 @@ aka: $K_{t,t}$-free
 
 
 
-<p><div id="../local_Qme7wD.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_Qme7wD.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_Qme7wD.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_Qme7wD.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_Qme7wD.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_Qme7wD.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_Qme7wD.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_Qme7wD.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_Qme7wD.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_Qme7wD.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_Qme7wD.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_Qme7wD.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_Qme7wD.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_Qme7wD.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_Qme7wD.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_Qme7wD.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_Qme7wD.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_Qme7wD.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -165,9 +165,9 @@ aka: $K_{t,t}$-free
 
 ## Results
 
-* [unknown source]({{< base >}}html/myit4D)
-    * [degeneracy]({{< base >}}html/VowkuW) upper bounds [weakly sparse]({{< base >}}html/Qme7wD) by a constant
-    * [nowhere dense]({{< base >}}html/DhGqJM) upper bounds [weakly sparse]({{< base >}}html/Qme7wD) by a constant
 * [assumed]({{< base >}}html/9kg0oo)
     * [weakly sparse and merge width]({{< base >}}html/HJjpOL) upper bounds [weakly sparse]({{< base >}}html/Qme7wD) by a constant -- by definition
     * [weakly sparse]({{< base >}}html/Qme7wD) is equivalent to [weakly sparse]({{< base >}}html/Qme7wD) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [degeneracy]({{< base >}}html/VowkuW) upper bounds [weakly sparse]({{< base >}}html/Qme7wD) by a constant
+    * [nowhere dense]({{< base >}}html/DhGqJM) upper bounds [weakly sparse]({{< base >}}html/Qme7wD) by a constant

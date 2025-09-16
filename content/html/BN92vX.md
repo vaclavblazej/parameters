@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_22.html)
 
 
 
-<p><div id="../local_BN92vX.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_BN92vX.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_BN92vX.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_BN92vX.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_BN92vX.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_BN92vX.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_BN92vX.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_BN92vX.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_BN92vX.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_BN92vX.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_BN92vX.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_BN92vX.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_BN92vX.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_BN92vX.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_BN92vX.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_BN92vX.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_BN92vX.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_BN92vX.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -172,11 +172,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_22.html)
 * 2019 [The Graph Parameter Hierarchy by Sorge]({{< base >}}html/VnTIL0)
     * page 8 : [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a computable function -- Lemma 4.10 ([14]). The max-leaf number $\mathrm{ml}$ upper bounds the distance to disjoint paths $d$. We have $d \le \mathrm{ml}-1$.
     * page 10 : [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [bandwidth]({{< base >}}html/aP5a38) by a linear function -- Lemma 4.25. The max leaf number $\mathrm{ml}$ strictly upper bounds the bandwidth $\mathrm{bw}$.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [size]({{< base >}}html/F1NpDy) upper bounds [maximum leaf number]({{< base >}}html/BN92vX) by a linear function -- By definition
-    * [maximum leaf number]({{< base >}}html/BN92vX) is equivalent to [maximum leaf number]({{< base >}}html/BN92vX) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a computable function
     * [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by a polynomial function
     * [cycle]({{< base >}}html/Ti0asF) upper bounds [maximum leaf number]({{< base >}}html/BN92vX) by a constant
     * [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [feedback edge set]({{< base >}}html/HTk9PZ) by a polynomial function -- M. Bentert (personal communication)
+* [assumed]({{< base >}}html/9kg0oo)
+    * [size]({{< base >}}html/F1NpDy) upper bounds [maximum leaf number]({{< base >}}html/BN92vX) by a linear function -- By definition
+    * [maximum leaf number]({{< base >}}html/BN92vX) is equivalent to [maximum leaf number]({{< base >}}html/BN92vX) -- assumed

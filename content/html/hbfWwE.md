@@ -8,11 +8,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_3.html)
 
 
 
-<p><div id="../local_hbfWwE.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_hbfWwE.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_hbfWwE.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_hbfWwE.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_hbfWwE.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_hbfWwE.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_hbfWwE.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_hbfWwE.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_hbfWwE.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_hbfWwE.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_hbfWwE.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_hbfWwE.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_hbfWwE.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_hbfWwE.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_hbfWwE.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_hbfWwE.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_hbfWwE.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_hbfWwE.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -172,8 +172,6 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_3.html)
     * page 21 : graph classes with bounded [distance to co-cluster]({{< base >}}html/hbfWwE) are not bounded [twin-cover number]({{< base >}}html/MUnHA0) -- Proposition 3.5. Twin Cover Number is incomparable to Distance to Co-Cluster.
     * page 28 : graph classes with bounded [modular-width]({{< base >}}html/4bj71L) are not bounded [distance to co-cluster]({{< base >}}html/hbfWwE) -- Proposition 4.11. Modular-width is incomparable to Distance to Co-Cluster.
     * page 28 : graph classes with bounded [distance to co-cluster]({{< base >}}html/hbfWwE) are not bounded [modular-width]({{< base >}}html/4bj71L) -- Proposition 4.11. Modular-width is incomparable to Distance to Co-Cluster.
-* [unknown source]({{< base >}}html/myit4D)
-    * [distance to co-cluster]({{< base >}}html/hbfWwE) upper bounds [shrub-depth]({{< base >}}html/NTgNzT) by a constant -- M. Dvořák, personal communication: The proof essentially follows the Reason why there's an arrow from cvdn (distance to cluster) to sd. Or note that distance to co-cluster is just complement of distance to cluster. And shrub-depth is closed under complemenetation.
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 13 : graph classes with bounded [distance to cluster]({{< base >}}html/aXw3Co) are not bounded [distance to co-cluster]({{< base >}}html/hbfWwE) -- Proposition 3.3
     * page 14 : graph classes with bounded [distance to co-cluster]({{< base >}}html/hbfWwE) are not bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 3.4
@@ -182,3 +180,5 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_3.html)
 * [assumed]({{< base >}}html/9kg0oo)
     * [co-cluster]({{< base >}}html/7HR4uV) upper bounds [distance to co-cluster]({{< base >}}html/hbfWwE) by a constant -- by definition
     * [distance to co-cluster]({{< base >}}html/hbfWwE) is equivalent to [distance to co-cluster]({{< base >}}html/hbfWwE) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [distance to co-cluster]({{< base >}}html/hbfWwE) upper bounds [shrub-depth]({{< base >}}html/NTgNzT) by a constant -- M. Dvořák, personal communication: The proof essentially follows the Reason why there's an arrow from cvdn (distance to cluster) to sd. Or note that distance to co-cluster is just complement of distance to cluster. And shrub-depth is closed under complemenetation.

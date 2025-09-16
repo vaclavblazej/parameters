@@ -2,15 +2,15 @@
 title: "module-width"
 ---# module-width
 
-functionally equivalent to: [radius-inf flip-width]({{< base >}}html/nYXiuT), [NLC-width]({{< base >}}html/Xrpbv7), [clique-width]({{< base >}}html/wg5HuV), [boolean width]({{< base >}}html/A2jPWT), [rank-width]({{< base >}}html/fojquT)
+functionally equivalent to: [clique-width]({{< base >}}html/wg5HuV), [NLC-width]({{< base >}}html/Xrpbv7), [radius-inf flip-width]({{< base >}}html/nYXiuT), [rank-width]({{< base >}}html/fojquT), [boolean width]({{< base >}}html/A2jPWT)
 
 
 
-<p><div id="../local_EV3FqL.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_EV3FqL.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_EV3FqL.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_EV3FqL.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_EV3FqL.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_EV3FqL.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_EV3FqL.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_EV3FqL.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_EV3FqL.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_EV3FqL.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_EV3FqL.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_EV3FqL.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_EV3FqL.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_EV3FqL.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_EV3FqL.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_EV3FqL.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_EV3FqL.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_EV3FqL.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -165,8 +165,8 @@ functionally equivalent to: [radius-inf flip-width]({{< base >}}html/nYXiuT), [N
 
 ## Results
 
+* [assumed]({{< base >}}html/9kg0oo)
+    * [module-width]({{< base >}}html/EV3FqL) is equivalent to [module-width]({{< base >}}html/EV3FqL) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [module-width]({{< base >}}html/EV3FqL) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a computable function
     * [clique-width]({{< base >}}html/wg5HuV) upper bounds [module-width]({{< base >}}html/EV3FqL) by a computable function
-* [assumed]({{< base >}}html/9kg0oo)
-    * [module-width]({{< base >}}html/EV3FqL) is equivalent to [module-width]({{< base >}}html/EV3FqL) -- assumed

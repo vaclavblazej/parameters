@@ -11,11 +11,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_1237.html)
 
 
 
-<p><div id="../local_WAU7vf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_WAU7vf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_WAU7vf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_WAU7vf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_WAU7vf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_WAU7vf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_WAU7vf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_WAU7vf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_WAU7vf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_WAU7vf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_WAU7vf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_WAU7vf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_WAU7vf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_WAU7vf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_WAU7vf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_WAU7vf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_WAU7vf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_WAU7vf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -170,9 +170,6 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_1237.html)
 
 ## Results
 
-* [unknown source]({{< base >}}html/myit4D)
-    * [cluster]({{< base >}}html/WAU7vf) upper bounds [twin-cover number]({{< base >}}html/MUnHA0) by a constant
-    * graph class [cluster]({{< base >}}html/WAU7vf) is not constant [domination number]({{< base >}}html/Gq0onN)
 * [assumed]({{< base >}}html/9kg0oo)
     * [complete]({{< base >}}html/EhdXNA) upper bounds [cluster]({{< base >}}html/WAU7vf) by a constant -- by definition
     * graph class [cluster]({{< base >}}html/WAU7vf) has contained in [interval]({{< base >}}html/p5skoj)
@@ -185,3 +182,6 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_1237.html)
     * graph class [cluster]({{< base >}}html/WAU7vf) is not [edgeless]({{< base >}}html/LsiBbX)
     * [cluster]({{< base >}}html/WAU7vf) upper bounds [distance to cluster]({{< base >}}html/aXw3Co) by a constant -- by definition
     * [cluster]({{< base >}}html/WAU7vf) is equivalent to [cluster]({{< base >}}html/WAU7vf) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [cluster]({{< base >}}html/WAU7vf) upper bounds [twin-cover number]({{< base >}}html/MUnHA0) by a constant
+    * graph class [cluster]({{< base >}}html/WAU7vf) is not constant [domination number]({{< base >}}html/Gq0onN)

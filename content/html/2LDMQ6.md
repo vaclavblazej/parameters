@@ -8,11 +8,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_1.html)
 
 
 
-<p><div id="../local_2LDMQ6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_2LDMQ6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_2LDMQ6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_2LDMQ6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_2LDMQ6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_2LDMQ6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_2LDMQ6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_2LDMQ6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_2LDMQ6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_2LDMQ6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_2LDMQ6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_2LDMQ6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_2LDMQ6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_2LDMQ6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_2LDMQ6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_2LDMQ6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_2LDMQ6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_2LDMQ6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -174,13 +174,13 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_1.html)
     * page 23 : graph classes with bounded [edge clique cover number]({{< base >}}html/nYQDv6) are not bounded [distance to complete]({{< base >}}html/2LDMQ6) -- Proposition 4.2. Disatnce to Clique strictly upper bounds Edge Clique Cover Number.
     * page 34 : graph classes with bounded [c-closure]({{< base >}}html/ou9VU1) are not bounded [distance to complete]({{< base >}}html/2LDMQ6) -- Proposition 5.4. $c$-Closure is incomparable to Distance to Clique.
     * page 34 : graph classes with bounded [distance to complete]({{< base >}}html/2LDMQ6) are not bounded [c-closure]({{< base >}}html/ou9VU1) -- Proposition 5.4. $c$-Closure is incomparable to Distance to Clique.
-* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
-    * page 16 : graph classes with bounded [distance to complete]({{< base >}}html/2LDMQ6) are not bounded [maximum clique]({{< base >}}html/q7zHeT) -- Proposition 3.7
-    * page 16 : graph classes with bounded [distance to complete]({{< base >}}html/2LDMQ6) are not bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.7
+* [unknown source]({{< base >}}html/myit4D)
+    * [distance to complete]({{< base >}}html/2LDMQ6) upper bounds [clique cover number]({{< base >}}html/VomShB) by a linear function -- We cover the $k$ vertices of the modulator by cliques of size $1$ and cover the remaining clique by another one.
+    * [distance to complete]({{< base >}}html/2LDMQ6) upper bounds [edge clique cover number]({{< base >}}html/nYQDv6) by a polynomial function -- Cover the remaining clique, cover each modulator vertex and its neighborhood outside of it with another clique, cover each edge within the modulator by its own edge.
 * [assumed]({{< base >}}html/9kg0oo)
     * [complete]({{< base >}}html/EhdXNA) upper bounds [distance to complete]({{< base >}}html/2LDMQ6) by a constant -- by definition
     * [size]({{< base >}}html/F1NpDy) upper bounds [distance to complete]({{< base >}}html/2LDMQ6) by a linear function -- By definition
     * [distance to complete]({{< base >}}html/2LDMQ6) is equivalent to [distance to complete]({{< base >}}html/2LDMQ6) -- assumed
-* [unknown source]({{< base >}}html/myit4D)
-    * [distance to complete]({{< base >}}html/2LDMQ6) upper bounds [clique cover number]({{< base >}}html/VomShB) by a linear function -- We cover the $k$ vertices of the modulator by cliques of size $1$ and cover the remaining clique by another one.
-    * [distance to complete]({{< base >}}html/2LDMQ6) upper bounds [edge clique cover number]({{< base >}}html/nYQDv6) by a polynomial function -- Cover the remaining clique, cover each modulator vertex and its neighborhood outside of it with another clique, cover each edge within the modulator by its own edge.
+* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
+    * page 16 : graph classes with bounded [distance to complete]({{< base >}}html/2LDMQ6) are not bounded [maximum clique]({{< base >}}html/q7zHeT) -- Proposition 3.7
+    * page 16 : graph classes with bounded [distance to complete]({{< base >}}html/2LDMQ6) are not bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.7

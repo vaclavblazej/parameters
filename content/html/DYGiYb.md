@@ -11,7 +11,7 @@ type = {Bachelor's Thesis},
 url = {https://fpt.akt.tu-berlin.de/publications/theses/BA-Schr%C3%B6der.pdf},
 }
 ```
-<p><div id="../drawing_DYGiYb_0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../drawing_DYGiYb_0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../drawing_DYGiYb_0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../drawing_DYGiYb_0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../drawing_DYGiYb_0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../drawing_DYGiYb_0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 
 <object data="../drawing_DYGiYb_1.pdf" type="application/pdf" width="100%" height="480px"><embed src="../drawing_DYGiYb_1.pdf"><p>This browser does not support PDFs. Please download the PDF to view it: <a href="../drawing_DYGiYb_1.pdf">Download PDF</a>.</p></embed></object>

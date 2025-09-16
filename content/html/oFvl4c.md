@@ -4,11 +4,11 @@ title: "slim tree-cut width"
 
 
 
-<p><div id="../local_oFvl4c.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_oFvl4c.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_oFvl4c.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_oFvl4c.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_oFvl4c.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_oFvl4c.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_oFvl4c.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_oFvl4c.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_oFvl4c.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_oFvl4c.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_oFvl4c.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_oFvl4c.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_oFvl4c.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_oFvl4c.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_oFvl4c.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_oFvl4c.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_oFvl4c.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_oFvl4c.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -167,9 +167,9 @@ title: "slim tree-cut width"
     * page 2716 : [slim tree-cut width]({{< base >}}html/oFvl4c) upper bounds [tree-cut width]({{< base >}}html/8CgU0P) by a computable function -- Figure 1
     * page 2716 : [edge-cut width]({{< base >}}html/ZNqIlN) upper bounds [slim tree-cut width]({{< base >}}html/oFvl4c) by a computable function -- Figure 1
     * page 2716 : [degree treewidth]({{< base >}}html/nCWUh3) upper bounds [slim tree-cut width]({{< base >}}html/oFvl4c) by a computable function -- Figure 1
+* [assumed]({{< base >}}html/9kg0oo)
+    * [slim tree-cut width]({{< base >}}html/oFvl4c) is equivalent to [slim tree-cut width]({{< base >}}html/oFvl4c) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [domino treewidth]({{< base >}}html/aEs5ap) upper bounds [slim tree-cut width]({{< base >}}html/oFvl4c) by a computable function
     * [slim tree-cut width]({{< base >}}html/oFvl4c) upper bounds [edge-treewidth]({{< base >}}html/pKi2tL) by a computable function
     * [slim tree-cut width]({{< base >}}html/oFvl4c) upper bounds [tree-cut width]({{< base >}}html/8CgU0P) by a computable function
-* [assumed]({{< base >}}html/9kg0oo)
-    * [slim tree-cut width]({{< base >}}html/oFvl4c) is equivalent to [slim tree-cut width]({{< base >}}html/oFvl4c) -- assumed

@@ -6,11 +6,11 @@ tags: [covering edges]({{< base >}}html/tK4S1r)
 
 
 
-<p><div id="../local_fTqo40.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_fTqo40.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_fTqo40.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_fTqo40.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_fTqo40.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_fTqo40.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_fTqo40.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_fTqo40.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_fTqo40.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_fTqo40.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_fTqo40.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_fTqo40.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_fTqo40.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_fTqo40.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_fTqo40.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_fTqo40.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_fTqo40.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_fTqo40.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -177,10 +177,10 @@ tags: [covering edges]({{< base >}}html/tK4S1r)
     * page 2 : [size]({{< base >}}html/F1NpDy) upper bounds [chordality]({{< base >}}html/fTqo40) by a constant -- Corollary 3. For any graph $G$, $\mathrm{Chord}(G) \le |V(G)|/2$.
     * page 2 : [chromatic number]({{< base >}}html/w7MmyW) upper bounds [chordality]({{< base >}}html/fTqo40) by a linear function -- Corollary 4. For any graph $G$, $\mathrm{Chord}(G) \le \chi(G)$, the chromatic number of $G$.
     * page 5 : [treewidth]({{< base >}}html/5Q7fuR) upper bounds [chordality]({{< base >}}html/fTqo40) by a constant -- Theorem 7. For any graph $G$, $\mathrm{Chord}(G) \le \tau(G)$.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [chordality]({{< base >}}html/fTqo40) is equivalent to [chordality]({{< base >}}html/fTqo40) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [distance to cograph]({{< base >}}html/uDXX2i) upper bounds [chordality]({{< base >}}html/fTqo40) by a linear function
+* [assumed]({{< base >}}html/9kg0oo)
+    * [chordality]({{< base >}}html/fTqo40) is equivalent to [chordality]({{< base >}}html/fTqo40) -- assumed
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 19 : graph classes with bounded [clique cover number]({{< base >}}html/VomShB) are not bounded [chordality]({{< base >}}html/fTqo40) -- Proposition 3.11
     * page 19 : graph classes with bounded [distance to perfect]({{< base >}}html/kJZKgd) are not bounded [chordality]({{< base >}}html/fTqo40) -- Proposition 3.11

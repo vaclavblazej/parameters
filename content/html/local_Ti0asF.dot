@@ -2,13 +2,13 @@ digraph local_Ti0asF {
 	node [color=lightblue2 style=filled]
 	margin=0.04 size="6,6"
 	rankdir = BT
-	"n_JngPPm" [label="forest" URL="/parameters/html/JngPPm" color="#dddde8" shape=box]
-	"n_cLHJkW" [label="bipartite" URL="/parameters/html/cLHJkW" color="#dddde8" shape=box]
-	"n_Ti0asF" [label="cycle" URL="/parameters/html/Ti0asF" color="#78acff" shape=box]
-	"n_EhdXNA" [label="complete" URL="/parameters/html/EhdXNA" color="#bbccf0" shape=box]
 	"n_2iJr52" [label="cycles" URL="/parameters/html/2iJr52" color="#99bcf8" shape=box]
+	"n_Ti0asF" [label="cycle" URL="/parameters/html/Ti0asF" color="#78acff" shape=box]
 	"n_rJyICu" [label="tree" URL="/parameters/html/rJyICu" color="#bbccf0" shape=box]
 	"n_loZ5LD" [label="planar" URL="/parameters/html/loZ5LD" color="#dddde8" shape=box]
+	"n_EhdXNA" [label="complete" URL="/parameters/html/EhdXNA" color="#bbccf0" shape=box]
+	"n_JngPPm" [label="forest" URL="/parameters/html/JngPPm" color="#dddde8" shape=box]
+	"n_cLHJkW" [label="bipartite" URL="/parameters/html/cLHJkW" color="#dddde8" shape=box]
 	"n_rJyICu" -> "n_JngPPm" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_Ti0asF" -> "n_2iJr52" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_JngPPm" -> "n_cLHJkW" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]

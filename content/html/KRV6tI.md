@@ -4,11 +4,11 @@ title: "domatic number"
 
 
 
-<p><div id="../local_KRV6tI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_KRV6tI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_KRV6tI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_KRV6tI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_KRV6tI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_KRV6tI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_KRV6tI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_KRV6tI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_KRV6tI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_KRV6tI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_KRV6tI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_KRV6tI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_KRV6tI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_KRV6tI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_KRV6tI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_KRV6tI.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_KRV6tI.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_KRV6tI.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -171,10 +171,10 @@ title: "domatic number"
 * [unknown source]({{< base >}}html/myit4D)
     * [minimum degree]({{< base >}}html/GPmOeT) upper bounds [domatic number]({{< base >}}html/KRV6tI) by a linear function -- The vertex of minimum degree needs to be dominated in each of the sets. As the sets cannot overlap there can be at most $k+1$ of them.
     * graph class [complete]({{< base >}}html/EhdXNA) is not constant [domatic number]({{< base >}}html/KRV6tI) -- Parameter is unbounded for the graph class of cliques.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [domatic number]({{< base >}}html/KRV6tI) is equivalent to [domatic number]({{< base >}}html/KRV6tI) -- assumed
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 16 : graph classes with bounded [distance to complete]({{< base >}}html/2LDMQ6) are not bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.7
     * page 20 : graph classes with bounded [distance to co-cluster]({{< base >}}html/hbfWwE) are not bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.12
     * page 20 : graph classes with bounded [distance to bipartite]({{< base >}}html/1yW82F) are not bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.12
     * page 30 : graph classes with bounded [bisection bandwidth]({{< base >}}html/wUdmUb) are not bounded [domatic number]({{< base >}}html/KRV6tI) -- Proposition 3.28
-* [assumed]({{< base >}}html/9kg0oo)
-    * [domatic number]({{< base >}}html/KRV6tI) is equivalent to [domatic number]({{< base >}}html/KRV6tI) -- assumed

@@ -6,11 +6,11 @@ title: "linear forest"
 
 
 
-<p><div id="../local_skQuFN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_skQuFN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_skQuFN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_skQuFN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_skQuFN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_skQuFN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_skQuFN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_skQuFN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_skQuFN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_skQuFN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_skQuFN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_skQuFN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_skQuFN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_skQuFN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_skQuFN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_skQuFN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_skQuFN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_skQuFN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -165,6 +165,8 @@ title: "linear forest"
 
 ## Results
 
+* [unknown source]({{< base >}}html/myit4D)
+    * graph class [linear forest]({{< base >}}html/skQuFN) is not constant [average distance]({{< base >}}html/zH8PpT)
 * [assumed]({{< base >}}html/9kg0oo)
     * [path]({{< base >}}html/ryPlqz) upper bounds [linear forest]({{< base >}}html/skQuFN) by a constant -- by definition
     * graph class [linear forest]({{< base >}}html/skQuFN) has contained in [interval]({{< base >}}html/p5skoj)
@@ -176,5 +178,3 @@ title: "linear forest"
     * [linear forest]({{< base >}}html/skQuFN) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a constant -- by definition
     * [linear forest]({{< base >}}html/skQuFN) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
     * [linear forest]({{< base >}}html/skQuFN) is equivalent to [linear forest]({{< base >}}html/skQuFN) -- assumed
-* [unknown source]({{< base >}}html/myit4D)
-    * graph class [linear forest]({{< base >}}html/skQuFN) is not constant [average distance]({{< base >}}html/zH8PpT)

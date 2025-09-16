@@ -2,15 +2,15 @@
 title: "weak inf-coloring number"
 ---# weak inf-coloring number
 
-functionally equivalent to: [treedepth]({{< base >}}html/KEP2qM), [d-path-free]({{< base >}}html/s4EiWI)
+functionally equivalent to: [d-path-free]({{< base >}}html/s4EiWI), [treedepth]({{< base >}}html/KEP2qM)
 
 
 
-<p><div id="../local_DfwI9E.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_DfwI9E.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_DfwI9E.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_DfwI9E.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_DfwI9E.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_DfwI9E.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_DfwI9E.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_DfwI9E.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_DfwI9E.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_DfwI9E.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_DfwI9E.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_DfwI9E.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_DfwI9E.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_DfwI9E.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_DfwI9E.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_DfwI9E.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_DfwI9E.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_DfwI9E.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -165,9 +165,9 @@ functionally equivalent to: [treedepth]({{< base >}}html/KEP2qM), [d-path-free](
 
 ## Results
 
-* [assumed]({{< base >}}html/9kg0oo)
-    * [weak inf-coloring number]({{< base >}}html/DfwI9E) is equivalent to [weak inf-coloring number]({{< base >}}html/DfwI9E) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [weak inf-coloring number]({{< base >}}html/DfwI9E) upper bounds [treedepth]({{< base >}}html/KEP2qM) by a computable function
     * [treedepth]({{< base >}}html/KEP2qM) upper bounds [weak inf-coloring number]({{< base >}}html/DfwI9E) by a computable function
     * [weak inf-coloring number]({{< base >}}html/DfwI9E) upper bounds [weak coloring number]({{< base >}}html/KD6n2n) by a constant
+* [assumed]({{< base >}}html/9kg0oo)
+    * [weak inf-coloring number]({{< base >}}html/DfwI9E) is equivalent to [weak inf-coloring number]({{< base >}}html/DfwI9E) -- assumed

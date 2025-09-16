@@ -6,11 +6,11 @@ title: "average degree"
 
 
 
-<p><div id="../local_z0y4TW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_z0y4TW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_z0y4TW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_z0y4TW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_z0y4TW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_z0y4TW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_z0y4TW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_z0y4TW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_z0y4TW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_z0y4TW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_z0y4TW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_z0y4TW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_z0y4TW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_z0y4TW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_z0y4TW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_z0y4TW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_z0y4TW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_z0y4TW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -167,12 +167,12 @@ title: "average degree"
 
 * 2019 [The Graph Parameter Hierarchy by Sorge]({{< base >}}html/VnTIL0)
     * page 3 : [average degree]({{< base >}}html/z0y4TW) -- The \emph{average degree} of a graph $G = (V,E)$ is $2|E|/|V|$.
+* [unknown source]({{< base >}}html/myit4D)
+    * [degeneracy]({{< base >}}html/VowkuW) upper bounds [average degree]({{< base >}}html/z0y4TW) by a linear function -- Removing a vertex of degree $d$ increases the value added to the sum of all degrees by at most $2d$, hence, the average is no more than twice the degeneracy.
 * [assumed]({{< base >}}html/9kg0oo)
     * [average degree]({{< base >}}html/z0y4TW) upper bounds [minimum degree]({{< base >}}html/GPmOeT) by a linear function -- By definition
     * graph classes with bounded [minimum degree]({{< base >}}html/GPmOeT) are not bounded [average degree]({{< base >}}html/z0y4TW) -- folklore
     * [average degree]({{< base >}}html/z0y4TW) is equivalent to [average degree]({{< base >}}html/z0y4TW) -- assumed
-* [unknown source]({{< base >}}html/myit4D)
-    * [degeneracy]({{< base >}}html/VowkuW) upper bounds [average degree]({{< base >}}html/z0y4TW) by a linear function -- Removing a vertex of degree $d$ increases the value added to the sum of all degrees by at most $2d$, hence, the average is no more than twice the degeneracy.
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 35 : graph classes with bounded [average degree]({{< base >}}html/z0y4TW) are not bounded [maximum clique]({{< base >}}html/q7zHeT) -- Proposition 3.35
     * page 36 : graph classes with bounded [average degree]({{< base >}}html/z0y4TW) are not bounded [chordality]({{< base >}}html/fTqo40) -- Proposition 3.36

@@ -6,11 +6,11 @@ title: "chi-bounded"
 
 
 
-<p><div id="../local_Jb1we5.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_Jb1we5.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_Jb1we5.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_Jb1we5.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_Jb1we5.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_Jb1we5.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_Jb1we5.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_Jb1we5.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_Jb1we5.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_Jb1we5.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_Jb1we5.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_Jb1we5.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_Jb1we5.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_Jb1we5.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_Jb1we5.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_Jb1we5.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_Jb1we5.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_Jb1we5.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -167,9 +167,9 @@ title: "chi-bounded"
 
 * 2012 [Classes of graphs with small rank decompositions are χ-bounded by Dvořák, Král’]({{< base >}}html/DbAWDM)
     * page 2 : [rank-width]({{< base >}}html/fojquT) upper bounds [chi-bounded]({{< base >}}html/Jb1we5) by a constant -- Theorem 1. For any $k$, the class of graphs with rank-width at most $k$ is $\chi$-bounded.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [chi-bounded]({{< base >}}html/Jb1we5) is equivalent to [chi-bounded]({{< base >}}html/Jb1we5) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [perfect]({{< base >}}html/RmssrZ) upper bounds [chi-bounded]({{< base >}}html/Jb1we5) by a constant
     * [clique-width]({{< base >}}html/wg5HuV) upper bounds [chi-bounded]({{< base >}}html/Jb1we5) by a constant
     * [series-parallel]({{< base >}}html/eW1Gic) upper bounds [chi-bounded]({{< base >}}html/Jb1we5) by a constant
+* [assumed]({{< base >}}html/9kg0oo)
+    * [chi-bounded]({{< base >}}html/Jb1we5) is equivalent to [chi-bounded]({{< base >}}html/Jb1we5) -- assumed

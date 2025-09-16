@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_24.html)
 
 
 
-<p><div id="../local_yk7XP0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_yk7XP0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_yk7XP0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_yk7XP0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_yk7XP0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_yk7XP0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_yk7XP0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_yk7XP0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_yk7XP0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_yk7XP0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_yk7XP0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_yk7XP0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_yk7XP0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_yk7XP0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_yk7XP0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_yk7XP0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_yk7XP0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_yk7XP0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -171,12 +171,12 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_24.html)
 
 * 2019 [The Graph Parameter Hierarchy by Sorge]({{< base >}}html/VnTIL0)
     * page 8 : [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a computable function -- Lemma 4.10 ([14]). The max-leaf number $\mathrm{ml}$ upper bounds the distance to disjoint paths $d$. We have $d \le \mathrm{ml}-1$.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [linear forest]({{< base >}}html/skQuFN) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a constant -- by definition
+    * [distance to linear forest]({{< base >}}html/yk7XP0) is equivalent to [distance to linear forest]({{< base >}}html/yk7XP0) -- assumed
+* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
+    * page 12 : [distance to linear forest]({{< base >}}html/yk7XP0) upper bounds [h-index]({{< base >}}html/GNTwUS) by a linear function -- Proposition 3.2
 * [unknown source]({{< base >}}html/myit4D)
     * [distance to linear forest]({{< base >}}html/yk7XP0) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a linear function -- After removal of $k$ vertices the remaining class has a bounded width $w$. So by including the removed vertices in every bag, we can achieve decomposition of width $w+k$
     * [distance to linear forest]({{< base >}}html/yk7XP0) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a linear function -- After removal of $k$ vertices the remaining class has a bounded width $w$. So by including the removed vertices in every bag, we can achieve decomposition of width $w+k$
     * [maximum leaf number]({{< base >}}html/BN92vX) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a computable function
-* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
-    * page 12 : [distance to linear forest]({{< base >}}html/yk7XP0) upper bounds [h-index]({{< base >}}html/GNTwUS) by a linear function -- Proposition 3.2
-* [assumed]({{< base >}}html/9kg0oo)
-    * [linear forest]({{< base >}}html/skQuFN) upper bounds [distance to linear forest]({{< base >}}html/yk7XP0) by a constant -- by definition
-    * [distance to linear forest]({{< base >}}html/yk7XP0) is equivalent to [distance to linear forest]({{< base >}}html/yk7XP0) -- assumed

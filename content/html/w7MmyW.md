@@ -8,11 +8,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_19.html)
 
 
 
-<p><div id="../local_w7MmyW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_w7MmyW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_w7MmyW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_w7MmyW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_w7MmyW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_w7MmyW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_w7MmyW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_w7MmyW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_w7MmyW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_w7MmyW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_w7MmyW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_w7MmyW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_w7MmyW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_w7MmyW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_w7MmyW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_w7MmyW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_w7MmyW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_w7MmyW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -169,10 +169,10 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_19.html)
 
 * 1993 [On the chordality of a graph by McKee, Scheinerman]({{< base >}}html/IFY0Rw)
     * page 2 : [chromatic number]({{< base >}}html/w7MmyW) upper bounds [chordality]({{< base >}}html/fTqo40) by a linear function -- Corollary 4. For any graph $G$, $\mathrm{Chord}(G) \le \chi(G)$, the chromatic number of $G$.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [chromatic number]({{< base >}}html/w7MmyW) is equivalent to [chromatic number]({{< base >}}html/w7MmyW) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [chromatic number]({{< base >}}html/w7MmyW) upper bounds [maximum clique]({{< base >}}html/q7zHeT) by a linear function -- Unbounded clique implies the number of needed colors is unbounded.
     * [degeneracy]({{< base >}}html/VowkuW) upper bounds [chromatic number]({{< base >}}html/w7MmyW) by a linear function -- Greedily color the vertices in order of the degeneracy ordering. As each vertex has at most $k$ colored predecesors we use at most $k+1$ colors.
     * [distance to bipartite]({{< base >}}html/1yW82F) upper bounds [chromatic number]({{< base >}}html/w7MmyW) by a linear function -- Removed vertices get one color each and we need only $2$ colors for the rest.
     * [genus]({{< base >}}html/gbaHdw) upper bounds [chromatic number]({{< base >}}html/w7MmyW) by a constant -- in fact, bounded by square root
+* [assumed]({{< base >}}html/9kg0oo)
+    * [chromatic number]({{< base >}}html/w7MmyW) is equivalent to [chromatic number]({{< base >}}html/w7MmyW) -- assumed

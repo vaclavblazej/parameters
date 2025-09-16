@@ -12,11 +12,11 @@ functionally equivalent to: [distance to bounded components]({{< base >}}html/RP
 
 
 
-<p><div id="../local_KVhJFB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_KVhJFB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_KVhJFB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_KVhJFB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_KVhJFB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_KVhJFB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_KVhJFB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_KVhJFB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_KVhJFB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_KVhJFB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_KVhJFB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_KVhJFB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_KVhJFB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_KVhJFB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_KVhJFB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_KVhJFB.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_KVhJFB.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_KVhJFB.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -171,11 +171,11 @@ functionally equivalent to: [distance to bounded components]({{< base >}}html/RP
 
 ## Results
 
-* [unknown source]({{< base >}}html/myit4D)
-    * [vertex integrity]({{< base >}}html/KVhJFB) upper bounds [treedepth]({{< base >}}html/KEP2qM) by a linear function -- First, treedepth removes vertices of the modulator, then it iterates through remaining components one by one.
-    * graph classes with bounded [vertex integrity]({{< base >}}html/KVhJFB) are not bounded [neighborhood diversity]({{< base >}}html/vMs3RS)
-    * graph class [stars]({{< base >}}html/10JR3F) is not constant [vertex integrity]({{< base >}}html/KVhJFB)
 * [assumed]({{< base >}}html/9kg0oo)
     * [vertex integrity]({{< base >}}html/KVhJFB) upper bounds [distance to bounded components]({{< base >}}html/RPTCxd) by a linear function -- By definition
     * [distance to bounded components]({{< base >}}html/RPTCxd) upper bounds [vertex integrity]({{< base >}}html/KVhJFB) by a linear function -- By definition
     * [vertex integrity]({{< base >}}html/KVhJFB) is equivalent to [vertex integrity]({{< base >}}html/KVhJFB) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [vertex integrity]({{< base >}}html/KVhJFB) upper bounds [treedepth]({{< base >}}html/KEP2qM) by a linear function -- First, treedepth removes vertices of the modulator, then it iterates through remaining components one by one.
+    * graph classes with bounded [vertex integrity]({{< base >}}html/KVhJFB) are not bounded [neighborhood diversity]({{< base >}}html/vMs3RS)
+    * graph class [stars]({{< base >}}html/10JR3F) is not constant [vertex integrity]({{< base >}}html/KVhJFB)

@@ -288,7 +288,7 @@
         },
         {
           "id": {
-            "code": "_ltWwE",
+            "code": "_k0yqD",
             "_marker": null
           },
           "text": "by definition",
@@ -324,7 +324,7 @@
         },
         {
           "id": {
-            "code": "_8Okzm",
+            "code": "_NtYyJ",
             "_marker": null
           },
           "text": "assumed",
@@ -358,6 +358,15 @@
       "minimal": [
         {
           "id": {
+            "code": "jYG7BR",
+            "_marker": null
+          },
+          "name": "flip-width",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
             "code": "dN1D3C",
             "_marker": null
           },
@@ -369,12 +378,14 @@
         },
         {
           "id": {
-            "code": "JbqZoT",
+            "code": "Qme7wD",
             "_marker": null
           },
-          "name": "edge connectivity",
-          "typ": "Parameter",
-          "relevance": 2
+          "name": "weakly sparse",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 3
         },
         {
           "id": {
@@ -387,40 +398,11 @@
         },
         {
           "id": {
-            "code": "fTqo40",
+            "code": "KRV6tI",
             "_marker": null
           },
-          "name": "chordality",
+          "name": "domatic number",
           "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "jYG7BR",
-            "_marker": null
-          },
-          "name": "flip-width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "q7zHeT",
-            "_marker": null
-          },
-          "name": "maximum clique",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "Qme7wD",
-            "_marker": null
-          },
-          "name": "weakly sparse",
-          "typ": {
-            "Property": "Is"
-          },
           "relevance": 3
         },
         {
@@ -434,63 +416,12 @@
         },
         {
           "id": {
-            "code": "KRV6tI",
+            "code": "fTqo40",
             "_marker": null
           },
-          "name": "domatic number",
-          "typ": "Parameter",
-          "relevance": 3
-        }
-      ],
-      "maximal": [
-        {
-          "id": {
-            "code": "gbaHdw",
-            "_marker": null
-          },
-          "name": "genus",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "MLJMRH",
-            "_marker": null
-          },
-          "name": "distance to planar",
+          "name": "chordality",
           "typ": "Parameter",
           "relevance": 4
-        }
-      ],
-      "all": [
-        {
-          "id": {
-            "code": "doijTS",
-            "_marker": null
-          },
-          "name": "book thickness",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "dN1D3C",
-            "_marker": null
-          },
-          "name": "monadically dependent",
-          "typ": {
-            "Property": "Is"
-          },
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "z0y4TW",
-            "_marker": null
-          },
-          "name": "average degree",
-          "typ": "Parameter",
-          "relevance": 2
         },
         {
           "id": {
@@ -503,192 +434,15 @@
         },
         {
           "id": {
-            "code": "4DIiH0",
-            "_marker": null
-          },
-          "name": "radius-r flip-width",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "fTqo40",
-            "_marker": null
-          },
-          "name": "chordality",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "OrH7et",
-            "_marker": null
-          },
-          "name": "twin-width",
-          "typ": "Parameter",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "GPmOeT",
-            "_marker": null
-          },
-          "name": "minimum degree",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "HJjpOL",
-            "_marker": null
-          },
-          "name": "weakly sparse and merge width",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "jYG7BR",
-            "_marker": null
-          },
-          "name": "flip-width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "gbaHdw",
-            "_marker": null
-          },
-          "name": "genus",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "2FM8hj",
-            "_marker": null
-          },
-          "name": "sparse twin-width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "VowkuW",
-            "_marker": null
-          },
-          "name": "degeneracy",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "v4sLfO",
-            "_marker": null
-          },
-          "name": "admissibility",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "yihnem",
-            "_marker": null
-          },
-          "name": "strong d-coloring number",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "UWmTKl",
-            "_marker": null
-          },
-          "name": "merge-width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "QGZuUW",
-            "_marker": null
-          },
-          "name": "acyclic chromatic number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "5xOuoQ",
-            "_marker": null
-          },
-          "name": "excluded minor",
-          "typ": {
-            "Property": "Has"
-          },
-          "relevance": 4
-        },
-        {
-          "id": {
             "code": "q7zHeT",
             "_marker": null
           },
           "name": "maximum clique",
           "typ": "Parameter",
           "relevance": 5
-        },
-        {
-          "id": {
-            "code": "Qme7wD",
-            "_marker": null
-          },
-          "name": "weakly sparse",
-          "typ": {
-            "Property": "Is"
-          },
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "KD6n2n",
-            "_marker": null
-          },
-          "name": "weak coloring number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "a7MpiT",
-            "_marker": null
-          },
-          "name": "boxicity",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "yOZQM5",
-            "_marker": null
-          },
-          "name": "excluded top-minor",
-          "typ": {
-            "Property": "Has"
-          },
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "lFz6Ci",
-            "_marker": null
-          },
-          "name": "bounded expansion",
-          "typ": {
-            "Property": "Has"
-          },
-          "relevance": 6
-        },
+        }
+      ],
+      "maximal": [
         {
           "id": {
             "code": "MLJMRH",
@@ -700,10 +454,30 @@
         },
         {
           "id": {
-            "code": "zgMenA",
+            "code": "gbaHdw",
             "_marker": null
           },
-          "name": "arboricity",
+          "name": "genus",
+          "typ": "Parameter",
+          "relevance": 6
+        }
+      ],
+      "all": [
+        {
+          "id": {
+            "code": "MLJMRH",
+            "_marker": null
+          },
+          "name": "distance to planar",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "v4sLfO",
+            "_marker": null
+          },
+          "name": "admissibility",
           "typ": "Parameter",
           "relevance": 5
         },
@@ -718,12 +492,267 @@
         },
         {
           "id": {
+            "code": "jYG7BR",
+            "_marker": null
+          },
+          "name": "flip-width",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "yihnem",
+            "_marker": null
+          },
+          "name": "strong d-coloring number",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "DhGqJM",
+            "_marker": null
+          },
+          "name": "nowhere dense",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "dN1D3C",
+            "_marker": null
+          },
+          "name": "monadically dependent",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "Qme7wD",
+            "_marker": null
+          },
+          "name": "weakly sparse",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "5xOuoQ",
+            "_marker": null
+          },
+          "name": "excluded minor",
+          "typ": {
+            "Property": "Has"
+          },
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "a7MpiT",
+            "_marker": null
+          },
+          "name": "boxicity",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "4DIiH0",
+            "_marker": null
+          },
+          "name": "radius-r flip-width",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "zgMenA",
+            "_marker": null
+          },
+          "name": "arboricity",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "lFz6Ci",
+            "_marker": null
+          },
+          "name": "bounded expansion",
+          "typ": {
+            "Property": "Has"
+          },
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "KRV6tI",
+            "_marker": null
+          },
+          "name": "domatic number",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "3F3oc3",
+            "_marker": null
+          },
+          "name": "weak d-coloring number",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "2FM8hj",
+            "_marker": null
+          },
+          "name": "sparse twin-width",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "gbaHdw",
+            "_marker": null
+          },
+          "name": "genus",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "OrH7et",
+            "_marker": null
+          },
+          "name": "twin-width",
+          "typ": "Parameter",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "fTqo40",
+            "_marker": null
+          },
+          "name": "chordality",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "JbqZoT",
+            "_marker": null
+          },
+          "name": "edge connectivity",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "PxVh3F",
+            "_marker": null
+          },
+          "name": "strong coloring number",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "HJjpOL",
+            "_marker": null
+          },
+          "name": "weakly sparse and merge width",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "q7zHeT",
+            "_marker": null
+          },
+          "name": "maximum clique",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "doijTS",
+            "_marker": null
+          },
+          "name": "book thickness",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "GPmOeT",
+            "_marker": null
+          },
+          "name": "minimum degree",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "VowkuW",
+            "_marker": null
+          },
+          "name": "degeneracy",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "z0y4TW",
+            "_marker": null
+          },
+          "name": "average degree",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "yOZQM5",
+            "_marker": null
+          },
+          "name": "excluded top-minor",
+          "typ": {
+            "Property": "Has"
+          },
+          "relevance": 3
+        },
+        {
+          "id": {
             "code": "Pqiy2C",
             "_marker": null
           },
           "name": "d-admissibility",
           "typ": "Parameter",
           "relevance": 4
+        },
+        {
+          "id": {
+            "code": "QGZuUW",
+            "_marker": null
+          },
+          "name": "acyclic chromatic number",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "KD6n2n",
+            "_marker": null
+          },
+          "name": "weak coloring number",
+          "typ": "Parameter",
+          "relevance": 5
         },
         {
           "id": {
@@ -738,40 +767,11 @@
         },
         {
           "id": {
-            "code": "PxVh3F",
+            "code": "UWmTKl",
             "_marker": null
           },
-          "name": "strong coloring number",
+          "name": "merge-width",
           "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "3F3oc3",
-            "_marker": null
-          },
-          "name": "weak d-coloring number",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "KRV6tI",
-            "_marker": null
-          },
-          "name": "domatic number",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "DhGqJM",
-            "_marker": null
-          },
-          "name": "nowhere dense",
-          "typ": {
-            "Property": "Is"
-          },
           "relevance": 5
         }
       ]
@@ -829,21 +829,21 @@
         },
         {
           "id": {
-            "code": "ryPlqz",
-            "_marker": null
-          },
-          "name": "path",
-          "typ": "GraphClass",
-          "relevance": 3
-        },
-        {
-          "id": {
             "code": "lfYXuK",
             "_marker": null
           },
           "name": "grid",
           "typ": "GraphClass",
           "relevance": 6
+        },
+        {
+          "id": {
+            "code": "ryPlqz",
+            "_marker": null
+          },
+          "name": "path",
+          "typ": "GraphClass",
+          "relevance": 3
         }
       ]
     },
@@ -851,21 +851,30 @@
       "minimal": [
         {
           "id": {
-            "code": "EV3FqL",
+            "code": "zH8PpT",
             "_marker": null
           },
-          "name": "module-width",
+          "name": "average distance",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "wUdmUb",
+            "_marker": null
+          },
+          "name": "bisection bandwidth",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "kJZKgd",
+            "code": "A2jPWT",
             "_marker": null
           },
-          "name": "distance to perfect",
+          "name": "boolean width",
           "typ": "Parameter",
-          "relevance": 4
+          "relevance": 5
         },
         {
           "id": {
@@ -887,21 +896,12 @@
         },
         {
           "id": {
-            "code": "zH8PpT",
+            "code": "fojquT",
             "_marker": null
           },
-          "name": "average distance",
+          "name": "rank-width",
           "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "A2jPWT",
-            "_marker": null
-          },
-          "name": "boolean width",
-          "typ": "Parameter",
-          "relevance": 5
+          "relevance": 7
         },
         {
           "id": {
@@ -914,12 +914,12 @@
         },
         {
           "id": {
-            "code": "fojquT",
+            "code": "kJZKgd",
             "_marker": null
           },
-          "name": "rank-width",
+          "name": "distance to perfect",
           "typ": "Parameter",
-          "relevance": 7
+          "relevance": 4
         },
         {
           "id": {
@@ -932,24 +932,15 @@
         },
         {
           "id": {
-            "code": "wUdmUb",
+            "code": "EV3FqL",
             "_marker": null
           },
-          "name": "bisection bandwidth",
+          "name": "module-width",
           "typ": "Parameter",
           "relevance": 4
         }
       ],
       "maximal": [
-        {
-          "id": {
-            "code": "F1NpDy",
-            "_marker": null
-          },
-          "name": "size",
-          "typ": "Parameter",
-          "relevance": 3
-        },
         {
           "id": {
             "code": "LsiBbX",
@@ -963,12 +954,21 @@
         },
         {
           "id": {
-            "code": "0oCyaG",
+            "code": "F1NpDy",
             "_marker": null
           },
-          "name": "outerplanar",
+          "name": "size",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "Ti0asF",
+            "_marker": null
+          },
+          "name": "cycle",
           "typ": "GraphClass",
-          "relevance": 5
+          "relevance": 2
         },
         {
           "id": {
@@ -978,6 +978,15 @@
           "name": "star",
           "typ": "GraphClass",
           "relevance": 3
+        },
+        {
+          "id": {
+            "code": "0oCyaG",
+            "_marker": null
+          },
+          "name": "outerplanar",
+          "typ": "GraphClass",
+          "relevance": 5
         },
         {
           "id": {
@@ -996,323 +1005,17 @@
           "name": "path",
           "typ": "GraphClass",
           "relevance": 3
-        },
-        {
-          "id": {
-            "code": "Ti0asF",
-            "_marker": null
-          },
-          "name": "cycle",
-          "typ": "GraphClass",
-          "relevance": 2
         }
       ],
       "all": [
         {
           "id": {
-            "code": "oFvl4c",
+            "code": "KEP2qM",
             "_marker": null
           },
-          "name": "slim tree-cut width",
+          "name": "treedepth",
           "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "MUnHA0",
-            "_marker": null
-          },
-          "name": "twin-cover number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "nCWUh3",
-            "_marker": null
-          },
-          "name": "degree treewidth",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "F1NpDy",
-            "_marker": null
-          },
-          "name": "size",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "ZNqIlN",
-            "_marker": null
-          },
-          "name": "edge-cut width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "P8yP3M",
-            "_marker": null
-          },
-          "name": "overlap treewidth",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "veU7Jf",
-            "_marker": null
-          },
-          "name": "maximum matching",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "7HR4uV",
-            "_marker": null
-          },
-          "name": "co-cluster",
-          "typ": "GraphClass",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "1yW82F",
-            "_marker": null
-          },
-          "name": "distance to bipartite",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "t7c4mp",
-            "_marker": null
-          },
-          "name": "bounded components",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "4lp9Yj",
-            "_marker": null
-          },
-          "name": "vertex cover",
-          "typ": "Parameter",
-          "relevance": 9
-        },
-        {
-          "id": {
-            "code": "GzMYlT",
-            "_marker": null
-          },
-          "name": "maximum induced matching",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "EV3FqL",
-            "_marker": null
-          },
-          "name": "module-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "pKi2tL",
-            "_marker": null
-          },
-          "name": "edge-treewidth",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "KVhJFB",
-            "_marker": null
-          },
-          "name": "vertex integrity",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "QrxQsH",
-            "_marker": null
-          },
-          "name": "block",
-          "typ": "GraphClass",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "aP5a38",
-            "_marker": null
-          },
-          "name": "bandwidth",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "mHtXUU",
-            "_marker": null
-          },
-          "name": "maximum independent set",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "10JR3F",
-            "_marker": null
-          },
-          "name": "stars",
-          "typ": "GraphClass",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "p5skoj",
-            "_marker": null
-          },
-          "name": "interval",
-          "typ": "GraphClass",
           "relevance": 7
-        },
-        {
-          "id": {
-            "code": "kJZKgd",
-            "_marker": null
-          },
-          "name": "distance to perfect",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "cHugsk",
-            "_marker": null
-          },
-          "name": "linear rank-width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "Cv1PaJ",
-            "_marker": null
-          },
-          "name": "chordal",
-          "typ": "GraphClass",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "nYXiuT",
-            "_marker": null
-          },
-          "name": "radius-inf flip-width",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "TLx1pz",
-            "_marker": null
-          },
-          "name": "cutwidth",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "RPTCxd",
-            "_marker": null
-          },
-          "name": "distance to bounded components",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "v09DMY",
-            "_marker": null
-          },
-          "name": "linear NLC-width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "8Mm5qJ",
-            "_marker": null
-          },
-          "name": "maximum matching on bipartite graphs",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "GNOiyB",
-            "_marker": null
-          },
-          "name": "feedback vertex set",
-          "typ": "Parameter",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "mOri44",
-            "_marker": null
-          },
-          "name": "NLCT-width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "VomShB",
-            "_marker": null
-          },
-          "name": "clique cover number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "VHClqR",
-            "_marker": null
-          },
-          "name": "pathwidth",
-          "typ": "Parameter",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "8CgU0P",
-            "_marker": null
-          },
-          "name": "tree-cut width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "vMs3RS",
-            "_marker": null
-          },
-          "name": "neighborhood diversity",
-          "typ": "Parameter",
-          "relevance": 6
         },
         {
           "id": {
@@ -1325,48 +1028,57 @@
         },
         {
           "id": {
-            "code": "nYQDv6",
+            "code": "oFvl4c",
             "_marker": null
           },
-          "name": "edge clique cover number",
+          "name": "slim tree-cut width",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "OdZQna",
+            "_marker": null
+          },
+          "name": "distance to chordal",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "yk7XP0",
+            "code": "G1Cwmc",
             "_marker": null
           },
-          "name": "distance to linear forest",
+          "name": "iterated type partitions",
           "typ": "Parameter",
-          "relevance": 4
+          "relevance": 3
         },
         {
           "id": {
-            "code": "9Qd0Mx",
+            "code": "cLHJkW",
             "_marker": null
           },
-          "name": "cograph",
+          "name": "bipartite",
           "typ": "GraphClass",
-          "relevance": 7
+          "relevance": 8
         },
         {
           "id": {
-            "code": "wg5HuV",
+            "code": "WAU7vf",
             "_marker": null
           },
-          "name": "clique-width",
-          "typ": "Parameter",
-          "relevance": 7
+          "name": "cluster",
+          "typ": "GraphClass",
+          "relevance": 6
         },
         {
           "id": {
-            "code": "hQZlLU",
+            "code": "Gq0onN",
             "_marker": null
           },
-          "name": "distance to forest",
+          "name": "domination number",
           "typ": "Parameter",
-          "relevance": 5
+          "relevance": 3
         },
         {
           "id": {
@@ -1381,40 +1093,236 @@
         },
         {
           "id": {
-            "code": "2iJr52",
+            "code": "lIcmuR",
             "_marker": null
           },
-          "name": "cycles",
-          "typ": "GraphClass",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "fQj3wU",
-            "_marker": null
-          },
-          "name": "linear clique-width",
+          "name": "branch width",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "QP01gs",
+            "code": "8Mm5qJ",
             "_marker": null
           },
-          "name": "tree-partition-width",
+          "name": "maximum matching on bipartite graphs",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "w3LxG1",
+            "_marker": null
+          },
+          "name": "treebandwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "VHClqR",
+            "_marker": null
+          },
+          "name": "pathwidth",
+          "typ": "Parameter",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "4bj71L",
+            "_marker": null
+          },
+          "name": "modular-width",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "RmssrZ",
+            "_marker": null
+          },
+          "name": "perfect",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "RPTCxd",
+            "_marker": null
+          },
+          "name": "distance to bounded components",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "AVc2K6",
+            "_marker": null
+          },
+          "name": "distance to interval",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "1yW82F",
+            "_marker": null
+          },
+          "name": "distance to bipartite",
           "typ": "Parameter",
           "relevance": 5
         },
         {
           "id": {
-            "code": "Gt22Ik",
+            "code": "aXw3Co",
             "_marker": null
           },
-          "name": "excluded planar minor",
-          "typ": {
-            "Property": "Has"
+          "name": "distance to cluster",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "8CgU0P",
+            "_marker": null
           },
+          "name": "tree-cut width",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "d7vRYU",
+            "_marker": null
+          },
+          "name": "mm-width",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "aP5a38",
+            "_marker": null
+          },
+          "name": "bandwidth",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "ZNqIlN",
+            "_marker": null
+          },
+          "name": "edge-cut width",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "F1NpDy",
+            "_marker": null
+          },
+          "name": "size",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "xNJnFb",
+            "_marker": null
+          },
+          "name": "distance to block",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "nYQDv6",
+            "_marker": null
+          },
+          "name": "edge clique cover number",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "veU7Jf",
+            "_marker": null
+          },
+          "name": "maximum matching",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "ri9Seh",
+            "_marker": null
+          },
+          "name": "diameter+max degree",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "Ve5ruW",
+            "_marker": null
+          },
+          "name": "odd cycle transversal",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "MUnHA0",
+            "_marker": null
+          },
+          "name": "twin-cover number",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "HTk9PZ",
+            "_marker": null
+          },
+          "name": "feedback edge set",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "DfwI9E",
+            "_marker": null
+          },
+          "name": "weak inf-coloring number",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "nCWUh3",
+            "_marker": null
+          },
+          "name": "degree treewidth",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "7HR4uV",
+            "_marker": null
+          },
+          "name": "co-cluster",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "yk7XP0",
+            "_marker": null
+          },
+          "name": "distance to linear forest",
+          "typ": "Parameter",
           "relevance": 4
         },
         {
@@ -1428,66 +1336,75 @@
         },
         {
           "id": {
-            "code": "6BWcgd",
+            "code": "zH8PpT",
             "_marker": null
           },
-          "name": "pathwidth+maxdegree",
+          "name": "average distance",
           "typ": "Parameter",
           "relevance": 3
         },
         {
           "id": {
-            "code": "0oCyaG",
+            "code": "hQZlLU",
             "_marker": null
           },
-          "name": "outerplanar",
-          "typ": "GraphClass",
+          "name": "distance to forest",
+          "typ": "Parameter",
           "relevance": 5
         },
         {
           "id": {
-            "code": "SnA7Eq",
+            "code": "wUdmUb",
             "_marker": null
           },
-          "name": "topological bandwidth",
+          "name": "bisection bandwidth",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "JngPPm",
+            "code": "JQTHZS",
             "_marker": null
           },
-          "name": "forest",
-          "typ": "GraphClass",
-          "relevance": 9
+          "name": "strong inf-coloring number",
+          "typ": "Parameter",
+          "relevance": 3
         },
         {
           "id": {
-            "code": "p4bTjp",
+            "code": "KVhJFB",
             "_marker": null
           },
-          "name": "diameter",
+          "name": "vertex integrity",
           "typ": "Parameter",
           "relevance": 6
         },
         {
           "id": {
-            "code": "OdZQna",
+            "code": "pKi2tL",
             "_marker": null
           },
-          "name": "distance to chordal",
+          "name": "edge-treewidth",
           "typ": "Parameter",
-          "relevance": 4
+          "relevance": 2
         },
         {
           "id": {
-            "code": "lfYXuK",
+            "code": "NTgNzT",
             "_marker": null
           },
-          "name": "grid",
-          "typ": "GraphClass",
+          "name": "shrub-depth",
+          "typ": "Parameter",
           "relevance": 6
+        },
+        {
+          "id": {
+            "code": "v09DMY",
+            "_marker": null
+          },
+          "name": "linear NLC-width",
+          "typ": "Parameter",
+          "relevance": 2
         },
         {
           "id": {
@@ -1500,55 +1417,55 @@
         },
         {
           "id": {
-            "code": "d7vRYU",
+            "code": "Cv1PaJ",
             "_marker": null
           },
-          "name": "mm-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "HTk9PZ",
-            "_marker": null
-          },
-          "name": "feedback edge set",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "RmssrZ",
-            "_marker": null
-          },
-          "name": "perfect",
+          "name": "chordal",
           "typ": "GraphClass",
           "relevance": 6
         },
         {
           "id": {
-            "code": "CortlU",
+            "code": "P8yP3M",
             "_marker": null
           },
-          "name": "star",
-          "typ": "GraphClass",
-          "relevance": 3
+          "name": "overlap treewidth",
+          "typ": "Parameter",
+          "relevance": 2
         },
         {
           "id": {
-            "code": "AVc2K6",
+            "code": "t7c4mp",
             "_marker": null
           },
-          "name": "distance to interval",
+          "name": "bounded components",
           "typ": "Parameter",
           "relevance": 3
         },
         {
           "id": {
-            "code": "zH8PpT",
+            "code": "QP01gs",
             "_marker": null
           },
-          "name": "average distance",
+          "name": "tree-partition-width",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "JngPPm",
+            "_marker": null
+          },
+          "name": "forest",
+          "typ": "GraphClass",
+          "relevance": 9
+        },
+        {
+          "id": {
+            "code": "Z10jME",
+            "_marker": null
+          },
+          "name": "distance to stars",
           "typ": "Parameter",
           "relevance": 3
         },
@@ -1563,147 +1480,66 @@
         },
         {
           "id": {
-            "code": "EhdXNA",
+            "code": "6BWcgd",
             "_marker": null
           },
-          "name": "complete",
-          "typ": "GraphClass",
-          "relevance": 9
-        },
-        {
-          "id": {
-            "code": "G1Cwmc",
-            "_marker": null
-          },
-          "name": "iterated type partitions",
+          "name": "pathwidth+maxdegree",
           "typ": "Parameter",
           "relevance": 3
         },
         {
           "id": {
-            "code": "JQTHZS",
+            "code": "cHugsk",
             "_marker": null
           },
-          "name": "strong inf-coloring number",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "rJyICu",
-            "_marker": null
-          },
-          "name": "tree",
-          "typ": "GraphClass",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "ryPlqz",
-            "_marker": null
-          },
-          "name": "path",
-          "typ": "GraphClass",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "ri9Seh",
-            "_marker": null
-          },
-          "name": "diameter+max degree",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "A2jPWT",
-            "_marker": null
-          },
-          "name": "boolean width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "UyQ5yM",
-            "_marker": null
-          },
-          "name": "maximum degree",
-          "typ": "Parameter",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "lPHVWU",
-            "_marker": null
-          },
-          "name": "distance to outerplanar",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "s4EiWI",
-            "_marker": null
-          },
-          "name": "d-path-free",
+          "name": "linear rank-width",
           "typ": "Parameter",
           "relevance": 2
         },
         {
           "id": {
-            "code": "4bj71L",
+            "code": "TLx1pz",
             "_marker": null
           },
-          "name": "modular-width",
-          "typ": "Parameter",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "NTgNzT",
-            "_marker": null
-          },
-          "name": "shrub-depth",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "fojquT",
-            "_marker": null
-          },
-          "name": "rank-width",
-          "typ": "Parameter",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "Ve5ruW",
-            "_marker": null
-          },
-          "name": "odd cycle transversal",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "Xrpbv7",
-            "_marker": null
-          },
-          "name": "NLC-width",
+          "name": "cutwidth",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "Z10jME",
+            "code": "fQj3wU",
             "_marker": null
           },
-          "name": "distance to stars",
+          "name": "linear clique-width",
           "typ": "Parameter",
-          "relevance": 3
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "Ti0asF",
+            "_marker": null
+          },
+          "name": "cycle",
+          "typ": "GraphClass",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "mHtXUU",
+            "_marker": null
+          },
+          "name": "maximum independent set",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "mOri44",
+            "_marker": null
+          },
+          "name": "NLCT-width",
+          "typ": "Parameter",
+          "relevance": 2
         },
         {
           "id": {
@@ -1716,11 +1552,47 @@
         },
         {
           "id": {
-            "code": "DfwI9E",
+            "code": "A2jPWT",
             "_marker": null
           },
-          "name": "weak inf-coloring number",
+          "name": "boolean width",
           "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "CortlU",
+            "_marker": null
+          },
+          "name": "star",
+          "typ": "GraphClass",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "2iJr52",
+            "_marker": null
+          },
+          "name": "cycles",
+          "typ": "GraphClass",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "1dQQ87",
+            "_marker": null
+          },
+          "name": "bipartite number",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "QrxQsH",
+            "_marker": null
+          },
+          "name": "block",
+          "typ": "GraphClass",
           "relevance": 3
         },
         {
@@ -1734,48 +1606,21 @@
         },
         {
           "id": {
-            "code": "lIcmuR",
+            "code": "vMs3RS",
             "_marker": null
           },
-          "name": "branch width",
+          "name": "neighborhood diversity",
           "typ": "Parameter",
-          "relevance": 4
+          "relevance": 6
         },
         {
           "id": {
-            "code": "Gq0onN",
+            "code": "lfYXuK",
             "_marker": null
           },
-          "name": "domination number",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "7P9WUz",
-            "_marker": null
-          },
-          "name": "clique-tree-width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "wUdmUb",
-            "_marker": null
-          },
-          "name": "bisection bandwidth",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "hbfWwE",
-            "_marker": null
-          },
-          "name": "distance to co-cluster",
-          "typ": "Parameter",
-          "relevance": 5
+          "name": "grid",
+          "typ": "GraphClass",
+          "relevance": 6
         },
         {
           "id": {
@@ -1797,39 +1642,122 @@
         },
         {
           "id": {
-            "code": "KEP2qM",
+            "code": "10JR3F",
             "_marker": null
           },
-          "name": "treedepth",
-          "typ": "Parameter",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "xNJnFb",
-            "_marker": null
-          },
-          "name": "distance to block",
-          "typ": "Parameter",
+          "name": "stars",
+          "typ": "GraphClass",
           "relevance": 4
         },
         {
           "id": {
-            "code": "aEs5ap",
+            "code": "lPHVWU",
             "_marker": null
           },
-          "name": "domino treewidth",
+          "name": "distance to outerplanar",
           "typ": "Parameter",
           "relevance": 3
         },
         {
           "id": {
-            "code": "cLHJkW",
+            "code": "9Qd0Mx",
             "_marker": null
           },
-          "name": "bipartite",
+          "name": "cograph",
           "typ": "GraphClass",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "0oCyaG",
+            "_marker": null
+          },
+          "name": "outerplanar",
+          "typ": "GraphClass",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "GNOiyB",
+            "_marker": null
+          },
+          "name": "feedback vertex set",
+          "typ": "Parameter",
           "relevance": 8
+        },
+        {
+          "id": {
+            "code": "GzMYlT",
+            "_marker": null
+          },
+          "name": "maximum induced matching",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "nYXiuT",
+            "_marker": null
+          },
+          "name": "radius-inf flip-width",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "wg5HuV",
+            "_marker": null
+          },
+          "name": "clique-width",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "EhdXNA",
+            "_marker": null
+          },
+          "name": "complete",
+          "typ": "GraphClass",
+          "relevance": 9
+        },
+        {
+          "id": {
+            "code": "Gt22Ik",
+            "_marker": null
+          },
+          "name": "excluded planar minor",
+          "typ": {
+            "Property": "Has"
+          },
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "s4EiWI",
+            "_marker": null
+          },
+          "name": "d-path-free",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "fojquT",
+            "_marker": null
+          },
+          "name": "rank-width",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "p4bTjp",
+            "_marker": null
+          },
+          "name": "diameter",
+          "typ": "Parameter",
+          "relevance": 6
         },
         {
           "id": {
@@ -1842,48 +1770,120 @@
         },
         {
           "id": {
-            "code": "w3LxG1",
+            "code": "p5skoj",
             "_marker": null
           },
-          "name": "treebandwidth",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "Ti0asF",
-            "_marker": null
-          },
-          "name": "cycle",
+          "name": "interval",
           "typ": "GraphClass",
-          "relevance": 2
+          "relevance": 7
         },
         {
           "id": {
-            "code": "aXw3Co",
+            "code": "hbfWwE",
             "_marker": null
           },
-          "name": "distance to cluster",
+          "name": "distance to co-cluster",
           "typ": "Parameter",
           "relevance": 5
         },
         {
           "id": {
-            "code": "1dQQ87",
+            "code": "UyQ5yM",
             "_marker": null
           },
-          "name": "bipartite number",
+          "name": "maximum degree",
+          "typ": "Parameter",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "kJZKgd",
+            "_marker": null
+          },
+          "name": "distance to perfect",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "4lp9Yj",
+            "_marker": null
+          },
+          "name": "vertex cover",
+          "typ": "Parameter",
+          "relevance": 9
+        },
+        {
+          "id": {
+            "code": "VomShB",
+            "_marker": null
+          },
+          "name": "clique cover number",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "rJyICu",
+            "_marker": null
+          },
+          "name": "tree",
+          "typ": "GraphClass",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "ryPlqz",
+            "_marker": null
+          },
+          "name": "path",
+          "typ": "GraphClass",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "SnA7Eq",
+            "_marker": null
+          },
+          "name": "topological bandwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "Xrpbv7",
+            "_marker": null
+          },
+          "name": "NLC-width",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "EV3FqL",
+            "_marker": null
+          },
+          "name": "module-width",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "7P9WUz",
+            "_marker": null
+          },
+          "name": "clique-tree-width",
           "typ": "Parameter",
           "relevance": 2
         },
         {
           "id": {
-            "code": "WAU7vf",
+            "code": "aEs5ap",
             "_marker": null
           },
-          "name": "cluster",
-          "typ": "GraphClass",
-          "relevance": 6
+          "name": "domino treewidth",
+          "typ": "Parameter",
+          "relevance": 3
         }
       ]
     },
@@ -1891,30 +1891,21 @@
       "minimal": [
         {
           "id": {
-            "code": "aEGv5N",
+            "code": "KRV6tI",
             "_marker": null
           },
-          "name": "sim-width",
+          "name": "domatic number",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "q7zHeT",
+            "_marker": null
+          },
+          "name": "maximum clique",
           "typ": "Parameter",
           "relevance": 5
-        },
-        {
-          "id": {
-            "code": "zH8PpT",
-            "_marker": null
-          },
-          "name": "average distance",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "4DIiH0",
-            "_marker": null
-          },
-          "name": "radius-r flip-width",
-          "typ": "Parameter",
-          "relevance": 3
         },
         {
           "id": {
@@ -1929,10 +1920,59 @@
         },
         {
           "id": {
-            "code": "KRV6tI",
+            "code": "Jb1we5",
             "_marker": null
           },
-          "name": "domatic number",
+          "name": "chi-bounded",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "zH8PpT",
+            "_marker": null
+          },
+          "name": "average distance",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "dN1D3C",
+            "_marker": null
+          },
+          "name": "monadically dependent",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "aEGv5N",
+            "_marker": null
+          },
+          "name": "sim-width",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "JbqZoT",
+            "_marker": null
+          },
+          "name": "edge connectivity",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "4DIiH0",
+            "_marker": null
+          },
+          "name": "radius-r flip-width",
           "typ": "Parameter",
           "relevance": 3
         },
@@ -1947,14 +1987,21 @@
         },
         {
           "id": {
-            "code": "Jb1we5",
+            "code": "ou9VU1",
             "_marker": null
           },
-          "name": "chi-bounded",
-          "typ": {
-            "Property": "Is"
+          "name": "c-closure",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "JA2nKw",
+            "_marker": null
           },
-          "relevance": 5
+          "name": "treelength",
+          "typ": "Parameter",
+          "relevance": 6
         },
         {
           "id": {
@@ -1976,35 +2023,6 @@
         },
         {
           "id": {
-            "code": "JA2nKw",
-            "_marker": null
-          },
-          "name": "treelength",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "q7zHeT",
-            "_marker": null
-          },
-          "name": "maximum clique",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "dN1D3C",
-            "_marker": null
-          },
-          "name": "monadically dependent",
-          "typ": {
-            "Property": "Is"
-          },
-          "relevance": 5
-        },
-        {
-          "id": {
             "code": "jYG7BR",
             "_marker": null
           },
@@ -2022,27 +2040,18 @@
             "Property": "Is"
           },
           "relevance": 2
-        },
-        {
-          "id": {
-            "code": "ou9VU1",
-            "_marker": null
-          },
-          "name": "c-closure",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "JbqZoT",
-            "_marker": null
-          },
-          "name": "edge connectivity",
-          "typ": "Parameter",
-          "relevance": 2
         }
       ],
       "maximal": [
+        {
+          "id": {
+            "code": "EhdXNA",
+            "_marker": null
+          },
+          "name": "complete",
+          "typ": "GraphClass",
+          "relevance": 9
+        },
         {
           "id": {
             "code": "cLHJkW",
@@ -2060,7 +2069,9 @@
           "name": "size",
           "typ": "Parameter",
           "relevance": 3
-        },
+        }
+      ],
+      "all": [
         {
           "id": {
             "code": "EhdXNA",
@@ -2069,447 +2080,23 @@
           "name": "complete",
           "typ": "GraphClass",
           "relevance": 9
-        }
-      ],
-      "all": [
-        {
-          "id": {
-            "code": "hQZlLU",
-            "_marker": null
-          },
-          "name": "distance to forest",
-          "typ": "Parameter",
-          "relevance": 5
         },
         {
           "id": {
-            "code": "5Q7fuR",
+            "code": "VHClqR",
             "_marker": null
           },
-          "name": "treewidth",
-          "typ": "Parameter",
-          "relevance": 9
-        },
-        {
-          "id": {
-            "code": "aEs5ap",
-            "_marker": null
-          },
-          "name": "domino treewidth",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "OrH7et",
-            "_marker": null
-          },
-          "name": "twin-width",
+          "name": "pathwidth",
           "typ": "Parameter",
           "relevance": 8
         },
         {
           "id": {
-            "code": "xNJnFb",
+            "code": "dS6OgO",
             "_marker": null
           },
-          "name": "distance to block",
+          "name": "carving-width",
           "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "WmIFB1",
-            "_marker": null
-          },
-          "name": "mim-width",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "p4bTjp",
-            "_marker": null
-          },
-          "name": "diameter",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "aEGv5N",
-            "_marker": null
-          },
-          "name": "sim-width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "z0y4TW",
-            "_marker": null
-          },
-          "name": "average degree",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "P8yP3M",
-            "_marker": null
-          },
-          "name": "overlap treewidth",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "8CgU0P",
-            "_marker": null
-          },
-          "name": "tree-cut width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "5xOuoQ",
-            "_marker": null
-          },
-          "name": "excluded minor",
-          "typ": {
-            "Property": "Has"
-          },
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "zH8PpT",
-            "_marker": null
-          },
-          "name": "average distance",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "yk7XP0",
-            "_marker": null
-          },
-          "name": "distance to linear forest",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "QrxQsH",
-            "_marker": null
-          },
-          "name": "block",
-          "typ": "GraphClass",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "v09DMY",
-            "_marker": null
-          },
-          "name": "linear NLC-width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "ZNqIlN",
-            "_marker": null
-          },
-          "name": "edge-cut width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "LlWzhg",
-            "_marker": null
-          },
-          "name": "contraction complexity",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "d7vRYU",
-            "_marker": null
-          },
-          "name": "mm-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "nYQDv6",
-            "_marker": null
-          },
-          "name": "edge clique cover number",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "PxVh3F",
-            "_marker": null
-          },
-          "name": "strong coloring number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "aP5a38",
-            "_marker": null
-          },
-          "name": "bandwidth",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "lFz6Ci",
-            "_marker": null
-          },
-          "name": "bounded expansion",
-          "typ": {
-            "Property": "Has"
-          },
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "pKi2tL",
-            "_marker": null
-          },
-          "name": "edge-treewidth",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "7HR4uV",
-            "_marker": null
-          },
-          "name": "co-cluster",
-          "typ": "GraphClass",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "OdZQna",
-            "_marker": null
-          },
-          "name": "distance to chordal",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "nCWUh3",
-            "_marker": null
-          },
-          "name": "degree treewidth",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "G1Cwmc",
-            "_marker": null
-          },
-          "name": "iterated type partitions",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "WAU7vf",
-            "_marker": null
-          },
-          "name": "cluster",
-          "typ": "GraphClass",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "4INs10",
-            "_marker": null
-          },
-          "name": "distance to edgeless",
-          "typ": "Parameter",
-          "relevance": 1
-        },
-        {
-          "id": {
-            "code": "HJjpOL",
-            "_marker": null
-          },
-          "name": "weakly sparse and merge width",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "GNOiyB",
-            "_marker": null
-          },
-          "name": "feedback vertex set",
-          "typ": "Parameter",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "QGZuUW",
-            "_marker": null
-          },
-          "name": "acyclic chromatic number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "VowkuW",
-            "_marker": null
-          },
-          "name": "degeneracy",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "lPHVWU",
-            "_marker": null
-          },
-          "name": "distance to outerplanar",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "4DIiH0",
-            "_marker": null
-          },
-          "name": "radius-r flip-width",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "cLHJkW",
-            "_marker": null
-          },
-          "name": "bipartite",
-          "typ": "GraphClass",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "Qme7wD",
-            "_marker": null
-          },
-          "name": "weakly sparse",
-          "typ": {
-            "Property": "Is"
-          },
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "KRV6tI",
-            "_marker": null
-          },
-          "name": "domatic number",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "Ve5ruW",
-            "_marker": null
-          },
-          "name": "odd cycle transversal",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "UWmTKl",
-            "_marker": null
-          },
-          "name": "merge-width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "v4sLfO",
-            "_marker": null
-          },
-          "name": "admissibility",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "KD6n2n",
-            "_marker": null
-          },
-          "name": "weak coloring number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "vMs3RS",
-            "_marker": null
-          },
-          "name": "neighborhood diversity",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "4lp9Yj",
-            "_marker": null
-          },
-          "name": "vertex cover",
-          "typ": "Parameter",
-          "relevance": 9
-        },
-        {
-          "id": {
-            "code": "cHugsk",
-            "_marker": null
-          },
-          "name": "linear rank-width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "1yW82F",
-            "_marker": null
-          },
-          "name": "distance to bipartite",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "yOZQM5",
-            "_marker": null
-          },
-          "name": "excluded top-minor",
-          "typ": {
-            "Property": "Has"
-          },
           "relevance": 3
         },
         {
@@ -2525,66 +2112,48 @@
         },
         {
           "id": {
-            "code": "dS6OgO",
+            "code": "KD6n2n",
             "_marker": null
           },
-          "name": "carving-width",
+          "name": "weak coloring number",
           "typ": "Parameter",
-          "relevance": 3
+          "relevance": 5
         },
         {
           "id": {
-            "code": "DfwI9E",
+            "code": "xNJnFb",
             "_marker": null
           },
-          "name": "weak inf-coloring number",
+          "name": "distance to block",
           "typ": "Parameter",
-          "relevance": 3
+          "relevance": 4
         },
         {
           "id": {
-            "code": "Cv1PaJ",
+            "code": "vMs3RS",
             "_marker": null
           },
-          "name": "chordal",
-          "typ": "GraphClass",
+          "name": "neighborhood diversity",
+          "typ": "Parameter",
           "relevance": 6
         },
         {
           "id": {
-            "code": "EV3FqL",
+            "code": "8CgU0P",
             "_marker": null
           },
-          "name": "module-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "RPTCxd",
-            "_marker": null
-          },
-          "name": "distance to bounded components",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "fTqo40",
-            "_marker": null
-          },
-          "name": "chordality",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "oFvl4c",
-            "_marker": null
-          },
-          "name": "slim tree-cut width",
+          "name": "tree-cut width",
           "typ": "Parameter",
           "relevance": 2
+        },
+        {
+          "id": {
+            "code": "v4sLfO",
+            "_marker": null
+          },
+          "name": "admissibility",
+          "typ": "Parameter",
+          "relevance": 5
         },
         {
           "id": {
@@ -2597,12 +2166,131 @@
         },
         {
           "id": {
-            "code": "TLx1pz",
+            "code": "uDXX2i",
             "_marker": null
           },
-          "name": "cutwidth",
+          "name": "distance to cograph",
           "typ": "Parameter",
-          "relevance": 4
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "KRV6tI",
+            "_marker": null
+          },
+          "name": "domatic number",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "cLHJkW",
+            "_marker": null
+          },
+          "name": "bipartite",
+          "typ": "GraphClass",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "JQTHZS",
+            "_marker": null
+          },
+          "name": "strong inf-coloring number",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "q7zHeT",
+            "_marker": null
+          },
+          "name": "maximum clique",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "WmIFB1",
+            "_marker": null
+          },
+          "name": "mim-width",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "9Qd0Mx",
+            "_marker": null
+          },
+          "name": "cograph",
+          "typ": "GraphClass",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "zgMenA",
+            "_marker": null
+          },
+          "name": "arboricity",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "Ve5ruW",
+            "_marker": null
+          },
+          "name": "odd cycle transversal",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "ri9Seh",
+            "_marker": null
+          },
+          "name": "diameter+max degree",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "P8yP3M",
+            "_marker": null
+          },
+          "name": "overlap treewidth",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "1dQQ87",
+            "_marker": null
+          },
+          "name": "bipartite number",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "Qme7wD",
+            "_marker": null
+          },
+          "name": "weakly sparse",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "DfwI9E",
+            "_marker": null
+          },
+          "name": "weak inf-coloring number",
+          "typ": "Parameter",
+          "relevance": 3
         },
         {
           "id": {
@@ -2617,10 +2305,46 @@
         },
         {
           "id": {
-            "code": "kJZKgd",
+            "code": "GPmOeT",
             "_marker": null
           },
-          "name": "distance to perfect",
+          "name": "minimum degree",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "2FM8hj",
+            "_marker": null
+          },
+          "name": "sparse twin-width",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "d7vRYU",
+            "_marker": null
+          },
+          "name": "mm-width",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "KEP2qM",
+            "_marker": null
+          },
+          "name": "treedepth",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "yk7XP0",
+            "_marker": null
+          },
+          "name": "distance to linear forest",
           "typ": "Parameter",
           "relevance": 4
         },
@@ -2635,42 +2359,6 @@
         },
         {
           "id": {
-            "code": "BN92vX",
-            "_marker": null
-          },
-          "name": "maximum leaf number",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "fQj3wU",
-            "_marker": null
-          },
-          "name": "linear clique-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "F1NpDy",
-            "_marker": null
-          },
-          "name": "size",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "HTk9PZ",
-            "_marker": null
-          },
-          "name": "feedback edge set",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
             "code": "Gq0onN",
             "_marker": null
           },
@@ -2680,84 +2368,57 @@
         },
         {
           "id": {
-            "code": "GNTwUS",
+            "code": "HJjpOL",
             "_marker": null
           },
-          "name": "h-index",
+          "name": "weakly sparse and merge width",
           "typ": "Parameter",
-          "relevance": 4
+          "relevance": 0
         },
         {
           "id": {
-            "code": "3F3oc3",
+            "code": "MUnHA0",
             "_marker": null
           },
-          "name": "weak d-coloring number",
+          "name": "twin-cover number",
           "typ": "Parameter",
-          "relevance": 4
+          "relevance": 5
         },
         {
           "id": {
-            "code": "KVhJFB",
+            "code": "zH8PpT",
             "_marker": null
           },
-          "name": "vertex integrity",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "JA2nKw",
-            "_marker": null
-          },
-          "name": "treelength",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "wUdmUb",
-            "_marker": null
-          },
-          "name": "bisection bandwidth",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "t7c4mp",
-            "_marker": null
-          },
-          "name": "bounded components",
+          "name": "average distance",
           "typ": "Parameter",
           "relevance": 3
         },
         {
           "id": {
-            "code": "Z10jME",
+            "code": "kRR8zx",
             "_marker": null
           },
-          "name": "distance to stars",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "lIcmuR",
-            "_marker": null
-          },
-          "name": "branch width",
+          "name": "distance to maximum degree",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "mOri44",
+            "code": "GzMYlT",
             "_marker": null
           },
-          "name": "NLCT-width",
+          "name": "maximum induced matching",
           "typ": "Parameter",
-          "relevance": 2
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "aXw3Co",
+            "_marker": null
+          },
+          "name": "distance to cluster",
+          "typ": "Parameter",
+          "relevance": 5
         },
         {
           "id": {
@@ -2770,55 +2431,19 @@
         },
         {
           "id": {
-            "code": "1dQQ87",
+            "code": "BN92vX",
             "_marker": null
           },
-          "name": "bipartite number",
+          "name": "maximum leaf number",
           "typ": "Parameter",
-          "relevance": 2
+          "relevance": 6
         },
         {
           "id": {
-            "code": "AVc2K6",
+            "code": "fNR6QK",
             "_marker": null
           },
-          "name": "distance to interval",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "fojquT",
-            "_marker": null
-          },
-          "name": "rank-width",
-          "typ": "Parameter",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "mHtXUU",
-            "_marker": null
-          },
-          "name": "maximum independent set",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "9Qd0Mx",
-            "_marker": null
-          },
-          "name": "cograph",
-          "typ": "GraphClass",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "q7zHeT",
-            "_marker": null
-          },
-          "name": "maximum clique",
+          "name": "tree-independence number",
           "typ": "Parameter",
           "relevance": 5
         },
@@ -2835,115 +2460,93 @@
         },
         {
           "id": {
-            "code": "fNR6QK",
+            "code": "NTgNzT",
             "_marker": null
           },
-          "name": "tree-independence number",
+          "name": "shrub-depth",
           "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "DhGqJM",
-            "_marker": null
-          },
-          "name": "nowhere dense",
-          "typ": {
-            "Property": "Is"
-          },
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "w7MmyW",
-            "_marker": null
-          },
-          "name": "chromatic number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "VHClqR",
-            "_marker": null
-          },
-          "name": "pathwidth",
-          "typ": "Parameter",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "RmssrZ",
-            "_marker": null
-          },
-          "name": "perfect",
-          "typ": "GraphClass",
           "relevance": 6
         },
         {
           "id": {
-            "code": "jYG7BR",
+            "code": "Pqiy2C",
             "_marker": null
           },
-          "name": "flip-width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "KlMP0i",
-            "_marker": null
-          },
-          "name": "connected",
-          "typ": {
-            "Property": "Is"
-          },
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "ou9VU1",
-            "_marker": null
-          },
-          "name": "c-closure",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "w3LxG1",
-            "_marker": null
-          },
-          "name": "treebandwidth",
+          "name": "d-admissibility",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "6BWcgd",
+            "code": "AVc2K6",
             "_marker": null
           },
-          "name": "pathwidth+maxdegree",
+          "name": "distance to interval",
           "typ": "Parameter",
           "relevance": 3
         },
         {
           "id": {
-            "code": "yihnem",
+            "code": "PxVh3F",
             "_marker": null
           },
-          "name": "strong d-coloring number",
+          "name": "strong coloring number",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "nCWUh3",
+            "_marker": null
+          },
+          "name": "degree treewidth",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "OrH7et",
+            "_marker": null
+          },
+          "name": "twin-width",
+          "typ": "Parameter",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "mHtXUU",
+            "_marker": null
+          },
+          "name": "maximum independent set",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "2LDMQ6",
+            "_marker": null
+          },
+          "name": "distance to complete",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "doijTS",
+            "_marker": null
+          },
+          "name": "book thickness",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "4bj71L",
+            "code": "Z10jME",
             "_marker": null
           },
-          "name": "modular-width",
+          "name": "distance to stars",
           "typ": "Parameter",
-          "relevance": 7
+          "relevance": 3
         },
         {
           "id": {
@@ -2956,100 +2559,64 @@
         },
         {
           "id": {
-            "code": "veU7Jf",
+            "code": "s4EiWI",
             "_marker": null
           },
-          "name": "maximum matching",
+          "name": "d-path-free",
           "typ": "Parameter",
-          "relevance": 3
+          "relevance": 2
         },
         {
           "id": {
-            "code": "aXw3Co",
+            "code": "RPTCxd",
             "_marker": null
           },
-          "name": "distance to cluster",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "UyQ5yM",
-            "_marker": null
-          },
-          "name": "maximum degree",
-          "typ": "Parameter",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "uDXX2i",
-            "_marker": null
-          },
-          "name": "distance to cograph",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "ri9Seh",
-            "_marker": null
-          },
-          "name": "diameter+max degree",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "zgMenA",
-            "_marker": null
-          },
-          "name": "arboricity",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "GzMYlT",
-            "_marker": null
-          },
-          "name": "maximum induced matching",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "SnA7Eq",
-            "_marker": null
-          },
-          "name": "topological bandwidth",
+          "name": "distance to bounded components",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "a7MpiT",
+            "code": "HTk9PZ",
             "_marker": null
           },
-          "name": "boxicity",
+          "name": "feedback edge set",
           "typ": "Parameter",
           "relevance": 6
         },
         {
           "id": {
-            "code": "gbaHdw",
+            "code": "aEGv5N",
             "_marker": null
           },
-          "name": "genus",
+          "name": "sim-width",
           "typ": "Parameter",
-          "relevance": 6
+          "relevance": 5
         },
         {
           "id": {
-            "code": "hbfWwE",
+            "code": "mOri44",
             "_marker": null
           },
-          "name": "distance to co-cluster",
+          "name": "NLCT-width",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "w7MmyW",
+            "_marker": null
+          },
+          "name": "chromatic number",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "QGZuUW",
+            "_marker": null
+          },
+          "name": "acyclic chromatic number",
           "typ": "Parameter",
           "relevance": 5
         },
@@ -3064,390 +2631,88 @@
         },
         {
           "id": {
-            "code": "VomShB",
+            "code": "hQZlLU",
             "_marker": null
           },
-          "name": "clique cover number",
+          "name": "distance to forest",
           "typ": "Parameter",
           "relevance": 5
         },
         {
           "id": {
-            "code": "Pqiy2C",
+            "code": "lIcmuR",
             "_marker": null
           },
-          "name": "d-admissibility",
+          "name": "branch width",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "MUnHA0",
+            "code": "gbaHdw",
             "_marker": null
           },
-          "name": "twin-cover number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "EhdXNA",
-            "_marker": null
-          },
-          "name": "complete",
-          "typ": "GraphClass",
-          "relevance": 9
-        },
-        {
-          "id": {
-            "code": "doijTS",
-            "_marker": null
-          },
-          "name": "book thickness",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "NTgNzT",
-            "_marker": null
-          },
-          "name": "shrub-depth",
+          "name": "genus",
           "typ": "Parameter",
           "relevance": 6
         },
         {
           "id": {
-            "code": "IbKkUQ",
+            "code": "G1Cwmc",
             "_marker": null
           },
-          "name": "treespan",
+          "name": "iterated type partitions",
           "typ": "Parameter",
           "relevance": 3
         },
         {
           "id": {
-            "code": "wg5HuV",
+            "code": "yOZQM5",
             "_marker": null
           },
-          "name": "clique-width",
-          "typ": "Parameter",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "KEP2qM",
-            "_marker": null
-          },
-          "name": "treedepth",
-          "typ": "Parameter",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "nYXiuT",
-            "_marker": null
-          },
-          "name": "radius-inf flip-width",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "JQTHZS",
-            "_marker": null
-          },
-          "name": "strong inf-coloring number",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "2FM8hj",
-            "_marker": null
-          },
-          "name": "sparse twin-width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "s4EiWI",
-            "_marker": null
-          },
-          "name": "d-path-free",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "kRR8zx",
-            "_marker": null
-          },
-          "name": "distance to maximum degree",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "GPmOeT",
-            "_marker": null
-          },
-          "name": "minimum degree",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "QP01gs",
-            "_marker": null
-          },
-          "name": "tree-partition-width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "Xrpbv7",
-            "_marker": null
-          },
-          "name": "NLC-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "2LDMQ6",
-            "_marker": null
-          },
-          "name": "distance to complete",
-          "typ": "Parameter",
-          "relevance": 6
-        }
-      ]
-    },
-    "unknown": {
-      "minimal": [
-        {
-          "id": {
-            "code": "wUdmUb",
-            "_marker": null
-          },
-          "name": "bisection bandwidth",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "aEGv5N",
-            "_marker": null
-          },
-          "name": "sim-width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "Jb1we5",
-            "_marker": null
-          },
-          "name": "chi-bounded",
-          "typ": {
-            "Property": "Is"
-          },
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "GNTwUS",
-            "_marker": null
-          },
-          "name": "h-index",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "KlMP0i",
-            "_marker": null
-          },
-          "name": "connected",
-          "typ": {
-            "Property": "Is"
-          },
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "loZ5LD",
-            "_marker": null
-          },
-          "name": "planar",
-          "typ": "GraphClass",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "zH8PpT",
-            "_marker": null
-          },
-          "name": "average distance",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "kJZKgd",
-            "_marker": null
-          },
-          "name": "distance to perfect",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "OyLUe4",
-            "_marker": null
-          },
-          "name": "vertex connectivity",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "JA2nKw",
-            "_marker": null
-          },
-          "name": "treelength",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "ou9VU1",
-            "_marker": null
-          },
-          "name": "c-closure",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "kRR8zx",
-            "_marker": null
-          },
-          "name": "distance to maximum degree",
-          "typ": "Parameter",
-          "relevance": 4
-        }
-      ],
-      "maximal": [
-        {
-          "id": {
-            "code": "LsiBbX",
-            "_marker": null
-          },
-          "name": "edgeless",
-          "typ": {
-            "Property": "Is"
-          },
-          "relevance": 1
-        },
-        {
-          "id": {
-            "code": "Ti0asF",
-            "_marker": null
-          },
-          "name": "cycle",
-          "typ": "GraphClass",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "loZ5LD",
-            "_marker": null
-          },
-          "name": "planar",
-          "typ": "GraphClass",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "F1NpDy",
-            "_marker": null
-          },
-          "name": "size",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "Gt22Ik",
-            "_marker": null
-          },
-          "name": "excluded planar minor",
+          "name": "excluded top-minor",
           "typ": {
             "Property": "Has"
           },
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "OyLUe4",
-            "_marker": null
-          },
-          "name": "vertex connectivity",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "eW1Gic",
-            "_marker": null
-          },
-          "name": "series-parallel",
-          "typ": "GraphClass",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "CortlU",
-            "_marker": null
-          },
-          "name": "star",
-          "typ": "GraphClass",
           "relevance": 3
         },
         {
           "id": {
-            "code": "EhdXNA",
+            "code": "4DIiH0",
             "_marker": null
           },
-          "name": "complete",
-          "typ": "GraphClass",
-          "relevance": 9
-        }
-      ],
-      "all": [
-        {
-          "id": {
-            "code": "1dQQ87",
-            "_marker": null
-          },
-          "name": "bipartite number",
+          "name": "radius-r flip-width",
           "typ": "Parameter",
-          "relevance": 2
+          "relevance": 3
         },
         {
           "id": {
-            "code": "LsiBbX",
+            "code": "4bj71L",
             "_marker": null
           },
-          "name": "edgeless",
-          "typ": {
-            "Property": "Is"
+          "name": "modular-width",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "4lp9Yj",
+            "_marker": null
           },
-          "relevance": 1
+          "name": "vertex cover",
+          "typ": "Parameter",
+          "relevance": 9
+        },
+        {
+          "id": {
+            "code": "lFz6Ci",
+            "_marker": null
+          },
+          "name": "bounded expansion",
+          "typ": {
+            "Property": "Has"
+          },
+          "relevance": 6
         },
         {
           "id": {
@@ -3460,6 +2725,42 @@
         },
         {
           "id": {
+            "code": "wg5HuV",
+            "_marker": null
+          },
+          "name": "clique-width",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "fTqo40",
+            "_marker": null
+          },
+          "name": "chordality",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "aP5a38",
+            "_marker": null
+          },
+          "name": "bandwidth",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "LlWzhg",
+            "_marker": null
+          },
+          "name": "contraction complexity",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
             "code": "UyQ5yM",
             "_marker": null
           },
@@ -3469,145 +2770,10 @@
         },
         {
           "id": {
-            "code": "veU7Jf",
+            "code": "DhGqJM",
             "_marker": null
           },
-          "name": "maximum matching",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "9Qd0Mx",
-            "_marker": null
-          },
-          "name": "cograph",
-          "typ": "GraphClass",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "wUdmUb",
-            "_marker": null
-          },
-          "name": "bisection bandwidth",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "vMs3RS",
-            "_marker": null
-          },
-          "name": "neighborhood diversity",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "hbfWwE",
-            "_marker": null
-          },
-          "name": "distance to co-cluster",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "s4EiWI",
-            "_marker": null
-          },
-          "name": "d-path-free",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "KVhJFB",
-            "_marker": null
-          },
-          "name": "vertex integrity",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "7HR4uV",
-            "_marker": null
-          },
-          "name": "co-cluster",
-          "typ": "GraphClass",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "aEGv5N",
-            "_marker": null
-          },
-          "name": "sim-width",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "yk7XP0",
-            "_marker": null
-          },
-          "name": "distance to linear forest",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "fQj3wU",
-            "_marker": null
-          },
-          "name": "linear clique-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "TLx1pz",
-            "_marker": null
-          },
-          "name": "cutwidth",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "Ve5ruW",
-            "_marker": null
-          },
-          "name": "odd cycle transversal",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "4INs10",
-            "_marker": null
-          },
-          "name": "distance to edgeless",
-          "typ": "Parameter",
-          "relevance": 1
-        },
-        {
-          "id": {
-            "code": "uDXX2i",
-            "_marker": null
-          },
-          "name": "distance to cograph",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "Jb1we5",
-            "_marker": null
-          },
-          "name": "chi-bounded",
+          "name": "nowhere dense",
           "typ": {
             "Property": "Is"
           },
@@ -3615,46 +2781,10 @@
         },
         {
           "id": {
-            "code": "nYXiuT",
+            "code": "VomShB",
             "_marker": null
           },
-          "name": "radius-inf flip-width",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "mHtXUU",
-            "_marker": null
-          },
-          "name": "maximum independent set",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "P8yP3M",
-            "_marker": null
-          },
-          "name": "overlap treewidth",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "8Mm5qJ",
-            "_marker": null
-          },
-          "name": "maximum matching on bipartite graphs",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "aP5a38",
-            "_marker": null
-          },
-          "name": "bandwidth",
+          "name": "clique cover number",
           "typ": "Parameter",
           "relevance": 5
         },
@@ -3669,19 +2799,199 @@
         },
         {
           "id": {
-            "code": "dS6OgO",
+            "code": "WAU7vf",
             "_marker": null
           },
-          "name": "carving-width",
+          "name": "cluster",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "VowkuW",
+            "_marker": null
+          },
+          "name": "degeneracy",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "Cv1PaJ",
+            "_marker": null
+          },
+          "name": "chordal",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "a7MpiT",
+            "_marker": null
+          },
+          "name": "boxicity",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "fQj3wU",
+            "_marker": null
+          },
+          "name": "linear clique-width",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "wUdmUb",
+            "_marker": null
+          },
+          "name": "bisection bandwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "aEs5ap",
+            "_marker": null
+          },
+          "name": "domino treewidth",
           "typ": "Parameter",
           "relevance": 3
         },
         {
           "id": {
-            "code": "mOri44",
+            "code": "ou9VU1",
             "_marker": null
           },
-          "name": "NLCT-width",
+          "name": "c-closure",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "EV3FqL",
+            "_marker": null
+          },
+          "name": "module-width",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "JA2nKw",
+            "_marker": null
+          },
+          "name": "treelength",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "kJZKgd",
+            "_marker": null
+          },
+          "name": "distance to perfect",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "OdZQna",
+            "_marker": null
+          },
+          "name": "distance to chordal",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "6BWcgd",
+            "_marker": null
+          },
+          "name": "pathwidth+maxdegree",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "pKi2tL",
+            "_marker": null
+          },
+          "name": "edge-treewidth",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "nYXiuT",
+            "_marker": null
+          },
+          "name": "radius-inf flip-width",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "3F3oc3",
+            "_marker": null
+          },
+          "name": "weak d-coloring number",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "SnA7Eq",
+            "_marker": null
+          },
+          "name": "topological bandwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "w3LxG1",
+            "_marker": null
+          },
+          "name": "treebandwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "UWmTKl",
+            "_marker": null
+          },
+          "name": "merge-width",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "1yW82F",
+            "_marker": null
+          },
+          "name": "distance to bipartite",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "IbKkUQ",
+            "_marker": null
+          },
+          "name": "treespan",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "oFvl4c",
+            "_marker": null
+          },
+          "name": "slim tree-cut width",
           "typ": "Parameter",
           "relevance": 2
         },
@@ -3696,19 +3006,84 @@
         },
         {
           "id": {
-            "code": "Ti0asF",
+            "code": "p4bTjp",
             "_marker": null
           },
-          "name": "cycle",
-          "typ": "GraphClass",
+          "name": "diameter",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "hbfWwE",
+            "_marker": null
+          },
+          "name": "distance to co-cluster",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "F1NpDy",
+            "_marker": null
+          },
+          "name": "size",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "TLx1pz",
+            "_marker": null
+          },
+          "name": "cutwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "v09DMY",
+            "_marker": null
+          },
+          "name": "linear NLC-width",
+          "typ": "Parameter",
           "relevance": 2
         },
         {
           "id": {
-            "code": "OdZQna",
+            "code": "fojquT",
             "_marker": null
           },
-          "name": "distance to chordal",
+          "name": "rank-width",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "5xOuoQ",
+            "_marker": null
+          },
+          "name": "excluded minor",
+          "typ": {
+            "Property": "Has"
+          },
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "yihnem",
+            "_marker": null
+          },
+          "name": "strong d-coloring number",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "nYQDv6",
+            "_marker": null
+          },
+          "name": "edge clique cover number",
           "typ": "Parameter",
           "relevance": 4
         },
@@ -3723,21 +3098,93 @@
         },
         {
           "id": {
-            "code": "rJyICu",
+            "code": "ZNqIlN",
             "_marker": null
           },
-          "name": "tree",
-          "typ": "GraphClass",
-          "relevance": 7
+          "name": "edge-cut width",
+          "typ": "Parameter",
+          "relevance": 2
         },
         {
           "id": {
-            "code": "Gq0onN",
+            "code": "RmssrZ",
             "_marker": null
           },
-          "name": "domination number",
+          "name": "perfect",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "lPHVWU",
+            "_marker": null
+          },
+          "name": "distance to outerplanar",
           "typ": "Parameter",
           "relevance": 3
+        },
+        {
+          "id": {
+            "code": "7HR4uV",
+            "_marker": null
+          },
+          "name": "co-cluster",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "5Q7fuR",
+            "_marker": null
+          },
+          "name": "treewidth",
+          "typ": "Parameter",
+          "relevance": 9
+        },
+        {
+          "id": {
+            "code": "veU7Jf",
+            "_marker": null
+          },
+          "name": "maximum matching",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "cHugsk",
+            "_marker": null
+          },
+          "name": "linear rank-width",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "Xrpbv7",
+            "_marker": null
+          },
+          "name": "NLC-width",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "jYG7BR",
+            "_marker": null
+          },
+          "name": "flip-width",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "z0y4TW",
+            "_marker": null
+          },
+          "name": "average degree",
+          "typ": "Parameter",
+          "relevance": 2
         },
         {
           "id": {
@@ -3752,12 +3199,108 @@
         },
         {
           "id": {
-            "code": "WAU7vf",
+            "code": "t7c4mp",
             "_marker": null
           },
-          "name": "cluster",
-          "typ": "GraphClass",
+          "name": "bounded components",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "KVhJFB",
+            "_marker": null
+          },
+          "name": "vertex integrity",
+          "typ": "Parameter",
           "relevance": 6
+        },
+        {
+          "id": {
+            "code": "4INs10",
+            "_marker": null
+          },
+          "name": "distance to edgeless",
+          "typ": "Parameter",
+          "relevance": 1
+        }
+      ]
+    },
+    "unknown": {
+      "minimal": [
+        {
+          "id": {
+            "code": "zH8PpT",
+            "_marker": null
+          },
+          "name": "average distance",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "aEGv5N",
+            "_marker": null
+          },
+          "name": "sim-width",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "kRR8zx",
+            "_marker": null
+          },
+          "name": "distance to maximum degree",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "ou9VU1",
+            "_marker": null
+          },
+          "name": "c-closure",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "kJZKgd",
+            "_marker": null
+          },
+          "name": "distance to perfect",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "KlMP0i",
+            "_marker": null
+          },
+          "name": "connected",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "JA2nKw",
+            "_marker": null
+          },
+          "name": "treelength",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "GNTwUS",
+            "_marker": null
+          },
+          "name": "h-index",
+          "typ": "Parameter",
+          "relevance": 4
         },
         {
           "id": {
@@ -3767,6 +3310,430 @@
           "name": "planar",
           "typ": "GraphClass",
           "relevance": 8
+        },
+        {
+          "id": {
+            "code": "wUdmUb",
+            "_marker": null
+          },
+          "name": "bisection bandwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "OyLUe4",
+            "_marker": null
+          },
+          "name": "vertex connectivity",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "Jb1we5",
+            "_marker": null
+          },
+          "name": "chi-bounded",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 5
+        }
+      ],
+      "maximal": [
+        {
+          "id": {
+            "code": "CortlU",
+            "_marker": null
+          },
+          "name": "star",
+          "typ": "GraphClass",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "eW1Gic",
+            "_marker": null
+          },
+          "name": "series-parallel",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "F1NpDy",
+            "_marker": null
+          },
+          "name": "size",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "LsiBbX",
+            "_marker": null
+          },
+          "name": "edgeless",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 1
+        },
+        {
+          "id": {
+            "code": "Gt22Ik",
+            "_marker": null
+          },
+          "name": "excluded planar minor",
+          "typ": {
+            "Property": "Has"
+          },
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "loZ5LD",
+            "_marker": null
+          },
+          "name": "planar",
+          "typ": "GraphClass",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "OyLUe4",
+            "_marker": null
+          },
+          "name": "vertex connectivity",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "EhdXNA",
+            "_marker": null
+          },
+          "name": "complete",
+          "typ": "GraphClass",
+          "relevance": 9
+        },
+        {
+          "id": {
+            "code": "Ti0asF",
+            "_marker": null
+          },
+          "name": "cycle",
+          "typ": "GraphClass",
+          "relevance": 2
+        }
+      ],
+      "all": [
+        {
+          "id": {
+            "code": "RPTCxd",
+            "_marker": null
+          },
+          "name": "distance to bounded components",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "JQTHZS",
+            "_marker": null
+          },
+          "name": "strong inf-coloring number",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "2LDMQ6",
+            "_marker": null
+          },
+          "name": "distance to complete",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "dS6OgO",
+            "_marker": null
+          },
+          "name": "carving-width",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "p5skoj",
+            "_marker": null
+          },
+          "name": "interval",
+          "typ": "GraphClass",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "zH8PpT",
+            "_marker": null
+          },
+          "name": "average distance",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "skQuFN",
+            "_marker": null
+          },
+          "name": "linear forest",
+          "typ": "GraphClass",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "WmIFB1",
+            "_marker": null
+          },
+          "name": "mim-width",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "nYQDv6",
+            "_marker": null
+          },
+          "name": "edge clique cover number",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "2iJr52",
+            "_marker": null
+          },
+          "name": "cycles",
+          "typ": "GraphClass",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "vMs3RS",
+            "_marker": null
+          },
+          "name": "neighborhood diversity",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "P8yP3M",
+            "_marker": null
+          },
+          "name": "overlap treewidth",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "G1Cwmc",
+            "_marker": null
+          },
+          "name": "iterated type partitions",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "8CgU0P",
+            "_marker": null
+          },
+          "name": "tree-cut width",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "7HR4uV",
+            "_marker": null
+          },
+          "name": "co-cluster",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "GzMYlT",
+            "_marker": null
+          },
+          "name": "maximum induced matching",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "QP01gs",
+            "_marker": null
+          },
+          "name": "tree-partition-width",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "aEGv5N",
+            "_marker": null
+          },
+          "name": "sim-width",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "KEP2qM",
+            "_marker": null
+          },
+          "name": "treedepth",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "mHtXUU",
+            "_marker": null
+          },
+          "name": "maximum independent set",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "SnA7Eq",
+            "_marker": null
+          },
+          "name": "topological bandwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "Cv1PaJ",
+            "_marker": null
+          },
+          "name": "chordal",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "1yW82F",
+            "_marker": null
+          },
+          "name": "distance to bipartite",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "cLHJkW",
+            "_marker": null
+          },
+          "name": "bipartite",
+          "typ": "GraphClass",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "kRR8zx",
+            "_marker": null
+          },
+          "name": "distance to maximum degree",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "xNJnFb",
+            "_marker": null
+          },
+          "name": "distance to block",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "TLx1pz",
+            "_marker": null
+          },
+          "name": "cutwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "ou9VU1",
+            "_marker": null
+          },
+          "name": "c-closure",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "ri9Seh",
+            "_marker": null
+          },
+          "name": "diameter+max degree",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "VHClqR",
+            "_marker": null
+          },
+          "name": "pathwidth",
+          "typ": "Parameter",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "4lp9Yj",
+            "_marker": null
+          },
+          "name": "vertex cover",
+          "typ": "Parameter",
+          "relevance": 9
+        },
+        {
+          "id": {
+            "code": "CortlU",
+            "_marker": null
+          },
+          "name": "star",
+          "typ": "GraphClass",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "kJZKgd",
+            "_marker": null
+          },
+          "name": "distance to perfect",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "Xrpbv7",
+            "_marker": null
+          },
+          "name": "NLC-width",
+          "typ": "Parameter",
+          "relevance": 4
         },
         {
           "id": {
@@ -3788,132 +3755,6 @@
         },
         {
           "id": {
-            "code": "2LDMQ6",
-            "_marker": null
-          },
-          "name": "distance to complete",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "pKi2tL",
-            "_marker": null
-          },
-          "name": "edge-treewidth",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
-            "code": "Cv1PaJ",
-            "_marker": null
-          },
-          "name": "chordal",
-          "typ": "GraphClass",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "nCWUh3",
-            "_marker": null
-          },
-          "name": "degree treewidth",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "nYQDv6",
-            "_marker": null
-          },
-          "name": "edge clique cover number",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "wg5HuV",
-            "_marker": null
-          },
-          "name": "clique-width",
-          "typ": "Parameter",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "p5skoj",
-            "_marker": null
-          },
-          "name": "interval",
-          "typ": "GraphClass",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "Xrpbv7",
-            "_marker": null
-          },
-          "name": "NLC-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "EV3FqL",
-            "_marker": null
-          },
-          "name": "module-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "1yW82F",
-            "_marker": null
-          },
-          "name": "distance to bipartite",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "zH8PpT",
-            "_marker": null
-          },
-          "name": "average distance",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "MUnHA0",
-            "_marker": null
-          },
-          "name": "twin-cover number",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "kJZKgd",
-            "_marker": null
-          },
-          "name": "distance to perfect",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "ZNqIlN",
-            "_marker": null
-          },
-          "name": "edge-cut width",
-          "typ": "Parameter",
-          "relevance": 2
-        },
-        {
-          "id": {
             "code": "fNR6QK",
             "_marker": null
           },
@@ -3923,104 +3764,41 @@
         },
         {
           "id": {
-            "code": "lIcmuR",
+            "code": "aXw3Co",
             "_marker": null
           },
-          "name": "branch width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "F1NpDy",
-            "_marker": null
-          },
-          "name": "size",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "xNJnFb",
-            "_marker": null
-          },
-          "name": "distance to block",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "JngPPm",
-            "_marker": null
-          },
-          "name": "forest",
-          "typ": "GraphClass",
-          "relevance": 9
-        },
-        {
-          "id": {
-            "code": "Gt22Ik",
-            "_marker": null
-          },
-          "name": "excluded planar minor",
-          "typ": {
-            "Property": "Has"
-          },
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "10JR3F",
-            "_marker": null
-          },
-          "name": "stars",
-          "typ": "GraphClass",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "HTk9PZ",
-            "_marker": null
-          },
-          "name": "feedback edge set",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "OyLUe4",
-            "_marker": null
-          },
-          "name": "vertex connectivity",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "t7c4mp",
-            "_marker": null
-          },
-          "name": "bounded components",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "ri9Seh",
-            "_marker": null
-          },
-          "name": "diameter+max degree",
-          "typ": "Parameter",
-          "relevance": 0
-        },
-        {
-          "id": {
-            "code": "VomShB",
-            "_marker": null
-          },
-          "name": "clique cover number",
+          "name": "distance to cluster",
           "typ": "Parameter",
           "relevance": 5
+        },
+        {
+          "id": {
+            "code": "hbfWwE",
+            "_marker": null
+          },
+          "name": "distance to co-cluster",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "Z10jME",
+            "_marker": null
+          },
+          "name": "distance to stars",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "KlMP0i",
+            "_marker": null
+          },
+          "name": "connected",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 2
         },
         {
           "id": {
@@ -4033,38 +3811,38 @@
         },
         {
           "id": {
-            "code": "NTgNzT",
+            "code": "Ve5ruW",
             "_marker": null
           },
-          "name": "shrub-depth",
+          "name": "odd cycle transversal",
           "typ": "Parameter",
           "relevance": 6
         },
         {
           "id": {
-            "code": "4lp9Yj",
+            "code": "WAU7vf",
             "_marker": null
           },
-          "name": "vertex cover",
-          "typ": "Parameter",
-          "relevance": 9
-        },
-        {
-          "id": {
-            "code": "w3LxG1",
-            "_marker": null
-          },
-          "name": "treebandwidth",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "2iJr52",
-            "_marker": null
-          },
-          "name": "cycles",
+          "name": "cluster",
           "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "F1NpDy",
+            "_marker": null
+          },
+          "name": "size",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "d7vRYU",
+            "_marker": null
+          },
+          "name": "mm-width",
+          "typ": "Parameter",
           "relevance": 4
         },
         {
@@ -4078,19 +3856,28 @@
         },
         {
           "id": {
-            "code": "AVc2K6",
+            "code": "nYXiuT",
             "_marker": null
           },
-          "name": "distance to interval",
+          "name": "radius-inf flip-width",
           "typ": "Parameter",
           "relevance": 3
         },
         {
           "id": {
-            "code": "7P9WUz",
+            "code": "s4EiWI",
             "_marker": null
           },
-          "name": "clique-tree-width",
+          "name": "d-path-free",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "1dQQ87",
+            "_marker": null
+          },
+          "name": "bipartite number",
           "typ": "Parameter",
           "relevance": 2
         },
@@ -4105,10 +3892,136 @@
         },
         {
           "id": {
-            "code": "Z10jME",
+            "code": "AVc2K6",
             "_marker": null
           },
-          "name": "distance to stars",
+          "name": "distance to interval",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "yk7XP0",
+            "_marker": null
+          },
+          "name": "distance to linear forest",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "MUnHA0",
+            "_marker": null
+          },
+          "name": "twin-cover number",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "fQj3wU",
+            "_marker": null
+          },
+          "name": "linear clique-width",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "4INs10",
+            "_marker": null
+          },
+          "name": "distance to edgeless",
+          "typ": "Parameter",
+          "relevance": 1
+        },
+        {
+          "id": {
+            "code": "veU7Jf",
+            "_marker": null
+          },
+          "name": "maximum matching",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "wg5HuV",
+            "_marker": null
+          },
+          "name": "clique-width",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "JA2nKw",
+            "_marker": null
+          },
+          "name": "treelength",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "NTgNzT",
+            "_marker": null
+          },
+          "name": "shrub-depth",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "BN92vX",
+            "_marker": null
+          },
+          "name": "maximum leaf number",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "GNTwUS",
+            "_marker": null
+          },
+          "name": "h-index",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "RmssrZ",
+            "_marker": null
+          },
+          "name": "perfect",
+          "typ": "GraphClass",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "KVhJFB",
+            "_marker": null
+          },
+          "name": "vertex integrity",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "pKi2tL",
+            "_marker": null
+          },
+          "name": "edge-treewidth",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "t7c4mp",
+            "_marker": null
+          },
+          "name": "bounded components",
           "typ": "Parameter",
           "relevance": 3
         },
@@ -4123,183 +4036,41 @@
         },
         {
           "id": {
-            "code": "CortlU",
+            "code": "lIcmuR",
             "_marker": null
           },
-          "name": "star",
-          "typ": "GraphClass",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "JA2nKw",
-            "_marker": null
-          },
-          "name": "treelength",
+          "name": "branch width",
           "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "skQuFN",
-            "_marker": null
-          },
-          "name": "linear forest",
-          "typ": "GraphClass",
           "relevance": 4
         },
         {
           "id": {
-            "code": "aXw3Co",
+            "code": "ZNqIlN",
             "_marker": null
           },
-          "name": "distance to cluster",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "p4bTjp",
-            "_marker": null
-          },
-          "name": "diameter",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "4bj71L",
-            "_marker": null
-          },
-          "name": "modular-width",
-          "typ": "Parameter",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "aEs5ap",
-            "_marker": null
-          },
-          "name": "domino treewidth",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "8CgU0P",
-            "_marker": null
-          },
-          "name": "tree-cut width",
+          "name": "edge-cut width",
           "typ": "Parameter",
           "relevance": 2
         },
         {
           "id": {
-            "code": "VHClqR",
+            "code": "LsiBbX",
             "_marker": null
           },
-          "name": "pathwidth",
-          "typ": "Parameter",
-          "relevance": 8
+          "name": "edgeless",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 1
         },
         {
           "id": {
-            "code": "fojquT",
+            "code": "JngPPm",
             "_marker": null
           },
-          "name": "rank-width",
-          "typ": "Parameter",
-          "relevance": 7
-        },
-        {
-          "id": {
-            "code": "GzMYlT",
-            "_marker": null
-          },
-          "name": "maximum induced matching",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "cLHJkW",
-            "_marker": null
-          },
-          "name": "bipartite",
-          "typ": "GraphClass",
-          "relevance": 8
-        },
-        {
-          "id": {
-            "code": "hQZlLU",
-            "_marker": null
-          },
-          "name": "distance to forest",
-          "typ": "Parameter",
-          "relevance": 5
-        },
-        {
-          "id": {
-            "code": "IbKkUQ",
-            "_marker": null
-          },
-          "name": "treespan",
-          "typ": "Parameter",
-          "relevance": 3
-        },
-        {
-          "id": {
-            "code": "WmIFB1",
-            "_marker": null
-          },
-          "name": "mim-width",
-          "typ": "Parameter",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "RmssrZ",
-            "_marker": null
-          },
-          "name": "perfect",
-          "typ": "GraphClass",
-          "relevance": 6
-        },
-        {
-          "id": {
-            "code": "d7vRYU",
-            "_marker": null
-          },
-          "name": "mm-width",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "EhdXNA",
-            "_marker": null
-          },
-          "name": "complete",
+          "name": "forest",
           "typ": "GraphClass",
           "relevance": 9
-        },
-        {
-          "id": {
-            "code": "SnA7Eq",
-            "_marker": null
-          },
-          "name": "topological bandwidth",
-          "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "6BWcgd",
-            "_marker": null
-          },
-          "name": "pathwidth+maxdegree",
-          "typ": "Parameter",
-          "relevance": 3
         },
         {
           "id": {
@@ -4312,21 +4083,185 @@
         },
         {
           "id": {
-            "code": "BN92vX",
+            "code": "Gt22Ik",
             "_marker": null
           },
-          "name": "maximum leaf number",
+          "name": "excluded planar minor",
+          "typ": {
+            "Property": "Has"
+          },
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "loZ5LD",
+            "_marker": null
+          },
+          "name": "planar",
+          "typ": "GraphClass",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "rJyICu",
+            "_marker": null
+          },
+          "name": "tree",
+          "typ": "GraphClass",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "nCWUh3",
+            "_marker": null
+          },
+          "name": "degree treewidth",
           "typ": "Parameter",
           "relevance": 6
         },
         {
           "id": {
-            "code": "ou9VU1",
+            "code": "9Qd0Mx",
             "_marker": null
           },
-          "name": "c-closure",
+          "name": "cograph",
+          "typ": "GraphClass",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "w3LxG1",
+            "_marker": null
+          },
+          "name": "treebandwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "wUdmUb",
+            "_marker": null
+          },
+          "name": "bisection bandwidth",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "OyLUe4",
+            "_marker": null
+          },
+          "name": "vertex connectivity",
           "typ": "Parameter",
           "relevance": 0
+        },
+        {
+          "id": {
+            "code": "VomShB",
+            "_marker": null
+          },
+          "name": "clique cover number",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "GNOiyB",
+            "_marker": null
+          },
+          "name": "feedback vertex set",
+          "typ": "Parameter",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "IbKkUQ",
+            "_marker": null
+          },
+          "name": "treespan",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "p4bTjp",
+            "_marker": null
+          },
+          "name": "diameter",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "6BWcgd",
+            "_marker": null
+          },
+          "name": "pathwidth+maxdegree",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "aEs5ap",
+            "_marker": null
+          },
+          "name": "domino treewidth",
+          "typ": "Parameter",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "10JR3F",
+            "_marker": null
+          },
+          "name": "stars",
+          "typ": "GraphClass",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "aP5a38",
+            "_marker": null
+          },
+          "name": "bandwidth",
+          "typ": "Parameter",
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "EhdXNA",
+            "_marker": null
+          },
+          "name": "complete",
+          "typ": "GraphClass",
+          "relevance": 9
+        },
+        {
+          "id": {
+            "code": "UyQ5yM",
+            "_marker": null
+          },
+          "name": "maximum degree",
+          "typ": "Parameter",
+          "relevance": 8
+        },
+        {
+          "id": {
+            "code": "HTk9PZ",
+            "_marker": null
+          },
+          "name": "feedback edge set",
+          "typ": "Parameter",
+          "relevance": 6
+        },
+        {
+          "id": {
+            "code": "fojquT",
+            "_marker": null
+          },
+          "name": "rank-width",
+          "typ": "Parameter",
+          "relevance": 7
         },
         {
           "id": {
@@ -4339,21 +4274,12 @@
         },
         {
           "id": {
-            "code": "RPTCxd",
+            "code": "mOri44",
             "_marker": null
           },
-          "name": "distance to bounded components",
+          "name": "NLCT-width",
           "typ": "Parameter",
-          "relevance": 4
-        },
-        {
-          "id": {
-            "code": "KEP2qM",
-            "_marker": null
-          },
-          "name": "treedepth",
-          "typ": "Parameter",
-          "relevance": 7
+          "relevance": 2
         },
         {
           "id": {
@@ -4366,30 +4292,104 @@
         },
         {
           "id": {
-            "code": "G1Cwmc",
+            "code": "uDXX2i",
             "_marker": null
           },
-          "name": "iterated type partitions",
+          "name": "distance to cograph",
           "typ": "Parameter",
-          "relevance": 3
+          "relevance": 5
         },
         {
           "id": {
-            "code": "kRR8zx",
+            "code": "4bj71L",
             "_marker": null
           },
-          "name": "distance to maximum degree",
+          "name": "modular-width",
+          "typ": "Parameter",
+          "relevance": 7
+        },
+        {
+          "id": {
+            "code": "7P9WUz",
+            "_marker": null
+          },
+          "name": "clique-tree-width",
+          "typ": "Parameter",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "OdZQna",
+            "_marker": null
+          },
+          "name": "distance to chordal",
           "typ": "Parameter",
           "relevance": 4
         },
         {
           "id": {
-            "code": "JQTHZS",
+            "code": "Ti0asF",
             "_marker": null
           },
-          "name": "strong inf-coloring number",
+          "name": "cycle",
+          "typ": "GraphClass",
+          "relevance": 2
+        },
+        {
+          "id": {
+            "code": "EV3FqL",
+            "_marker": null
+          },
+          "name": "module-width",
+          "typ": "Parameter",
+          "relevance": 4
+        },
+        {
+          "id": {
+            "code": "Gq0onN",
+            "_marker": null
+          },
+          "name": "domination number",
           "typ": "Parameter",
           "relevance": 3
+        },
+        {
+          "id": {
+            "code": "Jb1we5",
+            "_marker": null
+          },
+          "name": "chi-bounded",
+          "typ": {
+            "Property": "Is"
+          },
+          "relevance": 5
+        },
+        {
+          "id": {
+            "code": "8Mm5qJ",
+            "_marker": null
+          },
+          "name": "maximum matching on bipartite graphs",
+          "typ": "Parameter",
+          "relevance": 0
+        },
+        {
+          "id": {
+            "code": "QrxQsH",
+            "_marker": null
+          },
+          "name": "block",
+          "typ": "GraphClass",
+          "relevance": 3
+        },
+        {
+          "id": {
+            "code": "hQZlLU",
+            "_marker": null
+          },
+          "name": "distance to forest",
+          "typ": "Parameter",
+          "relevance": 5
         }
       ]
     }

@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_23.html)
 
 
 
-<p><div id="../local_gbaHdw.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_gbaHdw.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_gbaHdw.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_gbaHdw.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_gbaHdw.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_gbaHdw.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_gbaHdw.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_gbaHdw.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_gbaHdw.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_gbaHdw.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_gbaHdw.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_gbaHdw.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_gbaHdw.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_gbaHdw.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_gbaHdw.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_gbaHdw.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_gbaHdw.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_gbaHdw.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -181,16 +181,16 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_23.html)
     * page 10 : [feedback edge set]({{< base >}}html/HTk9PZ) upper bounds [genus]({{< base >}}html/gbaHdw) by a linear function -- Lemma 4.19. The feedback edge set number $f$ upper bounds the genus $g$. We have $g \le f$.
 * 1994 [Genus $g$ Graphs Have Pagenumber $O(\sqrt g)$ by Malitz]({{< base >}}html/cCrsoK)
     * page 24 : [genus]({{< base >}}html/gbaHdw) upper bounds [book thickness]({{< base >}}html/doijTS) by a linear function -- Theorem 5.1. Genus $g$ graphs have pagenumber $O(\sqrt{g})$.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [genus]({{< base >}}html/gbaHdw) is equivalent to [genus]({{< base >}}html/gbaHdw) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [feedback edge set]({{< base >}}html/HTk9PZ) upper bounds [genus]({{< base >}}html/gbaHdw) by a linear function -- Removing $k$ edges creates a forest that is embeddable into the plane. We now add one handle for each of the $k$ edges to get embedding into $k$-handle genus.
+    * [planar]({{< base >}}html/loZ5LD) upper bounds [genus]({{< base >}}html/gbaHdw) by a constant
+    * [genus]({{< base >}}html/gbaHdw) upper bounds [chromatic number]({{< base >}}html/w7MmyW) by a constant -- in fact, bounded by square root
+    * [genus]({{< base >}}html/gbaHdw) upper bounds [excluded minor]({{< base >}}html/5xOuoQ) by a computable function
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 23 : graph classes with bounded [genus]({{< base >}}html/gbaHdw) are not bounded [clique-width]({{< base >}}html/wg5HuV) -- Proposition 3.17
     * page 24 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [genus]({{< base >}}html/gbaHdw) -- Proposition 3.18
     * page 26 : graph classes with bounded [genus]({{< base >}}html/gbaHdw) are not bounded [distance to perfect]({{< base >}}html/kJZKgd) -- Proposition 3.24
     * page 30 : graph classes with bounded [bandwidth]({{< base >}}html/aP5a38) are not bounded [genus]({{< base >}}html/gbaHdw) -- Proposition 3.27
     * page 33 : graph classes with bounded [genus]({{< base >}}html/gbaHdw) are not bounded [distance to planar]({{< base >}}html/MLJMRH) -- Proposition 3.34
-* [unknown source]({{< base >}}html/myit4D)
-    * [feedback edge set]({{< base >}}html/HTk9PZ) upper bounds [genus]({{< base >}}html/gbaHdw) by a linear function -- Removing $k$ edges creates a forest that is embeddable into the plane. We now add one handle for each of the $k$ edges to get embedding into $k$-handle genus.
-    * [planar]({{< base >}}html/loZ5LD) upper bounds [genus]({{< base >}}html/gbaHdw) by a constant
-    * [genus]({{< base >}}html/gbaHdw) upper bounds [chromatic number]({{< base >}}html/w7MmyW) by a constant -- in fact, bounded by square root
-    * [genus]({{< base >}}html/gbaHdw) upper bounds [excluded minor]({{< base >}}html/5xOuoQ) by a computable function
-* [assumed]({{< base >}}html/9kg0oo)
-    * [genus]({{< base >}}html/gbaHdw) is equivalent to [genus]({{< base >}}html/gbaHdw) -- assumed

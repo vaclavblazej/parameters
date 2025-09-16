@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_31.html)
 
 
 
-<p><div id="../local_QGZuUW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_QGZuUW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_QGZuUW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_QGZuUW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_QGZuUW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_QGZuUW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_QGZuUW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_QGZuUW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_QGZuUW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_QGZuUW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_QGZuUW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_QGZuUW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_QGZuUW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_QGZuUW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_QGZuUW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_QGZuUW.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_QGZuUW.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_QGZuUW.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -178,9 +178,9 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_31.html)
     * page 9 : [acyclic chromatic number]({{< base >}}html/QGZuUW) upper bounds [degeneracy]({{< base >}}html/VowkuW) by a polynomial function -- Lemma 4.18. The acyclic chromatic number $a$ upper bounds the degeneracy $d$. We have $d \le 2 \binom a2 - 1$
 * 2004 [Track Layouts of Graphs by Dujmović, Pór, Wood]({{< base >}}html/w7RVn9)
     * page 14 : [book thickness]({{< base >}}html/doijTS) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a computable function -- Theorem 5. Acyclic chromatic number is bounded by stack-number (ed: a.k.a. book-thickness). In particular, every $k$-stack graph $G$ has acyclich chromatic number $\chi_a(G) \le 80^{k(2k-1)}$.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [acyclic chromatic number]({{< base >}}html/QGZuUW) is equivalent to [acyclic chromatic number]({{< base >}}html/QGZuUW) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [acyclic chromatic number]({{< base >}}html/QGZuUW) upper bounds [boxicity]({{< base >}}html/a7MpiT) by a computable function
     * [book thickness]({{< base >}}html/doijTS) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a computable function
     * [distance to planar]({{< base >}}html/MLJMRH) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a computable function
+* [assumed]({{< base >}}html/9kg0oo)
+    * [acyclic chromatic number]({{< base >}}html/QGZuUW) is equivalent to [acyclic chromatic number]({{< base >}}html/QGZuUW) -- assumed

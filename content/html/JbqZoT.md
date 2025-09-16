@@ -4,11 +4,11 @@ title: "edge connectivity"
 
 
 
-<p><div id="../local_JbqZoT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_JbqZoT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_JbqZoT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_JbqZoT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_JbqZoT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_JbqZoT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_JbqZoT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_JbqZoT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_JbqZoT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_JbqZoT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_JbqZoT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_JbqZoT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_JbqZoT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_JbqZoT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_JbqZoT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_JbqZoT.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_JbqZoT.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_JbqZoT.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -166,10 +166,10 @@ title: "edge connectivity"
 * 2022 [Expanding the Graph Parameter Hierarchy by Tran]({{< base >}}html/uXViPE)
     * page 19 : graph classes with bounded [twin-cover number]({{< base >}}html/MUnHA0) are not bounded [edge connectivity]({{< base >}}html/JbqZoT) -- Observation 3.4. Twin Cover Number is incomparable to Maximum Clique, Domatic Number and Distance to Disconnected.
     * page 19 : graph classes with bounded [edge connectivity]({{< base >}}html/JbqZoT) are not bounded [twin-cover number]({{< base >}}html/MUnHA0) -- Observation 3.4. Twin Cover Number is incomparable to Maximum Clique, Domatic Number and Distance to Disconnected.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [bisection bandwidth]({{< base >}}html/wUdmUb) upper bounds [edge connectivity]({{< base >}}html/JbqZoT) by a linear function -- By definition
+    * [edge connectivity]({{< base >}}html/JbqZoT) is equivalent to [edge connectivity]({{< base >}}html/JbqZoT) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [minimum degree]({{< base >}}html/GPmOeT) upper bounds [edge connectivity]({{< base >}}html/JbqZoT) by a linear function -- Removing edges incident to the minimum degree vertex disconnects the graph.
     * graph class [complete]({{< base >}}html/EhdXNA) is not constant [edge connectivity]({{< base >}}html/JbqZoT) -- Parameter is unbounded for the graph class of cliques.
     * graph class [bipartite]({{< base >}}html/cLHJkW) is not constant [edge connectivity]({{< base >}}html/JbqZoT)
-* [assumed]({{< base >}}html/9kg0oo)
-    * [bisection bandwidth]({{< base >}}html/wUdmUb) upper bounds [edge connectivity]({{< base >}}html/JbqZoT) by a linear function -- By definition
-    * [edge connectivity]({{< base >}}html/JbqZoT) is equivalent to [edge connectivity]({{< base >}}html/JbqZoT) -- assumed

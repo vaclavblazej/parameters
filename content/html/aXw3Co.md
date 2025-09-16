@@ -8,11 +8,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_29.html)
 
 
 
-<p><div id="../local_aXw3Co.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_aXw3Co.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_aXw3Co.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_aXw3Co.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_aXw3Co.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_aXw3Co.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_aXw3Co.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_aXw3Co.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_aXw3Co.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_aXw3Co.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_aXw3Co.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_aXw3Co.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_aXw3Co.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_aXw3Co.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_aXw3Co.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_aXw3Co.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_aXw3Co.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_aXw3Co.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -172,6 +172,8 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_29.html)
     * page 18 : graph classes with bounded [distance to cluster]({{< base >}}html/aXw3Co) are not bounded [twin-cover number]({{< base >}}html/MUnHA0) -- We show that twin cover number is not upper bounded by distance to cluster.
     * page 28 : graph classes with bounded [modular-width]({{< base >}}html/4bj71L) are not bounded [distance to cluster]({{< base >}}html/aXw3Co) -- Proposition 4.10. Modular-width is incomparable to Distance to Cluster.
     * page 28 : graph classes with bounded [distance to cluster]({{< base >}}html/aXw3Co) are not bounded [modular-width]({{< base >}}html/4bj71L) -- Proposition 4.10. Modular-width is incomparable to Distance to Cluster.
+* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
+    * page 13 : graph classes with bounded [distance to cluster]({{< base >}}html/aXw3Co) are not bounded [distance to co-cluster]({{< base >}}html/hbfWwE) -- Proposition 3.3
 * [unknown source]({{< base >}}html/myit4D)
     * graph class [path]({{< base >}}html/ryPlqz) is not constant [distance to cluster]({{< base >}}html/aXw3Co) -- trivially
     * [distance to cluster]({{< base >}}html/aXw3Co) upper bounds [distance to cograph]({{< base >}}html/uDXX2i) by a linear function
@@ -180,5 +182,3 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_29.html)
     * [cluster]({{< base >}}html/WAU7vf) upper bounds [distance to cluster]({{< base >}}html/aXw3Co) by a constant -- by definition
     * [twin-cover number]({{< base >}}html/MUnHA0) upper bounds [distance to cluster]({{< base >}}html/aXw3Co) by a linear function -- By definition
     * [distance to cluster]({{< base >}}html/aXw3Co) is equivalent to [distance to cluster]({{< base >}}html/aXw3Co) -- assumed
-* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
-    * page 13 : graph classes with bounded [distance to cluster]({{< base >}}html/aXw3Co) are not bounded [distance to co-cluster]({{< base >}}html/hbfWwE) -- Proposition 3.3

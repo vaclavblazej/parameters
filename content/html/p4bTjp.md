@@ -8,11 +8,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_6.html)
 
 
 
-<p><div id="../local_p4bTjp.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_p4bTjp.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_p4bTjp.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_p4bTjp.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_p4bTjp.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_p4bTjp.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_p4bTjp.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_p4bTjp.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_p4bTjp.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_p4bTjp.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_p4bTjp.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_p4bTjp.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_p4bTjp.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_p4bTjp.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_p4bTjp.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_p4bTjp.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_p4bTjp.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_p4bTjp.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -170,13 +170,6 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_6.html)
 * 2022 [Expanding the Graph Parameter Hierarchy by Tran]({{< base >}}html/uXViPE)
     * page 25 : [modular-width]({{< base >}}html/4bj71L) upper bounds [diameter]({{< base >}}html/p4bTjp) by a computable function -- Theorem 4.7. Modular-width strictly upper bounds Max Diameter of Components.
     * page 25 : graph classes with bounded [diameter]({{< base >}}html/p4bTjp) are not bounded [modular-width]({{< base >}}html/4bj71L) -- Theorem 4.7. Modular-width strictly upper bounds Max Diameter of Components.
-* [unknown source]({{< base >}}html/myit4D)
-    * [domination number]({{< base >}}html/Gq0onN) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function -- An unbounded diameter implies a long path where no vertices that are more than $3$ apart may be dominated by the same dominating vertex, otherwise we could shorten the path. Hence, the number of dominating vertices is also unbounded.
-    * [distance to cograph]({{< base >}}html/uDXX2i) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function
-    * graph classes with bounded [average distance]({{< base >}}html/zH8PpT) are not bounded [diameter]({{< base >}}html/p4bTjp) -- join of a path and a complete bipartite graph
-    * [maximum induced matching]({{< base >}}html/GzMYlT) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function -- Diameter requires an induced path on $d$ edges, hence, maximum induced matching is at least $\lfloor (d+1)/3 \rfloor$.
-    * [modular-width]({{< base >}}html/4bj71L) upper bounds [diameter]({{< base >}}html/p4bTjp) by a computable function
-    * graph class [path]({{< base >}}html/ryPlqz) is not constant [diameter]({{< base >}}html/p4bTjp) -- trivially
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 11 : [treedepth]({{< base >}}html/KEP2qM) upper bounds [diameter]({{< base >}}html/p4bTjp) by an exponential function -- Proposition 3.1
 * [assumed]({{< base >}}html/9kg0oo)
@@ -184,3 +177,10 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_6.html)
     * [diameter]({{< base >}}html/p4bTjp) upper bounds [average distance]({{< base >}}html/zH8PpT) by a linear function -- By definition
     * [diameter]({{< base >}}html/p4bTjp) upper bounds [treelength]({{< base >}}html/JA2nKw) by a linear function -- By definition
     * [diameter]({{< base >}}html/p4bTjp) is equivalent to [diameter]({{< base >}}html/p4bTjp) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [domination number]({{< base >}}html/Gq0onN) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function -- An unbounded diameter implies a long path where no vertices that are more than $3$ apart may be dominated by the same dominating vertex, otherwise we could shorten the path. Hence, the number of dominating vertices is also unbounded.
+    * [distance to cograph]({{< base >}}html/uDXX2i) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function
+    * graph classes with bounded [average distance]({{< base >}}html/zH8PpT) are not bounded [diameter]({{< base >}}html/p4bTjp) -- join of a path and a complete bipartite graph
+    * [maximum induced matching]({{< base >}}html/GzMYlT) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function -- Diameter requires an induced path on $d$ edges, hence, maximum induced matching is at least $\lfloor (d+1)/3 \rfloor$.
+    * [modular-width]({{< base >}}html/4bj71L) upper bounds [diameter]({{< base >}}html/p4bTjp) by a computable function
+    * graph class [path]({{< base >}}html/ryPlqz) is not constant [diameter]({{< base >}}html/p4bTjp) -- trivially

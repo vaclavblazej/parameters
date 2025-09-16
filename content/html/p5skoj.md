@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_234.html)
 
 
 
-<p><div id="../local_p5skoj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_p5skoj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_p5skoj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_p5skoj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_p5skoj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_p5skoj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_p5skoj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_p5skoj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_p5skoj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_p5skoj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_p5skoj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_p5skoj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_p5skoj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_p5skoj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_p5skoj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_p5skoj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_p5skoj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_p5skoj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -171,6 +171,8 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_234.html)
 
 * 2017 [Graph Theory by Diestel]({{< base >}}html/r2Lwky)
     * page 145 : [interval]({{< base >}}html/p5skoj) -- A graph $G$ is called an \emph{interval graph} if there exists a set $\{ I_v \mid v \in V(G) \}$ of real intervals such that $I_u \cap I_v \ne \emptyset$ if and only if $uv \in E(G)$.
+* [unknown source]({{< base >}}html/myit4D)
+    * graph class [interval]({{< base >}}html/p5skoj) is not constant [average distance]({{< base >}}html/zH8PpT)
 * [assumed]({{< base >}}html/9kg0oo)
     * graph class [cluster]({{< base >}}html/WAU7vf) has contained in [interval]({{< base >}}html/p5skoj)
     * graph class [interval]({{< base >}}html/p5skoj) does not have contained in [cluster]({{< base >}}html/WAU7vf)
@@ -182,5 +184,3 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_234.html)
     * graph class [chordal]({{< base >}}html/Cv1PaJ) does not have contained in [interval]({{< base >}}html/p5skoj)
     * [interval]({{< base >}}html/p5skoj) upper bounds [distance to interval]({{< base >}}html/AVc2K6) by a constant -- by definition
     * [interval]({{< base >}}html/p5skoj) is equivalent to [interval]({{< base >}}html/p5skoj) -- assumed
-* [unknown source]({{< base >}}html/myit4D)
-    * graph class [interval]({{< base >}}html/p5skoj) is not constant [average distance]({{< base >}}html/zH8PpT)

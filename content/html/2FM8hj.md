@@ -6,11 +6,11 @@ title: "sparse twin-width"
 
 
 
-<p><div id="../local_2FM8hj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_2FM8hj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_2FM8hj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_2FM8hj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_2FM8hj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_2FM8hj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_2FM8hj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_2FM8hj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_2FM8hj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_2FM8hj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_2FM8hj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_2FM8hj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_2FM8hj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_2FM8hj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_2FM8hj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_2FM8hj.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_2FM8hj.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_2FM8hj.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -165,11 +165,11 @@ title: "sparse twin-width"
 
 ## Results
 
-* [unknown source]({{< base >}}html/myit4D)
-    * [treewidth]({{< base >}}html/5Q7fuR) upper bounds [sparse twin-width]({{< base >}}html/2FM8hj) by a tower function
-    * [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [bounded expansion]({{< base >}}html/lFz6Ci) by a linear function
-    * [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [twin-width]({{< base >}}html/OrH7et) by a linear function
 * [assumed]({{< base >}}html/9kg0oo)
     * [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [twin-width]({{< base >}}html/OrH7et) by a linear function -- by definition
     * [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [bounded expansion]({{< base >}}html/lFz6Ci) by a linear function -- by definition
     * [sparse twin-width]({{< base >}}html/2FM8hj) is equivalent to [sparse twin-width]({{< base >}}html/2FM8hj) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [treewidth]({{< base >}}html/5Q7fuR) upper bounds [sparse twin-width]({{< base >}}html/2FM8hj) by a tower function
+    * [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [bounded expansion]({{< base >}}html/lFz6Ci) by a linear function
+    * [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [twin-width]({{< base >}}html/OrH7et) by a linear function

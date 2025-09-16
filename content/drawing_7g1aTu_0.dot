@@ -2,10 +2,10 @@ digraph drawing_7g1aTu_0 {
 	node [color=lightblue2 style=filled]
 	margin=0.04 size="6,6"
 	rankdir = BT
-	"n_HTk9PZ" [label="feedback edge set" URL="/parameters/html/HTk9PZ" color="#dddddd" shape=box]
 	"n_oFvl4c" [label="slim tree-cut width" URL="/parameters/html/oFvl4c" color="#dddddd" shape=box]
-	"n_8CgU0P" [label="tree-cut width" URL="/parameters/html/8CgU0P" color="#dddddd" shape=box]
 	"n_nCWUh3" [label="degree treewidth" URL="/parameters/html/nCWUh3" color="#dddddd" shape=box]
+	"n_HTk9PZ" [label="feedback edge set" URL="/parameters/html/HTk9PZ" color="#dddddd" shape=box]
+	"n_8CgU0P" [label="tree-cut width" URL="/parameters/html/8CgU0P" color="#dddddd" shape=box]
 	"n_nCWUh3" -> "n_oFvl4c" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
 	"n_HTk9PZ" -> "n_oFvl4c" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
 	"n_oFvl4c" -> "n_8CgU0P" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]

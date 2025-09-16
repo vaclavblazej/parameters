@@ -18,13 +18,13 @@ This page contains lists for:
 
 ### Simplified Hasse hierarchy ([source](parameters_simplified.dot))
 
-<p><div id="parameters_simplified.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('parameters_simplified.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("parameters_simplified.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="parameters_simplified.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('parameters_simplified.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("parameters_simplified.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 
 
 ### Hasse hierarchy ([source](parameters.dot))
 
-<p><div id="parameters.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('parameters.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("parameters.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="parameters.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('parameters.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("parameters.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 
 
@@ -167,7 +167,7 @@ Please, see [Information System on Graph Classes and their Inclusions (ISGCI)](h
 
 ### Hasse graphs and properties ([source](graphs.dot))
 
-<p><div id="graphs.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('graphs.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("graphs.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="graphs.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('graphs.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("graphs.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 
 

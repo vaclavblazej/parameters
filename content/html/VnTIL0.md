@@ -10,7 +10,7 @@ url = {https://manyu.pro/assets/parameter-hierarchy.pdf},
 year = {2019},
 }
 ```
-<p><div id="../drawing_VnTIL0_0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../drawing_VnTIL0_0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../drawing_VnTIL0_0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../drawing_VnTIL0_0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../drawing_VnTIL0_0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../drawing_VnTIL0_0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 * page 3 : [acyclic chromatic number]({{< base >}}html/QGZuUW) -- The \emph{acyclic chromatic number} of a graph $G = (V,E)$ is the smallest size of a vertex partition $P=\{V_1,\dots,V_\ell\}$ such that each $V_i$ is an independent set and for all $V_i,V_j$ the graph $G[V_i \cup V_j]$ does not contain a cycle.
 * page 3 : [arboricity]({{< base >}}html/zgMenA) -- The \emph{arboricity} of a graph $G$ is the minimum number of forests the edges of $G$ can be partitioned into.

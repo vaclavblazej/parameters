@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_5.html), [PACE](http
 
 
 
-<p><div id="../local_Gq0onN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_Gq0onN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_Gq0onN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_Gq0onN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_Gq0onN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_Gq0onN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_Gq0onN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_Gq0onN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_Gq0onN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_Gq0onN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_Gq0onN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_Gq0onN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_Gq0onN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_Gq0onN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_Gq0onN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_Gq0onN.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_Gq0onN.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_Gq0onN.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -172,13 +172,13 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_5.html), [PACE](http
 * 2022 [Expanding the Graph Parameter Hierarchy by Tran]({{< base >}}html/uXViPE)
     * page 29 : graph classes with bounded [edge clique cover number]({{< base >}}html/nYQDv6) are not bounded [domination number]({{< base >}}html/Gq0onN) -- Proposition 4.14. Edge Clique Cover Number is incomparable to Domination Number.
     * page 29 : graph classes with bounded [domination number]({{< base >}}html/Gq0onN) are not bounded [edge clique cover number]({{< base >}}html/nYQDv6) -- Proposition 4.14. Edge Clique Cover Number is incomparable to Domination Number.
+* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
+    * page 15 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [domination number]({{< base >}}html/Gq0onN) -- Proposition 3.5
+* [assumed]({{< base >}}html/9kg0oo)
+    * [domination number]({{< base >}}html/Gq0onN) is equivalent to [domination number]({{< base >}}html/Gq0onN) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [maximum independent set]({{< base >}}html/mHtXUU) upper bounds [domination number]({{< base >}}html/Gq0onN) by a linear function -- Every maximal independent set is also a dominating set because any undominated vertex could be added to the independent set.
     * [domination number]({{< base >}}html/Gq0onN) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function -- An unbounded diameter implies a long path where no vertices that are more than $3$ apart may be dominated by the same dominating vertex, otherwise we could shorten the path. Hence, the number of dominating vertices is also unbounded.
     * graph class [cluster]({{< base >}}html/WAU7vf) is not constant [domination number]({{< base >}}html/Gq0onN)
     * graph classes that are [edgeless]({{< base >}}html/LsiBbX) are not constant [domination number]({{< base >}}html/Gq0onN)
     * graph classes with bounded [domination number]({{< base >}}html/Gq0onN) are not bounded [maximum independent set]({{< base >}}html/mHtXUU)
-* [assumed]({{< base >}}html/9kg0oo)
-    * [domination number]({{< base >}}html/Gq0onN) is equivalent to [domination number]({{< base >}}html/Gq0onN) -- assumed
-* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
-    * page 15 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [domination number]({{< base >}}html/Gq0onN) -- Proposition 3.5

@@ -8,11 +8,11 @@ tags: [covering edges]({{< base >}}html/tK4S1r)
 
 
 
-<p><div id="../local_nYQDv6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_nYQDv6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_nYQDv6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_nYQDv6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_nYQDv6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_nYQDv6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_nYQDv6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_nYQDv6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_nYQDv6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_nYQDv6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_nYQDv6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_nYQDv6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_nYQDv6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_nYQDv6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_nYQDv6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_nYQDv6.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_nYQDv6.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_nYQDv6.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -179,8 +179,8 @@ tags: [covering edges]({{< base >}}html/tK4S1r)
     * page 29 : graph classes with bounded [domination number]({{< base >}}html/Gq0onN) are not bounded [edge clique cover number]({{< base >}}html/nYQDv6) -- Proposition 4.14. Edge Clique Cover Number is incomparable to Domination Number.
     * page 29 : graph classes with bounded [edge clique cover number]({{< base >}}html/nYQDv6) are not bounded [distance to perfect]({{< base >}}html/kJZKgd) -- Proposition 4.15. Edge Clique Cover Number is incomparable to Distance to Perfect.
     * page 29 : graph classes with bounded [distance to perfect]({{< base >}}html/kJZKgd) are not bounded [edge clique cover number]({{< base >}}html/nYQDv6) -- Proposition 4.15. Edge Clique Cover Number is incomparable to Distance to Perfect.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [edge clique cover number]({{< base >}}html/nYQDv6) is equivalent to [edge clique cover number]({{< base >}}html/nYQDv6) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [edge clique cover number]({{< base >}}html/nYQDv6) upper bounds [neighborhood diversity]({{< base >}}html/vMs3RS) by an exponential function -- Label vertices by the cliques they are contained in, each label is its own group in the neighborhood diversity, connect accordingly.
     * [distance to complete]({{< base >}}html/2LDMQ6) upper bounds [edge clique cover number]({{< base >}}html/nYQDv6) by a polynomial function -- Cover the remaining clique, cover each modulator vertex and its neighborhood outside of it with another clique, cover each edge within the modulator by its own edge.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [edge clique cover number]({{< base >}}html/nYQDv6) is equivalent to [edge clique cover number]({{< base >}}html/nYQDv6) -- assumed

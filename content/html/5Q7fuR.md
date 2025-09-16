@@ -6,7 +6,7 @@ abbr: tw
 
 tags: [tree decomposition]({{< base >}}html/bzffn0)
 
-functionally equivalent to: [mm-width]({{< base >}}html/d7vRYU), [branch width]({{< base >}}html/lIcmuR), [strong inf-coloring number]({{< base >}}html/JQTHZS)
+functionally equivalent to: [branch width]({{< base >}}html/lIcmuR), [strong inf-coloring number]({{< base >}}html/JQTHZS), [mm-width]({{< base >}}html/d7vRYU)
 
 providers: [ISGCI](https://www.graphclasses.org/classes/par_10.html), [PACE](https://pacechallenge.org/2017/), [PACE](https://pacechallenge.org/2016/)
 
@@ -63,11 +63,11 @@ If introduce edge nodes are not present, then an edge is introduced when its sec
 
 
 
-<p><div id="../local_5Q7fuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_5Q7fuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_5Q7fuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_5Q7fuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_5Q7fuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_5Q7fuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_5Q7fuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_5Q7fuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_5Q7fuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_5Q7fuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_5Q7fuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_5Q7fuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_5Q7fuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_5Q7fuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_5Q7fuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_5Q7fuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_5Q7fuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_5Q7fuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -262,11 +262,11 @@ If introduce edge nodes are not present, then an edge is introduced when its sec
 * 1991 [Graph minors. X. Obstructions to tree-decomposition by Robertson, Seymour]({{< base >}}html/1hPzXs)
     * page 16 : [treewidth]({{< base >}}html/5Q7fuR) upper bounds [branch width]({{< base >}}html/lIcmuR) by a linear function -- (5.1) For any hypergraph $G$, $\max(\beta(G), \gamma(G)) \le \omega(G) + 1 \le \max(\lfloor(3/2)\beta(G)\rfloor, \gamma(G), 1)$.
     * page 16 : [branch width]({{< base >}}html/lIcmuR) upper bounds [treewidth]({{< base >}}html/5Q7fuR) by a linear function -- (5.1) For any hypergraph $G$, $\max(\beta(G), \gamma(G)) \le \omega(G) + 1 \le \max(\lfloor(3/2)\beta(G)\rfloor, \gamma(G), 1)$.
+* 1986 [Graph minors. V. Excluding a planar graph by Robertson, Seymour]({{< base >}}html/A82svt)
+    * page 2 : [excluded planar minor]({{< base >}}html/Gt22Ik) upper bounds [treewidth]({{< base >}}html/5Q7fuR) by a constant -- (1.5) For every planar graph $H$, there is a number $w$ such that every planar graph with no minor isomorphic to $H$ has tree-wdtih $\le w$
 * 1986 [Graph minors. II. Algorithmic aspects of tree-width by Robertson, Seymour]({{< base >}}html/i56ihO)
     * page 1 : [treewidth]({{< base >}}html/5Q7fuR) -- A \emph{tree-decomposition} of $G$ is a family $(X_i \colon i\in I)$ of subsets of $V(G)$, together with a tree $T$ with $V(T)=I$, with the following properties. (W1) $\bigcup(X_i \colon i \in I)=V(G)$. (W2) Every edge of $G$ has both its ends in some $X_i$ ($i \in I$). (W3) For $i,j,k \in I$, if $j$ lies on the path of $T$ from $i$ to $k$ then $X_i \cap X_k \subseteq X_j$. The \emph{width} of the tree-decomposition is $\max(|X_i|-1 \colon i \in I)$. The tree-width of $G$ is the minimum $w \ge 0$ such that $G$ has a tree-decomposition of width $\le w$.
     * page 1 : [treewidth]({{< base >}}html/5Q7fuR) -- Equivalently, the tree-width of $G$ is the minimum $w \ge 0$ such that $G$ is a subgraph of a ``[chordal]({{< base >}}html/Cv1PaJ)'' graph with all cliques of size at most $w + 1$.
-* 1986 [Graph minors. V. Excluding a planar graph by Robertson, Seymour]({{< base >}}html/A82svt)
-    * page 2 : [excluded planar minor]({{< base >}}html/Gt22Ik) upper bounds [treewidth]({{< base >}}html/5Q7fuR) by a constant -- (1.5) For every planar graph $H$, there is a number $w$ such that every planar graph with no minor isomorphic to $H$ has tree-wdtih $\le w$
 * [assumed]({{< base >}}html/9kg0oo)
     * [degree treewidth]({{< base >}}html/nCWUh3) upper bounds [treewidth]({{< base >}}html/5Q7fuR) by a linear function -- by definition
     * [treewidth]({{< base >}}html/5Q7fuR) is equivalent to [treewidth]({{< base >}}html/5Q7fuR) -- assumed

@@ -2,7 +2,7 @@
 title: "maximum matching"
 ---# maximum matching
 
-functionally equivalent to: [vertex cover]({{< base >}}html/4lp9Yj), [distance to edgeless]({{< base >}}html/4INs10)
+functionally equivalent to: [distance to edgeless]({{< base >}}html/4INs10), [vertex cover]({{< base >}}html/4lp9Yj)
 
 providers: [ISGCI](https://www.graphclasses.org/classes/par_13.html)
 
@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_13.html)
 
 
 
-<p><div id="../local_veU7Jf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_veU7Jf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_veU7Jf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_veU7Jf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_veU7Jf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_veU7Jf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_veU7Jf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_veU7Jf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_veU7Jf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_veU7Jf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_veU7Jf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_veU7Jf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_veU7Jf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_veU7Jf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_veU7Jf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_veU7Jf.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_veU7Jf.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_veU7Jf.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -172,12 +172,12 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_13.html)
 * 2025 [On a tree-based variant of bandwidth and forbidding simple topological minors by Jacob, Lochet, Paul]({{< base >}}html/EImlRb)
     * page 36 : [vertex cover]({{< base >}}html/4lp9Yj) upper and lower bounds [maximum matching]({{< base >}}html/veU7Jf) by a linear function -- ... discovered independently by Fanica Gavril and Mihalis Yannakakis. Theorem 50. In a graph $G$, we have $\mu(G) \le {\rm vc}(G) \le 2\mu(G)$, where $\mu(G)$ is the maximum matching number of $G$.
     * page 36 : [maximum matching]({{< base >}}html/veU7Jf) upper bounds [vertex cover]({{< base >}}html/4lp9Yj) by a linear function -- ... discovered independently by Fanica Gavril and Mihalis Yannakakis. Theorem 50. In a graph $G$, we have $\mu(G) \le {\rm vc}(G) \le 2\mu(G)$, where $\mu(G)$ is the maximum matching number of $G$.
+* [assumed]({{< base >}}html/9kg0oo)
+    * [maximum matching]({{< base >}}html/veU7Jf) upper bounds [maximum induced matching]({{< base >}}html/GzMYlT) by a linear function -- By definition
+    * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) upper bounds [maximum matching]({{< base >}}html/veU7Jf) by a linear function -- by definition
+    * [maximum matching]({{< base >}}html/veU7Jf) is equivalent to [maximum matching]({{< base >}}html/veU7Jf) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * graph class [complete]({{< base >}}html/EhdXNA) is not constant [maximum matching]({{< base >}}html/veU7Jf)
     * graph class [path]({{< base >}}html/ryPlqz) is not constant [maximum matching]({{< base >}}html/veU7Jf)
     * [star]({{< base >}}html/CortlU) upper bounds [maximum matching]({{< base >}}html/veU7Jf) by a constant
     * [edgeless]({{< base >}}html/LsiBbX) upper bounds [maximum matching]({{< base >}}html/veU7Jf) by a constant
-* [assumed]({{< base >}}html/9kg0oo)
-    * [maximum matching]({{< base >}}html/veU7Jf) upper bounds [maximum induced matching]({{< base >}}html/GzMYlT) by a linear function -- By definition
-    * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) upper bounds [maximum matching]({{< base >}}html/veU7Jf) by a linear function -- by definition
-    * [maximum matching]({{< base >}}html/veU7Jf) is equivalent to [maximum matching]({{< base >}}html/veU7Jf) -- assumed

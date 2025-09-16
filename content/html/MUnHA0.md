@@ -6,11 +6,11 @@ title: "twin-cover number"
 
 
 
-<p><div id="../local_MUnHA0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_MUnHA0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_MUnHA0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_MUnHA0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_MUnHA0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_MUnHA0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_MUnHA0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_MUnHA0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_MUnHA0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_MUnHA0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_MUnHA0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_MUnHA0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_MUnHA0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_MUnHA0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_MUnHA0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_MUnHA0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_MUnHA0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_MUnHA0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -198,10 +198,10 @@ title: "twin-cover number"
     * page 263 : [twin-cover number]({{< base >}}html/MUnHA0) upper bounds [clique-width]({{< base >}}html/wg5HuV) by a constant -- The clique-width of graphs of twin-cover $k$ is at most $k+2$.
     * page 263 : [twin-cover number]({{< base >}}html/MUnHA0) upper bounds [rank-width]({{< base >}}html/fojquT) by a constant -- The rank-width and linaer rank-width of graph of twin-cover $k$ are at most $k+1$.
     * page 263 : [twin-cover number]({{< base >}}html/MUnHA0) upper bounds [linear rank-width]({{< base >}}html/cHugsk) by a constant -- The rank-width and linaer rank-width of graph of twin-cover $k$ are at most $k+1$.
-* [unknown source]({{< base >}}html/myit4D)
-    * graph classes with bounded [twin-cover number]({{< base >}}html/MUnHA0) are not bounded [neighborhood diversity]({{< base >}}html/vMs3RS)
-    * [cluster]({{< base >}}html/WAU7vf) upper bounds [twin-cover number]({{< base >}}html/MUnHA0) by a constant
 * [assumed]({{< base >}}html/9kg0oo)
     * [twin-cover number]({{< base >}}html/MUnHA0) upper bounds [distance to cluster]({{< base >}}html/aXw3Co) by a linear function -- By definition
     * [vertex cover]({{< base >}}html/4lp9Yj) upper bounds [twin-cover number]({{< base >}}html/MUnHA0) by a linear function -- By definition
     * [twin-cover number]({{< base >}}html/MUnHA0) is equivalent to [twin-cover number]({{< base >}}html/MUnHA0) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * graph classes with bounded [twin-cover number]({{< base >}}html/MUnHA0) are not bounded [neighborhood diversity]({{< base >}}html/vMs3RS)
+    * [cluster]({{< base >}}html/WAU7vf) upper bounds [twin-cover number]({{< base >}}html/MUnHA0) by a constant

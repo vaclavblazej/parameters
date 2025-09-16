@@ -8,11 +8,11 @@ tags: [vertex order]({{< base >}}html/O1poSV)
 
 
 
-<p><div id="../local_SnA7Eq.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_SnA7Eq.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_SnA7Eq.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_SnA7Eq.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_SnA7Eq.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_SnA7Eq.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_SnA7Eq.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_SnA7Eq.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_SnA7Eq.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_SnA7Eq.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_SnA7Eq.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_SnA7Eq.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_SnA7Eq.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_SnA7Eq.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_SnA7Eq.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_SnA7Eq.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_SnA7Eq.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_SnA7Eq.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -172,8 +172,8 @@ tags: [vertex order]({{< base >}}html/O1poSV)
 * 1998 [A partial $k$-arboretum of graphs with bounded treewidth by Bodlaender]({{< base >}}html/BOFCWg)
     * page 22 : [topological bandwidth]({{< base >}}html/SnA7Eq) -- The \emph{topological bandwidth} of a graph $G$ is the minimum [bandwidth](../aP5a38) over all graphs $G'$ which are obtained by addition of an arbitrary number of vertices along edges of $G$.
     * page 23 : [topological bandwidth]({{< base >}}html/SnA7Eq) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a linear function -- Theorem 45. For every graph $G$, the pathwidth of $G$ is at most the topological band-width of $G$.
-* [unknown source]({{< base >}}html/myit4D)
-    * [topological bandwidth]({{< base >}}html/SnA7Eq) upper bounds [bisection bandwidth]({{< base >}}html/wUdmUb) by a linear function -- Order vertices by their bandwidth integer. We split the graph in the middle of this ordering. There are at most roughly $k^2/2$ edges over this split.
 * [assumed]({{< base >}}html/9kg0oo)
     * [bandwidth]({{< base >}}html/aP5a38) upper bounds [topological bandwidth]({{< base >}}html/SnA7Eq) by a linear function -- By definition
     * [topological bandwidth]({{< base >}}html/SnA7Eq) is equivalent to [topological bandwidth]({{< base >}}html/SnA7Eq) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [topological bandwidth]({{< base >}}html/SnA7Eq) upper bounds [bisection bandwidth]({{< base >}}html/wUdmUb) by a linear function -- Order vertices by their bandwidth integer. We split the graph in the middle of this ordering. There are at most roughly $k^2/2$ edges over this split.

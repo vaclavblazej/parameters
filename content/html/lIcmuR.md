@@ -4,7 +4,7 @@ title: "branch width"
 
 tags: [branch decomposition]({{< base >}}html/KaLXjx)
 
-functionally equivalent to: [treewidth]({{< base >}}html/5Q7fuR), [strong inf-coloring number]({{< base >}}html/JQTHZS), [mm-width]({{< base >}}html/d7vRYU)
+functionally equivalent to: [mm-width]({{< base >}}html/d7vRYU), [strong inf-coloring number]({{< base >}}html/JQTHZS), [treewidth]({{< base >}}html/5Q7fuR)
 
 providers: [ISGCI](https://www.graphclasses.org/classes/par_11.html)
 
@@ -12,11 +12,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_11.html)
 
 
 
-<p><div id="../local_lIcmuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_lIcmuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_lIcmuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_lIcmuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_lIcmuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_lIcmuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_lIcmuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_lIcmuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_lIcmuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_lIcmuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_lIcmuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_lIcmuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_lIcmuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_lIcmuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_lIcmuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_lIcmuR.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_lIcmuR.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_lIcmuR.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -177,8 +177,8 @@ providers: [ISGCI](https://www.graphclasses.org/classes/par_11.html)
     * page 12 : [branch width]({{< base >}}html/lIcmuR) -- A \emph{branch-width} of a hypergraph $G$ is a pair $(T,\tau)$, where $T$ is a ternary tree and $\tau$ is a bijection from the set of leaves of $T$ to $E(G)$. The \emph{order} of an edge $e$ of $T$ is the number of vertices $v$ of $G$ such that there are leaves $t_1,t_2$ of $T$ in different components of $T \setminus e$, with $\tau(t_1),\tau(t_2)$ both incident with $v$. The \emph{width} of $(T,\tau)$ is the maximum order of the edges of $T$, and the \emph{branch-width} $\beta(G)$ of $G$ is the minimum width of all branch-decompositions of $G$ (or 0 if $|E(G)| \le 1$, when $G$ has no branch-decompositions).
     * page 16 : [treewidth]({{< base >}}html/5Q7fuR) upper bounds [branch width]({{< base >}}html/lIcmuR) by a linear function -- (5.1) For any hypergraph $G$, $\max(\beta(G), \gamma(G)) \le \omega(G) + 1 \le \max(\lfloor(3/2)\beta(G)\rfloor, \gamma(G), 1)$.
     * page 16 : [branch width]({{< base >}}html/lIcmuR) upper bounds [treewidth]({{< base >}}html/5Q7fuR) by a linear function -- (5.1) For any hypergraph $G$, $\max(\beta(G), \gamma(G)) \le \omega(G) + 1 \le \max(\lfloor(3/2)\beta(G)\rfloor, \gamma(G), 1)$.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [branch width]({{< base >}}html/lIcmuR) is equivalent to [branch width]({{< base >}}html/lIcmuR) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * [branch width]({{< base >}}html/lIcmuR) upper bounds [boolean width]({{< base >}}html/A2jPWT) by a linear function
     * [branch width]({{< base >}}html/lIcmuR) upper bounds [rank-width]({{< base >}}html/fojquT) by a linear function
+* [assumed]({{< base >}}html/9kg0oo)
+    * [branch width]({{< base >}}html/lIcmuR) is equivalent to [branch width]({{< base >}}html/lIcmuR) -- assumed

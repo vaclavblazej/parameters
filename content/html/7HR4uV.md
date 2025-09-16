@@ -10,11 +10,11 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_1248.html)
 
 
 
-<p><div id="../local_7HR4uV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_7HR4uV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_7HR4uV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_7HR4uV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_7HR4uV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_7HR4uV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_7HR4uV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_7HR4uV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_7HR4uV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_7HR4uV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_7HR4uV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_7HR4uV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_7HR4uV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_7HR4uV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_7HR4uV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_7HR4uV.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_7HR4uV.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_7HR4uV.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -169,6 +169,8 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_1248.html)
 
 ## Results
 
+* [unknown source]({{< base >}}html/myit4D)
+    * graph class [co-cluster]({{< base >}}html/7HR4uV) is not constant [distance to chordal]({{< base >}}html/OdZQna)
 * [assumed]({{< base >}}html/9kg0oo)
     * graph class [co-cluster]({{< base >}}html/7HR4uV) has contained in [cograph]({{< base >}}html/9Qd0Mx)
     * graph class [cograph]({{< base >}}html/9Qd0Mx) does not have contained in [co-cluster]({{< base >}}html/7HR4uV)
@@ -178,5 +180,3 @@ providers: [ISGCI](https://www.graphclasses.org/classes/gc_1248.html)
     * graph class [co-cluster]({{< base >}}html/7HR4uV) is not [edgeless]({{< base >}}html/LsiBbX)
     * [co-cluster]({{< base >}}html/7HR4uV) upper bounds [distance to co-cluster]({{< base >}}html/hbfWwE) by a constant -- by definition
     * [co-cluster]({{< base >}}html/7HR4uV) is equivalent to [co-cluster]({{< base >}}html/7HR4uV) -- assumed
-* [unknown source]({{< base >}}html/myit4D)
-    * graph class [co-cluster]({{< base >}}html/7HR4uV) is not constant [distance to chordal]({{< base >}}html/OdZQna)

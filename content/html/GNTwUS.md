@@ -8,11 +8,11 @@ functionally equivalent to: [distance to maximum degree]({{< base >}}html/kRR8zx
 
 
 
-<p><div id="../local_GNTwUS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_GNTwUS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_GNTwUS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_GNTwUS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_GNTwUS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_GNTwUS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_GNTwUS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_GNTwUS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_GNTwUS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_GNTwUS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_GNTwUS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_GNTwUS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_GNTwUS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_GNTwUS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_GNTwUS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_GNTwUS.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_GNTwUS.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_GNTwUS.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -169,12 +169,6 @@ functionally equivalent to: [distance to maximum degree]({{< base >}}html/kRR8zx
 
 * 2019 [The Graph Parameter Hierarchy by Sorge]({{< base >}}html/VnTIL0)
     * page 8 : [h-index]({{< base >}}html/GNTwUS) upper bounds [acyclic chromatic number]({{< base >}}html/QGZuUW) by a polynomial function -- Lemma 4.7. The acyclic chromatic number $\chi_a$ is upper bounded by the $h$-index $h$. We have $\chi_a \le h(h+1)/2$.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [h-index]({{< base >}}html/GNTwUS) is equivalent to [h-index]({{< base >}}html/GNTwUS) -- assumed
-* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
-    * page 12 : [distance to linear forest]({{< base >}}html/yk7XP0) upper bounds [h-index]({{< base >}}html/GNTwUS) by a linear function -- Proposition 3.2
-    * page 25 : graph classes with bounded [treedepth]({{< base >}}html/KEP2qM) are not bounded [h-index]({{< base >}}html/GNTwUS) -- Proposition 3.22
-    * page 25 : graph classes with bounded [feedback edge set]({{< base >}}html/HTk9PZ) are not bounded [h-index]({{< base >}}html/GNTwUS) -- Proposition 3.22
 * [unknown source]({{< base >}}html/myit4D)
     * [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [h-index]({{< base >}}html/GNTwUS) by a linear function -- As h-index seeks $k$ vertices of degree $k$ it is trivially upper bound by maximum degree.
     * [h-index]({{< base >}}html/GNTwUS) upper bounds [distance to maximum degree]({{< base >}}html/kRR8zx) by a linear function -- Remove the $h$ vertices of degree at least $h$ to get a graph that has maximum degree $h$.
@@ -182,3 +176,9 @@ functionally equivalent to: [distance to maximum degree]({{< base >}}html/kRR8zx
     * graph class [stars]({{< base >}}html/10JR3F) is not constant [h-index]({{< base >}}html/GNTwUS)
     * [star]({{< base >}}html/CortlU) upper bounds [h-index]({{< base >}}html/GNTwUS) by a constant -- trivially
     * graph class [tree]({{< base >}}html/rJyICu) is not constant [h-index]({{< base >}}html/GNTwUS) -- trivially
+* [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
+    * page 12 : [distance to linear forest]({{< base >}}html/yk7XP0) upper bounds [h-index]({{< base >}}html/GNTwUS) by a linear function -- Proposition 3.2
+    * page 25 : graph classes with bounded [treedepth]({{< base >}}html/KEP2qM) are not bounded [h-index]({{< base >}}html/GNTwUS) -- Proposition 3.22
+    * page 25 : graph classes with bounded [feedback edge set]({{< base >}}html/HTk9PZ) are not bounded [h-index]({{< base >}}html/GNTwUS) -- Proposition 3.22
+* [assumed]({{< base >}}html/9kg0oo)
+    * [h-index]({{< base >}}html/GNTwUS) is equivalent to [h-index]({{< base >}}html/GNTwUS) -- assumed

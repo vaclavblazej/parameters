@@ -6,11 +6,11 @@ title: "bisection bandwidth"
 
 
 
-<p><div id="../local_wUdmUb.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_wUdmUb.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_wUdmUb.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_wUdmUb.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_wUdmUb.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_wUdmUb.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_wUdmUb.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_wUdmUb.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_wUdmUb.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_wUdmUb.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_wUdmUb.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_wUdmUb.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_wUdmUb.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_wUdmUb.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_wUdmUb.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_wUdmUb.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_wUdmUb.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_wUdmUb.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -170,13 +170,6 @@ title: "bisection bandwidth"
     * page 34 : graph classes with bounded [bisection bandwidth]({{< base >}}html/wUdmUb) are not bounded [c-closure]({{< base >}}html/ou9VU1) -- Proposition 5.5. $c$-Closure is incomparable to Bisection Width.
     * page 40 : graph classes with bounded [twin-width]({{< base >}}html/OrH7et) are not bounded [bisection bandwidth]({{< base >}}html/wUdmUb) -- Observation 6.9. Twin-width is incomparable to Bisection Width.
     * page 40 : graph classes with bounded [bisection bandwidth]({{< base >}}html/wUdmUb) are not bounded [twin-width]({{< base >}}html/OrH7et) -- Observation 6.9. Twin-width is incomparable to Bisection Width.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [bisection bandwidth]({{< base >}}html/wUdmUb) upper bounds [edge connectivity]({{< base >}}html/JbqZoT) by a linear function -- By definition
-    * [bisection bandwidth]({{< base >}}html/wUdmUb) is equivalent to [bisection bandwidth]({{< base >}}html/wUdmUb) -- assumed
-* [unknown source]({{< base >}}html/myit4D)
-    * [topological bandwidth]({{< base >}}html/SnA7Eq) upper bounds [bisection bandwidth]({{< base >}}html/wUdmUb) by a linear function -- Order vertices by their bandwidth integer. We split the graph in the middle of this ordering. There are at most roughly $k^2/2$ edges over this split.
-    * graph class [grid]({{< base >}}html/lfYXuK) is not constant [bisection bandwidth]({{< base >}}html/wUdmUb)
-    * [outerplanar]({{< base >}}html/0oCyaG) upper bounds [bisection bandwidth]({{< base >}}html/wUdmUb) by a constant
 * [Comparing Graph Parameters by Schröder]({{< base >}}html/DYGiYb)
     * page 24 : graph classes with bounded [vertex cover]({{< base >}}html/4lp9Yj) are not bounded [bisection bandwidth]({{< base >}}html/wUdmUb) -- Proposition 3.20
     * page 28 : graph classes with bounded [maximum degree]({{< base >}}html/UyQ5yM) are not bounded [bisection bandwidth]({{< base >}}html/wUdmUb) -- Proposition 3.26
@@ -186,3 +179,10 @@ title: "bisection bandwidth"
     * page 33 : graph classes with bounded [bisection bandwidth]({{< base >}}html/wUdmUb) are not bounded [chordality]({{< base >}}html/fTqo40) -- Proposition 3.31
     * page 33 : graph classes with bounded [bisection bandwidth]({{< base >}}html/wUdmUb) are not bounded [clique-width]({{< base >}}html/wg5HuV) -- Proposition 3.32
     * page 33 : graph classes with bounded [bisection bandwidth]({{< base >}}html/wUdmUb) are not bounded [maximum clique]({{< base >}}html/q7zHeT) -- Proposition 3.33
+* [assumed]({{< base >}}html/9kg0oo)
+    * [bisection bandwidth]({{< base >}}html/wUdmUb) upper bounds [edge connectivity]({{< base >}}html/JbqZoT) by a linear function -- By definition
+    * [bisection bandwidth]({{< base >}}html/wUdmUb) is equivalent to [bisection bandwidth]({{< base >}}html/wUdmUb) -- assumed
+* [unknown source]({{< base >}}html/myit4D)
+    * [topological bandwidth]({{< base >}}html/SnA7Eq) upper bounds [bisection bandwidth]({{< base >}}html/wUdmUb) by a linear function -- Order vertices by their bandwidth integer. We split the graph in the middle of this ordering. There are at most roughly $k^2/2$ edges over this split.
+    * graph class [grid]({{< base >}}html/lfYXuK) is not constant [bisection bandwidth]({{< base >}}html/wUdmUb)
+    * [outerplanar]({{< base >}}html/0oCyaG) upper bounds [bisection bandwidth]({{< base >}}html/wUdmUb) by a constant

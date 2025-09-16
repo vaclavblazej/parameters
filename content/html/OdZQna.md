@@ -6,11 +6,11 @@ title: "distance to chordal"
 
 
 
-<p><div id="../local_OdZQna.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_OdZQna.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_OdZQna.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../local_OdZQna.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../local_OdZQna.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../local_OdZQna.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../graph_property_inclusions_OdZQna.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_OdZQna.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_OdZQna.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../graph_property_inclusions_OdZQna.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../graph_property_inclusions_OdZQna.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../graph_property_inclusions_OdZQna.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
-<p><div id="../parameter_inclusions_OdZQna.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_OdZQna.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_OdZQna.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
+<p><div id="../parameter_inclusions_OdZQna.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from '/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../parameter_inclusions_OdZQna.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../parameter_inclusions_OdZQna.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 ---
 
@@ -172,10 +172,10 @@ title: "distance to chordal"
     * page 20 : graph classes with bounded [distance to co-cluster]({{< base >}}html/hbfWwE) are not bounded [distance to chordal]({{< base >}}html/OdZQna) -- Proposition 3.12
     * page 20 : graph classes with bounded [distance to bipartite]({{< base >}}html/1yW82F) are not bounded [distance to chordal]({{< base >}}html/OdZQna) -- Proposition 3.12
     * page 27 : graph classes with bounded [distance to chordal]({{< base >}}html/OdZQna) are not bounded [boxicity]({{< base >}}html/a7MpiT) -- Proposition 3.25
+* [assumed]({{< base >}}html/9kg0oo)
+    * [chordal]({{< base >}}html/Cv1PaJ) upper bounds [distance to chordal]({{< base >}}html/OdZQna) by a constant -- by definition
+    * [distance to chordal]({{< base >}}html/OdZQna) is equivalent to [distance to chordal]({{< base >}}html/OdZQna) -- assumed
 * [unknown source]({{< base >}}html/myit4D)
     * graph class [co-cluster]({{< base >}}html/7HR4uV) is not constant [distance to chordal]({{< base >}}html/OdZQna)
     * graph class [grid]({{< base >}}html/lfYXuK) is not constant [distance to chordal]({{< base >}}html/OdZQna)
     * [distance to chordal]({{< base >}}html/OdZQna) upper bounds [tree-independence number]({{< base >}}html/fNR6QK) by a linear function -- Put the modulator to every bag of the natural chodal graph tree decomposition which contains a clique in every bag. The biggest independent set can contain the modulator and no more than a single vertex of the clique.
-* [assumed]({{< base >}}html/9kg0oo)
-    * [chordal]({{< base >}}html/Cv1PaJ) upper bounds [distance to chordal]({{< base >}}html/OdZQna) by a constant -- by definition
-    * [distance to chordal]({{< base >}}html/OdZQna) is equivalent to [distance to chordal]({{< base >}}html/OdZQna) -- assumed
