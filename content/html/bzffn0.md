@@ -6,6 +6,8 @@ The classical tree decomposition is tied to the treewidth which measures maximum
 | --- |
 | [chordal]({{< base >}}html/Cv1PaJ) |
 | [treewidth]({{< base >}}html/5Q7fuR) |
+| [tree-partition-width]({{< base >}}html/QP01gs) |
 | [degree treewidth]({{< base >}}html/nCWUh3) |
+| [domino treewidth]({{< base >}}html/aEs5ap) |
 | [tree-independence number]({{< base >}}html/fNR6QK) |
 | [treelength]({{< base >}}html/JA2nKw) |

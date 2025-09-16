@@ -1,4 +1,4 @@
-# Genus g Graphs Have Pagenumber O(√g) by Malitz
+# Genus $g$ Graphs Have Pagenumber $O(\sqrt g)$ by Malitz
 
 [https://www.doi.org/10.1006/jagm.1994.1028](https://www.doi.org/10.1006/jagm.1994.1028)
 
@@ -10,7 +10,7 @@ issn = {0196-6774},
 journaltitle = {Journal of Algorithms},
 number = {1},
 pages = {85--109},
-title = {Genus g Graphs Have Pagenumber O(√g)},
+title = {Genus $g$ Graphs Have Pagenumber $O(\\sqrt g)$},
 volume = {17},
 year = {1994},
 }

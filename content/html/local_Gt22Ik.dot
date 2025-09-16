@@ -1,0 +1,8 @@
+digraph local_Gt22Ik {
+	node [color=lightblue2 style=filled]
+	margin=0.04 size="6,6"
+	rankdir = BT
+	"n_5xOuoQ" [label="excluded minor" URL="/parameters/html/5xOuoQ" color="#99bcf8" shape=box]
+	"n_Gt22Ik" [label="excluded planar minor" URL="/parameters/html/Gt22Ik" color="#78acff" shape=box]
+	"n_Gt22Ik" -> "n_5xOuoQ" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+}

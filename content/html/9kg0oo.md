@@ -12,66 +12,62 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * [star]({{< base >}}html/CortlU) upper bounds [stars]({{< base >}}html/10JR3F) by a constant -- by definition
 * [cycle]({{< base >}}html/Ti0asF) upper bounds [connected]({{< base >}}html/KlMP0i) by a constant -- by definition
 * [cycle]({{< base >}}html/Ti0asF) upper bounds [cycles]({{< base >}}html/2iJr52) by a constant -- by definition
-* graph class [chordal]({{< base >}}html/Cv1PaJ) is included in graph class [perfect]({{< base >}}html/RmssrZ)
-* graph class [perfect]({{< base >}}html/RmssrZ) is not included in graph class [chordal]({{< base >}}html/Cv1PaJ)
-* graph class [cograph]({{< base >}}html/9Qd0Mx) is included in graph class [perfect]({{< base >}}html/RmssrZ)
-* graph class [perfect]({{< base >}}html/RmssrZ) is not included in graph class [cograph]({{< base >}}html/9Qd0Mx)
-* graph class [bipartite]({{< base >}}html/cLHJkW) is included in graph class [perfect]({{< base >}}html/RmssrZ)
-* graph class [perfect]({{< base >}}html/RmssrZ) is not included in graph class [bipartite]({{< base >}}html/cLHJkW)
-* graph class [cluster]({{< base >}}html/WAU7vf) is included in graph class [interval]({{< base >}}html/p5skoj)
-* graph class [interval]({{< base >}}html/p5skoj) is not included in graph class [cluster]({{< base >}}html/WAU7vf)
-* graph class [cluster]({{< base >}}html/WAU7vf) is included in graph class [cograph]({{< base >}}html/9Qd0Mx)
-* graph class [cograph]({{< base >}}html/9Qd0Mx) is not included in graph class [cluster]({{< base >}}html/WAU7vf)
-* graph class [linear forest]({{< base >}}html/skQuFN) is included in graph class [interval]({{< base >}}html/p5skoj)
-* graph class [interval]({{< base >}}html/p5skoj) is not included in graph class [linear forest]({{< base >}}html/skQuFN)
-* graph class [stars]({{< base >}}html/10JR3F) is included in graph class [interval]({{< base >}}html/p5skoj)
-* graph class [interval]({{< base >}}html/p5skoj) is not included in graph class [stars]({{< base >}}html/10JR3F)
-* graph class [interval]({{< base >}}html/p5skoj) is included in graph class [chordal]({{< base >}}html/Cv1PaJ)
-* graph class [chordal]({{< base >}}html/Cv1PaJ) is not included in graph class [interval]({{< base >}}html/p5skoj)
-* graph class [co-cluster]({{< base >}}html/7HR4uV) is included in graph class [cograph]({{< base >}}html/9Qd0Mx)
-* graph class [cograph]({{< base >}}html/9Qd0Mx) is not included in graph class [co-cluster]({{< base >}}html/7HR4uV)
-* graph class [forest]({{< base >}}html/JngPPm) is included in graph class [bipartite]({{< base >}}html/cLHJkW)
-* graph class [bipartite]({{< base >}}html/cLHJkW) is not included in graph class [forest]({{< base >}}html/JngPPm)
-* graph class [outerplanar]({{< base >}}html/0oCyaG) is included in graph class [planar]({{< base >}}html/loZ5LD)
-* graph class [planar]({{< base >}}html/loZ5LD) is not included in graph class [outerplanar]({{< base >}}html/0oCyaG)
-* graph class [complete]({{< base >}}html/EhdXNA) is included in graph class [co-cluster]({{< base >}}html/7HR4uV)
-* graph class [co-cluster]({{< base >}}html/7HR4uV) is not included in graph class [complete]({{< base >}}html/EhdXNA)
-* graph class [block]({{< base >}}html/QrxQsH) is included in graph class [chordal]({{< base >}}html/Cv1PaJ)
-* graph class [chordal]({{< base >}}html/Cv1PaJ) is not included in graph class [block]({{< base >}}html/QrxQsH)
-* graph class [cluster]({{< base >}}html/WAU7vf) is included in graph class [block]({{< base >}}html/QrxQsH)
-* graph class [block]({{< base >}}html/QrxQsH) is not included in graph class [cluster]({{< base >}}html/WAU7vf)
-* graph class [linear forest]({{< base >}}html/skQuFN) is included in graph class [forest]({{< base >}}html/JngPPm)
-* graph class [forest]({{< base >}}html/JngPPm) is not included in graph class [linear forest]({{< base >}}html/skQuFN)
-* graph class [disjoint cycles]({{< base >}}html/AGnF5Z) is included in graph class [outerplanar]({{< base >}}html/0oCyaG)
-* graph class [outerplanar]({{< base >}}html/0oCyaG) is not included in graph class [disjoint cycles]({{< base >}}html/AGnF5Z)
-* graph class [forest]({{< base >}}html/JngPPm) is included in graph class [disjoint cycles]({{< base >}}html/AGnF5Z)
-* graph class [disjoint cycles]({{< base >}}html/AGnF5Z) is not included in graph class [forest]({{< base >}}html/JngPPm)
-* graph class [forest]({{< base >}}html/JngPPm) is included in graph class [block]({{< base >}}html/QrxQsH)
-* graph class [block]({{< base >}}html/QrxQsH) is not included in graph class [forest]({{< base >}}html/JngPPm)
-* graph class [edgeless]({{< base >}}html/LsiBbX) is included in graph class [linear forest]({{< base >}}html/skQuFN)
-* graph class [linear forest]({{< base >}}html/skQuFN) is not included in graph class [edgeless]({{< base >}}html/LsiBbX)
-* graph class [stars]({{< base >}}html/10JR3F) is included in graph class [forest]({{< base >}}html/JngPPm)
-* graph class [forest]({{< base >}}html/JngPPm) is not included in graph class [stars]({{< base >}}html/10JR3F)
-* graph class [edgeless]({{< base >}}html/LsiBbX) is included in graph class [stars]({{< base >}}html/10JR3F)
-* graph class [stars]({{< base >}}html/10JR3F) is not included in graph class [edgeless]({{< base >}}html/LsiBbX)
-* graph class [edgeless]({{< base >}}html/LsiBbX) is included in graph class [co-cluster]({{< base >}}html/7HR4uV)
-* graph class [co-cluster]({{< base >}}html/7HR4uV) is not included in graph class [edgeless]({{< base >}}html/LsiBbX)
-* graph class [grid]({{< base >}}html/lfYXuK) is included in graph class [planar]({{< base >}}html/loZ5LD)
-* graph class [planar]({{< base >}}html/loZ5LD) is not included in graph class [grid]({{< base >}}html/lfYXuK)
-* graph class [grid]({{< base >}}html/lfYXuK) is included in graph class [bipartite]({{< base >}}html/cLHJkW)
-* graph class [bipartite]({{< base >}}html/cLHJkW) is not included in graph class [grid]({{< base >}}html/lfYXuK)
-* graph class [cycles]({{< base >}}html/2iJr52) is included in graph class [disjoint cycles]({{< base >}}html/AGnF5Z)
-* graph class [disjoint cycles]({{< base >}}html/AGnF5Z) is not included in graph class [cycles]({{< base >}}html/2iJr52)
-* graph class [grid]({{< base >}}html/lfYXuK) is included in graph class [connected]({{< base >}}html/KlMP0i)
-* graph class [connected]({{< base >}}html/KlMP0i) is not included in graph class [grid]({{< base >}}html/lfYXuK)
-* graph class [edgeless]({{< base >}}html/LsiBbX) is included in graph class [cluster]({{< base >}}html/WAU7vf)
-* graph class [cluster]({{< base >}}html/WAU7vf) is not included in graph class [edgeless]({{< base >}}html/LsiBbX)
-* graph class [star]({{< base >}}html/CortlU) is included in graph class [tree]({{< base >}}html/rJyICu)
-* graph class [tree]({{< base >}}html/rJyICu) is not included in graph class [star]({{< base >}}html/CortlU)
-* graph class [path]({{< base >}}html/ryPlqz) is included in graph class [tree]({{< base >}}html/rJyICu)
-* graph class [tree]({{< base >}}html/rJyICu) is not included in graph class [path]({{< base >}}html/ryPlqz)
-* graph class [path]({{< base >}}html/ryPlqz) is included in graph class [grid]({{< base >}}html/lfYXuK)
-* graph class [grid]({{< base >}}html/lfYXuK) is not included in graph class [path]({{< base >}}html/ryPlqz)
+* graph class [chordal]({{< base >}}html/Cv1PaJ) has contained in [perfect]({{< base >}}html/RmssrZ)
+* graph class [perfect]({{< base >}}html/RmssrZ) does not have contained in [chordal]({{< base >}}html/Cv1PaJ)
+* graph class [cograph]({{< base >}}html/9Qd0Mx) has contained in [perfect]({{< base >}}html/RmssrZ)
+* graph class [perfect]({{< base >}}html/RmssrZ) does not have contained in [cograph]({{< base >}}html/9Qd0Mx)
+* graph class [bipartite]({{< base >}}html/cLHJkW) has contained in [perfect]({{< base >}}html/RmssrZ)
+* graph class [perfect]({{< base >}}html/RmssrZ) does not have contained in [bipartite]({{< base >}}html/cLHJkW)
+* graph class [cluster]({{< base >}}html/WAU7vf) has contained in [interval]({{< base >}}html/p5skoj)
+* graph class [interval]({{< base >}}html/p5skoj) does not have contained in [cluster]({{< base >}}html/WAU7vf)
+* graph class [cluster]({{< base >}}html/WAU7vf) has contained in [cograph]({{< base >}}html/9Qd0Mx)
+* graph class [cograph]({{< base >}}html/9Qd0Mx) does not have contained in [cluster]({{< base >}}html/WAU7vf)
+* graph class [linear forest]({{< base >}}html/skQuFN) has contained in [interval]({{< base >}}html/p5skoj)
+* graph class [interval]({{< base >}}html/p5skoj) does not have contained in [linear forest]({{< base >}}html/skQuFN)
+* graph class [stars]({{< base >}}html/10JR3F) has contained in [interval]({{< base >}}html/p5skoj)
+* graph class [interval]({{< base >}}html/p5skoj) does not have contained in [stars]({{< base >}}html/10JR3F)
+* graph class [interval]({{< base >}}html/p5skoj) has contained in [chordal]({{< base >}}html/Cv1PaJ)
+* graph class [chordal]({{< base >}}html/Cv1PaJ) does not have contained in [interval]({{< base >}}html/p5skoj)
+* graph class [co-cluster]({{< base >}}html/7HR4uV) has contained in [cograph]({{< base >}}html/9Qd0Mx)
+* graph class [cograph]({{< base >}}html/9Qd0Mx) does not have contained in [co-cluster]({{< base >}}html/7HR4uV)
+* graph class [forest]({{< base >}}html/JngPPm) has contained in [bipartite]({{< base >}}html/cLHJkW)
+* graph class [bipartite]({{< base >}}html/cLHJkW) does not have contained in [forest]({{< base >}}html/JngPPm)
+* graph class [outerplanar]({{< base >}}html/0oCyaG) has contained in [planar]({{< base >}}html/loZ5LD)
+* graph class [planar]({{< base >}}html/loZ5LD) does not have contained in [outerplanar]({{< base >}}html/0oCyaG)
+* graph class [outerplanar]({{< base >}}html/0oCyaG) has contained in [series-parallel]({{< base >}}html/eW1Gic)
+* graph class [series-parallel]({{< base >}}html/eW1Gic) does not have contained in [outerplanar]({{< base >}}html/0oCyaG)
+* graph class [complete]({{< base >}}html/EhdXNA) has contained in [co-cluster]({{< base >}}html/7HR4uV)
+* graph class [co-cluster]({{< base >}}html/7HR4uV) does not have contained in [complete]({{< base >}}html/EhdXNA)
+* graph class [block]({{< base >}}html/QrxQsH) has contained in [chordal]({{< base >}}html/Cv1PaJ)
+* graph class [chordal]({{< base >}}html/Cv1PaJ) does not have contained in [block]({{< base >}}html/QrxQsH)
+* graph class [cluster]({{< base >}}html/WAU7vf) has contained in [block]({{< base >}}html/QrxQsH)
+* graph class [block]({{< base >}}html/QrxQsH) does not have contained in [cluster]({{< base >}}html/WAU7vf)
+* graph class [linear forest]({{< base >}}html/skQuFN) has contained in [forest]({{< base >}}html/JngPPm)
+* graph class [forest]({{< base >}}html/JngPPm) does not have contained in [linear forest]({{< base >}}html/skQuFN)
+* graph class [forest]({{< base >}}html/JngPPm) has contained in [block]({{< base >}}html/QrxQsH)
+* graph class [block]({{< base >}}html/QrxQsH) does not have contained in [forest]({{< base >}}html/JngPPm)
+* graph classes that are [edgeless]({{< base >}}html/LsiBbX) have contained in [linear forest]({{< base >}}html/skQuFN)
+* graph class [linear forest]({{< base >}}html/skQuFN) is not [edgeless]({{< base >}}html/LsiBbX)
+* graph class [stars]({{< base >}}html/10JR3F) has contained in [forest]({{< base >}}html/JngPPm)
+* graph class [forest]({{< base >}}html/JngPPm) does not have contained in [stars]({{< base >}}html/10JR3F)
+* graph classes that are [edgeless]({{< base >}}html/LsiBbX) have contained in [stars]({{< base >}}html/10JR3F)
+* graph class [stars]({{< base >}}html/10JR3F) is not [edgeless]({{< base >}}html/LsiBbX)
+* graph classes that are [edgeless]({{< base >}}html/LsiBbX) have contained in [co-cluster]({{< base >}}html/7HR4uV)
+* graph class [co-cluster]({{< base >}}html/7HR4uV) is not [edgeless]({{< base >}}html/LsiBbX)
+* graph class [grid]({{< base >}}html/lfYXuK) has contained in [planar]({{< base >}}html/loZ5LD)
+* graph class [planar]({{< base >}}html/loZ5LD) does not have contained in [grid]({{< base >}}html/lfYXuK)
+* graph class [grid]({{< base >}}html/lfYXuK) has contained in [bipartite]({{< base >}}html/cLHJkW)
+* graph class [bipartite]({{< base >}}html/cLHJkW) does not have contained in [grid]({{< base >}}html/lfYXuK)
+* graph class [grid]({{< base >}}html/lfYXuK) is [connected]({{< base >}}html/KlMP0i)
+* graph classes that are [connected]({{< base >}}html/KlMP0i) do not have contained in [grid]({{< base >}}html/lfYXuK)
+* graph classes that are [edgeless]({{< base >}}html/LsiBbX) have contained in [cluster]({{< base >}}html/WAU7vf)
+* graph class [cluster]({{< base >}}html/WAU7vf) is not [edgeless]({{< base >}}html/LsiBbX)
+* graph class [star]({{< base >}}html/CortlU) has contained in [tree]({{< base >}}html/rJyICu)
+* graph class [tree]({{< base >}}html/rJyICu) does not have contained in [star]({{< base >}}html/CortlU)
+* graph class [path]({{< base >}}html/ryPlqz) has contained in [tree]({{< base >}}html/rJyICu)
+* graph class [tree]({{< base >}}html/rJyICu) does not have contained in [path]({{< base >}}html/ryPlqz)
+* graph class [path]({{< base >}}html/ryPlqz) has contained in [grid]({{< base >}}html/lfYXuK)
+* graph class [grid]({{< base >}}html/lfYXuK) does not have contained in [path]({{< base >}}html/ryPlqz)
 * [pathwidth+maxdegree]({{< base >}}html/6BWcgd) upper bounds [pathwidth]({{< base >}}html/VHClqR) by a linear function -- by definition
 * [pathwidth+maxdegree]({{< base >}}html/6BWcgd) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a linear function -- by definition
 * [degree treewidth]({{< base >}}html/nCWUh3) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a linear function -- by definition
@@ -93,11 +89,8 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * [interval]({{< base >}}html/p5skoj) upper bounds [distance to interval]({{< base >}}html/AVc2K6) by a constant -- by definition
 * [maximum degree]({{< base >}}html/UyQ5yM) upper bounds [distance to maximum degree]({{< base >}}html/kRR8zx) by a linear function -- by definition
 * [bounded components]({{< base >}}html/t7c4mp) upper bounds [distance to bounded components]({{< base >}}html/RPTCxd) by a linear function -- by definition
-* [disconnected]({{< base >}}html/lA0K71) upper bounds [distance to disconnected]({{< base >}}html/ZL7BOP) by a constant -- by definition
 * [diameter+max degree]({{< base >}}html/ri9Seh) upper bounds [diameter]({{< base >}}html/p4bTjp) by a linear function -- by definition
 * [diameter+max degree]({{< base >}}html/ri9Seh) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a linear function -- by definition
-* [vertex connectivity]({{< base >}}html/OyLUe4) is equivalent to [distance to disconnected]({{< base >}}html/ZL7BOP) -- By definition
-* [distance to disconnected]({{< base >}}html/ZL7BOP) is equivalent to [vertex connectivity]({{< base >}}html/OyLUe4) -- By definition
 * [vertex integrity]({{< base >}}html/KVhJFB) upper bounds [distance to bounded components]({{< base >}}html/RPTCxd) by a linear function -- By definition
 * [distance to bounded components]({{< base >}}html/RPTCxd) upper bounds [vertex integrity]({{< base >}}html/KVhJFB) by a linear function -- By definition
 * [bandwidth]({{< base >}}html/aP5a38) upper bounds [topological bandwidth]({{< base >}}html/SnA7Eq) by a linear function -- By definition
@@ -114,20 +107,25 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * [linear forest]({{< base >}}html/skQuFN) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
 * [cycles]({{< base >}}html/2iJr52) upper bounds [maximum degree]({{< base >}}html/UyQ5yM) by a constant -- By definition
 * [diameter]({{< base >}}html/p4bTjp) upper bounds [treelength]({{< base >}}html/JA2nKw) by a linear function -- By definition
-* graph class [edgeless]({{< base >}}html/LsiBbX) is not included in graph class [connected]({{< base >}}html/KlMP0i) -- By definition
-* graph class [edgeless]({{< base >}}html/LsiBbX) is not included in graph class [cycles]({{< base >}}html/2iJr52) -- By definition
+* graph classes that are [edgeless]({{< base >}}html/LsiBbX) are not [connected]({{< base >}}html/KlMP0i) -- By definition
+* graph classes that are [edgeless]({{< base >}}html/LsiBbX) do not have contained in [cycles]({{< base >}}html/2iJr52) -- By definition
 * [diameter+max degree]({{< base >}}html/ri9Seh) upper bounds [bounded components]({{< base >}}html/t7c4mp) by an exponential function -- folklore
-* [maximum independent set]({{< base >}}html/mHtXUU) upper bounds [bipartite number]({{< base >}}html/1dQQ87) by a linear function -- folklore
-* bounded [minimum degree]({{< base >}}html/GPmOeT) does not imply bounded [average degree]({{< base >}}html/z0y4TW) -- folklore
+* [maximum independent set]({{< base >}}html/mHtXUU) upper bounds [bipartite number]({{< base >}}html/1dQQ87) by a linear function -- folklore: Each of the parts of the maximum induced bipartite subgraph is an independent set. Hence, the bipartite number is at most twice the size of the maximum independent set.
+* [bipartite number]({{< base >}}html/1dQQ87) upper bounds [maximum independent set]({{< base >}}html/mHtXUU) by a linear function -- As one can pick the maximum independent set as one side of an induced bipartite subgraph we know that the maximum one has size at least the size of the maximum independent set.
+* graph classes with bounded [minimum degree]({{< base >}}html/GPmOeT) are not bounded [average degree]({{< base >}}html/z0y4TW) -- folklore
 * [size]({{< base >}}html/F1NpDy) upper bounds [vertex cover]({{< base >}}html/4lp9Yj) by a linear function -- By definition
 * [size]({{< base >}}html/F1NpDy) upper bounds [maximum leaf number]({{< base >}}html/BN92vX) by a linear function -- By definition
 * [size]({{< base >}}html/F1NpDy) upper bounds [distance to complete]({{< base >}}html/2LDMQ6) by a linear function -- By definition
 * [size]({{< base >}}html/F1NpDy) upper bounds [bounded components]({{< base >}}html/t7c4mp) by a linear function -- By definition
-* graphs with bounded [size]({{< base >}}html/F1NpDy) are not included in graph class [planar]({{< base >}}html/loZ5LD) -- By definition
-* graphs with bounded [size]({{< base >}}html/F1NpDy) are not included in graph class [perfect]({{< base >}}html/RmssrZ) -- By definition
-* graphs with bounded [size]({{< base >}}html/F1NpDy) are not included in graph class [connected]({{< base >}}html/KlMP0i) -- By definition
+* graph classes with bounded [size]({{< base >}}html/F1NpDy) do not have contained in [planar]({{< base >}}html/loZ5LD) -- By definition
+* graph classes with bounded [size]({{< base >}}html/F1NpDy) do not have contained in [perfect]({{< base >}}html/RmssrZ) -- By definition
+* graph classes with bounded [size]({{< base >}}html/F1NpDy) are not [connected]({{< base >}}html/KlMP0i) -- By definition
+* [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [twin-width]({{< base >}}html/OrH7et) by a linear function -- by definition
+* [sparse twin-width]({{< base >}}html/2FM8hj) upper bounds [bounded expansion]({{< base >}}html/lFz6Ci) by a linear function -- by definition
 * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) upper bounds [bipartite]({{< base >}}html/cLHJkW) by a linear function -- by definition
 * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) upper bounds [maximum matching]({{< base >}}html/veU7Jf) by a linear function -- by definition
+* [weakly sparse and merge width]({{< base >}}html/HJjpOL) upper bounds [weakly sparse]({{< base >}}html/Qme7wD) by a constant -- by definition
+* [weakly sparse and merge width]({{< base >}}html/HJjpOL) upper bounds [merge-width]({{< base >}}html/UWmTKl) by a linear function -- by definition
 * [connected]({{< base >}}html/KlMP0i) is equivalent to [connected]({{< base >}}html/KlMP0i) -- assumed
 * [bipartite]({{< base >}}html/cLHJkW) is equivalent to [bipartite]({{< base >}}html/cLHJkW) -- assumed
 * [block]({{< base >}}html/QrxQsH) is equivalent to [block]({{< base >}}html/QrxQsH) -- assumed
@@ -149,9 +147,8 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * [star]({{< base >}}html/CortlU) is equivalent to [star]({{< base >}}html/CortlU) -- assumed
 * [cycles]({{< base >}}html/2iJr52) is equivalent to [cycles]({{< base >}}html/2iJr52) -- assumed
 * [cycle]({{< base >}}html/Ti0asF) is equivalent to [cycle]({{< base >}}html/Ti0asF) -- assumed
-* [disjoint cycles]({{< base >}}html/AGnF5Z) is equivalent to [disjoint cycles]({{< base >}}html/AGnF5Z) -- assumed
 * [grid]({{< base >}}html/lfYXuK) is equivalent to [grid]({{< base >}}html/lfYXuK) -- assumed
-* [disconnected]({{< base >}}html/lA0K71) is equivalent to [disconnected]({{< base >}}html/lA0K71) -- assumed
+* [series-parallel]({{< base >}}html/eW1Gic) is equivalent to [series-parallel]({{< base >}}html/eW1Gic) -- assumed
 * [size]({{< base >}}html/F1NpDy) is equivalent to [size]({{< base >}}html/F1NpDy) -- assumed
 * [vertex cover]({{< base >}}html/4lp9Yj) is equivalent to [vertex cover]({{< base >}}html/4lp9Yj) -- assumed
 * [maximum matching]({{< base >}}html/veU7Jf) is equivalent to [maximum matching]({{< base >}}html/veU7Jf) -- assumed
@@ -183,7 +180,16 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * [d-path-free]({{< base >}}html/s4EiWI) is equivalent to [d-path-free]({{< base >}}html/s4EiWI) -- assumed
 * [treewidth]({{< base >}}html/5Q7fuR) is equivalent to [treewidth]({{< base >}}html/5Q7fuR) -- assumed
 * [mm-width]({{< base >}}html/d7vRYU) is equivalent to [mm-width]({{< base >}}html/d7vRYU) -- assumed
+* [tree-partition-width]({{< base >}}html/QP01gs) is equivalent to [tree-partition-width]({{< base >}}html/QP01gs) -- assumed
+* [edge-cut width]({{< base >}}html/ZNqIlN) is equivalent to [edge-cut width]({{< base >}}html/ZNqIlN) -- assumed
+* [tree-cut width]({{< base >}}html/8CgU0P) is equivalent to [tree-cut width]({{< base >}}html/8CgU0P) -- assumed
+* [slim tree-cut width]({{< base >}}html/oFvl4c) is equivalent to [slim tree-cut width]({{< base >}}html/oFvl4c) -- assumed
+* [edge-treewidth]({{< base >}}html/pKi2tL) is equivalent to [edge-treewidth]({{< base >}}html/pKi2tL) -- assumed
+* [overlap treewidth]({{< base >}}html/P8yP3M) is equivalent to [overlap treewidth]({{< base >}}html/P8yP3M) -- assumed
 * [degree treewidth]({{< base >}}html/nCWUh3) is equivalent to [degree treewidth]({{< base >}}html/nCWUh3) -- assumed
+* [domino treewidth]({{< base >}}html/aEs5ap) is equivalent to [domino treewidth]({{< base >}}html/aEs5ap) -- assumed
+* [treespan]({{< base >}}html/IbKkUQ) is equivalent to [treespan]({{< base >}}html/IbKkUQ) -- assumed
+* [treebandwidth]({{< base >}}html/w3LxG1) is equivalent to [treebandwidth]({{< base >}}html/w3LxG1) -- assumed
 * [contraction complexity]({{< base >}}html/LlWzhg) is equivalent to [contraction complexity]({{< base >}}html/LlWzhg) -- assumed
 * [branch width]({{< base >}}html/lIcmuR) is equivalent to [branch width]({{< base >}}html/lIcmuR) -- assumed
 * [clique-width]({{< base >}}html/wg5HuV) is equivalent to [clique-width]({{< base >}}html/wg5HuV) -- assumed
@@ -191,9 +197,19 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * [rank-width]({{< base >}}html/fojquT) is equivalent to [rank-width]({{< base >}}html/fojquT) -- assumed
 * [linear rank-width]({{< base >}}html/cHugsk) is equivalent to [linear rank-width]({{< base >}}html/cHugsk) -- assumed
 * [boolean width]({{< base >}}html/A2jPWT) is equivalent to [boolean width]({{< base >}}html/A2jPWT) -- assumed
-* [inf-flip-width]({{< base >}}html/nYXiuT) is equivalent to [inf-flip-width]({{< base >}}html/nYXiuT) -- assumed
 * [twin-width]({{< base >}}html/OrH7et) is equivalent to [twin-width]({{< base >}}html/OrH7et) -- assumed
+* [radius-inf flip-width]({{< base >}}html/nYXiuT) is equivalent to [radius-inf flip-width]({{< base >}}html/nYXiuT) -- assumed
 * [radius-r flip-width]({{< base >}}html/4DIiH0) is equivalent to [radius-r flip-width]({{< base >}}html/4DIiH0) -- assumed
+* [flip-width]({{< base >}}html/jYG7BR) is equivalent to [flip-width]({{< base >}}html/jYG7BR) -- assumed
+* [weak d-coloring number]({{< base >}}html/3F3oc3) is equivalent to [weak d-coloring number]({{< base >}}html/3F3oc3) -- assumed
+* [weak inf-coloring number]({{< base >}}html/DfwI9E) is equivalent to [weak inf-coloring number]({{< base >}}html/DfwI9E) -- assumed
+* [weak coloring number]({{< base >}}html/KD6n2n) is equivalent to [weak coloring number]({{< base >}}html/KD6n2n) -- assumed
+* [strong d-coloring number]({{< base >}}html/yihnem) is equivalent to [strong d-coloring number]({{< base >}}html/yihnem) -- assumed
+* [strong inf-coloring number]({{< base >}}html/JQTHZS) is equivalent to [strong inf-coloring number]({{< base >}}html/JQTHZS) -- assumed
+* [strong coloring number]({{< base >}}html/PxVh3F) is equivalent to [strong coloring number]({{< base >}}html/PxVh3F) -- assumed
+* [d-admissibility]({{< base >}}html/Pqiy2C) is equivalent to [d-admissibility]({{< base >}}html/Pqiy2C) -- assumed
+* [admissibility]({{< base >}}html/v4sLfO) is equivalent to [admissibility]({{< base >}}html/v4sLfO) -- assumed
+* [merge-width]({{< base >}}html/UWmTKl) is equivalent to [merge-width]({{< base >}}html/UWmTKl) -- assumed
 * [book thickness]({{< base >}}html/doijTS) is equivalent to [book thickness]({{< base >}}html/doijTS) -- assumed
 * [h-index]({{< base >}}html/GNTwUS) is equivalent to [h-index]({{< base >}}html/GNTwUS) -- assumed
 * [acyclic chromatic number]({{< base >}}html/QGZuUW) is equivalent to [acyclic chromatic number]({{< base >}}html/QGZuUW) -- assumed
@@ -210,7 +226,6 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * [maximum induced matching]({{< base >}}html/GzMYlT) is equivalent to [maximum induced matching]({{< base >}}html/GzMYlT) -- assumed
 * [diameter]({{< base >}}html/p4bTjp) is equivalent to [diameter]({{< base >}}html/p4bTjp) -- assumed
 * [average distance]({{< base >}}html/zH8PpT) is equivalent to [average distance]({{< base >}}html/zH8PpT) -- assumed
-* [girth]({{< base >}}html/BCwUeT) is equivalent to [girth]({{< base >}}html/BCwUeT) -- assumed
 * [domatic number]({{< base >}}html/KRV6tI) is equivalent to [domatic number]({{< base >}}html/KRV6tI) -- assumed
 * [arboricity]({{< base >}}html/zgMenA) is equivalent to [arboricity]({{< base >}}html/zgMenA) -- assumed
 * [mim-width]({{< base >}}html/WmIFB1) is equivalent to [mim-width]({{< base >}}html/WmIFB1) -- assumed
@@ -238,8 +253,18 @@ Is axiomatic knowledge from the viewpoint of HOPS website.
 * [distance to interval]({{< base >}}html/AVc2K6) is equivalent to [distance to interval]({{< base >}}html/AVc2K6) -- assumed
 * [distance to maximum degree]({{< base >}}html/kRR8zx) is equivalent to [distance to maximum degree]({{< base >}}html/kRR8zx) -- assumed
 * [distance to bounded components]({{< base >}}html/RPTCxd) is equivalent to [distance to bounded components]({{< base >}}html/RPTCxd) -- assumed
-* [distance to disconnected]({{< base >}}html/ZL7BOP) is equivalent to [distance to disconnected]({{< base >}}html/ZL7BOP) -- assumed
 * [bipartite number]({{< base >}}html/1dQQ87) is equivalent to [bipartite number]({{< base >}}html/1dQQ87) -- assumed
 * [treelength]({{< base >}}html/JA2nKw) is equivalent to [treelength]({{< base >}}html/JA2nKw) -- assumed
 * [diameter+max degree]({{< base >}}html/ri9Seh) is equivalent to [diameter+max degree]({{< base >}}html/ri9Seh) -- assumed
+* [nowhere dense]({{< base >}}html/DhGqJM) is equivalent to [nowhere dense]({{< base >}}html/DhGqJM) -- assumed
+* [bounded expansion]({{< base >}}html/lFz6Ci) is equivalent to [bounded expansion]({{< base >}}html/lFz6Ci) -- assumed
+* [sparse twin-width]({{< base >}}html/2FM8hj) is equivalent to [sparse twin-width]({{< base >}}html/2FM8hj) -- assumed
+* [monadically stable]({{< base >}}html/jHXy6Y) is equivalent to [monadically stable]({{< base >}}html/jHXy6Y) -- assumed
+* [monadically dependent]({{< base >}}html/dN1D3C) is equivalent to [monadically dependent]({{< base >}}html/dN1D3C) -- assumed
+* [excluded minor]({{< base >}}html/5xOuoQ) is equivalent to [excluded minor]({{< base >}}html/5xOuoQ) -- assumed
+* [excluded planar minor]({{< base >}}html/Gt22Ik) is equivalent to [excluded planar minor]({{< base >}}html/Gt22Ik) -- assumed
+* [excluded top-minor]({{< base >}}html/yOZQM5) is equivalent to [excluded top-minor]({{< base >}}html/yOZQM5) -- assumed
+* [chi-bounded]({{< base >}}html/Jb1we5) is equivalent to [chi-bounded]({{< base >}}html/Jb1we5) -- assumed
+* [weakly sparse]({{< base >}}html/Qme7wD) is equivalent to [weakly sparse]({{< base >}}html/Qme7wD) -- assumed
 * [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) is equivalent to [maximum matching on bipartite graphs]({{< base >}}html/8Mm5qJ) -- assumed
+* [weakly sparse and merge width]({{< base >}}html/HJjpOL) is equivalent to [weakly sparse and merge width]({{< base >}}html/HJjpOL) -- assumed

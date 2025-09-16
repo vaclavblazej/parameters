@@ -1,0 +1,8 @@
+digraph local_Qme7wD {
+	node [color=lightblue2 style=filled]
+	margin=0.04 size="6,6"
+	rankdir = BT
+	"n_Qme7wD" [label="weakly sparse" URL="/parameters/html/Qme7wD" color="#78acff" shape=box]
+	"n_DhGqJM" [label="nowhere dense" URL="/parameters/html/DhGqJM" color="#99bcf8" shape=box]
+	"n_DhGqJM" -> "n_Qme7wD" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+}

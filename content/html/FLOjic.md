@@ -13,6 +13,6 @@ url = {https://www.win.tue.nl/~bjansen/papers/BMPJansen-ThePowerOfDataReduction.
 year = {2013},
 }
 ```
-<p><div id="../drawing_FLOjic_0.dot" class="svg-diagram"></div></p><script>Viz.instance().then(function(viz) {fetch('../drawing_FLOjic_0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);svg.setAttribute("width", "100%");svg.setAttribute("height", "300pt");document.getElementById("../drawing_FLOjic_0.dot").appendChild(svg);svgPanZoom(svg, {zoomEnabled: true,zoomScaleSensitivity: 0.3,minZoom: 0.9,maxZoom: 6,});})});</script>
+<p><div id="../drawing_FLOjic_0.dot" class="svg-diagram zoomable"></div></p><script type="module">import { initializeSvgToolbelt } from 'http://localhost:1313/parameters/svg-toolbelt.esm.js';Viz.instance().then(function(viz) {fetch('../drawing_FLOjic_0.dot').then(response => response.text()).then((data) => {var svg = viz.renderSVGElement(data);document.getElementById("../drawing_FLOjic_0.dot").appendChild(svg);initializeSvgToolbelt('.zoomable', {zoomStep: 0.3,minScale: 1,maxScale: 5,});})});</script>
 
 * [topological bandwidth]({{< base >}}html/SnA7Eq) -- The \emph{topological bandwidth} of a graph $G$ is the minimum [bandwidth](../aP5a38) over all subdivisions of $G$

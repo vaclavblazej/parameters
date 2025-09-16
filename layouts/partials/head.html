@@ -6,11 +6,11 @@
     <meta name="robots" content="noodp"/>
 
     {{ if .IsPage }}
-      <meta name="description" content="{{ .Description }}">
+        <meta name="description" content="{{ .Description }}">
     {{ else if .IsHome }}
         <meta name="description" content="{{ .Site.Params.description }} by {{ .Site.Author.name }}">
     {{ else if .IsNode }}
-          <meta name="description" content="{{ .Title }}">
+        <meta name="description" content="{{ .Title }}">
     {{ end }}
 
     <link rel="canonical" href="{{ .Permalink }}"/>
@@ -53,6 +53,6 @@
     </script>
     <script src={{ .Site.BaseURL }}tablesort.js></script>
     <script src={{ .Site.BaseURL }}viz-standalone.js></script>
-    <script src={{ .Site.BaseURL }}svg-pan-zoom.js></script>
+    <link rel="stylesheet" href="https://unpkg.com/svg-toolbelt@latest/dist/svg-toolbelt.css">
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
 </head>

@@ -1,18 +1,16 @@
 digraph local_7HR4uV {
 	node [color=lightblue2 style=filled]
 	margin=0.04 size="6,6"
+	rankdir = BT
+	"n_9Qd0Mx" [label="cograph" URL="/parameters/html/9Qd0Mx" color="#99bcf8" shape=box]
 	"n_RmssrZ" [label="perfect" URL="/parameters/html/RmssrZ" color="#bbccf0" shape=box]
 	"n_EhdXNA" [label="complete" URL="/parameters/html/EhdXNA" color="#99bcf8" shape=box]
-	"n_LsiBbX" [label="edgeless" URL="/parameters/html/LsiBbX" color="#99bcf8" shape=box]
-	"n_9Qd0Mx" [label="cograph" URL="/parameters/html/9Qd0Mx" color="#99bcf8" shape=box]
-	"n_cLHJkW" [label="bipartite" URL="/parameters/html/cLHJkW" color="#dddde8" shape=box]
 	"n_JngPPm" [label="forest" URL="/parameters/html/JngPPm" color="#dddde8" shape=box]
 	"n_7HR4uV" [label="co-cluster" URL="/parameters/html/7HR4uV" color="#78acff" shape=box]
-	"n_LsiBbX" -> "n_JngPPm" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+	"n_cLHJkW" [label="bipartite" URL="/parameters/html/cLHJkW" color="#dddde8" shape=box]
+	"n_7HR4uV" -> "n_9Qd0Mx" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_JngPPm" -> "n_cLHJkW" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
-	"n_9Qd0Mx" -> "n_RmssrZ" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_cLHJkW" -> "n_RmssrZ" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 	"n_EhdXNA" -> "n_7HR4uV" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
-	"n_7HR4uV" -> "n_9Qd0Mx" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
-	"n_LsiBbX" -> "n_7HR4uV" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+	"n_9Qd0Mx" -> "n_RmssrZ" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
 }

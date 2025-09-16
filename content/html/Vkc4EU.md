@@ -14,4 +14,4 @@ volume = {27},
 year = {2011},
 }
 ```
-* page 9 : bounded [distance to bipartite]({{< base >}}html/1yW82F) does not imply bounded [boxicity]({{< base >}}html/a7MpiT) -- Theorem 2 For any $b \in \mathbb N^+$, there exists a chordal bipartite graph $G$ (ed: i.e. bipartite graph with no induced cycle on more than 4 vertices) with $\mathrm{box}(G) > b$.
+* page 9 : graph classes with bounded [distance to bipartite]({{< base >}}html/1yW82F) are not bounded [boxicity]({{< base >}}html/a7MpiT) -- Theorem 2 For any $b \in \mathbb N^+$, there exists a chordal bipartite graph $G$ (ed: i.e. bipartite graph with no induced cycle on more than 4 vertices) with $\mathrm{box}(G) > b$.

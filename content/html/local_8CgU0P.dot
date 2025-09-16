@@ -1,0 +1,20 @@
+digraph local_8CgU0P {
+	node [color=lightblue2 style=filled]
+	margin=0.04 size="6,6"
+	rankdir = BT
+	"n_w3LxG1" [label="treebandwidth" URL="/parameters/html/w3LxG1" color="#bbccf0" shape=box]
+	"n_8CgU0P" [label="tree-cut width" URL="/parameters/html/8CgU0P" color="#78acff" shape=box]
+	"n_nCWUh3" [label="degree treewidth" URL="/parameters/html/nCWUh3" color="#bbccf0" shape=box]
+	"n_QP01gs" [label="tree-partition-width" URL="/parameters/html/QP01gs" color="#99bcf8" shape=box]
+	"n_5Q7fuR" [label="treewidth" URL="/parameters/html/5Q7fuR" color="#dddde8" shape=box]
+	"n_oFvl4c" [label="slim tree-cut width" URL="/parameters/html/oFvl4c" color="#99bcf8" shape=box]
+	"n_UyQ5yM" [label="maximum degree" URL="/parameters/html/UyQ5yM" color="#dddde8" shape=box]
+	"n_nCWUh3" -> "n_oFvl4c" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_QP01gs" -> "n_w3LxG1" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_nCWUh3" -> "n_UyQ5yM" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_nCWUh3" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_QP01gs" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_8CgU0P" -> "n_QP01gs" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_oFvl4c" -> "n_8CgU0P" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_w3LxG1" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+}

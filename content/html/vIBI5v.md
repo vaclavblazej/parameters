@@ -15,4 +15,4 @@ volume = {158},
 year = {2010},
 }
 ```
-* page 2 : graph class [grid]({{< base >}}html/lfYXuK) has unbounded [rank-width]({{< base >}}html/fojquT) -- The grid $G_{n,n}$ has rank-width equal to $n-1$.
+* page 2 : graph class [grid]({{< base >}}html/lfYXuK) is not constant [rank-width]({{< base >}}html/fojquT) -- The grid $G_{n,n}$ has rank-width equal to $n-1$.

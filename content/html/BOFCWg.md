@@ -26,5 +26,5 @@ year = {1998},
 * page 24 : [pathwidth+maxdegree]({{< base >}}html/6BWcgd) upper bounds [cutwidth]({{< base >}}html/TLx1pz) by a linear function -- Theorem 49.
 * page 24 : [cutwidth]({{< base >}}html/TLx1pz) upper bounds [pathwidth+maxdegree]({{< base >}}html/6BWcgd) by a linear function -- Theorem 49.
 * page 34 : [outerplanar]({{< base >}}html/0oCyaG) upper bounds [treewidth]({{< base >}}html/5Q7fuR) by a constant -- Lemma 78. Every outerplanar graph $G=(V,E)$ has treewidth at most 2.
-* page 37 : graph class [grid]({{< base >}}html/lfYXuK) has unbounded [treewidth]({{< base >}}html/5Q7fuR) -- Lemma 88. The treewidth of an $n \times n$ grid graph ... is at least $n$.
-* page 38 : [treewidth]({{< base >}}html/5Q7fuR) upper bounds [minimum degree]({{< base >}}html/GPmOeT) by a linear function -- Lemma 90 (Scheffler [94]). Every graph of treewidth at most $k$ contains a vertex of degree at most $k$.
+* page 37 : graph class [grid]({{< base >}}html/lfYXuK) is not constant [treewidth]({{< base >}}html/5Q7fuR) -- Lemma 88. The treewidth of an $n \times n$ grid graph ... is at least $n$.
+* page 38 : [treewidth]({{< base >}}html/5Q7fuR) upper bounds [minimum degree]({{< base >}}html/GPmOeT) by a constant -- Lemma 90 (Scheffler [94]). Every graph of treewidth at most $k$ contains a vertex of degree at most $k$.

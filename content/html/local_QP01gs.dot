@@ -1,0 +1,25 @@
+digraph local_QP01gs {
+	node [color=lightblue2 style=filled]
+	margin=0.04 size="6,6"
+	rankdir = BT
+	"n_d7vRYU" [label="mm-width" URL="/parameters/html/d7vRYU" color="#bbccf0" shape=box]
+	"n_lIcmuR" [label="branch width" URL="/parameters/html/lIcmuR" color="#bbccf0" shape=box]
+	"n_w3LxG1" [label="treebandwidth" URL="/parameters/html/w3LxG1" color="#99bcf8" shape=box]
+	"n_OrH7et" [label="twin-width" URL="/parameters/html/OrH7et" color="#dddde8" shape=box]
+	"n_QP01gs" [label="tree-partition-width" URL="/parameters/html/QP01gs" color="#78acff" shape=box]
+	"n_pKi2tL" [label="edge-treewidth" URL="/parameters/html/pKi2tL" color="#99bcf8" shape=box]
+	"n_8CgU0P" [label="tree-cut width" URL="/parameters/html/8CgU0P" color="#99bcf8" shape=box]
+	"n_VHClqR" [label="pathwidth" URL="/parameters/html/VHClqR" color="#dddde8" shape=box]
+	"n_5Q7fuR" [label="treewidth" URL="/parameters/html/5Q7fuR" color="#bbccf0" shape=box]
+	"n_5Q7fuR" -> "n_OrH7et" [label="" decorate=true lblstyle="above, sloped" style="dotted" weight="1" penwidth="0.8"]
+	"n_5Q7fuR" -> "n_d7vRYU" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_d7vRYU" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_VHClqR" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_QP01gs" -> "n_w3LxG1" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_pKi2tL" -> "n_QP01gs" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_lIcmuR" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_5Q7fuR" -> "n_lIcmuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_QP01gs" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_8CgU0P" -> "n_QP01gs" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_w3LxG1" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+}

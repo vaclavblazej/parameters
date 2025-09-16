@@ -16,4 +16,4 @@ year = {1986},
 }
 ```
 * page 1 : [treewidth]({{< base >}}html/5Q7fuR) -- A \emph{tree-decomposition} of $G$ is a family $(X_i \colon i\in I)$ of subsets of $V(G)$, together with a tree $T$ with $V(T)=I$, with the following properties. (W1) $\bigcup(X_i \colon i \in I)=V(G)$. (W2) Every edge of $G$ has both its ends in some $X_i$ ($i \in I$). (W3) For $i,j,k \in I$, if $j$ lies on the path of $T$ from $i$ to $k$ then $X_i \cap X_k \subseteq X_j$. The \emph{width} of the tree-decomposition is $\max(|X_i|-1 \colon i \in I)$. The tree-width of $G$ is the minimum $w \ge 0$ such that $G$ has a tree-decomposition of width $\le w$.
-* page 1 : [treewidth]({{< base >}}html/5Q7fuR) -- Equivalently, the tree-width of $G$ is the minimum $w \ge 0$ such that $G$ is a subgraph of a ``chordal'' graph with all cliques of size at most $w + 1$.
+* page 1 : [treewidth]({{< base >}}html/5Q7fuR) -- Equivalently, the tree-width of $G$ is the minimum $w \ge 0$ such that $G$ is a subgraph of a ``[chordal]({{< base >}}html/Cv1PaJ)'' graph with all cliques of size at most $w + 1$.

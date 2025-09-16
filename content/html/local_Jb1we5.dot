@@ -1,0 +1,6 @@
+digraph local_Jb1we5 {
+	node [color=lightblue2 style=filled]
+	margin=0.04 size="6,6"
+	rankdir = BT
+	"n_Jb1we5" [label="chi-bounded" URL="/parameters/html/Jb1we5" color="#78acff" shape=box]
+}

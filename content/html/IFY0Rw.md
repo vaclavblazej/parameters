@@ -15,5 +15,6 @@ year = {1993},
 }
 ```
 * page 1 : [chordality]({{< base >}}html/fTqo40) -- The \emph{chordality} of a graph $G=(V,E)$ is defined as the minimum $k$ such that we can write $E=E_1,\cap\dots\cap E_k$ with each $(V,E_i)$ a chordal graph.
+* page 2 : [size]({{< base >}}html/F1NpDy) upper bounds [chordality]({{< base >}}html/fTqo40) by a constant -- Corollary 3. For any graph $G$, $\mathrm{Chord}(G) \le |V(G)|/2$.
 * page 2 : [chromatic number]({{< base >}}html/w7MmyW) upper bounds [chordality]({{< base >}}html/fTqo40) by a linear function -- Corollary 4. For any graph $G$, $\mathrm{Chord}(G) \le \chi(G)$, the chromatic number of $G$.
-* page 5 : [treewidth]({{< base >}}html/5Q7fuR) upper bounds [chordality]({{< base >}}html/fTqo40) by a linear function -- Theorem 7. For any graph $G$, $\mathrm{Chord}(G) \le \tau(G)$.
+* page 5 : [treewidth]({{< base >}}html/5Q7fuR) upper bounds [chordality]({{< base >}}html/fTqo40) by a constant -- Theorem 7. For any graph $G$, $\mathrm{Chord}(G) \le \tau(G)$.

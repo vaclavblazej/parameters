@@ -1,0 +1,27 @@
+digraph local_ZNqIlN {
+	node [color=lightblue2 style=filled]
+	margin=0.04 size="6,6"
+	rankdir = BT
+	"n_ZNqIlN" [label="edge-cut width" URL="/parameters/html/ZNqIlN" color="#78acff" shape=box]
+	"n_UyQ5yM" [label="maximum degree" URL="/parameters/html/UyQ5yM" color="#dddde8" shape=box]
+	"n_4lp9Yj" [label="vertex cover" URL="/parameters/html/4lp9Yj" color="#dddde8" shape=box]
+	"n_oFvl4c" [label="slim tree-cut width" URL="/parameters/html/oFvl4c" color="#99bcf8" shape=box]
+	"n_GNOiyB" [label="feedback vertex set" URL="/parameters/html/GNOiyB" color="#bbccf0" shape=box]
+	"n_BN92vX" [label="maximum leaf number" URL="/parameters/html/BN92vX" color="#bbccf0" shape=box]
+	"n_OrH7et" [label="twin-width" URL="/parameters/html/OrH7et" color="#dddde8" shape=box]
+	"n_5Q7fuR" [label="treewidth" URL="/parameters/html/5Q7fuR" color="#dddde8" shape=box]
+	"n_HTk9PZ" [label="feedback edge set" URL="/parameters/html/HTk9PZ" color="#99bcf8" shape=box]
+	"n_BN92vX" -> "n_HTk9PZ" [label="" decorate=true lblstyle="above, sloped" weight="20" penwidth="0.7"]
+	"n_5Q7fuR" -> "n_OrH7et" [label="" decorate=true lblstyle="above, sloped" style="dotted" weight="1" penwidth="0.8"]
+	"n_4lp9Yj" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_GNOiyB" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_BN92vX" -> "n_UyQ5yM" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_HTk9PZ" -> "n_ZNqIlN" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_HTk9PZ" -> "n_OrH7et" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_HTk9PZ" -> "n_GNOiyB" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_BN92vX" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_4lp9Yj" -> "n_GNOiyB" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
+	"n_4lp9Yj" -> "n_OrH7et" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="3.0"]
+	"n_ZNqIlN" -> "n_oFvl4c" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+	"n_oFvl4c" -> "n_5Q7fuR" [label="" decorate=true lblstyle="above, sloped" color="gray" weight="1"]
+}

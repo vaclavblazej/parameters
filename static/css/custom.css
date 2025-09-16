@@ -145,10 +145,16 @@ body {
     max-width:100%;
     max-height:100%;
 }
+.zoomable {
+    height: 100%;
+}
 .svg-diagram {
     background: #333;
     border: solid;
     border-color: #666;
+}
+.svg-toolbelt-wrapper {
+    width: 80%;
 }
 
 .menu .left {

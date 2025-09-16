@@ -1,11 +1,11 @@
-# Shrub-depth: Capturing Height of Dense Graphs by Ganian, Hliněný, Nešetřil, Obdržálek, Mendez
+# Shrub-depth: Capturing Height of Dense Graphs by Ganian, Hliněný, Nešetřil, Obdržálek, Ossona de Mendez
 
 [https://www.doi.org/10.48550/ARXIV.1707.00359](https://www.doi.org/10.48550/ARXIV.1707.00359)
 
 ```bibtex
 @article{Ganian2019,
 archiveprefix = {arXiv},
-author = {Robert Ganian and Petr Hliněný and Jaroslav Nešetřil and Jan Obdržálek and Patrice Ossona de Mendez},
+author = {Robert Ganian and Petr Hliněný and Jaroslav Nešetřil and Jan Obdržálek and Patrice {Ossona de Mendez}},
 copyright = {Creative Commons Attribution 4.0 International},
 doi = {10.48550/ARXIV.1707.00359},
 eprint = {1707.00359},

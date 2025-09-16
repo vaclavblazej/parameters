@@ -1,6 +1,7 @@
 digraph local_KRV6tI {
 	node [color=lightblue2 style=filled]
 	margin=0.04 size="6,6"
+	rankdir = BT
 	"n_KRV6tI" [label="domatic number" URL="/parameters/html/KRV6tI" color="#78acff" shape=box]
 	"n_GPmOeT" [label="minimum degree" URL="/parameters/html/GPmOeT" color="#99bcf8" shape=box]
 	"n_GPmOeT" -> "n_KRV6tI" [label="" decorate=true lblstyle="above, sloped" weight="100" penwidth="2.0"]
